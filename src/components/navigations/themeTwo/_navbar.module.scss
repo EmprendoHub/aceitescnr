@@ -1,0 +1,133 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  .navResponsiveToggle {
+    display: none;
+    font-size: var(--tlarge2);
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    z-index: 15;
+  }
+  .navItems {
+    display: flex;
+    gap: 1rem;
+    color: var(--lightest-slate);
+    font-weight: 500;
+    font-size: var(--tsm);
+    counter-reset: nav-list;
+    &List {
+      display: flex;
+      gap: 1.5em;
+      list-style-type: none;
+      &Item {
+        a {
+          outline: 2px dashed transparent;
+          padding: 10px;
+          text-decoration: none;
+          transition: 0.3s ease-in-out;
+        }
+        a:focus {
+          outline-color: var(--theme-color);
+        }
+        &:hover {
+          color: var(--theme-color);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1020px) {
+    .navResponsiveToggle {
+      display: flex;
+      z-index: 15;
+    }
+
+    .navItems {
+      position: fixed;
+      height: 100vh;
+      right: 0;
+      width: 0%;
+      opacity: 0;
+      visibility: hidden;
+      top: 0;
+      padding: 50px 10px;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      transition: 0.3s ease-in-out;
+      z-index: 11;
+      &List {
+        flex-direction: column;
+        gap: 3.5em;
+      }
+    }
+
+    .navResponsive {
+      width: min(75vw, 400px);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.blurNav {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  transition: 0.3s ease-in-out;
+  z-index: 999;
+  background-color: rgba(245, 245, 245, 0.934);
+  backdrop-filter: blur(10px);
+}
+
+.bouncingBall {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #d35507;
+  animation: bounceBall 0.5s;
+  transform: translateY(0px);
+  animation-iteration-count: 1;
+  position: absolute;
+  margin-top: 0px;
+  left: 0px;
+}
+
+@keyframes bounceBall {
+  0% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  40% {
+  }
+  50% {
+    top: 25px;
+    height: 10px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  55% {
+    top: 10px;
+    height: 5px;
+    -webkit-animation-timing-function: ease-in;
+  }
+  65% {
+    top: 5px;
+    height: 10px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  80% {
+  }
+  95% {
+    top: 10px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  100% {
+    top: 15px;
+    -webkit-animation-timing-function: ease-out;
+  }
+}

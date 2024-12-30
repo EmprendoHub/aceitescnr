@@ -1,0 +1,18 @@
+import React from "react";
+import Image from "next/image";
+
+const ComingSoon = () => {
+  return (
+    <div className="w-full bg-gradient bg-gradient-to-br from-violet-950 to-blue-700 min-h-screen flex flex-col items-center justify-center">
+      <Image
+        alt={"Aceites CNR"}
+        src={"/logos/CNR_LOGO_true.png"}
+        width={250}
+        height={250}
+      />
+      <p className="text-2xl text-white">Muy pronto...</p>
+    </div>
+  );
+};
+
+export default ComingSoon;

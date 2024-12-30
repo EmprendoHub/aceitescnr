@@ -1,0 +1,1658 @@
+{
+  "header": {
+    "menu": [
+      { "title": "Inicio", "url": "/" },
+      { "title": "Acerca", "url": "/#acerca" },
+      { "title": "Remolques", "url": "/#productos" },
+      { "title": "Contacto", "url": "/#contacto" }
+    ],
+    "searchbar": "Buscar"
+  },
+  "footer": {
+    "cta": {
+      "title": "¿Tienes un Proyecto?",
+      "btnText": "Contratar",
+      "spinText": " Desarrollador Full Stack y Diseñador Gráfico UX/UI"
+    },
+    "address": {
+      "ubicacion": "Michoacan",
+      "addressOne": "Calle Colima 61",
+      "addressTwo": "",
+      "city": "Sahuayo",
+      "hood": "Las Brisas",
+      "state": "Michoacan",
+      "zip": "59010",
+      "country": "Mexico",
+      "phone": "353-246-4146"
+    },
+    "addressTwo": {
+      "ubicacion": "Carr. Sahuayo - Cojumatlan No. 1850",
+      "addressOne": "",
+      "addressTwo": "No. 1850",
+      "city": "Sahuayo, ",
+      "hood": "",
+      "state": "Michoacan",
+      "zip": "59000",
+      "country": "Mexico",
+      "phone": "+52 353 104 3350"
+    },
+    "widgettwo": {
+      "title": "Remolques",
+      "links": [
+        { "title": "Dolly", "url": "/#productos?keyword=dolly" },
+        { "title": "Plataforma", "url": "/#productos?keyword=plataforma" },
+
+        {
+          "title": "Porta Contenedor",
+          "url": "/#productos?keyword=portacontenedor"
+        }
+      ]
+    },
+    "widgetthree": {
+      "title": "Sitio",
+      "links": [
+        { "title": "Inicio", "url": "/" },
+        { "title": "Remolques", "url": "/#productos" },
+        { "title": "Contacto", "url": "/#contacto" },
+        { "title": "Nosotros", "url": "/acerca" }
+      ]
+    },
+    "widgetfour": {
+      "title": "Legales",
+      "links": [
+        { "title": "Términos de Uso", "url": "/legal/terminos" },
+        { "title": "Política de privacidad", "url": "/legal/politica" }
+      ]
+    },
+    "footerBar": {
+      "developBy": "Desarrollada por Eggs & Bakey",
+      "path": "https://www.eggsbakey.com",
+      "company": "Aceites CNR",
+      "addressOne": "",
+      "addressTwo": "",
+      "city": "Sahuayo",
+      "state": "Michoacan",
+      "zip": "59000",
+      "country": "MEXICO",
+      "copyright": {
+        "pretitle": "Derechos de autor",
+        "subtitle": "Todos los derechos reservados.",
+        "disclosure": "Todos los precios de productos, servicios mostrados en esta página incluyen el IVA correspondiente.",
+        "preOwner": "La titularidad del presente sitio web corresponde a",
+        "owner": "Aceites CNR",
+        "subOwner": "con domicilio de negocio en"
+      }
+    }
+  },
+  "homeDic": {
+    "imageHero": {
+      "pretitle": "¡La calidad y durabilidad que tu negocio necesita!",
+      "title": "SEGURIDAD FUERZA Y",
+      "titleTwo": "CONFIANZA EN CADA VIAJE",
+      "text": "En Aceites CNR, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
+      "btnText": "Aprende Más",
+      "btnPath": "/about-us"
+    },
+    "sliders": [
+      {
+        "preTitle": "Fabricante Experto",
+        "title": "¡Descubre la fuerza que ",
+        "titleTwo": "mueve tus proyectos!",
+        "text": "En Aceites CNR, nuestros remolques están diseñados con frenos ABS, componentes premium y una resistencia inigualable para asegurar la mejor experiencia en carretera.",
+        "btnText": "Explorar Remolques",
+        "btnPath": "/es/#productos",
+        "imgPath": "/images/trailer4.webp"
+      },
+      {
+        "preTitle": "Remolques de Calidad",
+        "title": "Calidad y confianza que ",
+        "titleTwo": "te acompañan en cada kilómetro.",
+        "text": "En Aceites CNR diseñamos remolques personalizados para que cada viaje sea seguro y eficiente. ",
+        "btnText": "Explorar Remolques",
+        "btnPath": "/es/#productos",
+        "imgPath": "/images/trailer2.webp"
+      },
+      {
+        "preTitle": "Socio Estratégico",
+        "title": "Transforma tus ",
+        "titleTwo": "ideas con Aceites CNR",
+        "text": "Somos expertos en la fabricación de remolques personalizados que se adaptan a tus necesidades. Desde diseño hasta calidad, creamos soluciones únicas que destacan por su resistencia y estilo.",
+        "btnText": "Explorar Remolques",
+        "btnPath": "/es/#productos",
+        "imgPath": "/images/trailer3.webp"
+      }
+    ],
+    "infiniteSlider": {
+      "title": "Experiencia con",
+      "titleTwo": "Ingredientes de Alta Calidad",
+      "subtitle": "Benefíciate de nuestra red global de proveedores, ofreciendo productos de alta calidad a precios competitivos."
+    },
+    "singlesides": {
+      "boxOne": {
+        "title": "Transforma tu Experiencia Comercial con",
+        "titleTwo": "Aceites CNR",
+        "text": "Ofrecemos enfoques estratégicos para ampliar su alcance de mercado y mejorar sus operaciones comerciales con remolques de alta calidad de Aceites CNR.",
+        "btnText": "Contáctanos",
+        "imgUrl": "/images/h1-img2.jpg"
+      }
+    },
+    "doublesides": {
+      "boxOne": {
+        "preTitle": "TU SOCIO COMERCIAL DE CONFIANZA",
+        "title": "Transforma tu Experiencia Comercial con",
+        "titleTwo": "Aceites CNR",
+        "subtitle": "Nuestro equipo de expertos está listo para fabricar tu remolque ideal",
+        "text": "Aceites CNR tiene su sede cerca de Sahuayo, En Aceites CNR, diseñamos y fabricamos remolques a medida, alineados con tus necesidades y estándares de calidad. Cada uno de nuestros productos está pensado para ofrecerte seguridad y confianza en cada kilómetro.",
+        "btnText": "Contáctanos",
+        "imgUrl": "/images/h1-img2.jpg"
+      },
+      "boxTwo": {
+        "preTitle": "ANÁLISIS Y MEJORA CONTINUA",
+        "title": "Nos adaptamos según las",
+        "titleTwo": "necesidades de tu empresa",
+        "subtitle": "Preparados para cualquier desafío, asegurando personalización y adaptabilidad.",
+        "text": "¡En Aceites CNR creamos los remolques más fuertes para las cargas más exigentes! Diseñados para ofrecer resistencia, durabilidad y rendimiento en cada kilómetro. Tu carga, nuestra prioridad! En Aceites CNR, fabricamos unidades a la medida de tus necesidades, garantizando seguridad y confianza en cada viaje.",
+        "btnText": "Contáctanos",
+        "imgUrl": "/images/Madelto_cat_06.jpg"
+      }
+    },
+    "teamTalk": {
+      "title": "Habla con Nuestro Equipo",
+      "btnText": "Contáctanos",
+      "btnUrl": "/es/#contacto",
+      "img": "/images/equipo_de_trabajo_marketing.webp"
+    },
+    "sideText": {
+      "title": "Lleva tu Negocio al",
+      "titleTwo": "Siguiente Nivel",
+      "subtitle": "Nos encargamos de negociar las mejores ofertas para que puedas centrarte en el crecimiento.",
+      "text": "Buscamos continuamente ampliar nuestra red de clientes y ofrecer el más alto nivel de servicio. Esperamos que nos permita servirle.",
+      "btnText": "Contáctanos",
+      "btnUrl": "/es/#contacto",
+      "bullets": [
+        "Expansión de Mercado",
+        "Garantía de Calidad",
+        "Fabricación Comercial Personalizadas",
+        "Coordinación Experta"
+      ]
+    },
+    "miniPortfolio": {
+      "title": "Soluciones de",
+      "titleTwo": "Comercio Global",
+      "text": "Sincronización en tiempo real del inventario entre proveedores y clientes, reduciendo riesgos y simplificando la gestión de existencias.",
+      "btnText": "Ver Demo",
+      "btnUrl": "/es/#contacto",
+      "imgOne": "/images/2149416730.jpg",
+      "imgTwo": "/images/high-angle-hands-holding-paper_23-2149930962.jpg"
+    },
+    "customerSay": {
+      "title": "Lo Que Dicen Nuestros",
+      "titleTwo": "Clientes",
+      "subtitle": "Lee lo que nuestros clientes tienen que decir sobre nuestro trabajo.",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Teresita Villalpando",
+          "position": "Mariscos Casa Del Pollo",
+          "text": "Con Aceites CNR, pudimos aumentar significativamente la funcionalidad de nuestra cadena de suministro añadiendo",
+          "textPop": "seguimiento en línea",
+          "textTwo": "y reduciendo nuestros costos generales. ¡Nuestras operaciones son mucho más fluidas y no podríamos estar más contentos con su servicio! ¡Gracias de nuevo!",
+          "icon": "/images/2149416730.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Martin Latisner",
+          "position": "Movired",
+          "text": "Debido al mal trabajo de nuestro proveedor anterior, tuvimos que reconstruir nuestra cadena de suministro dos veces en un período de menos de 6 meses. ",
+          "textPop": "No hay comparación",
+          "textTwo": "entre la primera empresa y Aceites CNR. Profesional, Creativo, Detallista, Excelente Comunicación y Rápido.",
+          "icon": "/images/2149416730.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Emanuel Garcia",
+          "position": "Anas Iron Supply",
+          "text": "Fui a Aceites CNR con la idea básica de lo que quería en nuestro sistema de cadena de suministro. Ellos",
+          "textPop": "ayudaron a refinar",
+          "textTwo": "los procesos y la funcionalidad. Sin duda los volveré a utilizar en futuros proyectos. ¡Gracias de nuevo!",
+          "icon": "/images/2149416730.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Flavio Orte",
+          "position": "Marort Shoes",
+          "text": "Nuestra cadena de suministro anterior no estaba rindiendo bien en términos de velocidad y eficiencia. Aceites CNR intervino y",
+          "textPop": "optimizó cada aspecto",
+          "textTwo": "de nuestras operaciones, desde tiempos de entrega más rápidos hasta mejores relaciones con proveedores. La transición fue fluida y su equipo de soporte siempre está disponible. ¡A nuestros clientes les encanta la nueva experiencia!",
+          "icon": "/images/2149416730.jpg"
+        }
+      ]
+    },
+    "contactCta": {
+      "title": "Suscríbete a Nuestro Boletín",
+      "subtitle": "Además, obtén un 10% de descuento en tu primera cotización.",
+      "placeholder": "Tu correo electrónico aquí",
+      "messageSent": "El mensaje se envió correctamente."
+    }
+  },
+  "productDic": {
+    "preTitle": "REMOLQUES MODELTO",
+    "title": "Resistencia, durabilidad ",
+    "titleTwo": "y rendimiento en cada kilómetro.",
+    "single": {
+      "packing": "Empaquetado",
+      "weight": "Peso",
+      "category": "Categoría",
+      "types": "Tipos",
+      "quote": "Cotizar",
+      "season": "Temporada de Cosecha"
+    },
+    "months": [
+      { "label": "January", " value": 1 },
+      { "label": "February", " value": 2 },
+      { "label": "March", " value": 3 },
+      { "label": "April", " value": 4 },
+      { "label": "May", " value": 5 },
+      { "label": "June", " value": 6 },
+      { "label": "July", " value": 7 },
+      { "label": "August", " value": 8 },
+      { "label": "September", " value": 9 },
+      { "label": "October", "value": 10 },
+      { "label": "November", "value": 11 },
+      { "label": "December", "value": 12 }
+    ]
+  },
+  "categoryDic": {
+    "title": "Diseños a medida para ",
+    "titleTwo": "un transporte seguro y eficiente.",
+    "text": "En Aceites CNR, cada remolque está hecho para superar tus expectativas, con calidad, durabilidad y personalización total.",
+    "categories": [
+      {
+        "title": "Dolly",
+        "catPath": "/es/#productos?keyword=Dolly",
+        "imgPath": "/images/Madelto_cat_01.jpg"
+      },
+      {
+        "title": "Porta Contenedor",
+        "catPath": "/es/#productos?keyword=PortaContenedor",
+        "imgPath": "/images/Madelto_cat_02.jpg"
+      },
+      {
+        "title": "Plataforma",
+        "catPath": "/es/#productos?keyword=Plataforma",
+        "imgPath": "/images/Madelto_cat_03.jpg"
+      }
+    ]
+  },
+  "flipBoxes": [
+    {
+      "bgColor": "pink",
+      "bgColorTwo": "pink",
+      "preTitle": "¡Llega a Más Clientes!",
+      "title": "Alta calidad",
+      "titleTwo": "Alta calidad",
+      "subTitle": "Aumenta tus Ventas",
+      "textTitle": "BIOGRAFÍA",
+      "text": "Donde la fuerza y seguridad se encuentran, Aceites CNR te lleva más allá. Proporcionamos a nuestros clientes con productos de la mas alta calidad.",
+      "textTwo": "Remolques que cumplen con los más altos estándares de calidad y seguridad.",
+      "img": "/images/beach_bonus.jpg",
+      "imgTwo": "/images/beach_bonus.jpg",
+      "btnText": "Ver Remolques",
+      "btnLink": "/es/#productos",
+      "icon": "FaAward"
+    },
+
+    {
+      "bgColor": "purple",
+      "bgColorTwo": "purple",
+      "preTitle": "¡Código Personalizado!",
+      "title": "Tecnología de vanguardia",
+      "titleTwo": "¡Escala con Confianza!",
+      "subTitle": "Soluciones Personalizadas",
+      "textTitle": "BIOGRAFÍA",
+      "text": "Diseñados para soportar cualquier desafío, nuestros remolques están equipados con tecnología de vanguardia.",
+      "textTwo": "Listos para satisfacer las necesidades cambiantes de tu negocio.",
+      "img": "/images/Premio_10_mil_pesos.jpg",
+      "imgTwo": "/images/Premio_10_mil_pesos.jpg",
+      "btnText": "Ver Remolques",
+      "btnLink": "/es/#productos",
+      "icon": "FaSteam"
+    }
+  ],
+  "aboutDic": {
+    "hero": {
+      "title": "Acerca de nosotros",
+      "subtitle": "Quienes somos..."
+    },
+    "founder": {
+      "name": "Salvador Sandoval",
+      "position": "Fundador/CEO",
+      "text": "Nos esforzamos por convertirnos en la ventanilla única número uno: para todas sus necesidades comerciales digitales, desde desarrollo de marca, perfiles de clientes, aplicaciones web, comercio electrónico, embudos de ventas, CRM y mucho más. ¿Necesitar más? También planificamos todo tu negocio, ¡hablamos!",
+      "img": "/images/2149416730.jpg"
+    },
+    "skills": {
+      "title": "Nuestras Habilidades"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "jobOne": {
+        "title": "Ingeniero Junior de JavaScript",
+        "text": "exceptionally unique designs, wide variety of sizes, Top notch partners - Discover how we can make you look amazing for your special day. ",
+        "years": "2020 - Presente",
+        "company": "Orbit Metrocom"
+      },
+      "jobTwo": {
+        "title": "Desarrollador React",
+        "text": "exceptionally unique designs, wide variety of sizes, Top notch partners - Discover how we can make you look amazing for your special day. ",
+        "years": "2015 - 2020",
+        "company": "Sonoran Sun Resorts"
+      },
+      "jobThree": {
+        "title": "Programador Analista",
+        "text": "exceptionally unique designs, wide variety of sizes, Top notch partners - Discover how we can make you look amazing for your special day. ",
+        "years": "2010 - 2015",
+        "company": "Carrillos Ornamental"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Customers Have To Say",
+      "parone": "Dont you believe us? Take a look at what some of the hundreds of satisfied customers say about us."
+    }
+  },
+  "contactDic": {
+    "hero": {
+      "pretitle": "PONERSE EN CONTACTO",
+      "title": "Nos gustaría conocerte."
+    },
+    "contactInfo": {
+      "pretitle": "Contáctenos",
+      "title": "Nos gustaría conocerte. Siéntete libre de",
+      "titleTwo": "mantenerte en contacto.",
+      "subtitle": "Descubramos cómo podemos ayudarle a mejorar su experiencia comercial.",
+      "location": "Ubicación",
+      "social": "Redes Sociales",
+      "questions": "Preguntas Generales",
+      "mapUrl": "https://maps.app.goo.gl/NyDTDXZcRHdmFnpM7"
+    },
+    "address": {
+      "ubicacion": "Michoacan",
+      "addressOne": "Calle Colima 61",
+      "addressTwo": "",
+      "city": "Sahuayo",
+      "hood": "Las Brisas",
+      "state": "Michoacan",
+      "zip": "59010",
+      "country": "Mexico",
+      "phone": "+1 206 979 9807",
+      "mapImage": "/images/Colima61_.webp",
+      "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
+    },
+    "addressTwo": {
+      "ubicacion": "Sahuayo",
+      "addressOne": "",
+      "addressTwo": "Suite D3",
+      "city": "Sahuayo",
+      "hood": "",
+      "state": "Michoacan",
+      "zip": "59000",
+      "country": "MEXICO",
+      "phone": "+52 353 104 3350",
+      "mapImage": "/images/hudson_map.webp",
+      "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
+    },
+    "contactForm": {
+      "placeName": "Tu Nombre Aquí",
+      "placePhone": "Tu Teléfono Aquí",
+      "placeEmail": "Tu Email",
+      "placeNote": "Tu Mensaje",
+      "success": "El mensaje se envió exitosamente",
+      "btnText": "Enviar Mensaje"
+    }
+  },
+  "servicesDic": {
+    "pretitle": "Como te podemos ayudar?",
+    "title": "Transforma Tu Negocio con Nuestro Desarrollo Personalizado.",
+    "services": [
+      {
+        "icon": "/icons/p12-icon-img-1.png",
+        "title": "Control de Calidad",
+        "text": "Estamos dedicados a mantener los más altos estándares de calidad para todos nuestros productos. Nuestras rigurosas medidas de control de calidad garantizan que cada remolque que fabricamos sea seguro, duradero y eficiente.",
+        "btnText": "Cotizar",
+        "btnUrl": "/es/cotizar"
+      },
+      {
+        "icon": "/icons/h5-icon-img-2.png",
+        "title": "Tiempo de respuesta rápido",
+        "text": "Speed is not a luxury; it's a necessity, we understand that. That's why we pride ourselves on our fast response times, ensuring you meet your business goals and increase your productivity.",
+        "btnText": "Cotizar",
+        "btnUrl": "/es/cotizar"
+      },
+      {
+        "icon": "/icons/p12-icon-img-2.png",
+        "title": "Integridad",
+        "text": "La integridad es el núcleo de nuestro negocio. Realizamos todas nuestras transacciones con honestidad y transparencia, generando confianza con nuestros socios y clientes a través de prácticas comerciales éticas.",
+        "btnText": "Cotizar",
+        "btnUrl": "/es/cotizar"
+      }
+    ]
+  },
+  "portfolioDic": {
+    "pretitle": "Como te podemos ayudar?",
+    "title": "Transforma Tu Negocio a una marca única."
+  },
+  "notFound": {
+    "title": "Your page was not Found",
+    "subtitle": "Oops! The page you are looking for does not exist. It might have been moved or deleted.",
+    "btntxt": "Explore our Catalog"
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "Tablero",
+      "orders": "Pedidos",
+      "posts": "Publicaciones",
+      "newPost": "Nueva Publicación",
+      "products": "Remolques",
+      "newService": "Nuevo Producto",
+      "clients": "Clientes",
+      "affiliates": "Afiliados"
+    },
+    "orders": {
+      "tableHead": {
+        "id": "id",
+        "img": "img",
+        "cat": "catg.",
+        "title": "titulo"
+      }
+    }
+  },
+  "blogDic": {
+    "home": {
+      "recentPosts": { "text": "Publicaciones", "textTwo": "Recientes" },
+      "featuredPosts": { "text": "Publicaciones", "textTwo": "Destacadas" }
+    },
+    "single": {
+      "sideBar": {
+        "featuredServices": { "text": "Servicios", "textTwo": "Destacados" }
+      },
+      "publishedOn": "Publicada el",
+      "writtenBy": "Escrito por",
+      "posts": "Publicaciones"
+    }
+  },
+  "privacyDic": {
+    "title": "Política de Privacidad",
+    "summary": "Aceites CNR recopila, utiliza, mantiene y divulga información recopilada de los usuarios (cada uno, un “Usuario”) del sitio web aceitescnr.com (“Sitio”). Esta política de privacidad se aplica al Sitio y a todos los productos y servicios ofrecidos por emprendedoromex.com. Aceites CNR es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:",
+    "textArray": [
+      {
+        "section": {
+          "title": "Información de identificación personal",
+          "text": "Podemos recopilar información de identificación personal de los Usuarios de varias maneras, que incluyen, entre otras, cuando los Usuarios visitan nuestro sitio, se registran en el sitio, realizan un pedido, se suscriben al boletín informativo, llenan un formulario y se conectan con otras actividades, servicios, características o recursos que ponemos a disposición en nuestro Sitio.",
+          "textTwo": "Se puede solicitar a los usuarios, según corresponda, nombre, dirección de correo electrónico, dirección postal, información de la tarjeta de crédito. Los usuarios pueden, sin embargo, visitar nuestro sitio de forma anónima.",
+          "textThree": "Recopilaremos información de identificación personal de los Usuarios solo si nos la envían voluntariamente. Los usuarios siempre pueden negarse a proporcionar información de identificación personal, excepto que puede impedirles participar en ciertas actividades relacionadas con el Sitio.",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Información de identificación NO personal",
+          "text": "Podemos recopilar información de identificación no personal sobre los Usuarios cuando interactúan con nuestro Sitio. La información de identificación no personal puede incluir el nombre del navegador, el tipo de computadora y la información técnica sobre los medios de conexión de los Sitios con nuestro Sitio, como el sistema operativo y los proveedores de servicios de Internet utilizados y otra información similar.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cookies del navegador web",
+          "text": "Nuestro sitio puede utilizar «cookies» para mejorar la experiencia del usuario. El navegador web del usuario coloca cookies en su disco duro para fines de mantenimiento de registros y, a veces, para rastrear información sobre ellos.",
+          "textTwo": "El usuario puede optar por configurar su navegador web para rechazar las cookies, o para avisarle cuando se envían cookies. Si lo hacen, tenga en cuenta que algunas partes del sitio pueden no funcionar correctamente.",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "COOKIES",
+          "text": "Al aceptar la presente Política de privacidad, al acceder y / o utilizar los Servicios, acepta el uso de cookies y otras tecnologías similares por parte de Emprendomex, así como por terceros, como Facebook o nuestros socios publicitarios.",
+          "textTwo": "Estos terceros pueden colocar y leer cookies y otras tecnologías similares, como identificadores de dispositivos, balizas web y píxeles de seguimiento, que recopilan la información cada vez que hace uso de los Servicios.",
+          "textThree": "Estas tecnologías se utilizan para proporcionar los Servicios a los usuarios, ofrecer publicidad que les interese y mejorar los Servicios, facilitando el uso de nuestras aplicaciones y nuestra plataforma web.",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "¿Qué son las cookies?",
+          "text": "Las cookies y estas otras tecnologías son pequeños archivos o dispositivos que se descargan en la computadora o dispositivo, por ejemplo, un dispositivo móvil, que utiliza para acceder y / o usar ciertos sitios web o servicios en línea.",
+          "textTwo": "Estas cookies se utilizan para almacenar y recuperar datos sobre sus hábitos de navegación, su dispositivo, su tiempo de conexión, para analizar el funcionamiento del sitio web, etc., a fin de proporcionar ciertos servicios, ofrecer publicidad o implementar mejoras o nuevos servicios.",
+          "textThree": "Emprendomex y otros terceros utilizan las siguientes cookies:",
+          "textFour": "Cookies técnicas: permiten a los usuarios navegar a través de un sitio web, plataforma o aplicación y utilizar las diferentes opciones o servicios que contiene, como controlar el intercambio y la comunicación de datos, identificar la sesión, acceder a sitios de acceso restringido, utilizar elementos de seguridad mientras navega. almacenar contenido para transmitir video o audio, o compartir contenido a través de redes sociales.",
+          "textFive": "Emprendomex puede usar este tipo de cookies para reconocer su dispositivo, por ejemplo, identificando su dirección IP y para recopilar datos como el modelo de su dispositivo, el sistema operativo y el tamaño de la pantalla, otras aplicaciones instaladas en su dispositivo, fecha y hora, tema de los anuncios. hizo clic o se desplazó, y otra información sobre cómo utiliza los Servicios.",
+          "textSix": "Cookies de personalización: le permiten acceder al servicio con algunas características generales predefinidas basadas en una serie de criterios en su terminal, como el idioma, el navegador que utiliza para acceder al servicio, la configuración regional desde la que accede al servicio, etc.",
+          "textSeven": "Emprendomex puede usar este tipo de cookies para almacenar información de acceso para que no tenga que iniciar sesión repetidamente; para permitir que los Servicios interactúen con una red social o plataforma de terceros donde usted haya elegido permitir dicha interacción; para permitir procesos de pago cuando envíe instrucciones de pago; para permitir que Emprendomex y terceros le brinden servicios más personalizados; y para recopilar otra información sobre el uso de nuestros Servicios.",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cookies de análisis:",
+          "text": "La Cookies te permiten monitorear y analizar el comportamiento de los usuarios en los sitios web y / o servicios a los que están asociadas estas cookies. La información recopilada mediante estas cookies se utiliza para medir la actividad en los sitios web, aplicaciones o plataformas, así como para desarrollar perfiles de navegación para los usuarios de ciertos sitios web, aplicaciones o plataformas, con el fin de realizar mejoras basadas en el análisis. de los datos de uso de los usuarios del servicio.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cookies publicitarias:",
+          "text": "Estas te permiten la gestión de publicidad incluida por terceros, como Facebook y nuestros socios publicitarios, en una plataforma web o en nuestros Servicios. Estas cookies se utilizan para limitar la frecuencia y organizar la forma en que los usuarios reciben estos anuncios",
+          "textTwo": "Cookies de publicidad por comportamiento: permiten la gestión de publicidad incluida en un sitio web, aplicación o plataforma. Estas cookies almacenan información sobre el comportamiento del usuario que se obtiene a través de la observación continua de sus hábitos de navegación, lo que permite que los perfiles muestran publicidad que podría ser de interés para el usuario.",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cookies de Socios Publicitarios y Terceros",
+          "text": "Los terceros, como Facebook y nuestros socios publicitarios, pueden utilizar cookies dentro y fuera de los Servicios para los fines mencionados anteriormente, que incluyen la recopilación de su información sobre la actividad en línea en los diferentes sitios y el uso de esa información para proporcionar anuncios en nuestros Servicios o en otros sitios sobre productos y servicios que puedan interesarle.",
+          "textTwo": "En particular, Emprendomex utiliza las siguientes cookies de terceros para recopilar información con fines estadísticos sobre su uso de la plataforma web e incluir publicidad en nuestros Servicios:",
+          "textThree": "Google Analytics de Google, Inc., es una compañía cuya sede se encuentra en 1600 Amphitheater Parkway, Mountain View, CA 94043, Estados Unidos, que se utiliza para proporcionar estadísticas y análisis sobre el número de visitas, su duración, sus datos sociodemográficos ( Idioma, ubicación, proveedor de internet …), etc.",
+          "textFour": "Facebook, Inc. es una compañía con sede en 1601 Willow Road, Menlo Park, California, Estados Unidos. Cuando nuestros usuarios usan nuestros Servicios a través de la plataforma web de Facebook, Facebook puede usar cookies para diferentes propósitos. Puede encontrar la política de cookies de Facebook en el siguiente enlace: https://www.facebook.com/policies/cookies/ Usted puede permitir, bloquear o deshabilitar las cookies.",
+          "textFive": "Puede permitir, bloquear o deshabilitar las cookies instaladas en su dispositivo en la configuración de su navegador en su computadora o dispositivo móvil. La configuración de la navegación en Internet suele estar predeterminada para aceptar cookies de forma predeterminada, pero se pueden desactivar fácilmente cambiando la configuración del navegador.",
+          "textSix": "Las cookies se utilizan para mejorar la utilidad y la funcionalidad de los Sitios y aplicaciones, por lo tanto, si desea desactivar dichas cookies, es posible que algunas de las funciones de los Servicios no funcionen correctamente. Alternativamente, si no desea dicha recopilación de datos como se describe en esta sección, debe dejar de usar los Servicios.",
+          "textSeven": "Aquí hay algunos enlaces útiles con instrucciones sobre cómo eliminar, habilitar y administrar las cookies, según el navegador que utilice:",
+          "bullets": [
+            {
+              "name": "Google Chrome",
+              "path": "https://support.google.com/chrome/answer/95647?hl=en"
+            },
+            {
+              "name": "Microsoft Internet Explorer",
+              "path": "https://support.microsoft.com/en-nz/help/17442/windows-internet-explorer-delete-manage-cookies"
+            },
+            {
+              "name": "Mozilla Firefox",
+              "path": "https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences"
+            },
+            {
+              "name": "Safari (Apple)",
+              "path": "https://support.apple.com/en-en/HT201265"
+            },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Para qué fines utilizaremos sus datos personales",
+          "text": "De manera adicional, utilizaremos su información personal recabada mediante formularios de contacto o suscripciones para las siguientes finalidades secundarias que no son necesarias para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "Mercadotecnia o publicidad", "path": "" },
+            { "name": "Prospección comercial", "path": "" },
+            { "name": "Venta de formación sobre negocios online", "path": "" },
+            {
+              "name": "Gestionar la lista de suscriptores y usuarios adscritos a la web",
+              "path": ""
+            },
+            { "name": "Suministro de contenidos en el blog", "path": "" }
+          ],
+          "textEight": "En caso de que no desee que sus datos personales sean tratados para estos fines secundarios, desde este momento usted nos puede comunicar lo anterior a través del siguiente mecanismo: Envío de correo a GDPR@aceitescnr.com. La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios y productos que solicita o contrata con nosotros."
+        }
+      },
+      {
+        "section": {
+          "title": "¿Qué datos personales utilizaremos para estos fines?",
+          "text": "Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos los siguientes datos personales:",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "Datos de contacto", "path": "" },
+            { "name": "Actividad en nuestro sitio web", "path": "" },
+            { "name": "Datos estadísticos", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Sistemas utilizamos para la captura de estos datos",
+          "text": "1) Formularios de suscripción a contenidos: dentro de la web aceitescnr.com existen varios formularios para activar la suscripción gestionada por aceitescnr.com con la finalidad de enviar campañas de marketing por correo electrónico, gestión de suscripciones y envío de boletines o noticias.",
+          "textTwo": "2) Formulario de comentarios: La web incluye un formulario cuya finalidad es comentar los artículos y dar su opinión respetando la libertad de expresión. El usuario podrá publicar comentarios en las publicaciones. Los datos personales introducidos en el formulario para insertar estos comentarios serán utilizados exclusivamente para modelarlos y publicarlos, recabando igualmente estos datos que se almacenarán en los servidores de High Velocity.",
+          "textThree": "3) Formulario de contacto: Existe un formulario de contacto cuya finalidad es la respuesta de consultas, sugerencias o contacto profesional. En este caso se utilizará la dirección de correo electrónico para responder a las mismas y enviar la información que el usuario requiera a través de la web, estos datos se almacenarán en los servidores de High Velocity.",
+          "textFour": "4) Cookies: Cuando el usuario se registra o navega en esta web, se almacenan “cookies”, El usuario puede consultar en cualquier momento la política de cookies para ampliar información sobre el uso de cookies y cómo desactivarlas.",
+          "textFive": "5) Venta de productos informáticos: A través de la página web, se pueden adquirir info-productos, en este caso, se requieren datos del comprador (Nombre, apellido, dirección y e-mail) mediante la plataforma de Aceites CNR.",
+          "textSix": "6) Los usuarios podrán darse de baja en cualquier momento de los servicios prestados por https://aceitescnr.com/cancel/newsletter desde la misma Newsletter a través de un formulario de cancelación de Automatizado.",
+          "textSeven": "7) Sistemas de rastreo utilizadas en este sitio: Google (Analytics), en https://aceitescnr.com/ también se estudian las preferencias de sus usuarios, sus características demográficas, sus patrones de tráfico, y otra información en conjunto para comprender mejor quiénes constituyen su audiencia y qué es lo que esta necesita. El rastreo de las preferencias de nuestros usuarios también nos ayuda a mostrarle los avisos publicitarios más relevantes.",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": "Asimismo, informamos que para la captación de suscriptores y clientes utilizamos Facebook Ads teniendo instalado el correspondiente Pixel de Facebook, por lo que al generar un anuncio, se puede segmentar el público por el lugar, datos demográficos, intereses, etc por lo que los datos obtenidos por esta plataforma, estarían sujetos a esta política de privacidad desde el momento en que el usuario deja sus datos para unirse al boletín de la comunidad de Aceites CNR."
+        }
+      },
+      {
+        "section": {
+          "title": "¿Cómo puede acceder, rectificar o cancelar sus datos personales, u oponerse a su uso?",
+          "text": "Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta rectificación(rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no esté siendo utilizada adecuadamente (cancelación); asÌ como oponerse al uso de sus datos personales para fines específicos (oposición). Estos derechos se conocen como derechos ARCO.",
+          "textTwo": "Para el ejercicio de cualquiera de los derechos ARCO, usted deber· presentar la solicitud respectiva a través del siguiente medio: enviando un correo electrónico a GDPR@aceitescnr.com.",
+          "textThree": "Con relación al procedimiento y requisitos para el ejercicio de sus derechos ARCO, le informamos lo siguiente:",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            {
+              "name": "a) A través de qué medios pueden acreditar su identidad el titular y, en su caso, su representante, asÌ como la personalidad este ˙ultimo? Enviando un correo electrónico a GDPR@aceitescnr.com",
+              "path": ""
+            },
+            {
+              "name": "b) Qué información y/o documentación debe contener la solicitud? Documento electrónico",
+              "path": ""
+            },
+            {
+              "name": "c) En cuántos días le daremos respuesta a su solicitud? Dos días",
+              "path": ""
+            },
+            {
+              "name": "d) Por qué medio le comunicaremos la respuesta a su solicitud? Por medio de correo electrónico",
+              "path": ""
+            },
+            {
+              "name": "e) En qué medios se pueden reproducir los datos personales que, en su caso, solicite correo electrónico",
+              "path": ""
+            }
+          ],
+          "textEight": "Los datos de contacto de la persona o departamento de datos personales, que está cargo de dar trámite a las solicitudes de derechos ARCO (GDPR), son los siguientes: Nombre de la persona o departamento de datos personales: Salvador Sandoval Sanchez, Domicilio: Colima 61, colonia Las Brisas, ciudad Sahuayo de Morelos, c.p. 59010, en la entidad de Michoacán, paÌs México, Correo electrónico: GDPR@aceitescnr.com, "
+        }
+      },
+      {
+        "section": {
+          "title": "Usted puede revocar su consentimiento para el uso de sus datos personales.",
+          "text": "Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando sus datos personales. Asimismo, usted debe considerar que para ciertos fines, la revocación de su consentimiento puede implicar que no le podamos seguir prestando el servicio que nos solicitó, o la conclusión de su relación con nosotros. Para revocar su consentimiento debe presentar su solicitud a través del siguiente medio: Envío de correo electrónico a GDPR@aceitescnr.com",
+          "textTwo": "Con relación al procedimiento y requisitos para la revocación de su consentimiento, le informamos lo siguiente:",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            {
+              "name": "a) A través de qué medios pueden acreditar su identidad el titular y, en su caso, su representante, asÌ como la personalidad este último? Enviando un correo a GDPR@aceitescnr.com",
+              "path": ""
+            },
+            {
+              "name": "b) Qué información y/o documentación deber contener la solicitud? Correo enviado desde la cuenta de correo del usuario.",
+              "path": ""
+            },
+            {
+              "name": "c) En cuántos días le daremos respuesta a su solicitud?- 2 días.",
+              "path": ""
+            },
+            {
+              "name": "d) Por qué medio le comunicaremos la respuesta a su solicitud? correo electrónico.",
+              "path": ""
+            },
+            {
+              "name": "e) Para mayor información sobre el procedimiento, ponemos a disposición los siguientes medios: https://aceitescnr.com",
+              "path": ""
+            }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "¿Cómo puede limitar el uso o divulgación de su información personal?",
+          "text": "Con objeto de que usted pueda limitar el uso y divulgación de su información personal, le ofrecemos los siguientes medios: Enviar un correo a GDPR@aceitescnr.com.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "El uso de tecnologías de rastreo en nuestro portal de internet",
+          "text": "Le informamos que en nuestra página de internet utilizamos cookies, web beacons u otras tecnologías, a través de las cuales es posible monitorear su comportamiento como usuario de internet, asÌ como brindarle un mejor servicio y experiencia al navegar en nuestra página.",
+          "textTwo": "Los datos personales que recabamos a través de estas tecnologías, los utilizaremos para los siguientes fines: Ofrecer servicios y productos relevantes para el usuario. Los datos personales que obtenemos de estas tecnologías de rastreo son los siguientes: Identificadores, nombre de usuario y contraseñas de una sesión, Idioma preferido por el usuario, región en la que se encuentra el usuario. Tipo de navegador del usuario, Tipo de sistema operativo del usuario, Fecha y hora del inicio y final de una sesión de un usuario, Páginas web visitadas por un usuario, Búsquedas realizadas por un usuario, Publicidad revisada por un usuario, Listas y hábitos de consumo en páginas de compras.",
+          "textThree": "En relación con la gestión de tus datos asociados a los perfiles sociales de Aceites CNR, el ejercicio del derecho de acceso, dependerá de la funcionalidad de la red social y las posibilidades de acceso a la información de los perfiles de los usuarios. Con relación a los derechos de acceso y rectificación, le recomendamos que sólo podrá satisfacerse en relación a aquella información que se encuentre bajo el control de Aceites CNR.",
+          "textFour": "Además podrá dejar de interactuar, seguir o recibir información de los perfiles sociales de Aceites CNR, eliminar los contenidos que dejen de interesarle o restringir con quién comparte sus conexiones, mediante los mecanismos estipulados en las diferentes redes sociales.",
+          "textFive": "El usuario podrá acceder a las políticas de privacidad de cada Red Social, así como configurar su perfil para garantizar su privacidad. Aceites CNR anima a los usuarios a familiarizarse con las condiciones de uso de las distintas redes sociales antes de comenzar a usarlas.",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            {
+              "name": "Facebook",
+              "path": "https://www.facebook.com/help/323540651073243/"
+            },
+            {
+              "name": "Instagram",
+              "path": "https://help.instagram.com/155833707900388"
+            },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cómo utilizamos la información recopilada",
+          "text": "aceitescnr.com puede recopilar y utilizar la información personal de los Usuarios para los siguientes fines:",
+          "textTwo": "Para mejorar el servicio al cliente.",
+          "textThree": "La información que nos proporciona nos ayuda a responder a sus solicitudes de servicio al cliente y las necesidades de soporte de manera más eficiente. Para personalizar la experiencia del usuario.",
+          "textFour": "Podemos usar la información en conjunto para comprender cómo nuestros Usuarios como grupo utilizan los servicios y recursos provistos en nuestro Sitio.",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Para mejorar nuestro sitio Web",
+          "text": "Podemos utilizar los comentarios que nos brinde para mejorar nuestros productos y servicios.",
+          "textTwo": "Para procesar los pagos, podemos utilizar la información que los usuarios proporcionan sobre sí mismos al realizar un pedido solo para proporcionar servicio a ese pedido.",
+          "textThree": "No compartimos esta información con terceros, excepto en la medida necesaria para proporcionar el servicio.",
+          "textFour": "Para ejecutar una promoción, un concurso, una encuesta u otra función del Sitio para enviar a los Usuarios la información que acordaron recibir sobre temas que consideramos de su interés.",
+          "textFive": "Para enviar correos electrónicos periódicos, podemos utilizar la dirección de correo electrónico para enviar información del Usuario y actualizaciones relacionadas con su pedido. También se puede utilizar para responder a sus consultas, preguntas y / u otras solicitudes",
+          "textSix": "Si el Usuario decida suscribirse a nuestra lista de correo, recibirán correos electrónicos que pueden incluir noticias de la compañía, actualizaciones, información relacionada con el producto o servicio, etc. Si en cualquier momento el Usuario desea darse de baja de recibir correos electrónicos futuros, incluimos información detallada. Anular la suscripción de instrucciones al final de cada correo electrónico.",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cómo protegemos su información.",
+          "text": "Adoptamos prácticas adecuadas de recopilación, almacenamiento y procesamiento de datos y medidas de seguridad para proteger contra el acceso no autorizado, la alteración, la divulgación o la destrucción de su información personal, nombre de usuario, contraseña, información de transacciones y datos almacenados en nuestro Sitio",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Compartiendo tu información personal",
+          "text": "No vendemos, intercambiamos ni alquilamos la información de identificación personal de los Usuarios a terceros. Podemos compartir información demográfica agregada genérica no vinculada a ninguna información de identificación personal con respecto a los visitantes y usuarios con nuestros socios comerciales, afiliados de confianza y anunciantes para los fines descritos anteriormente.",
+          "textTwo": "Podemos utilizar proveedores de servicios de terceros para ayudarnos a operar nuestro negocio y el Sitio o administrar actividades en nuestro nombre, como el envío de boletines o encuestas. Podemos compartir su información con estos terceros para esos fines limitados siempre que usted nos haya dado su permiso.",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Sitios web de terceros",
+          "text": "Los usuarios pueden encontrar publicidad u otro contenido en nuestro Sitio que se vincula a los sitios y servicios de nuestros socios, proveedores, anunciantes, patrocinadores, otorgantes de licencias y otros terceros.",
+          "textTwo": "No controlamos el contenido o los enlaces que aparecen en estos sitios y no somos responsables de las prácticas empleadas por los sitios web vinculados hacia o desde nuestro Sitio. Además, estos sitios o servicios, incluidos su contenido y enlaces, pueden estar cambiando constantemente.",
+          "textThree": "Estos sitios y servicios pueden tener sus propias políticas de privacidad y políticas de servicio al cliente. La navegación e interacción en cualquier otro sitio web, incluidos los sitios web que tienen un enlace a nuestro Sitio, está sujeta a los términos y políticas de ese sitio web.",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cambios a esta política de privacidad",
+          "text": "aceitescnr.com tiene la facultad de actualizar esta política de privacidad en cualquier momento. Cuando lo hagamos, revisaremos la fecha actualizada al final de esta página. Alentamos a los Usuarios a que visiten con frecuencia esta página para ver si hay cambios para mantenerse informados sobre cómo estamos ayudando a proteger la información personal que recopilamos. Usted reconoce y acepta que es su responsabilidad revisar esta política de privacidad periódicamente y conocer las modificaciones.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Su aceptación de estos términos.",
+          "text": "Al usar este Sitio, usted expresa su aceptación de esta política. Si no está de acuerdo con esta política, no utilice nuestro Sitio. Su uso continuado del Sitio después de la publicación de cambios a esta política se considerará como su aceptación de dichos cambio.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cómo ponerte en Contacto con nosotros",
+          "text": "Si tiene alguna pregunta sobre esta Política de privacidad, las prácticas de este sitio o sus relaciones con este sitio, ",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "contáctenos.", "path": "/es/#contacto" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": "Este documento se actualizó por última vez el 14 de Mayo 2024."
+        }
+      }
+    ]
+  },
+  "termsDic": {
+    "title": "Términos y Condiciones de Uso",
+    "summary": "Al acceder a este sitio web, usted acepta regirse por los Términos y condiciones de uso de este sitio web, todas las leyes y regulaciones aplicables, y acepta que es responsable del cumplimiento de las leyes locales aplicables. Si no está de acuerdo con alguno de estos términos, tiene prohibido utilizar o acceder a este sitio. Los materiales contenidos en este sitio web están protegidos por las leyes de derechos de autor y marcas registradas aplicables.",
+    "textArray": [
+      {
+        "section": {
+          "title": "Términos de servicio",
+          "text": "Estos términos de servicio («Términos», «Acuerdo») son un acuerdo entre el operador de aceitescnr.com («Operador del sitio web», «nosotros», «nosotros» o «nuestro») y usted («Usuario», «usted » o tu»). Este Acuerdo establece los términos y condiciones generales de su uso del sitio web https://aceitescnr.com y cualquiera de sus productos o servicios (colectivamente, «Sitio web» o «Servicios»).",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Términos de pago",
+          "text": "Se requiere una tarjeta de crédito válida para abrir una cuenta con aceitescnr.com. El servicio se factura mensualmente por adelantado y no es reembolsable. No habrá créditos ni reembolsos por meses parciales de servicio o meses sin usar con una cuenta abierta.",
+          "textTwo": "Si se suscribe a cualquiera de las partes pagadas de los Servicios, comprende que una vez que se haya convertido en un Suscriptor, su suscripción se renovará automáticamente y su tarjeta de crédito se cobrará en función del programa de suscripción (por ejemplo, anual, mensual, etc.). ) has elegido.",
+          "textThree": "El pago vence en la fecha de facturación recurrente definida. El servicio se interrumpirá en las cuentas con vencimiento de 10 días.",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Política de reembolsos",
+          "text": "Las nuevas suscripciones tienen una garantía de devolución de dinero de 5 días.",
+          "textTwo": "A menos que se indique lo contrario por escrito con respecto a los Servicios particulares ofrecidos a la venta a través de este Sitio web, Digital Agent Club se atiene a una política estricta de no reembolso. Al aceptar estos Términos, Usted acepta y entiende que está renunciando al derecho de reclamar cualquier reembolso de las tarifas pagadas por el acceso y uso de los Servicios ofrecidos a través de este Sitio web.",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Sin garantías",
+          "text": "Al aceptar estos Términos, Usted acepta y comprende que proporcionamos servicios de capacitación de contenido, capacitación, mercadeo y negocios únicamente y no garantizamos resultados específicos. Usted reconoce que no hacemos ninguna promesa o representación de que usted hará una cierta cantidad de dinero, o cualquier dinero, o que no perderá dinero, como resultado del uso de estos Servicios.",
+          "textTwo": "Todos los ingresos, ingresos o declaraciones de ingresos que se pueden ver en este sitio web o en nuestras redes sociales relacionadas se basan en los resultados individuales reales de nuestros clientes y / o estimaciones, según se indique. No hay garantía de que hagas estos niveles por ti mismo. Al igual que con cualquier negocio, sus resultados variarán y se basarán en sus habilidades personales, experiencia, conocimiento, capacidades, nivel de deseo y un número infinito de variables más allá de nuestro control, incluidas algunas variables que ni nosotros ni Usted pueden haber anticipado. No hay garantías con respecto al nivel de éxito que puede experimentar. Los resultados de cada persona variarán.",
+          "textThree": "Hay riesgos desconocidos en cualquier negocio, particularmente con Internet donde los avances y cambios pueden suceder rápidamente. El uso de nuestra información, productos y servicios debe basarse en su propia diligencia debida y usted acepta que no somos responsables por su éxito o falta.",
+          "textFour": "Al aceptar estos Términos, Usted reconoce que asume la plena responsabilidad de su propio éxito.",
+          "textFive": "En ningún caso, seremos responsables ante usted o cualquier parte relacionada con usted por cualquier daño, incluidos los daños por pérdida de beneficios comerciales u otras pérdidas pecuniarias, ya sea bajo la teoría de contrato, garantía, responsabilidad extracontractual (incluida la negligencia) de productos o de otro tipo, Incluso si hemos sido avisados de la posibilidad de tales daños. Como tal, los servicios, el contenido y todos los software descargables se distribuyen como «tal cual», sin garantías de ningún tipo, ya sean explícitas o implícitas, y sin explicación de la partidación..",
+          "textSix": "Usted reconoce y está consciente que el uso de los servicios es a su propio riesgo",
+          "textSeven": "Las limitaciones aquí descritas se aplicarán en la mayor medida posible de conformidad con la ley aplicable.",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Derechos de propiedad intelectual",
+          "text": "Todos los derechos de autor, marcas registradas, patentes y otros derechos de propiedad intelectual en y en nuestro sitio web y todo el contenido y el software ubicados en el sitio serán propiedad exclusiva de nuestra empresa o sus licenciantes. El uso de nuestras marcas registradas, contenido y propiedad intelectual está prohibido sin el consentimiento expreso por escrito del propietario de este sitio web",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Limitación de responsabilidad",
+          "text": "Los materiales en este sitio se proporcionan «tal cual» sin garantía expresa o implícita de ningún tipo, incluidas las garantías de comerciabilidad, la no infracción de la propiedad intelectual o la adecuación para cualquier propósito determinado particular. en ningún caso, el propietario de este sitio web o sus agentes o oficiales serán responsables por cualquier daño alguno (incluyendo, sin limitación, daños por pérdida de beneficios, interrupción comercial, pérdida de información, lesión o muerte) derivado del uso de la operación no se puede utilizar los materiales, incluso si el propietario de este sitio web ha sido informado de la posibilidad de tal pérdida o daños.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Aceptación de estos términos",
+          "text": "Usted reconoce que ha leído este Acuerdo y está de acuerdo con todos sus términos y condiciones. Al utilizar el sitio web o sus servicios, usted acepta estar sujeto a este Acuerdo. Si no acepta cumplir con los términos de este Acuerdo, no está autorizado para usar o acceder al sitio web y sus Servicios.",
+          "textTwo": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "Cómo ponerte en Contacto con nosotros",
+          "text": "Si tiene alguna pregunta sobre los términos y condiciones descritos en este documento ",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "contáctenos.", "path": "/es/#contacto" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": "Este documento se actualizó por última vez el 14 de Mayo 2024."
+        }
+      }
+    ]
+  },
+  "affiTermsDic": {
+    "title": "Declaracion Legal de Afiliados",
+    "summary": "¿Sabías que si terminas utilizando un creador de sitios web o cualquier otro software que recomendamos a través de nuestro sitio web, ayudas a respaldar este sitio?",
+    "textArray": [
+      {
+        "section": {
+          "title": "Mas Beneficios",
+          "text": "Además no hay ningún costo adicional para ti y nos permite continuar escribiendo artículos útiles, subir insumos descargables gratis a nuestra página. Asimismo hacemos todo esto para ayudarte a ti y a otras personas que están empezando a crear sitios web e implementar estrategias de marketing para sus negocios.",
+          "textTwo": "",
+          "textThree": "",
+          "textFour": "",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "TRANSPARENCIA Y HONESTIDAD",
+          "text": "Además siempre hemos creído en la transparencia, la honestidad y en el mundo del Internet lo implementamos de la siguiente manera:",
+          "textTwo": "Para comenzar si solo estás probando un servicio, una aplicación o un creador de sitios web y te inscribes en su programa gratuito (sin costo para ti), no ganamos ninguna comisión y si lo hacemos solo recibimos es un par de centavos por eso.",
+          "textThree": "Así que solo si está satisfecho con el servicio, producto o el constructor de sitios web y decides actualizar a su paquete a uno premium. Entonces en ese caso el sitio web o la empresa nos pagarán una comisión por recomendación. Asimismo ese pago solo sucederá en una fecha futura si no lo solicitas un reembolso dentro de la política de garantía de devolución de dinero.",
+          "textFour": "Por lo tanto, las comisiones (si se ganan) se pagan desde el sitio web, la empresa o el proveedor de servicios. Además esta no implica ningún costo adicional a tu persona o negocio.",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": ""
+        }
+      },
+      {
+        "section": {
+          "title": "NUESTRO OBJETIVO PRINCIPAL ES MANTENERTE INFORMADO",
+          "text": "New subscriptions have a 5-day money back guarantee.",
+          "textTwo": "Además nuestro objetivo de este sitio web es ayudarte a estar más informado y a ahorrar tiempo al brindar información útil sobre nuestras experiencias de nuestro propio negocio en línea con creadores de sitios web, aplicaciones y herramientas para servicios de marketing.",
+          "textThree": "Por lo tanto no hay necesidad de que tú repitas nuestros errores y pases días o semanas probando todos los métodos, herramientas, y técnicas de marketing que existen. En cambio puedes leer nuestras revisiones, artículos, y videos o tomar algunos de nuestros cursos en línea y tomar un atajo al éxito.",
+          "textFour": "Mientras tanto las comisiones que recibimos nos ayudarán a crear más información útil, revisiones, consejos y tutoriales para continuar ayudándote a ti y tu negocio. Como resultado te ganarás nuestra gratitud y apreciación infinita !+2,000 puntos de karma!. Si quieres saber mas acerca de mas acerca de aceitescnr.com ",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": "Lee mas sobre nosotros aquí.", "path": "/es/acerca" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": "También ten en cuenta que estas compañías no nos han proporcionado ningún producto, servicio o cualquier otra cosa gratuita a cambio de mencionarlos. En otras palabras somos muy selectivos con respecto a quiénes evaluamos. Además seleccionamos solo los productos que usamos o usamos si fueran absolutamente necesario."
+        }
+      },
+      {
+        "section": {
+          "title": "MANTENEMOS UN PUNTO DE VISTA IMPARCIAL",
+          "text": "Asimismo con la mayoría de las reseñas de blogs, trabajamos viceversa primero encontramos un producto o servicio que realmente nos gusta y luego hacemos una evaluación. Por lo tanto solo después de determinar si lo usamos o no averiguamos si tienen un programa de afiliados.",
+          "textTwo": "Finalmente somos objetivos en cuanto a nuestras evaluaciones que enumeran los beneficios y desventajas en función a nuestras propias experiencias. Así que la mayoría de las aplicaciones, software, programas y creadores de sitios web que hemos evaluado son los que hemos utilizado en el pasado.",
+          "textThree": "Asimismo siempre compartimos los beneficios y desventajas, por lo que sobre todo tratamos de ser imparciales.",
+          "textFour": "Mientras tanto si tienes alguna pregunta con respecto a lo anterior, no dudes en ponerte en contacto con nosotros aceitescnr01@gmail.com o mandanos un mensajes en nuestra página de",
+          "textFive": "",
+          "textSix": "",
+          "textSeven": "",
+          "bullets": [
+            { "name": " contacto.", "path": "/es/#contacto" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" },
+            { "name": "", "path": "" }
+          ],
+          "textEight": "¡Esperamos haber sido de ayuda y buena suerte con tu sitio web y campañas de marketing!"
+        }
+      }
+    ]
+  },
+  "dropshippingDic": {
+    "pretitle": "Descubre nuevas fuentes de ingresos con soluciones API",
+    "title": "Transforma tu negocio ",
+    "titleTwo": "con soluciones de comercio electrónico personalizadas",
+    "subtitle": "Capacite a los revendedores y optimice su suministro con nuestra API personalizada, aprovecha tu  catálogo completo de productos incluyendo un sitio de membresía exclusivo para revendedores.",
+    "btnText": "Descubrir más",
+    "what": {
+      "title": "Como Funciona el ",
+      "titleTwo": " Dropshipping.",
+      "subtitle": "Tu como fabricante o distribuidor te encargas de la producción, almacenamiento, logística, y entrega del producto al cliente final.",
+      "pop": "API",
+      "list": [
+        {
+          "_id": "1w",
+          "pretitle": "1",
+          "icon": "/icons/SignContractShake.webp",
+          "title": "Nuevo vendedor firma contrato ",
+          "titleTwo": "con Dropshipper"
+        },
+        {
+          "_id": "2w",
+          "pretitle": "2",
+          "icon": "/icons/CustomerOrders.webp",
+          "title": "Cliente hace pedido en  ",
+          "titleTwo": "Comercio electrónico del vendedor."
+        },
+        {
+          "_id": "3w",
+          "pretitle": "3",
+          "icon": "/icons/SellerRecievesOrder.webp",
+          "title": "Vendedor recibe ",
+          "titleTwo": "notificación de un nuevo pedido."
+        },
+        {
+          "_id": "4w",
+          "pretitle": "4",
+          "icon": "/icons/CustomerNotified.webp",
+          "title": "Cliente recibe ",
+          "titleTwo": "una confirmación de pedido."
+        },
+        {
+          "_id": "5w",
+          "pretitle": "5",
+          "icon": "/icons/VendedorEnviaPedido.webp",
+          "title": "API E-commerce del Vendedor ",
+          "titleTwo": "envía pedido(s) a Dropshipper"
+        },
+        {
+          "_id": "6w",
+          "pretitle": "6",
+          "icon": "/icons/DropShipperEnviaPaquete.webp",
+          "title": "Dropshipper procesa y ",
+          "titleTwo": "envía el pedido"
+        },
+        {
+          "_id": "7w",
+          "pretitle": "7",
+          "icon": "/icons/CustomerRecievesProduct.webp",
+          "title": "Cliente recibe el ",
+          "titleTwo": "producto "
+        }
+      ],
+      "btnText": "Get a Quote",
+      "btnUrl": "/en/#contacto"
+    },
+    "description": {
+      "boxOne": {
+        "preTitle": "Plataforma de comercio electrónico totalmente integrada diseñada solo para usted. ",
+        "title": "Soluciones de comercio electrónico personalizadas para ",
+        "titleTwo": "Excelencia con Dropshipping",
+        "subtitle": "Nuestra solución incluye una API personalizada, un catálogo de productos dinámico y un sitio de membresía dedicado para revendedores, lo que garantiza que esté perfectamente equipado para adoptar un modelo de dropshipping sin esfuerzo.",
+        "btnText": "Contratar",
+        "imgUrl": "/images/h1-img2.jpg"
+      },
+      "boxTwo": {
+        "btnText": "Contratar",
+        "imgUrl": "/images/pexels-photo-3183197.jpeg"
+      }
+    },
+    "features": {
+      "img": "/images/2149416730.jpg",
+      "title": "Potentes herramientas para mejorar ",
+      "titleTwo": " tu sistema de suministro.",
+      "subtitle": "Aproveche el poder de una API para lanzar su negocio a nuevas alturas.",
+      "pop": "API",
+      "list": [
+        {
+          "_id": "1f",
+          "pretitle": "Código Personalizado",
+          "icon": "/icons/benefit_api.webp",
+          "title": "La forma simple de ",
+          "titleTwo": " Hacer Dropshipping",
+          "text": "Automatice la conexión entre sus catálogos de productos y los sistemas minoristas, garantizando actualizaciones de disponibilidad precisas y en tiempo real."
+        },
+        {
+          "_id": "2f",
+          "pretitle": "Alta Velocidad",
+          "icon": "/icons/benefit_server.webp",
+          "title": "Servidor VPS Privado ",
+          "titleTwo": "Escalable y seguro",
+          "text": "Nuestra API se adapta a su negocio, manejando mayores demandas sin esfuerzo y manteniendo sus datos seguros contra amenazas potenciales."
+        },
+        {
+          "_id": "3f",
+          "pretitle": "Informes y gestión",
+          "icon": "/icons/benefit_web_app.webp",
+          "title": "Administración Integral",
+          "titleTwo": " de Pedidos",
+          "text": "Optimice el procesamiento y cumplimiento de pedidos directamente a través de nuestra API, reduciendo el esfuerzo manual y mejorando los tiempos de respuesta."
+        }
+      ],
+      "btnText": "Consigue una cotización",
+      "btnUrl": "/en/#contacto"
+    },
+    "benefits": {
+      "img": "/images/2149416730.jpg",
+      "pretitle": "Funcional",
+      "title": "Qué podemos hacer por tu negocio",
+      "subtitle": "Ven a ver lo que podemos hacer",
+      "list": [
+        { "title": "Optimizado para dispositivos móviles", "percent": 68 },
+        { "title": "Métricas poderosas", "percent": 90 },
+        { "title": "Dominio personalizado gratuito", "percent": 85 },
+        { "title": "Compra Anual", "percent": 68 },
+        { "title": "Actualización diaria", "percent": 68 }
+      ],
+      "btnText": "Consigue una cotización",
+      "btnUrl": "/en/#contacto"
+    },
+    "why": {
+      "img": "/images/2149416730.jpg",
+      "pretitle": "Funcional",
+      "title": "¿Qué puede hacer una web API de comercio electrónico ",
+      "titleTwo": "por su negocio?",
+      "subtitle": "Ven a ver lo que podemos hacer",
+      "btnText": "Consigue una cotización",
+      "btnUrl": "/en/#contacto",
+      "rightText": "Nuestras soluciones personalizadas no solo simplifican su entrada al dropshipping, sino que también mejoran la eficiencia operativa, mejoran la satisfacción de los revendedores y abren nuevas fuentes de ingresos. Aprovecha los benéficos de un sistema que crece con tu negocio, fortalecido con seguridad sólida y funciones fáciles de usar."
+    },
+    "cta": {
+      "pretitle": "Obtenga su solución personalizada",
+      "title": "Listo para actualizar",
+      "titleTwo": "Tu estrategia de suministro?",
+      "subtitle": "Ven a ver lo que podemos hacer",
+      "btnText": "Solicitar presupuesto",
+      "btnUrl": "/en/#contacto",
+      "rightText": "Contáctenos hoy para saber cómo podemos crear la solución de comercio electrónico con API perfecta para tu negocio, haciendo del dropshipping una parte poderosa de tu estrategia de ventas."
+    },
+    "prices": [
+      {
+        "section": {
+          "price": "468.48",
+          "pretitle": "Monthly",
+          "title": "For Personal Use",
+          "benefits": [
+            "Mobile Optimized",
+            "Powerful Metrics",
+            "Free Custom Domain",
+            "Anual Purchase",
+            "Hosting Day",
+            "Daily update"
+          ],
+          "btnText": "Purchase",
+          "btnUrl": "/en/#contacto"
+        }
+      },
+      {
+        "section": {
+          "price": "468.48",
+          "pretitle": "Monthly",
+          "title": "For Personal Use",
+          "benefits": [
+            "Mobile Optimized",
+            "Powerful Metrics",
+            "Free Custom Domain",
+            "Anual Purchase",
+            "Hosting Day",
+            "Daily update"
+          ],
+          "btnText": "Purchase",
+          "btnUrl": "/en/#contacto"
+        }
+      },
+      {
+        "section": {
+          "price": "468.48",
+          "pretitle": "Monthly",
+          "title": "For Personal Use",
+          "benefits": [
+            "Mobile Optimized",
+            "Powerful Metrics",
+            "Free Custom Domain",
+            "Anual Purchase",
+            "Hosting Day",
+            "Daily update"
+          ],
+          "btnText": "Purchase",
+          "btnUrl": "/en/#contacto"
+        }
+      }
+    ]
+  },
+  "onboardingDic": {
+    "title": "Cuestionario de Incorporación",
+    "questions": [
+      {
+        "type": "text",
+        "question": "¿Cuál es el objetivo principal de tu sitio web o app?",
+        "option1": "Vender productos o servicios en línea",
+        "option2": "Mostrar un portafolio o proyectos",
+        "option3": "Proporcionar información de la empresa y detalles de contacto",
+        "option4": "Convertirnos en una autoridad en nuestro mercado publicando artículos de blog.",
+        "option5": "Todo lo anterior",
+        "option6": "Otro (Por favor especifica)",
+        "ans": 1
+      },
+      {
+        "type": "text",
+        "question": "¿Quién es tu público objetivo?",
+        "option1": "Adolescentes y jóvenes adultos",
+        "option2": "Profesionales y negocios",
+        "option3": "Personas mayores",
+        "option4": "Un grupo de interés específico (Por favor especifica)",
+        "ans": 2
+      },
+      {
+        "type": "text",
+        "question": "¿Tiene un sitio web existente?",
+        "option1": "No cuento con un sitio web",
+        "option2": "Sí pero no me gusta el diseño",
+        "option3": "Sí, pero hay margen de mejora",
+        "option4": "Sí, pero no me gusta el rendimiento.",
+        "option5": "Sí, pero falta una característica especial que necesito.",
+        "ans": 3
+      },
+      {
+        "type": "text",
+        "question": "¿Cómo prefieres que sea el aspecto y sensación de tu sitio web?",
+        "option1": "Moderno y minimalista",
+        "option2": "Audaz y vibrante",
+        "option3": "Elegante y sofisticado",
+        "option4": "Divertido y juguetón",
+        "ans": 4
+      },
+      {
+        "type": "text",
+        "question": "¿Cuál de las siguientes características consideras imprescindibles para tu sitio web?",
+        "option1": "Funcionalidad de comercio electrónico",
+        "option2": "POS integrado",
+        "option3": "Sistema de Gestión de Clientes (CRM)",
+        "option4": "Sistema de Rifas y Loterías",
+        "option5": "Todo lo anterior",
+        "option6": "Otro (Por favor especifica)",
+        "ans": 5
+      },
+      {
+        "type": "text",
+        "question": "¿Cuál es tu cronograma anticipado para este proyecto?",
+        "option1": "Lo antes posible, ¡necesitaba esto ayer!",
+        "option2": "Dentro de los próximos 3 meses",
+        "option3": "Soy flexible, concentrémonos en hacerlo bien",
+        "ans": 6
+      },
+      {
+        "type": "text",
+        "question": "¿Cuál es tu presupuesto estimado para el desarrollo del sitio web?",
+        "option1": "Menos de $10,000",
+        "option2": "$10,000 a $50,000",
+        "option3": "$50,000 a $100,000",
+        "option4": "$100,000 y más",
+        "ans": 7
+      },
+      {
+        "type": "text",
+        "question": "¿Quién administrará el sitio web después de su lanzamiento?",
+        "option1": "Yo lo administraré por mi cuenta.",
+        "option2": "Tengo un equipo que lo administrará.",
+        "option3": "Necesito tu ayuda para administrarlo.",
+        "ans": 8
+      },
+      {
+        "type": "text",
+        "question": "¿Cómo prefieres comunicarte y recibir actualizaciones?",
+        "option1": "Correo electrónico",
+        "option2": "Llamada telefónica",
+        "option3": "Videollamada",
+        "option4": "WhatsApp",
+        "option5": "Herramientas de gestión de proyectos (por ejemplo, Slack, Trello)",
+        "ans": 9
+      },
+      {
+        "type": "text",
+        "question": "¿Cuál es la declaración de misión de tu empresa?",
+        "option1": "Proporcionar productos de alta calidad a precios competitivos",
+        "option2": "Liderar el mercado en servicio al cliente y satisfacción",
+        "option3": "Innovar y mejorar nuestros productos continuamente",
+        "option4": "Empoderar a nuestros clientes a través de la educación y el soporte.",
+        "option5": "Fomentar una cultura de sostenibilidad y responsabilidad ambiental",
+        "option6": "Otro (Por favor especifica)",
+        "ans": 10
+      },
+      {
+        "type": "text",
+        "question": "¿Cuál es la declaración de visión de tu empresa?",
+        "option1": "Convertirse en la marca líder en nuestra industria",
+        "option2": "Expandirse globalmente y alcanzar nuevos mercados",
+        "option3": "Estar a la vanguardia de la innovación y la tecnología.",
+        "option4": "Construir relaciones duraderas con nuestros clientes y socios.",
+        "option5": "Todo lo anterior",
+        "option6": "Otro (Por favor especifica)",
+        "ans": 11
+      },
+      {
+        "type": "text",
+        "question": "¿Tienes un eslogan para tu empresa?",
+        "option1": "Sí, pero estoy interesado en crear uno nuevo",
+        "option2": "No, pero estoy interesado en crear uno",
+        "option3": "No, y no estoy interesado en este momento",
+        "option4": "No veo el sentido de tener un eslogan",
+        "option5": "¿Cuál es el propósito de un eslogan?",
+        "option6": "Sí (especifique)",
+        "ans": 12
+      },
+      {
+        "type": "text",
+        "question": "¿Cuántos productos o servicios ofreces?",
+        "option1": "0-100",
+        "option2": "100-1,000",
+        "option3": "1,000 - 5,000",
+        "option4": "5,000 o más",
+        "ans": 13
+      },
+      {
+        "type": "text",
+        "question": "Por favor, proporciona una lista de los principales productos o servicios que ofrecerás",
+        "option1": "Electrónica y gadgets",
+        "option2": "Moda y confección",
+        "option3": "Casa y jardín",
+        "option4": "Salud y belleza",
+        "option5": "Repuestos y accesorios para automóviles",
+        "option6": "Otro (Especifique)",
+        "ans": 14
+      },
+      {
+        "type": "text",
+        "question": "¿Puedes describir a tu cliente típico? ¿Qué valoran más?",
+        "option1": "Compradores sensibles al precio que buscan ofertas",
+        "option2": "Consumidores centrados en la calidad y dispuestos a pagar más",
+        "option3": "Personas a la moda interesadas en productos modernos y con estilo",
+        "option4": "Clientes motivados por la comodidad que buscan un servicio rápido y eficiente",
+        "option5": "Compradores preocupados por su salud que dan prioridad a los productos orgánicos y naturales",
+        "option6": "Otro (Especifique)",
+        "ans": 15
+      },
+      {
+        "type": "text",
+        "question": "¿Qué diferencia tus productos/servicios de tus competidores?",
+        "option1": "Mejor calidad",
+        "option2": "Características únicas",
+        "option3": "Precios más bajos",
+        "option4": "Servicio al cliente excepcional",
+        "option5": "Tiempos de entrega más rápidos",
+        "option6": "Otro (Especifique)",
+        "ans": 16
+      },
+      {
+        "type": "text",
+        "question": "¿Tu negocio cuenta con correo electrónico de GMail?",
+        "option1": "Yes",
+        "option2": "No",
+        "ans": 17
+      },
+      {
+        "type": "input",
+        "question": "¿Cuál es el nombre de tu negocio?",
+        "placeholder1": "nombre",
+        "ans": 18
+      },
+      {
+        "type": "input",
+        "question": "¿Cuál es la dirección de tu negocio que se debe mostrar en el sitio web?",
+        "placeholder": "dirección de la empresa",
+        "ans": 19
+      },
+      {
+        "type": "input",
+        "question": "¿Cuál es el email de contacto que se debe mostrar en el sitio web?",
+        "placeholder": "email de la empresa",
+        "ans": 20
+      },
+      {
+        "type": "input",
+        "question": "¿Cuál es el teléfono de contacto que se debe mostrar en el sitio web?",
+        "placeholder2": "teléfono de la empresa",
+        "ans": 21
+      },
+      {
+        "type": "input",
+        "question": "¿Podrías nombrar algunos sitios web que admires y por qué?",
+        "placeholder": "Por favor, separa por comas.",
+        "ans": 22
+      }
+    ],
+    "btnText": "Siguiente",
+    "sendButton": "Enviar Respuestas",
+    "footer": "de",
+    "footer2": "Preguntas"
+  }
+}

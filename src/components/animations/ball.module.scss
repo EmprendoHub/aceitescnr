@@ -1,0 +1,43 @@
+.bouncingBall {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #d35507;
+  animation: bounceBall 1s;
+  transform: translateY(0px);
+  animation-iteration-count: 1;
+  position: absolute;
+  margin: 50px;
+}
+
+@keyframes bounceBall {
+  0% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  40% {
+  }
+  50% {
+    top: 10px;
+    height: 10px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  55% {
+    top: 15px;
+    height: 5px;
+    -webkit-animation-timing-function: ease-in;
+  }
+  65% {
+    top: 5px;
+    height: 10px;
+    -webkit-animation-timing-function: ease-out;
+  }
+  95% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+}

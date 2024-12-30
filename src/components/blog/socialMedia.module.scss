@@ -1,0 +1,88 @@
+.textSlider,
+.imageSlider {
+  overflow: hidden;
+  position: relative;
+  width: 100%; // Ensure the slider fills its container
+}
+
+.slide {
+  overflow: hidden;
+  position: absolute; // Use absolute to overlay slides
+  top: 0;
+  left: 0; // Align slides at the start
+  transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  opacity: 0; // Start as invisible
+
+  &.active {
+    opacity: 1;
+    transform: translateX(0%); // Active slides come to the forefront
+    z-index: 2; // Ensure active slide is on top
+  }
+}
+
+.fromLeft {
+  transform: translateX(-100%);
+  &.active {
+    transform: translateX(0%);
+  }
+}
+
+.fromRight {
+  transform: translateX(100%);
+  &:hover,
+  &:focus,
+  &:active {
+    transform: translateX(0%);
+  }
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  bottom: -20px;
+  cursor: pointer;
+  z-index: 10; // Ensure arrows are above slides
+  right: 40px;
+}
+
+.arrowLeft {
+  right: 90px; // Adjust the position if necessary
+}
+
+// Social Media Circle
+
+.circle {
+  height: 60px;
+  width: 60px;
+  z-index: 10;
+
+  .background {
+    fill: transparent;
+    stroke: #ffffff00;
+    transition: all 200ms ease;
+  }
+
+  .foreground {
+    fill: transparent;
+    stroke-dasharray: 188; // Adjusted based on the new circumference
+    stroke-dashoffset: 188; // Initially the entire circle is hidden
+    stroke: #f46912;
+    transform-origin: 50% 50%;
+    transform: rotate(-270deg);
+    transition: all 800ms ease;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: #f46912;
+
+    .background {
+      stroke: transparent;
+    }
+
+    .foreground {
+      stroke-dashoffset: 0;
+      transform: rotate(-90deg);
+    }
+  }
+}

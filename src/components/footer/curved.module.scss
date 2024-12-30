@@ -1,0 +1,33 @@
+.curvedTop::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -150px; /* Adjust this value to control the height of the curve */
+  left: 0;
+  width: 100%;
+  height: 300px; /* This value affects the depth of the curve */
+  //background: linear-gradient(to right, #f8450e, #ed9034);
+  background: #fad0c6;
+  border-radius: 98% / 100%;
+  z-index: -10;
+}
+
+.animatedBlobBack {
+  background-size: cover;
+  -webkit-background-position: center;
+  background-position: center center;
+  margin: 20px;
+  box-shadow: 0 5px 5px 5px rgba(8, 52, 119, 0.2);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}

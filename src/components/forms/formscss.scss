@@ -1,0 +1,32 @@
+.tag-special {
+  position: absolute;
+  left: -12px;
+  transform: translateY(-100%);
+}
+
+.tag-special::after {
+  content: "";
+  position: absolute;
+  bottom: -12px; /* Adjust the position to fit your design */
+  left: 0;
+  border-left: 12px solid transparent; /* Width of the triangle half-base */
+  border-right: 0px solid transparent; /* Width of the triangle half-base */
+  border-top: 12px solid #240e0e; /* Height of the triangle, color matched to the tag */
+}
+
+.tag-special::before {
+  content: "";
+  position: absolute;
+  right: -49px; /* Position the dip on the right side */
+  top: 0%;
+  transform: translateY(0%);
+  border-right: 50px solid transparent;
+  border-radius: 0px 20px 100px 0px;
+}
+
+svg#right:hover path {
+  d: path(
+    "M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z"
+  );
+  d: "M0 9.35772H50.9956L44.2001 2.29941L46.4134 0L57 11L46.4134 22L44.2001 19.7006L50.9956 12.6423H0V9.35772Z";
+}
