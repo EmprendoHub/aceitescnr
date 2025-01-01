@@ -6,7 +6,7 @@ const ComingSoon = () => {
     <div className="w-full bg-gradient bg-gradient-to-br from-violet-950 to-blue-700 min-h-screen flex flex-col items-center justify-center">
       <Image
         alt={"Aceites CNR"}
-        src={"/logos/CNR_LOGO_true.png"}
+        src={"/logos/newlogocnr.webp"}
         width={250}
         height={250}
       />
