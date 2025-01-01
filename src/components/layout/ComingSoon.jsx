@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ComingSoon = () => {
   return (
-    <div className="w-full bg-gradient bg-gradient-to-br from-violet-950 to-blue-700 min-h-screen flex flex-col items-center justify-center">
+    <div className="w-full  bg-gradient bg-gradient-to-br from-violet-950 to-blue-700 min-h-screen flex flex-col items-center justify-center">
       <Image
         alt={"Aceites CNR"}
         src={"/logos/newlogocnr.webp"}
