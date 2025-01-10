@@ -172,7 +172,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
       headers: {
         "Access-Control-Allow-Origin": "*",
         Name: file.name,
-        Folder: "/products/",
+        Folder: "products/",
       },
     })
       .then((response) => {
@@ -227,7 +227,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
 
       // Compress and set quality (adjust quality value as needed)
       const quality = 0.8; // Adjust quality value as needed
-      const compressedImageData = canvas.toDataURL("image/jpeg", quality);
+      const compressedImageData = canvas.toDataURL("image/webp", quality);
 
       // Convert base64 data URL to Blob
       const blobData = await fetch(compressedImageData).then((res) =>
@@ -273,20 +273,20 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
   const handleWeightConversion = async (option, language) => {
     try {
       if (language === "en") {
-        // lbs to kg
-        const newPounds = Math.ceil(option * 2.2046);
+        // ml to quarts
+        const newQuarts = Math.ceil(option * 0.00105669);
 
         setWeight((prev) => ({
           ...prev,
-          en: newPounds,
+          en: newQuarts,
         }));
       }
       if (language === "es") {
         // lbs to kg
-        const newKilos = Math.ceil(option / 2.2046);
+        const newMls = Math.ceil(option / 0.00105669);
         setWeight((prev) => ({
           ...prev,
-          es: newKilos,
+          es: newMls,
         }));
       }
     } catch (error) {
@@ -825,7 +825,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                     <div className="mb-4 w-full">
                       <div className="relative">
                         <div className="col-span-2 flex items-center">
-                          <label className="block text-[10px]">Kilos:</label>
+                          <label className="block text-[10px]">ml:</label>
                           <input
                             name="weight[es]"
                             className="font-medium font-primary text-xl flex flex-row items-center gap-1 w-full appearance-none bg-transparent m-2"
@@ -838,7 +838,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                               handleWeightConversion(e.target.value, "en");
                             }}
                           />
-                          <label className="block text-[10px]">Pounds:</label>
+                          <label className="block text-[10px]">quart:</label>
                           <input
                             name="weight[en]"
                             value={weight?.en}

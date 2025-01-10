@@ -5,6 +5,7 @@ import Image from "next/image";
 import { GiCheckMark } from "react-icons/gi";
 import FlipBoxesComp from "./FlipBoxesComp";
 import Link from "next/link";
+import { ButtonMotion } from "../button/ButtonMotion";
 
 const SingleSideToSide = ({ homeDic, flipBoxes }) => {
   return (
@@ -41,17 +42,23 @@ const SingleSideToSide = ({ homeDic, flipBoxes }) => {
               </div>
 
               <Link href={homeDic.sideText.btnUrl} aria-label="Contactar">
-                <motion.button
+                <motion.div
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{
                     duration: 1.0,
                   }}
-                  aria-label="Contactar"
-                  className=" bg-dark px-10 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
                 >
-                  {homeDic.singlesides.boxOne.btnText}
-                </motion.button>
+                  <ButtonMotion
+                    href={homeDic.imageHero.btnUrlTwo}
+                    aria-label="Contactar"
+                    textClass={"text-white"}
+                    textClassTwo={"text-white"}
+                    className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest"
+                  >
+                    {homeDic.singlesides.boxOne.btnText}
+                  </ButtonMotion>
+                </motion.div>
               </Link>
             </div>
             {/* Image */}

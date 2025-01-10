@@ -6,7 +6,12 @@ import Link from "next/link";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import styles from "./_navbar.module.scss";
 import DarkLightLogo from "../logos/DarkLightLogo";
-import { FaFacebookF, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa6";
 import WhiteLogoComponent from "../logos/WhiteLogoComponent";
 
 const MobileMenuComponent = ({ className, lang, localeHeader }) => {
@@ -70,7 +75,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed flex items-center justify-center flex-col left-0 top-0 w-full min-h-screen bg-primary dark:bg-dark px-10 pt-2 z-[50] origin-top"
+            className="fixed flex items-center justify-center flex-col left-0 top-0 w-full min-h-screen bg-main-gradient dark:bg-dark px-10 pt-2 z-[50] origin-top"
           >
             <p
               onClick={toggleMobileMenu}
@@ -108,9 +113,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                 <Link
                   aria-label="Facebook"
                   target="_blank"
-                  href={
-                    "https://www.facebook.com/Hudson-International-Market-100649958963881"
-                  }
+                  href={"https://www.facebook.com/cnraceites"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
@@ -137,11 +140,9 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                 </Link>
                 {/* LinkedIn */}
                 <Link
-                  aria-label="LinkedIn"
+                  aria-label="Instagram"
                   target="_blank"
-                  href={
-                    "https://www.linkedin.com/company/hudson-international-market"
-                  }
+                  href={"https://www.instagram.com/cnraceites/"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
@@ -164,13 +165,13 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                       />
                     </g>
                   </svg>
-                  <FaLinkedin className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaInstagram className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* WhatsApp */}
                 <Link
                   aria-label="WhatsApp"
                   target="_blank"
-                  href={"https://wa.me/523531043350"}
+                  href={"https://wa.me/523931021001"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>

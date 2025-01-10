@@ -131,7 +131,7 @@ const LoginComponent = ({ cookie, lang }) => {
           </form>
           <Link
             className="text-xs text-center mt-3 text-white dark:text-black"
-            href={`${lang}/registro`}
+            href={`registro`}
           >
             ¿Aun no tienes cuenta? <br /> Registrar aquí.
           </Link>

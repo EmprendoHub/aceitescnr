@@ -1,9 +1,10 @@
 export const blog_categories = [
   { value: "", label: "" },
-  { value: "Estilo", label: "Estilo" },
-  { value: "Esenciales", label: "Esenciales" },
-  { value: "Moda", label: "Moda" },
-  { value: "Tendencias", label: "Tendencias" },
+  { value: "ATF DEXRON III", label: "ATF DEXRON III" },
+  { value: "Motorcycle_CNR-RCCA-2T", label: "Motorcycle_CNR-RCCA-2T" },
+  { value: "RACING OIL -API SN", label: "RACING OIL -API SN" },
+  { value: "RRCCA OIL CI-4 PLUS", label: "RRCCA OIL CI-4 PLUS" },
+  { value: "RRC-HYDRAULIC-OIL-PLUS", label: "RRC-HYDRAULIC-OIL-PLUS" },
 ];
 
 export const set_colors = [
@@ -362,12 +363,12 @@ export const sizes_shoes_woman = [
 
 export const product_categories = [
   { es: "", en: "" },
-  { es: "Nueces de temporada", en: "Seasonal Nuts" },
-  { es: "Granos y Semillas", en: "Grains and Seeds" },
-  { es: "Chiles", en: "Chilies" },
-  { es: "Flores", en: "Flowers" },
-  { es: "Hierbas", en: "Herbs" },
-  { es: "Especias", en: "Spices" },
+  { es: "ADITIVOS", en: "ADDITIVES" },
+  { es: "ATF-DEXRON", en: "ATF-DEXRON" },
+  { es: "MOTOCICLETAS", en: "MOTORCYCLES" },
+  { es: "CARRERAS", en: "RACING" },
+  { es: "RRCCA", en: "RRCCA" },
+  { es: "HIDRÁULICOS", en: "HYDRAULICS" },
 ];
 
 export const genders = [

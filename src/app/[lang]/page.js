@@ -8,6 +8,7 @@ import ContactInner from "@/components/contact/ContactInner";
 import ComingSoon from "@/components/layout/ComingSoon";
 import AboutUsTwo from "@/components/about/AboutUsTwo";
 import ImageToSideText from "@/components/home/ImageToSideText";
+import DoubleSideToSide from "@/components/home/DoubleSideToSide";
 
 export default async function Home({ params }) {
   const lang = params.lang;
@@ -15,15 +16,15 @@ export default async function Home({ params }) {
     await getDictionary(lang);
   return (
     <div className=" overflow-x-hidden">
-      {/* <ImageHero homeDic={homeDic} />
-
+      <ImageHero homeDic={homeDic} />
+      <DoubleSideToSide aboutDic={aboutDic} homeDic={homeDic} />
       <CategoriesComp categoryDic={categoryDic} lang={lang} />
       <HeroSlider homeDic={homeDic} />
-      <IconGridComp servicesDic={servicesDic} />
       <SingleSideToSide flipBoxes={flipBoxes} homeDic={homeDic} />
-      <AboutUsTwo aboutDic={aboutDic} homeDic={homeDic} />
-      <ContactInner homeDic={homeDic} contactDic={contactDic} /> */}
-      <ComingSoon />
+
+      <IconGridComp servicesDic={servicesDic} />
+      <ContactInner homeDic={homeDic} contactDic={contactDic} />
+      {/* <ComingSoon /> */}
     </div>
   );
 }

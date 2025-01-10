@@ -9,16 +9,16 @@ const FlipBoxesComp = ({ flipBoxes }) => {
         <div className="w-full min-h-full flex flex-row maxsm:flex-col items-center maxsm:items-start justify-center maxlg:justify-between place-content-center">
           <ThreeDFlipBoxComp
             data={flipBoxes[1]}
-            className={`w-full h-full object-cover absolute bg-dark shadow-md shadow-black `}
+            className={`w-full h-full object-cover absolute bg-main-gradient shadow-lg shadow-black `}
             classNameBack={
-              "w-full h-full object-cover absolute bg-dark  shadow-md shadow-black "
+              "w-full h-full object-cover absolute bg-main-gradient shadow-lg shadow-black "
             }
           />
           <ThreeDFlipBoxComp
             data={flipBoxes[0]}
-            className={`w-full h-full object-cover absolute  bg-dark  shadow-md shadow-black`}
+            className={`w-full h-full object-cover absolute bg-main-gradient shadow-lg shadow-black`}
             classNameBack={
-              "w-full h-full object-cover absolute bg-dark shadow-md shadow-black "
+              "w-full h-full object-cover absolute bg-main-gradient shadow-lg shadow-black "
             }
           />
         </div>

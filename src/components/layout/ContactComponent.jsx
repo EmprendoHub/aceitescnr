@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import {
   FaFacebookF,
+  FaInstagram,
   FaLinkedin,
   FaTiktok,
   FaWhatsapp,
@@ -47,9 +48,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                 <Link
                   aria-label="Facebook"
                   target="_blank"
-                  href={
-                    "https://www.facebook.com/profile.php?id=61565930374953"
-                  }
+                  href={"https://www.facebook.com/cnraceites"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
@@ -74,11 +73,11 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                   </svg>
                   <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
-                {/* LinkedIn */}
+                {/* Instagram */}
                 <Link
-                  aria-label="LinkedIn"
+                  aria-label="Instagram"
                   target="_blank"
-                  href={"https://www.linkedin.com/company/modelto"}
+                  href={"https://www.instagram.com/cnraceites/"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
@@ -101,13 +100,13 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaLinkedin className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaInstagram className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* WhatsApp */}
                 <Link
                   aria-label="WhatsApp"
                   target="_blank"
-                  href={"https://wa.me/523531043350"}
+                  href={"https://wa.me/523931021001"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>

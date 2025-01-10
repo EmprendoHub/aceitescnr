@@ -10,7 +10,7 @@ const ThreeDFlipBoxComp = ({ data, className, classNameBack }) => {
       <div className="flip-card-front  w-[340px] maxxxs:w-[300px] min-h-[340px] ">
         <div className="inner p-5 maxmd:p-3 flex flex-col justify-center items-center  text-white">
           {IconComponent && (
-            <IconComponent className="text-4xl mb-3 text-primary dark:text-white" />
+            <IconComponent className="text-4xl mb-3 text-white dark:text-white" />
           )}
           <h3 className="text-2xl text-white dark:text-primary">
             {data?.title}

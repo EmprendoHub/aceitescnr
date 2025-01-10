@@ -3,22 +3,24 @@ import React from "react";
 import { getDictionary } from "@/lib/dictionary";
 
 export const metadata = {
-  title: "Aceites CNR",
+  manifest: "/manifest.json",
+  metadataBase: new URL("https://www.aceitescnr.com"),
+  title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
   description:
-    "We are a trading company with more than 20 years in the market, specialized in the exchange of spices, condiments and other food ingredients.",
+    "Descubre los aceites de motor de alta calidad de Aceites CNR. Diseñados para brindar protección, rendimiento y eficiencia a tu vehículo en cada kilómetro recorrido.",
   openGraph: {
-    title: "Wholesale Import and Export",
+    title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
     description:
-      "We are a trading company with more than 20 years in the market, specialized in the exchange of spices, condiments and other food ingredients.",
-    image: "url/opengraph-image.png",
+      "En Aceites CNR, fabricamos aceites de motor que garantizan un alto rendimiento y protección en cualquier condición. Perfectos para autos, camiones y maquinaria pesada.",
+    image: "/images/opengraph-oil.png",
   },
   twitter: {
     card: "summary_large_image",
     site: "@aceitescnr",
-    title: "Venta de Remolques",
+    title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
     description:
-      "We are a trading company with more than 20 years in the market, specialized in the exchange of spices, condiments and other food ingredients.",
-    image: "url/opengraph-image.png",
+      "Protege tu motor con aceites diseñados para ofrecer durabilidad y eficiencia. Aceites CNR, la elección confiable para tus necesidades automotrices.",
+    image: "/images/twitter-oil.png",
   },
 };
 

@@ -45,8 +45,8 @@ const ServerPagination = ({
                 key={index}
                 className={
                   page === pageNumber
-                    ? "bg-black font-bold px-2 w-8 h-8 flex justify-center items-center text-white rounded-full text-xs"
-                    : "hover:bg-black px-1 rounded-full w-8 h-8 flex justify-center items-center hover:text-darkwhite text-xs"
+                    ? "bg-primary font-bold px-2 w-8 h-8 flex justify-center items-center text-white rounded-full text-xs"
+                    : "hover:bg-primary px-1 rounded-full w-8 h-8 flex justify-center items-center hover:text-darkwhite text-xs"
                 }
                 href={`?${searchParams}&page=${pageNumber}`}
               >
@@ -56,7 +56,7 @@ const ServerPagination = ({
 
             {page === totalPages ? (
               <div
-                className="opacity-60 bg-black w-8 h-8 flex justify-center items-center disabled:bg-slate-300 text-white p-2  rounded-full text-md maxmd:text-xs "
+                className="opacity-60 bg-primary w-8 h-8 flex justify-center items-center disabled:bg-slate-300 text-white p-2  rounded-full text-md maxmd:text-xs "
                 aria-disabled="true"
               >
                 <FiChevronRight />
@@ -65,7 +65,7 @@ const ServerPagination = ({
               <Link
                 href={`?${searchParams}&page=${nextPage}`}
                 aria-label="Next Page"
-                className="bg-black w-8 h-8 flex justify-center items-center disabled:bg-slate-300 text-white p-2  rounded-full text-xl maxmd:text-xs"
+                className="bg-primary w-8 h-8 flex justify-center items-center disabled:bg-slate-300 text-white p-2  rounded-full text-xl maxmd:text-xs"
               >
                 <FiChevronRight />
               </Link>

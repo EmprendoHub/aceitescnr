@@ -14,22 +14,22 @@ import ThemeToggleVertical from "@/components/layout/ThemeToggleVertical";
 export const metadata = {
   manifest: "/manifest.json",
   metadataBase: new URL("https://www.aceitescnr.com"),
-  title: "Aceites CNR",
+  title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
   description:
-    "En Aceites CNR, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
+    "Descubre los aceites de motor de alta calidad de Aceites CNR. Diseñados para brindar protección, rendimiento y eficiencia a tu vehículo en cada kilómetro recorrido.",
   openGraph: {
-    title: "Aceites CNR",
+    title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
     description:
-      "En Aceites CNR, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
-    image: "url/opengraph-image.png",
+      "En Aceites CNR, fabricamos aceites de motor que garantizan un alto rendimiento y protección en cualquier condición. Perfectos para autos, camiones y maquinaria pesada.",
+    image: "/images/opengraph-oil.png",
   },
   twitter: {
     card: "summary_large_image",
     site: "@aceitescnr",
-    title: "Aceites CNR",
+    title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
     description:
-      "En Aceites CNR, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
-    image: "url/opengraph-image.png",
+      "Protege tu motor con aceites diseñados para ofrecer durabilidad y eficiencia. Aceites CNR, la elección confiable para tus necesidades automotrices.",
+    image: "/images/twitter-oil.png",
   },
 };
 
@@ -48,10 +48,10 @@ export default async function RootLayout({ children, params }) {
         className={`body-class relative overflow-x-hidden h-full dark:bg-dark bg-white dark:text-white`}
       >
         <CustomSessionProvider>
-          {/* <HeaderComponent lang={lang} /> */}
+          <HeaderComponent lang={lang} />
 
           {children}
-          {/* <FooterComponent session={session} lang={lang} />
+          <FooterComponent session={session} lang={lang} />
           <BackToTopButton />
           {!isLoggedIn && <WhatsAppButton lang={lang} />}
           {isLoggedIn && session?.user.role === "manager" && (
@@ -59,7 +59,7 @@ export default async function RootLayout({ children, params }) {
               <AdminThemeToggle />
             </div>
           )}
-          <ThemeToggleVertical /> */}
+          <ThemeToggleVertical />
         </CustomSessionProvider>
       </body>
     </html>

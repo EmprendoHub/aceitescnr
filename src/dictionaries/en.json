@@ -3,7 +3,7 @@
     "menu": [
       { "title": "Home", "url": "/" },
       { "title": "About", "url": "/#acerca" },
-      { "title": "Products", "url": "/#productos" },
+      { "title": "Products", "url": "/productos" },
       { "title": "Contact", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -34,16 +34,25 @@
       "state": "Michoacan",
       "zip": "59000",
       "country": "Mexico",
-      "phone": "353 104 3350"
+      "phone": "393 102 1001"
     },
     "widgettwo": {
       "title": "Products",
       "links": [
-        { "title": "Dolly", "url": "/#productos?keyword=dolly" },
-        { "title": "Plataforma", "url": "/#productos?keyword=plataforma" },
+        { "title": "Additives", "url": "/productos?keyword=Additives" },
+        { "title": "ATF-Dexron", "url": "/productos?keyword=ATF-DEXRON" },
         {
-          "title": "Container Trailer",
-          "url": "/#productos?keyword=containertrailer"
+          "title": "Hydraulics",
+          "url": "/productos?keyword=Hydraulics"
+        },
+        { "title": "Motorcycles", "url": "/productos?keyword=Motorcycles" },
+        {
+          "title": "Racing",
+          "url": "/productos?keyword=Racing"
+        },
+        {
+          "title": "RRCCA",
+          "url": "/productos?keyword=RRCCA"
         }
       ]
     },
@@ -51,7 +60,7 @@
       "title": "Site",
       "links": [
         { "title": "Home", "url": "/" },
-        { "title": "Products", "url": "/#productos" },
+        { "title": "Products", "url": "/productos" },
         { "title": "Contact", "url": "/#contacto" },
         { "title": "About Us", "url": "/acerca" }
       ]
@@ -85,162 +94,164 @@
   },
   "homeDic": {
     "imageHero": {
-      "pretitle": "The quality and durability that your business needs!",
-      "title": "SECURITY STRENGTH AND ",
-      "titleTwo": "CONFIDENCE ON EVERY TRIP",
-      "text": "At Aceites CNR, we design stronger, more durable trailers, designed to withstand the most demanding challenges.",
-      "btnText": "Learn More",
-      "btnPath": "/about-us"
+      "pretitle": "The quality and performance your engine deserves!",
+      "title": "Keeps your engine",
+      "titleTwo": "running like new.",
+      "text": "Aceites CNR oils provide exceptional performance, protection, and reliability every time you hit the road.",
+      "btnText": "Find the right oil",
+      "btnPath": "/about-us",
+      "btnTextTwo": "View CNR products",
+      "btnPathTwo": "/about-us"
     },
     "sliders": [
       {
-        "preTitle": "Fabrication Experts",
-        "title": "Discover the power that ",
-        "titleTwo": "drives your projects!",
-        "text": "At Aceites CNR, our trailers are designed with ABS brakes, premium components and unmatched strength to ensure the best experience on the road.",
+        "preTitle": "Engine Care Experts",
+        "title": "Discover the protection that",
+        "titleTwo": "keeps your engine at its best!",
+        "text": "Aceites CNR oils are engineered with advanced formulations to provide superior performance, reliability, and peace of mind for every journey.",
         "btnText": "Explore Products",
-        "btnPath": "/en/#productos",
-        "imgPath": "/images/trailer4.webp"
+        "btnPath": "/en/productos",
+        "imgPath": "/images/fabrica1.webp"
       },
       {
-        "preTitle": "Quality Products",
-        "title": "Quality and trust that ",
-        "titleTwo": "accompany you every kilometer.",
-        "text": "At Aceites CNR we design custom trailers to make every trip safe and efficient.",
+        "preTitle": "High-Quality Products",
+        "title": "Trust and performance",
+        "titleTwo": "for every drive.",
+        "text": "Aceites CNR offers a wide range of premium oils to meet the demands of modern engines, ensuring durability and efficiency.",
         "btnText": "Explore Products",
-        "btnPath": "/en/#productos",
-        "imgPath": "/images/trailer2.webp"
+        "btnPath": "/en/productos",
+        "imgPath": "/images/fabrica2.webp"
       },
       {
-        "preTitle": "Strategic Partner",
-        "title": "Transform your ",
-        "titleTwo": "ideas with Aceites CNR",
-        "text": "We are experts in the manufacture of custom trailers that adapt to your needs. From design to quality, we create unique solutions that stand out for their strength and style.",
+        "preTitle": "Your Engine's Best Friend",
+        "title": "Power and protection",
+        "titleTwo": "with Aceites CNR",
+        "text": "Our oils are crafted to maximize engine life, reduce wear, and provide the ultimate driving experience.",
         "btnText": "Explore Products",
-        "btnPath": "/en/#productos",
-        "imgPath": "/images/trailer3.webp"
+        "btnPath": "/en/productos",
+        "imgPath": "/images/fabrica3.webp"
       }
     ],
     "infiniteSlider": {
-      "title": "Experience with",
-      "titleTwo": "Top-Quality Ingredients",
-      "subtitle": "Benefit from our global network of suppliers, offering high-quality products at competitive prices."
+      "title": "Experience the difference with",
+      "titleTwo": "Aceites CNR oils",
+      "subtitle": "Our national network ensures you get the highest-quality products at competitive prices."
     },
     "singlesides": {
       "boxOne": {
-        "title": "Transform Your Trading Experience with",
+        "title": "Enhance Engine Performance with",
         "titleTwo": "Aceites CNR",
-        "text": "We offer strategic approaches to expand your market reach and improve your business operations with Aceitess high-quality trailers.",
+        "text": "We provide strategic solutions to keep your engines running efficiently with our top-quality oils.",
         "btnText": "Contact Us",
-        "imgUrl": "/images/h1-img2.jpg"
+        "imgUrl": "/images/oil_image1.jpg"
       }
     },
     "doublesides": {
       "boxOne": {
-        "preTitle": "YOUR TRUSTED TRADING PARTNER",
-        "title": "Transform Your Trading Experience with",
+        "preTitle": "YOUR TRUSTED OIL PARTNER",
+        "title": "Experience unmatched quality with",
         "titleTwo": "Aceites CNR",
-        "subtitle": "Our team of experts is ready to build your ideal trailer",
-        "text": "Aceites CNR is based near Sahuayo. At Aceites CNR, we design and manufacture custom trailers, aligned with your needs and quality standards. Each of our products is designed to offer you safety and confidence in every kilometer.",
+        "subtitle": "Your engine deserves the best care.",
+        "text": "Aceites CNR, located near Sahuayo, manufactures high-performance oils that meet the strictest quality standards. Protect your engine with our advanced formulas for reliability and longevity.",
         "btnText": "Contact Us",
-        "imgUrl": "/images/h1-img2.jpg"
+        "imgUrl": "/images/barriles.jpg"
       },
       "boxTwo": {
-        "preTitle": "ANALYSIS AND CONTINUOUS IMPROVEMENT",
-        "title": "We adapt based on your",
-        "titleTwo": "business needs",
-        "subtitle": "Prepared for any challenge, ensuring customization and adaptability.",
-        "text": "At Aceites CNR we create the strongest trailers for the most demanding loads! Designed to offer strength, durability and performance in every kilometer. Your load, our priority! At Aceites CNR, we manufacture units tailored to your needs, guaranteeing safety and confidence on every trip.",
+        "preTitle": "ENGINE OPTIMIZATION",
+        "title": "Oils tailored to meet",
+        "titleTwo": "your engine's needs",
+        "subtitle": "Formulated for maximum protection and performance.",
+        "text": "Aceites CNR oils are designed for strength, durability, and performance. Keep your engine protected and efficient on every journey.",
         "btnText": "Contact Us",
-        "imgUrl": "/images/Madelto_cat_06.jpg"
+        "imgUrl": "/images/blue_car.jpg"
       }
     },
     "teamTalk": {
-      "title": "Talk to Our Team",
+      "title": "Talk to Our Experts",
       "btnText": "Contact Us",
       "btnUrl": "/en/#contacto",
-      "img": "/images/equipo_de_trabajo_marketing.webp"
+      "img": "/images/oil_team.webp"
     },
     "sideText": {
-      "title": "Take Your Business to the",
+      "title": "Take Your Engine Care to the",
       "titleTwo": "Next Level",
-      "subtitle": "We take care of brokering the best deals so you can focus on growth.",
-      "text": "We are continually looking to expand our network of customers and offer the highest standard of service. We hope that you will allow us to serve you.",
+      "subtitle": "We focus on delivering the best oil solutions, so you can focus on the road ahead.",
+      "text": "Aceites CNR is committed to providing high-quality oils that meet the needs of every engine. Let us help you achieve optimal performance.",
       "btnText": "Contact Us",
       "btnUrl": "/en/#contacto",
       "bullets": [
-        "Market Expansion",
+        "Advanced Formulations",
         "Quality Assurance",
-        "Customized Manufacturer Solutions",
-        "Expert Coordination"
+        "Customized Solutions",
+        "Expert Support"
       ]
     },
     "miniPortfolio": {
-      "title": "Global Trade",
+      "title": "Global Oil",
       "titleTwo": "Solutions",
-      "text": "Real-time synchronization of inventory between suppliers and clients, reducing risks and simplifying stock management.",
+      "text": "Real-time inventory synchronization ensures you always have the oils you need, when you need them.",
       "btnText": "View Demo",
       "btnUrl": "/en/#contacto",
-      "imgOne": "/images/2149416730.jpg",
-      "imgTwo": "/images/high-angle-hands-holding-paper_23-2149930962.jpg"
+      "imgOne": "/images/oil_demo1.jpg",
+      "imgTwo": "/images/oil_demo2.jpg"
     },
     "customerSay": {
       "title": "What Our",
       "titleTwo": "Customers Say",
-      "subtitle": "Read what our clients have to say about our work.",
+      "subtitle": "See what our clients say about Aceites CNR.",
       "testimonials": [
         {
           "id": 1,
           "name": "Teresita Villalpando",
           "position": "Mariscos Casa Del Pollo",
-          "text": "With Aceites CNR, we were able to greatly increase the functionality of our supply chain by adding",
-          "textPop": "online tracking",
-          "textTwo": "and reducing our overall costs. Our operations are much smoother, and we couldn't be happier with their service! Thanks again!",
-          "icon": "/images/2149416730.jpg"
+          "text": "With Aceites CNR, we found oils that improved engine performance and efficiency, reducing costs and providing reliable results.",
+          "textPop": "Outstanding quality",
+          "textTwo": "and service. Highly recommended!",
+          "icon": "/images/testimonial1.jpg"
         },
         {
           "id": 2,
           "name": "Martin Latisner",
           "position": "Movired",
-          "text": "Due to the poor work of our previous supplier, we had to rebuild our supply chain twice in a period of less than 6 months. ",
-          "textPop": "There is no comparison",
-          "textTwo": "between the first company and Aceites CNR. Professional, Creative, Detail-oriented, Excellent Communication and Fast.",
-          "icon": "/images/2149416730.jpg"
+          "text": "Aceites CNR products stand out for their quality. Our fleet now runs smoother and more efficiently thanks to their oils.",
+          "textPop": "Exceptional results",
+          "textTwo": "and excellent support!",
+          "icon": "/images/testimonial2.jpg"
         },
         {
           "id": 3,
           "name": "Emanuel Garcia",
           "position": "Anas Iron Supply",
-          "text": "I went to Aceites CNR with the basic “idea” of what I wanted in our supply chain system. They",
-          "textPop": "helped refine",
-          "textTwo": "the processes and functionality. No doubt I will use them again in future endeavors. Thanks again!",
-          "icon": "/images/2149416730.jpg"
+          "text": "Aceites CNR guided us to select the perfect oils for our engines. Their expertise and product range are unmatched.",
+          "textPop": "Highly satisfied",
+          "textTwo": "with their solutions!",
+          "icon": "/images/testimonial3.jpg"
         },
         {
           "id": 4,
           "name": "Flavio Orte",
           "position": "Marort Shoes",
-          "text": "Our previous supply chain was not performing well in terms of speed and efficiency. Aceites CNR stepped in and",
-          "textPop": "optimized every aspect",
-          "textTwo": "of our operations, from faster delivery times to better supplier relationships. The transition was smooth, and their support team is always responsive. Our clients love the new experience!",
-          "icon": "/images/2149416730.jpg"
+          "text": "We switched to Aceites CNR and noticed an immediate improvement in engine performance. Their products are top-notch!",
+          "textPop": "Unparalleled quality",
+          "textTwo": "and reliability!",
+          "icon": "/images/testimonial4.jpg"
         }
       ]
     },
     "contactCta": {
       "title": "Subscribe to Our Newsletter",
-      "subtitle": "Plus, get a 10% discount on your first quote.",
+      "subtitle": "Get a 10% discount on your first purchase.",
       "placeholder": "Your email here",
       "messageSent": "The message was sent successfully."
     }
   },
   "productDic": {
-    "preTitle": "MADELTO TRAILERS",
+    "preTitle": "CNR Oil",
     "title": "Strength, durability ",
     "titleTwo": "and performance in every kilometer.",
     "single": {
       "packing": "Packing",
-      "weight": "Weight",
+      "weight": "ml",
       "category": "Category",
       "types": "Types",
       "quote": "Quote",
@@ -264,25 +275,41 @@
   "categoryDic": {
     "title": "Custom designs ",
     "titleTwo": "for safe and efficient transportation.",
-    "text": "At Aceites CNR, each trailer is made to exceed your expectations, with quality, durability and total customization.",
+    "text": "At Aceites CNR, each product is made to exceed your expectations, with quality, durability and total customization.",
     "categories": [
       {
-        "title": "Dolly",
-        "catPath": "/en/#productos?keyword=Dolly",
-        "imgPath": "/images/Madelto_cat_01.jpg"
+        "title": "Additives",
+        "catPath": "/en/productos?keyword=Additives",
+        "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
-        "title": "Container Trailer",
-        "catPath": "/en/#productos?keyword=ContainerTrailer",
-        "imgPath": "/images/Madelto_cat_02.jpg"
+        "title": "ATF-Dexron",
+        "catPath": "/en/productos?keyword=ATF-Dexron",
+        "imgPath": "/images/cnr_image_02.jpg"
       },
       {
-        "title": "Platform",
-        "catPath": "/en/#productos?keyword=Plataforma",
-        "imgPath": "/images/Madelto_cat_03.jpg"
+        "title": "Hydraulics",
+        "catPath": "/en/productos?keyword=Hydraulics",
+        "imgPath": "/images/cnr_image_03.jpeg"
+      },
+      {
+        "title": "Motorcycles",
+        "catPath": "/en/productos?keyword=Motorcycles",
+        "imgPath": "/images/cnr_image_01.jpeg"
+      },
+      {
+        "title": "Racing",
+        "catPath": "/en/productos?keyword=Racing",
+        "imgPath": "/images/cnr_image_02.jpg"
+      },
+      {
+        "title": "RRCCA",
+        "catPath": "/en/productos?keyword=RRCCA",
+        "imgPath": "/images/cnr_image_03.jpeg"
       }
     ]
   },
+
   "flipBoxes": [
     {
       "bgColor": "pink",
@@ -297,10 +324,9 @@
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
       "btnText": "View Products",
-      "btnLink": "/en/#productos",
+      "btnLink": "/en/productos",
       "icon": "FaAward"
     },
-
     {
       "bgColor": "purple",
       "bgColorTwo": "purple",
@@ -309,12 +335,12 @@
       "titleTwo": "Cutting-edge technology",
       "subTitle": "Customized Solutions",
       "textTitle": "BIOGRAPHY",
-      "text": "Designed to withstand any challenge, our trailers are equipped with cutting-edge technology.",
-      "textTwo": "Ready to meet the evolving business needs.",
+      "text": "Designed to withstand any challenge, our products are manufactured with cutting-edge technology.",
+      "textTwo": "Ready to meet the evolving engine needs.",
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
       "btnText": "View Products",
-      "btnLink": "/en/#productos",
+      "btnLink": "/en/productos",
       "icon": "FaSteam"
     }
   ],
@@ -396,7 +422,7 @@
       "state": "Michoacan",
       "zip": "59000",
       "country": "MEXICO",
-      "phone": "+52 353 104 3350",
+      "phone": "+52 393 102 1001",
       "mapImage": "/images/hudson_map.webp",
       "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
     },
@@ -416,7 +442,7 @@
       {
         "icon": "/icons/p12-icon-img-1.png",
         "title": "Quality Assurance",
-        "text": "We are dedicated to maintaining the highest quality standards for all of our products. Our rigorous quality control measures ensure that every trailer we manufacture is safe, durable and efficient.",
+        "text": "We are dedicated to maintaining the highest quality standards for all of our products. Our rigorous quality control measures ensure that every producto we manufacture is safe, durable and efficient.",
         "btnText": "Quote",
         "btnUrl": "/en/cotizar"
       },

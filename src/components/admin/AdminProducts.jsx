@@ -87,7 +87,7 @@ const AdminProducts = ({ products, filteredProductsCount, search, lang }) => {
       <div className="relative min-h-full shadow-md sm:rounded-lg">
         <div className=" flex flex-row  maxsm:items-start items-center justify-between">
           <h1 className="text-3xl maxsm:text-base mb-2 maxsm:mb-1 ml-4 maxsm:ml-0 font-bold font-primary w-1/2">
-            {`${filteredProductsCount} Remolques `}
+            {`${filteredProductsCount} Productos `}
           </h1>
           <SearchProducts search={search} />
         </div>

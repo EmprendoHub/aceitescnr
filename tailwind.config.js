@@ -9,12 +9,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        primary: "#ED3237",
+        primary: "#3a60cd",
         secondary: "#2e3236",
-        accent: "#F0AA44",
+        accent: "#c92c2c",
         accentTwo: "#F15733",
         dark: "#2e3236",
-        light: "#fad0c6",
+        light: "#eeeeee",
       },
       fontFamily: {
         primary: ["Oswald", "sans-serif"],
@@ -22,20 +22,20 @@ module.exports = {
       },
 
       colors: {
-        primary: "#ED3237",
+        primary: "#3a60cd",
         secondary: "#2e3236",
-        accent: "#F0AA44",
+        accent: "#c92c2c",
         accentTwo: "#F15733",
         dark: "#2e3236",
         light: "#fad0c6",
       },
       backgroundImage: {
         "main-gradient":
-          "linear-gradient(to bottom right, #1984b1 0%,  #2e7cbf 100%)",
+          "linear-gradient(to bottom right, #1d4ed8 0%,  #2e1065 100%)",
         "secondary-gradient":
-          "linear-gradient(to bottom right, #be185d 0%,  #d97706 100%)",
+          "linear-gradient(to bottom right, #4c80e3 0%,  #21559c 100%)",
         "dark-gradient":
-          "linear-gradient(to bottom right, #0D121B 0%, #4EA4B2 100%)",
+          "linear-gradient(to bottom right, #c92c2c 0%, #972f21 100%)",
         "light-gradient":
           "linear-gradient(to bottom right, #e1e6ed 0%, #f0f1f2 100%)",
       },

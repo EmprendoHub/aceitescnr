@@ -3,7 +3,7 @@
     "menu": [
       { "title": "Inicio", "url": "/" },
       { "title": "Acerca", "url": "/#acerca" },
-      { "title": "Remolques", "url": "/#productos" },
+      { "title": "Productos", "url": "/productos" },
       { "title": "Contacto", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -34,17 +34,25 @@
       "state": "Michoacan",
       "zip": "59000",
       "country": "Mexico",
-      "phone": "+52 353 104 3350"
+      "phone": "+52 393 102 1001"
     },
     "widgettwo": {
-      "title": "Remolques",
+      "title": "Productos",
       "links": [
-        { "title": "Dolly", "url": "/#productos?keyword=dolly" },
-        { "title": "Plataforma", "url": "/#productos?keyword=plataforma" },
-
+        { "title": "Aditivos", "url": "/productos?keyword=Additives" },
+        { "title": "ATF-Dexron", "url": "/productos?keyword=ATF-DEXRON" },
         {
-          "title": "Porta Contenedor",
-          "url": "/#productos?keyword=portacontenedor"
+          "title": "Hidráulicos",
+          "url": "/productos?keyword=Hidráulicos"
+        },
+        { "title": "Motocicletas", "url": "/productos?keyword=Motocicletas" },
+        {
+          "title": "Carreras",
+          "url": "/productos?keyword=Carreras"
+        },
+        {
+          "title": "RRCCA",
+          "url": "/productos?keyword=RRCCA"
         }
       ]
     },
@@ -52,7 +60,7 @@
       "title": "Sitio",
       "links": [
         { "title": "Inicio", "url": "/" },
-        { "title": "Remolques", "url": "/#productos" },
+        { "title": "Productos", "url": "/productos" },
         { "title": "Contacto", "url": "/#contacto" },
         { "title": "Nosotros", "url": "/acerca" }
       ]
@@ -65,73 +73,75 @@
       ]
     },
     "footerBar": {
-      "developBy": "Desarrollada por Eggs & Bakey",
+      "developBy": "Desarrollado por Eggs & Bakey",
       "path": "https://www.eggsbakey.com",
       "company": "Aceites CNR",
-      "addressOne": "",
+      "addressOne": ",",
       "addressTwo": "",
       "city": "Sahuayo",
-      "state": "Michoacan",
+      "state": "Michoacán",
       "zip": "59000",
-      "country": "MEXICO",
+      "country": "MÉXICO",
       "copyright": {
-        "pretitle": "Derechos de autor",
+        "pretitle": "Copyright",
         "subtitle": "Todos los derechos reservados.",
-        "disclosure": "Todos los precios de productos, servicios mostrados en esta página incluyen el IVA correspondiente.",
-        "preOwner": "La titularidad del presente sitio web corresponde a",
+        "disclosure": "Todos los precios de los productos y servicios mostrados en esta página incluyen el IVA correspondiente.",
+        "preOwner": "La propiedad de este sitio web corresponde a",
         "owner": "Aceites CNR",
-        "subOwner": "con domicilio de negocio en"
+        "subOwner": "con domicilio comercial en"
       }
     }
   },
   "homeDic": {
     "imageHero": {
       "pretitle": "¡La calidad y durabilidad que tu negocio necesita!",
-      "title": "SEGURIDAD FUERZA Y",
-      "titleTwo": "CONFIANZA EN CADA VIAJE",
-      "text": "En Aceites CNR, diseñamos remolques más fuertes y resistentes, pensados para soportar los desafíos más exigentes.",
-      "btnText": "Aprende Más",
-      "btnPath": "/about-us"
+      "title": "Mantén el motor de tu auto",
+      "titleTwo": "funcionando como nuevo.",
+      "text": "Nuestros aceites ofrecen rendimiento, protección y tranquilidad cada vez que estás en la carretera.",
+      "btnText": "Encuentra el aceite adecuado",
+      "btnPath": "/about-us",
+      "btnTextTwo": "Ver productos CNR",
+      "btnPathTwo": "/about-us"
     },
     "sliders": [
       {
-        "preTitle": "Fabricante Experto",
-        "title": "¡Descubre la fuerza que ",
-        "titleTwo": "mueve tus proyectos!",
-        "text": "En Aceites CNR, nuestros remolques están diseñados con frenos ABS, componentes premium y una resistencia inigualable para asegurar la mejor experiencia en carretera.",
-        "btnText": "Explorar Remolques",
-        "btnPath": "/es/#productos",
-        "imgPath": "/images/trailer4.webp"
+        "preTitle": "Expertos en fabricación",
+        "title": "Descubre el poder que",
+        "titleTwo": "impulsa tus proyectos!",
+        "text": "En Aceites CNR, nuestros productos están diseñados con los mejores componentes para garantizar la mejor experiencia.",
+        "btnText": "Explorar productos",
+        "btnPath": "/en/productos",
+        "imgPath": "/images/fabrica1.webp"
       },
       {
-        "preTitle": "Remolques de Calidad",
-        "title": "Calidad y confianza que ",
+        "preTitle": "Productos de calidad",
+        "title": "Calidad y confianza que",
         "titleTwo": "te acompañan en cada kilómetro.",
-        "text": "En Aceites CNR diseñamos remolques personalizados para que cada viaje sea seguro y eficiente. ",
-        "btnText": "Explorar Remolques",
-        "btnPath": "/es/#productos",
-        "imgPath": "/images/trailer2.webp"
+        "text": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "btnText": "Explorar productos",
+        "btnPath": "/en/productos",
+        "imgPath": "/images/fabrica2.webp"
       },
       {
-        "preTitle": "Socio Estratégico",
-        "title": "Transforma tus ",
+        "preTitle": "Socio estratégico",
+        "title": "Transforma tus",
         "titleTwo": "ideas con Aceites CNR",
-        "text": "Somos expertos en la fabricación de remolques personalizados que se adaptan a tus necesidades. Desde diseño hasta calidad, creamos soluciones únicas que destacan por su resistencia y estilo.",
-        "btnText": "Explorar Remolques",
-        "btnPath": "/es/#productos",
-        "imgPath": "/images/trailer3.webp"
+        "text": "Somos expertos en la fabricación de aceites personalizados que se adaptan a tus necesidades. Desde el diseño hasta la calidad, creamos soluciones únicas que destacan por su rendimiento y estilo.",
+        "btnText": "Explorar productos",
+        "btnPath": "/en/productos",
+        "imgPath": "/images/fabrica3.webp"
       }
     ],
     "infiniteSlider": {
-      "title": "Experiencia con",
-      "titleTwo": "Ingredientes de Alta Calidad",
-      "subtitle": "Benefíciate de nuestra red global de proveedores, ofreciendo productos de alta calidad a precios competitivos."
+      "title": "Experimenta con",
+      "titleTwo": "ingredientes de la más alta calidad",
+      "subtitle": "Aprovecha nuestra red nacional de proveedores que ofrecen productos de alta calidad a precios competitivos."
     },
     "singlesides": {
       "boxOne": {
-        "title": "Transforma tu Experiencia Comercial con",
+        "title": "Transforma tu experiencia comercial con",
         "titleTwo": "Aceites CNR",
-        "text": "Ofrecemos enfoques estratégicos para ampliar su alcance de mercado y mejorar sus operaciones comerciales con remolques de alta calidad de Aceites CNR.",
+        "text": "Ofrecemos enfoques estratégicos para expandir tu alcance en el mercado y mejorar las operaciones de tu negocio con aceites de alta calidad de Aceites CNR.",
         "btnText": "Contáctanos",
         "imgUrl": "/images/h1-img2.jpg"
       }
@@ -139,71 +149,71 @@
     "doublesides": {
       "boxOne": {
         "preTitle": "TU SOCIO COMERCIAL DE CONFIANZA",
-        "title": "Transforma tu Experiencia Comercial con",
+        "title": "Transforma tu experiencia comercial con",
         "titleTwo": "Aceites CNR",
-        "subtitle": "Nuestro equipo de expertos está listo para fabricar tu remolque ideal",
-        "text": "Aceites CNR tiene su sede cerca de Sahuayo, En Aceites CNR, diseñamos y fabricamos remolques a medida, alineados con tus necesidades y estándares de calidad. Cada uno de nuestros productos está pensado para ofrecerte seguridad y confianza en cada kilómetro.",
+        "subtitle": "Nuestro equipo de expertos está listo para proporcionarte el aceite ideal",
+        "text": "Aceites CNR tiene su base cerca de Sahuayo. En Aceites CNR diseñamos y fabricamos aceites personalizados, alineados con tus necesidades y estándares de calidad. Cada uno de nuestros productos está diseñado para ofrecerte seguridad y confianza en cada kilómetro.",
         "btnText": "Contáctanos",
-        "imgUrl": "/images/h1-img2.jpg"
+        "imgUrl": "/images/barriles.jpg"
       },
       "boxTwo": {
         "preTitle": "ANÁLISIS Y MEJORA CONTINUA",
         "title": "Nos adaptamos según las",
-        "titleTwo": "necesidades de tu empresa",
-        "subtitle": "Preparados para cualquier desafío, asegurando personalización y adaptabilidad.",
-        "text": "¡En Aceites CNR creamos los remolques más fuertes para las cargas más exigentes! Diseñados para ofrecer resistencia, durabilidad y rendimiento en cada kilómetro. Tu carga, nuestra prioridad! En Aceites CNR, fabricamos unidades a la medida de tus necesidades, garantizando seguridad y confianza en cada viaje.",
+        "titleTwo": "necesidades de tu negocio",
+        "subtitle": "Preparados para cualquier desafío, garantizando personalización y adaptabilidad.",
+        "text": "En Aceites CNR creamos los aceites más fuertes para las cargas más exigentes! Diseñados para ofrecer resistencia, durabilidad y rendimiento en cada kilómetro. ¡Tu carga, nuestra prioridad! En Aceites CNR, fabricamos unidades adaptadas a tus necesidades, garantizando seguridad y confianza en cada viaje.",
         "btnText": "Contáctanos",
-        "imgUrl": "/images/Madelto_cat_06.jpg"
+        "imgUrl": "/images/blue_car.jpg"
       }
     },
     "teamTalk": {
-      "title": "Habla con Nuestro Equipo",
+      "title": "Habla con nuestro equipo",
       "btnText": "Contáctanos",
-      "btnUrl": "/es/#contacto",
+      "btnUrl": "/en/#contacto",
       "img": "/images/equipo_de_trabajo_marketing.webp"
     },
     "sideText": {
-      "title": "Lleva tu Negocio al",
-      "titleTwo": "Siguiente Nivel",
-      "subtitle": "Nos encargamos de negociar las mejores ofertas para que puedas centrarte en el crecimiento.",
-      "text": "Buscamos continuamente ampliar nuestra red de clientes y ofrecer el más alto nivel de servicio. Esperamos que nos permita servirle.",
+      "title": "Lleva tu negocio al",
+      "titleTwo": "siguiente nivel",
+      "subtitle": "Nos encargamos de negociar las mejores ofertas para que tú te concentres en crecer.",
+      "text": "Estamos en constante búsqueda de ampliar nuestra red de clientes y ofrecer el más alto estándar de servicio. Esperamos que nos permitas servirte.",
       "btnText": "Contáctanos",
-      "btnUrl": "/es/#contacto",
+      "btnUrl": "/en/#contacto",
       "bullets": [
-        "Expansión de Mercado",
-        "Garantía de Calidad",
-        "Fabricación Comercial Personalizadas",
-        "Coordinación Experta"
+        "Expansión de mercado",
+        "Garantía de calidad",
+        "Soluciones personalizadas para fabricantes",
+        "Coordinación experta"
       ]
     },
     "miniPortfolio": {
       "title": "Soluciones de",
-      "titleTwo": "Comercio Global",
+      "titleTwo": "comercio national",
       "text": "Sincronización en tiempo real del inventario entre proveedores y clientes, reduciendo riesgos y simplificando la gestión de existencias.",
-      "btnText": "Ver Demo",
-      "btnUrl": "/es/#contacto",
+      "btnText": "Ver demo",
+      "btnUrl": "/en/#contacto",
       "imgOne": "/images/2149416730.jpg",
       "imgTwo": "/images/high-angle-hands-holding-paper_23-2149930962.jpg"
     },
     "customerSay": {
-      "title": "Lo Que Dicen Nuestros",
-      "titleTwo": "Clientes",
+      "title": "Lo que opinan nuestros",
+      "titleTwo": "clientes",
       "subtitle": "Lee lo que nuestros clientes tienen que decir sobre nuestro trabajo.",
       "testimonials": [
         {
           "id": 1,
           "name": "Teresita Villalpando",
           "position": "Mariscos Casa Del Pollo",
-          "text": "Con Aceites CNR, pudimos aumentar significativamente la funcionalidad de nuestra cadena de suministro añadiendo",
-          "textPop": "seguimiento en línea",
-          "textTwo": "y reduciendo nuestros costos generales. ¡Nuestras operaciones son mucho más fluidas y no podríamos estar más contentos con su servicio! ¡Gracias de nuevo!",
+          "text": "Con Aceites CNR, pudimos incrementar en gran medida la funcionalidad de nuestra cadena de suministro al agregar",
+          "textPop": "rastreo en línea",
+          "textTwo": "y reducir nuestros costos generales. ¡Nuestras operaciones son mucho más fluidas y estamos encantados con su servicio! ¡Gracias de nuevo!",
           "icon": "/images/2149416730.jpg"
         },
         {
           "id": 2,
           "name": "Martin Latisner",
           "position": "Movired",
-          "text": "Debido al mal trabajo de nuestro proveedor anterior, tuvimos que reconstruir nuestra cadena de suministro dos veces en un período de menos de 6 meses. ",
+          "text": "Debido al mal trabajo de nuestro proveedor anterior, tuvimos que reconstruir nuestra cadena de suministro dos veces en un periodo de menos de 6 meses. ",
           "textPop": "No hay comparación",
           "textTwo": "entre la primera empresa y Aceites CNR. Profesional, Creativo, Detallista, Excelente Comunicación y Rápido.",
           "icon": "/images/2149416730.jpg"
@@ -213,15 +223,15 @@
           "name": "Emanuel Garcia",
           "position": "Anas Iron Supply",
           "text": "Fui a Aceites CNR con la idea básica de lo que quería en nuestro sistema de cadena de suministro. Ellos",
-          "textPop": "ayudaron a refinar",
-          "textTwo": "los procesos y la funcionalidad. Sin duda los volveré a utilizar en futuros proyectos. ¡Gracias de nuevo!",
+          "textPop": "ayudaron a perfeccionar",
+          "textTwo": "los procesos y la funcionalidad. Sin duda los volveré a usar en futuros proyectos. ¡Gracias de nuevo!",
           "icon": "/images/2149416730.jpg"
         },
         {
           "id": 4,
           "name": "Flavio Orte",
           "position": "Marort Shoes",
-          "text": "Nuestra cadena de suministro anterior no estaba rindiendo bien en términos de velocidad y eficiencia. Aceites CNR intervino y",
+          "text": "Nuestra cadena de suministro anterior no estaba funcionando bien en términos de velocidad y eficiencia. Aceites CNR intervino y",
           "textPop": "optimizó cada aspecto",
           "textTwo": "de nuestras operaciones, desde tiempos de entrega más rápidos hasta mejores relaciones con proveedores. La transición fue fluida y su equipo de soporte siempre está disponible. ¡A nuestros clientes les encanta la nueva experiencia!",
           "icon": "/images/2149416730.jpg"
@@ -229,19 +239,19 @@
       ]
     },
     "contactCta": {
-      "title": "Suscríbete a Nuestro Boletín",
+      "title": "Suscríbete a nuestro boletín",
       "subtitle": "Además, obtén un 10% de descuento en tu primera cotización.",
-      "placeholder": "Tu correo electrónico aquí",
-      "messageSent": "El mensaje se envió correctamente."
+      "placeholder": "Tu correo aquí",
+      "messageSent": "El mensaje fue enviado exitosamente."
     }
   },
   "productDic": {
-    "preTitle": "REMOLQUES MODELTO",
+    "preTitle": "Aceites CNR",
     "title": "Resistencia, durabilidad ",
     "titleTwo": "y rendimiento en cada kilómetro.",
     "single": {
       "packing": "Empaquetado",
-      "weight": "Peso",
+      "weight": "ml",
       "category": "Categoría",
       "types": "Tipos",
       "quote": "Cotizar",
@@ -265,22 +275,37 @@
   "categoryDic": {
     "title": "Diseños a medida para ",
     "titleTwo": "un transporte seguro y eficiente.",
-    "text": "En Aceites CNR, cada remolque está hecho para superar tus expectativas, con calidad, durabilidad y personalización total.",
+    "text": "En Aceites CNR, cada producto está hecho para superar tus expectativas, con calidad, durabilidad y personalización total.",
     "categories": [
       {
-        "title": "Dolly",
-        "catPath": "/es/#productos?keyword=Dolly",
-        "imgPath": "/images/Madelto_cat_01.jpg"
+        "title": "Aditivos",
+        "catPath": "/en/productos?keyword=Aditivos",
+        "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
-        "title": "Porta Contenedor",
-        "catPath": "/es/#productos?keyword=PortaContenedor",
-        "imgPath": "/images/Madelto_cat_02.jpg"
+        "title": "ATF-Dexron",
+        "catPath": "/en/productos?keyword=ATF-Dexron",
+        "imgPath": "/images/cnr_image_02.jpg"
       },
       {
-        "title": "Plataforma",
-        "catPath": "/es/#productos?keyword=Plataforma",
-        "imgPath": "/images/Madelto_cat_03.jpg"
+        "title": "Hidráulicos",
+        "catPath": "/en/productos?keyword=Hidráulicos",
+        "imgPath": "/images/cnr_image_03.jpeg"
+      },
+      {
+        "title": "Motocicletas",
+        "catPath": "/en/productos?keyword=Motocicletas",
+        "imgPath": "/images/cnr_image_01.jpeg"
+      },
+      {
+        "title": "Carreras",
+        "catPath": "/en/productos?keyword=Carreras",
+        "imgPath": "/images/cnr_image_02.jpg"
+      },
+      {
+        "title": "RRCCA",
+        "catPath": "/en/productos?keyword=RRCCA",
+        "imgPath": "/images/cnr_image_03.jpeg"
       }
     ]
   },
@@ -294,11 +319,11 @@
       "subTitle": "Aumenta tus Ventas",
       "textTitle": "BIOGRAFÍA",
       "text": "Donde la fuerza y seguridad se encuentran, Aceites CNR te lleva más allá. Proporcionamos a nuestros clientes con productos de la mas alta calidad.",
-      "textTwo": "Remolques que cumplen con los más altos estándares de calidad y seguridad.",
+      "textTwo": "Productos que cumplen con los más altos estándares de calidad y seguridad.",
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
-      "btnText": "Ver Remolques",
-      "btnLink": "/es/#productos",
+      "btnText": "Ver Productos",
+      "btnLink": "/es/productos",
       "icon": "FaAward"
     },
 
@@ -310,12 +335,12 @@
       "titleTwo": "¡Escala con Confianza!",
       "subTitle": "Soluciones Personalizadas",
       "textTitle": "BIOGRAFÍA",
-      "text": "Diseñados para soportar cualquier desafío, nuestros remolques están equipados con tecnología de vanguardia.",
-      "textTwo": "Listos para satisfacer las necesidades cambiantes de tu negocio.",
+      "text": "Diseñados para soportar cualquier desafío, nuestros Productos están fabricados con tecnología de vanguardia.",
+      "textTwo": "Listos para satisfacer las necesidades cambiantes de tu motor.",
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
-      "btnText": "Ver Remolques",
-      "btnLink": "/es/#productos",
+      "btnText": "Ver Productos",
+      "btnLink": "/es/productos",
       "icon": "FaSteam"
     }
   ],
@@ -396,7 +421,7 @@
       "state": "Michoacan",
       "zip": "59000",
       "country": "MEXICO",
-      "phone": "+52 353 104 3350",
+      "phone": "+52 393 102 1001",
       "mapImage": "/images/hudson_map.webp",
       "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
     },
@@ -416,7 +441,7 @@
       {
         "icon": "/icons/p12-icon-img-1.png",
         "title": "Control de Calidad",
-        "text": "Estamos dedicados a mantener los más altos estándares de calidad para todos nuestros productos. Nuestras rigurosas medidas de control de calidad garantizan que cada remolque que fabricamos sea seguro, duradero y eficiente.",
+        "text": "Estamos dedicados a mantener los más altos estándares de calidad para todos nuestros productos. Nuestras rigurosas medidas de control de calidad garantizan que cada producto que fabricamos sea seguro, duradero y eficiente.",
         "btnText": "Cotizar",
         "btnUrl": "/es/cotizar"
       },
@@ -451,7 +476,7 @@
       "orders": "Pedidos",
       "posts": "Publicaciones",
       "newPost": "Nueva Publicación",
-      "products": "Remolques",
+      "products": "Productos",
       "newService": "Nuevo Producto",
       "clients": "Clientes",
       "affiliates": "Afiliados"

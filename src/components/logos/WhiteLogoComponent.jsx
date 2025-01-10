@@ -7,7 +7,7 @@ const WhiteLogoComponent = ({ className, lang }) => {
       <Link aria-label="light-logo" href={`/${lang}/`}>
         <Image
           alt="image"
-          src={"/logos/LOGO_MADELTO.svg"}
+          src={"/logos/nuevo_logo_horizontal.webp"}
           width={180}
           height={55}
           priority

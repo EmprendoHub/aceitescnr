@@ -58,36 +58,17 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
     <>
       {!isLoggedIn ? (
         <motion.nav
-          // variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
-          // animate={hidden ? "hidden" : "visible"}
-          // transition={{ duration: 0.35, ease: "easeInOut" }}
-          className={`print:hidden flex flex-row items-center justify-between  header-class text-white  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 pl-4 h-[80px] ${
+          variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
+          animate={hidden ? "hidden" : "visible"}
+          transition={{ duration: 0.35, ease: "easeInOut" }}
+          className={`print:hidden flex flex-row items-center justify-between  header-class text-white  text-xl fixed top-0 z-[9999]  w-full mx-auto py-3 pl-4 h-[80px] ${
             !transparency ? "" : "bg-black bg-opacity-50"
           }`}
         >
           <WhiteLogoComponent lang={lang} />
-          <motion.div
-            variants={containerVariants}
-            initial="initial"
-            animate="open"
-            exit="initial"
-            className="flex maxmd:hidden w-8/12 flex-row items-center justify-between font-lato tracking-widest gap-x-3  "
-          >
-            {localeHeader.menu?.map((link, index) => {
-              return (
-                <div key={index} className="">
-                  <MobileNavLink
-                    title={link.title}
-                    href={link.url}
-                    lang={lang}
-                  />
-                </div>
-              );
-            })}
-          </motion.div>
           <div className="relative flex items-center justify-center ">
             <MobileMenuComponent
-              className={"hidden maxmd:block"}
+              className={"block"}
               lang={lang}
               localeHeader={localeHeader}
             />

@@ -1,4 +1,4 @@
-import NewProductComp from "@/components/products/NewProductComp";
+import NewProductComp from "@/components/admin/NewProductComp";
 
 const NewVariationOptimized = ({ currentCookies, params }) => {
   const lang = params.lang;

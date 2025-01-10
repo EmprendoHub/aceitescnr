@@ -3,7 +3,7 @@ import React from "react";
 
 const IconGridComp = ({ servicesDic }) => {
   return (
-    <div className=" bg-dark text-white mx-auto py-12 px-20 maxlg:px-8 maxsm:px-6 ">
+    <div className=" bg-main-gradient text-white mx-auto py-12 px-20 maxlg:px-8 maxsm:px-6 ">
       <div className="mt-10">
         <div className="grid maxsm:grid-cols-1 grid-cols-3 gap-6">
           {servicesDic.services.map((service, index) => (

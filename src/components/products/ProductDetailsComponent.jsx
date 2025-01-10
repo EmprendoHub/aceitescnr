@@ -41,7 +41,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   };
 
   return (
-    <div className="container-class py-5 ">
+    <div className="container-class pt-40  ">
       <main className="flex flex-col items-center justify-between w-full">
         <div className="w-[600px] maxmd:w-[400px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 bg-slate-100 dark:bg-primary rounded-lg">
           <div className="flex flex-col items-start justify-start ">
@@ -103,12 +103,10 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                       <p>{productDic.single.weight}:</p>
                       <p className="text-[14px]">
                         {product?.weight[`es`]}
-                        <span>{"kgs"}</span>/{product?.weight[`en`]}
-                        <span>{"lbs"}</span>
+                        <span>{"ml"}</span>
                         {product?.weightTwo ? (
                           <>
-                            , <span>{product?.weightTwo[`es`]}kgs</span>/
-                            <span>{product?.weightTwo[`en`]}lbs</span>
+                            <span>{product?.weightTwo[`es`]}ml</span>
                           </>
                         ) : (
                           ""
@@ -161,10 +159,10 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                         <Link
                           href={
                             lang === "es"
-                              ? `https://api.whatsapp.com/send/?phone=523531043350&text=Hola+%2AAceites+CNR%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+${
+                              ? `https://api.whatsapp.com/send/?phone=523931021001&text=Hola+%2AAceites+CNR%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+${
                                   product?.title[`${lang}`]
                                 }&type=phone_number&app_absent=0`
-                              : `https://api.whatsapp.com/send/?phone=523531043350&text=Hello+%2AAceites+CNR%2A.+Im+Interested+in+getting+a+quote+and+more+information+on+${
+                              : `https://api.whatsapp.com/send/?phone=523931021001&text=Hello+%2AAceites+CNR%2A.+Im+Interested+in+getting+a+quote+and+more+information+on+${
                                   product?.title[`${lang}`]
                                 }&type=phone_number&app_absent=0`
                           }

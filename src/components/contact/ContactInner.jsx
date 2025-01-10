@@ -2,7 +2,7 @@ import SubscribeForm from "@/components/forms/SubscribeForm";
 import ContactComponent from "@/components/layout/ContactComponent";
 import Image from "next/image";
 import React from "react";
-import coverImage from "../../../public/images/contact_us.jpg";
+import coverImage from "../../../public/images/Title-SportCard-Back-01.jpg";
 import ContactUsComponent from "./ContactUsComponent";
 
 const ContactInner = ({ homeDic, contactDic }) => {

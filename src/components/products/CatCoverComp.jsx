@@ -1,10 +1,13 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import coverImage0 from "../../../public/images/trailer2.webp";
-import coverDolly from "../../../public/images/trailer4.webp";
-import coverContainer from "../../../public/images/shipping_container_trailers.jpg";
-import coverPlatform from "../../../public/images/Mechanical-Steering.webp";
+import coverImage0 from "../../../public/images/fabrica3.webp";
+import coverAdditives from "../../../public/images/ADDITIVES.webp";
+import coverDexron from "../../../public/images/ATF-DEXRON.webp";
+import coverMotorcycles from "../../../public/images/MOTORCYCLES.webp";
+import coverRacing from "../../../public/images/RACING.webp";
+import coverRRCCA from "../../../public/images/RRCCA.webp";
+import coverHydraulics from "../../../public/images/HYDRAULICS.webp";
 
 const CatCoverComp = ({ searchParams, lang, productDic }) => {
   const keyword = searchParams?.keyword;
@@ -15,42 +18,81 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
   useEffect(() => {
     if (keyword) {
       if (
-        keyword.toLowerCase() === "dolly" ||
-        keyword.toLowerCase() === "dolly"
+        keyword.toLowerCase() === "aditivos" ||
+        keyword.toLowerCase() === "additives"
       ) {
-        setCoverImage(coverDolly);
+        setCoverImage(coverAdditives);
         if (lang === "es") {
-          setCoverTitle("Dolly");
+          setCoverTitle("Aditivos");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("Dolly");
+          setCoverTitle("Additives");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "plataforma" ||
-        keyword.toLowerCase() === "platform"
+        keyword.toLowerCase() === "atf-dexron" ||
+        keyword.toLowerCase() === "atf-dexron"
       ) {
-        setCoverImage(coverPlatform);
+        setCoverImage(coverDexron);
         if (lang === "es") {
-          setCoverTitle("Plataforma");
+          setCoverTitle("ATF-DEXRON");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("Platform");
+          setCoverTitle("ATF-DEXRON");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "portacontenedor" ||
-        keyword.toLowerCase() === "containertrailer"
+        keyword.toLowerCase() === "motocicletas" ||
+        keyword.toLowerCase() === "motorcycles"
       ) {
-        setCoverImage(coverContainer);
+        setCoverImage(coverMotorcycles);
         if (lang === "es") {
-          setCoverTitle("Porta Contenedor");
+          setCoverTitle("MOTOCICLETAS");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("Container Trailer");
+          setCoverTitle("MOTORCYCLES");
+          setCoverTitleTwo("");
+        }
+      } else if (
+        keyword.toLowerCase() === "carreras" ||
+        keyword.toLowerCase() === "racing"
+      ) {
+        setCoverImage(coverRacing);
+        if (lang === "es") {
+          setCoverTitle("CARRERAS");
+          setCoverTitleTwo("");
+        }
+        if (lang === "en") {
+          setCoverTitle("RACING");
+          setCoverTitleTwo("");
+        }
+      } else if (
+        keyword.toLowerCase() === "rrcca" ||
+        keyword.toLowerCase() === "rrcca"
+      ) {
+        setCoverImage(coverRRCCA);
+        if (lang === "es") {
+          setCoverTitle("RRCCA");
+          setCoverTitleTwo("");
+        }
+        if (lang === "en") {
+          setCoverTitle("RRCCA");
+          setCoverTitleTwo("");
+        }
+      } else if (
+        keyword.toLowerCase() === "hidráulicos" ||
+        keyword.toLowerCase() === "hydraulics"
+      ) {
+        setCoverImage(coverHydraulics);
+        if (lang === "es") {
+          setCoverTitle("HIDRÁULICOS");
+          setCoverTitleTwo("");
+        }
+        if (lang === "en") {
+          setCoverTitle("HYDRAULICS");
           setCoverTitleTwo("");
         }
       }

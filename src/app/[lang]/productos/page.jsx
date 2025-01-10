@@ -91,8 +91,8 @@ const ProductosPage = async ({ searchParams, params }) => {
         productDic={productDic}
       />
 
-      <div className="w-full h-full py-16 px-5 bg-dark dark:bg-slate-700">
-        <div className="py-14 px-10 maxmd:px-5 bg-white  dark:bg-primary">
+      <div className="w-full h-full py-5 px-5 bg-white dark:bg-slate-700">
+        <div className="py-14 px-10 maxmd:px-5 bg-[#c4c4c4] bg-opacity-60">
           <ListProducts
             lang={lang}
             products={products}
