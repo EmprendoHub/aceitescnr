@@ -26,12 +26,12 @@ const CategoriesComp = ({ categoryDic, lang }) => {
             className="w-auto cursor-pointer hover:scale-[105%] duration-300 ease-in-out"
           >
             <motion.div
-              initial={{ opacity: 0, scale: 0 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, scale: 0, y: 10 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{
-                duration: 1.2,
+                duration: 0.7,
                 delay: index * 0.2, // Sequential delay
-                type: "spring",
+                type: "tween",
                 stiffness: 260,
                 damping: 20,
               }}

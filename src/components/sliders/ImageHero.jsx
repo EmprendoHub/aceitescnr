@@ -25,11 +25,11 @@ const ImageHero = ({ homeDic }) => {
         />
         <div className="absolute top-40 left-20 maxlg:left-5 z-10 text-white text-7xl maxlg:text-5xl maxsm:text-4xl font-primary w-[60%] maxsm:w-[80%] ">
           <motion.h2
-            initial={{ opacity: 0, scale: 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 1, y: -10 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
             transition={{
-              duration: 1.2,
-              type: "spring",
+              duration: 0.9,
+              type: "tween",
               stiffness: 260,
               damping: 20,
             }}
@@ -44,11 +44,11 @@ const ImageHero = ({ homeDic }) => {
           </motion.h2>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 1, y: 10 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
             transition={{
-              duration: 1.2,
-              type: "spring",
+              duration: 1,
+              type: "tween",
               stiffness: 260,
               damping: 20,
             }}
@@ -82,8 +82,8 @@ const ImageHero = ({ homeDic }) => {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
-              duration: 1.2,
-              type: "spring",
+              duration: 0.7,
+              type: "tween",
               stiffness: 260,
               damping: 20,
             }}
@@ -103,8 +103,8 @@ const ImageHero = ({ homeDic }) => {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
-              duration: 1.2,
-              type: "spring",
+              duration: 0.7,
+              type: "tween",
               stiffness: 260,
               damping: 20,
             }}
@@ -124,8 +124,8 @@ const ImageHero = ({ homeDic }) => {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
-              duration: 1.2,
-              type: "spring",
+              duration: 0.7,
+              type: "tween",
               stiffness: 260,
               damping: 20,
             }}
@@ -145,8 +145,8 @@ const ImageHero = ({ homeDic }) => {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
-              duration: 1.2,
-              type: "spring",
+              duration: 0.7,
+              type: "tween",
               stiffness: 260,
               damping: 20,
             }}

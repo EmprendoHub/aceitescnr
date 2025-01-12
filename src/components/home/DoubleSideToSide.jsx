@@ -16,8 +16,8 @@ const DoubleSideToSide = ({ homeDic }) => {
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 1.2,
-                  type: "spring",
+                  duration: 0.7,
+                  type: "tween",
                   stiffness: 260,
                   damping: 20,
                 }}
@@ -44,8 +44,8 @@ const DoubleSideToSide = ({ homeDic }) => {
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 1.2,
-                  type: "spring",
+                  duration: 0.7,
+                  type: "tween",
                   stiffness: 260,
                   damping: 20,
                 }}
@@ -83,8 +83,8 @@ const DoubleSideToSide = ({ homeDic }) => {
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 1.2,
-                  type: "spring",
+                  duration: 0.7,
+                  type: "tween",
                   stiffness: 260,
                   damping: 20,
                 }}
@@ -117,8 +117,8 @@ const DoubleSideToSide = ({ homeDic }) => {
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 1.2,
-                  type: "spring",
+                  duration: 0.7,
+                  type: "tween",
                   stiffness: 260,
                   damping: 20,
                 }}

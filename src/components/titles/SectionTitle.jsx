@@ -7,11 +7,11 @@ const SectionTitle = ({ title, titleTwo = "", subtitle, className = "" }) => {
       className={`section-title-class pb-10 w-full flex flex-col items-center justify-center  mx-auto ${className} `}
     >
       <motion.h2
-        initial={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 1, y: -20 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{
-          duration: 1.2,
-          type: "spring",
+          duration: 1,
+          type: "tween",
           stiffness: 260,
           damping: 20,
         }}
@@ -22,11 +22,11 @@ const SectionTitle = ({ title, titleTwo = "", subtitle, className = "" }) => {
       </motion.h2>
 
       <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 1, y: 20 }}
+        whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{
           duration: 1.2,
-          type: "spring",
+          type: "tween",
           stiffness: 260,
           damping: 20,
         }}
