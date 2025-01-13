@@ -15,7 +15,7 @@ const SectionTitle = ({ title, titleTwo = "", subtitle, className = "" }) => {
           stiffness: 260,
           damping: 20,
         }}
-        className="  font-primary mb-4"
+        className="font-primary mb-4"
       >
         <span className="text-primary dark:text-white">{title} </span>
         <span className="text-dark dark:text-primary">{titleTwo}</span>
