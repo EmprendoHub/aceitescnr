@@ -39,22 +39,33 @@ class APIFilters {
 
     const removeFields = ["keyword", "page", "per_page"];
     removeFields.forEach((el) => delete queryCopy[el]);
+
     let prop = "";
-    //Price Filter for gt> gte>= lt< lte<= in PRICE
-    let output = {};
+    const output = {};
+
     for (let key in queryCopy) {
-      if (!key.match(/\b(gt|gte|lt|lte)/)) {
-        output[key] = queryCopy[key];
-      } else {
+      // Handle range filters (gt, gte, lt, lte)
+      if (key.match(/\b(gt|gte|lt|lte)/)) {
         prop = key.split("[")[0];
-        let operator = key.match(/\[(.*)\]/)[1];
+        const operator = key.match(/\[(.*)\]/)[1];
         if (!output[prop]) {
           output[prop] = {};
         }
-
         output[prop][`$${operator}`] = queryCopy[key];
       }
+      // Handle category filter
+      else if (key === "category") {
+        output["$or"] = [
+          { "category.es": { $regex: `^${queryCopy[key]}$`, $options: "i" } },
+          { "category.en": { $regex: `^${queryCopy[key]}$`, $options: "i" } },
+        ];
+      }
+      // Handle other filters
+      else {
+        output[key] = queryCopy[key];
+      }
     }
+
     this.query = this.query.find(output);
 
     return this;

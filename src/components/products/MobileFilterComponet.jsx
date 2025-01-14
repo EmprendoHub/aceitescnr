@@ -43,7 +43,8 @@ const MobileFilterComponet = ({ lang, allBrands, allCategories }) => {
             onClick={copyToClipboard}
           >
             <CiShare2 className="text-xl" />
-            Compartir
+
+            {lang === "es" ? "Compartir" : "Share"}
           </div>
           <div
             onClick={() => {
@@ -51,7 +52,7 @@ const MobileFilterComponet = ({ lang, allBrands, allCategories }) => {
             }}
             className={styles.button}
           >
-            Filtrar
+            {lang === "es" ? "Filtrar" : "Filter"}
             <div
               className={`${styles.burger} ${
                 isActive ? styles.burgerActive : ""

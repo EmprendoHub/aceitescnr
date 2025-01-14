@@ -39,20 +39,20 @@
     "widgettwo": {
       "title": "Products",
       "links": [
-        { "title": "Additives", "url": "/productos?keyword=Additives" },
-        { "title": "ATF-Dexron", "url": "/productos?keyword=ATF-DEXRON" },
+        { "title": "Additives", "url": "/productos?category=Additives" },
+        { "title": "ATF-Dexron", "url": "/productos?category=ATF-DEXRON" },
         {
           "title": "Hydraulics",
-          "url": "/productos?keyword=Hydraulics"
+          "url": "/productos?category=Hydraulics"
         },
-        { "title": "Motorcycles", "url": "/productos?keyword=Motorcycles" },
+        { "title": "Motorcycles", "url": "/productos?category=Motorcycles" },
         {
           "title": "Racing",
-          "url": "/productos?keyword=Racing"
+          "url": "/productos?category=Racing"
         },
         {
           "title": "RRCCA",
-          "url": "/productos?keyword=RRCCA"
+          "url": "/productos?category=RRCCA"
         }
       ]
     },
@@ -279,32 +279,32 @@
     "categories": [
       {
         "title": "Additives",
-        "catPath": "/en/productos?keyword=Additives",
+        "catPath": "/en/productos?category=Additives",
         "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
         "title": "ATF-Dexron",
-        "catPath": "/en/productos?keyword=ATF-Dexron",
+        "catPath": "/en/productos?category=ATF-Dexron",
         "imgPath": "/images/cnr_image_02.jpg"
       },
       {
         "title": "Hydraulics",
-        "catPath": "/en/productos?keyword=Hydraulics",
+        "catPath": "/en/productos?category=Hydraulics",
         "imgPath": "/images/cnr_image_03.jpeg"
       },
       {
         "title": "Motorcycles",
-        "catPath": "/en/productos?keyword=Motorcycles",
+        "catPath": "/en/productos?category=Motorcycles",
         "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
         "title": "Racing",
-        "catPath": "/en/productos?keyword=Racing",
+        "catPath": "/en/productos?category=Racing",
         "imgPath": "/images/cnr_image_02.jpg"
       },
       {
         "title": "RRCCA",
-        "catPath": "/en/productos?keyword=RRCCA",
+        "catPath": "/en/productos?category=RRCCA",
         "imgPath": "/images/cnr_image_03.jpeg"
       }
     ]

@@ -11,15 +11,18 @@ import coverHydraulics from "../../../public/images/HYDRAULICS.webp";
 
 const CatCoverComp = ({ searchParams, lang, productDic }) => {
   const keyword = searchParams?.keyword;
+  const category = searchParams?.category;
   const [coverImage, setCoverImage] = useState(coverImage0);
   const [coverTitle, setCoverTitle] = useState(productDic.title);
   const [coverTitleTwo, setCoverTitleTwo] = useState(productDic.titleTwo);
   const [coverPreTitle, setCoverPreTitle] = useState(productDic.preTitle);
   useEffect(() => {
-    if (keyword) {
+    if (keyword || category) {
       if (
-        keyword.toLowerCase() === "aditivos" ||
-        keyword.toLowerCase() === "additives"
+        keyword?.toLowerCase() === "aditivos" ||
+        keyword?.toLowerCase() === "additives" ||
+        category?.toLowerCase() === "aditivos" ||
+        category?.toLowerCase() === "additives"
       ) {
         setCoverImage(coverAdditives);
         if (lang === "es") {
@@ -31,8 +34,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "atf-dexron" ||
-        keyword.toLowerCase() === "atf-dexron"
+        keyword?.toLowerCase() === "atf-dexron" ||
+        keyword?.toLowerCase() === "atf-dexron" ||
+        category?.toLowerCase() === "atf-dexron" ||
+        category?.toLowerCase() === "atf-dexron"
       ) {
         setCoverImage(coverDexron);
         if (lang === "es") {
@@ -44,8 +49,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "motocicletas" ||
-        keyword.toLowerCase() === "motorcycles"
+        keyword?.toLowerCase() === "motocicletas" ||
+        keyword?.toLowerCase() === "motorcycles" ||
+        category?.toLowerCase() === "motocicletas" ||
+        category?.toLowerCase() === "motorcycles"
       ) {
         setCoverImage(coverMotorcycles);
         if (lang === "es") {
@@ -57,8 +64,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "carreras" ||
-        keyword.toLowerCase() === "racing"
+        keyword?.toLowerCase() === "carreras" ||
+        keyword?.toLowerCase() === "racing" ||
+        category?.toLowerCase() === "carreras" ||
+        category?.toLowerCase() === "racing"
       ) {
         setCoverImage(coverRacing);
         if (lang === "es") {
@@ -70,8 +79,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "rrcca" ||
-        keyword.toLowerCase() === "rrcca"
+        keyword?.toLowerCase() === "rrcca" ||
+        keyword?.toLowerCase() === "rrcca" ||
+        category?.toLowerCase() === "rrcca" ||
+        category?.toLowerCase() === "rrcca"
       ) {
         setCoverImage(coverRRCCA);
         if (lang === "es") {
@@ -83,8 +94,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword.toLowerCase() === "hidráulicos" ||
-        keyword.toLowerCase() === "hydraulics"
+        keyword?.toLowerCase() === "hidráulicos" ||
+        keyword?.toLowerCase() === "hydraulics" ||
+        category?.toLowerCase() === "hidráulicos" ||
+        category?.toLowerCase() === "hydraulics"
       ) {
         setCoverImage(coverHydraulics);
         if (lang === "es") {
@@ -101,7 +114,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
       setCoverTitle(productDic.title);
       setCoverTitleTwo(productDic.titleTwo);
     }
-  }, [keyword]);
+  }, [keyword, category]);
 
   return (
     <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
@@ -119,12 +132,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         <p className="uppercase text-xs tracking-widest font-secondary">
           {coverPreTitle}
         </p>
-        <h2
-          initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="  font-primary mb-4"
-        >
+        <h2 className="  font-primary mb-4">
           <span className="text-white">{coverTitle} </span>
           <span className=" text-primary">{coverTitleTwo}</span>
         </h2>

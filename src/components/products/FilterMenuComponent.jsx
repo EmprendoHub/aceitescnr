@@ -13,11 +13,6 @@ const FilterMenuComponent = ({
   SetIsActive,
   isActive,
 }) => {
-  const pathname = usePathname();
-
-  const { data: session } = useSession();
-  const isLoggedIn = Boolean(session?.user);
-
   return (
     <motion.div
       variants={filterMenuSlide}

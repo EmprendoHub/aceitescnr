@@ -1,23 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import { useRouter } from "next/navigation";
 import { AiOutlineClose } from "react-icons/ai";
 import styles from "./boxfilterstyle.module.scss";
-import { getPriceQueryParams } from "@/backend/helpers";
 import Search from "../layout/Search";
 
 const AllFiltersComponent = ({
   lang,
-  allBrands,
   allCategories,
   SetIsActive,
   isActive,
 }) => {
-  const [minAmount, setMinAmount] = useState("");
-  const [maxAmount, setMaxAmount] = useState("");
   const router = useRouter();
   let queryParams;
 
-  function handleClick(checkbox) {
+  function handleCategoryClick(checkbox) {
     if (typeof window !== "undefined") {
       queryParams = new URLSearchParams(window.location.search);
     }
@@ -31,16 +27,20 @@ const AllFiltersComponent = ({
     if (checkbox.checked === false) {
       //delete filter
       queryParams.delete(checkbox.name);
+      SetIsActive(!isActive);
     } else {
       //set query filter
       if (queryParams.has(checkbox.name)) {
         queryParams.set(checkbox.name, checkbox.value);
+        SetIsActive(!isActive);
       } else {
         queryParams.append(checkbox.name, checkbox.value);
         SetIsActive(!isActive);
       }
     }
+
     const path = window.location.pathname + "?" + queryParams.toString();
+
     router.push(path);
   }
 
@@ -53,19 +53,6 @@ const AllFiltersComponent = ({
         return true;
       }
       return false;
-    }
-  }
-
-  function handlePriceButtonClick() {
-    if (typeof window !== "undefined") {
-      queryParams = new URLSearchParams(window.location.search);
-
-      queryParams = getPriceQueryParams(queryParams, "min", minAmount);
-      queryParams = getPriceQueryParams(queryParams, "max", maxAmount);
-
-      const path = window.location.pathname + "?" + queryParams.toString();
-      SetIsActive(!isActive);
-      router.push(path);
     }
   }
 
@@ -85,52 +72,18 @@ const AllFiltersComponent = ({
           </div>
         </div>
         <div className=" mb-2  w-full text-start px-4 py-2 inline-block text-2xl text-gray-800  shadow-sm border border-gray-200 rounded-md font-primary ">
-          Filtrar por
+          {lang === "es" ? " Filtros" : " Filters"}
         </div>
         {/* Search Filter */}
 
-        <Search SetIsActive={SetIsActive} />
-        {/* Price Filter */}
+        <Search SetIsActive={SetIsActive} lang={lang} />
 
-        <div className="flex flex-col w-[95%] py-4 border border-gray-200 bg-white rounded shadow-sm">
-          <h3 className=" mb-2 text-black">Precio ($)</h3>
-
-          <div className="grid maxsm:grid-cols-3 gap-x-2 text-black">
-            <div className="mb-4">
-              <input
-                name="min"
-                className="appearance-none border border-gray-200 bg-gray-100 rounded-md py-2 px-3 hover:border-gray-400 focus:outline-none focus:border-gray-400 w-full"
-                type="number"
-                placeholder="Min"
-                value={minAmount}
-                onChange={(e) => setMinAmount(e.target.value)}
-              />
-            </div>
-
-            <div className="mb-4">
-              <input
-                name="max"
-                className="appearance-none border border-gray-200 bg-gray-100 rounded-md py-2 px-3 hover:border-gray-400 focus:outline-none focus:border-gray-400 w-full"
-                type="number"
-                placeholder="Max"
-                value={maxAmount}
-                onChange={(e) => setMaxAmount(e.target.value)}
-              />
-            </div>
-
-            <div className="mb-4">
-              <button
-                className="px-1 py-2 text-center w-full inline-block text-white bg-black border border-transparent rounded-md hover:bg-slate-200 hover:text-darkblack"
-                onClick={handlePriceButtonClick}
-              >
-                Filtrar
-              </button>
-            </div>
-          </div>
-        </div>
         {/* Category Filter */}
         <div className="p-5 pt-4  mb-2 sm:p-1 border border-gray-200 bg-white rounded shadow-sm">
-          <h3 className="font-semibold mb-2 text-gray-700">Categoría</h3>
+          <h3 className="font-semibold mb-2 text-gray-700">
+            {" "}
+            {lang === "es" ? " Categoría" : " Category"}
+          </h3>
           <ul className="space-y-1">
             {allCategories?.map((category, index) => (
               <li key={index}>
@@ -139,13 +92,16 @@ const AllFiltersComponent = ({
                     name="category"
                     type="checkbox"
                     value={category[`${lang}`]}
-                    defaultChecked={checkHandler("category", `${category}`)}
-                    onClick={(e) => handleClick(e.target)}
+                    defaultChecked={checkHandler(
+                      "category",
+                      `${category[`${lang}`]}`
+                    )}
+                    onClick={(e) => handleCategoryClick(e.target)}
                     className={`checkboxBipolarInput ${styles.checkboxBipolarInput}`}
-                    id={category}
+                    id={category[`${lang}`]}
                   />
                   <label
-                    htmlFor={category}
+                    htmlFor={category[`${lang}`]}
                     className="flex flex-row items-center cursor-pointer"
                   >
                     <span

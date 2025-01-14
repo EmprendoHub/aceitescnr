@@ -4,6 +4,7 @@ import { cookies } from "next/headers";
 import ServerPagination from "@/components/pagination/ServerPagination";
 import CatCoverComp from "@/components/products/CatCoverComp";
 import { getDictionary } from "@/lib/dictionary";
+import MobileFilterComponet from "@/components/products/MobileFilterComponet";
 
 export const metadata = {
   title: "Aceites CNR",
@@ -65,6 +66,8 @@ const ProductosPage = async ({ searchParams, params }) => {
   page = !page || page < 1 ? 1 : page;
   const perPage = 15;
   const itemCount = data?.productsCount;
+  const allCategories = data?.allCategories;
+  const allBrands = data?.allBrands;
   const totalPages = Math.ceil(data.filteredProductsCount / perPage);
   const prevPage = page - 1 > 0 ? page - 1 : 1;
   const nextPage = page + 1;
@@ -93,6 +96,12 @@ const ProductosPage = async ({ searchParams, params }) => {
 
       <div className="w-full h-full py-5 px-5 bg-white dark:bg-slate-700">
         <div className="py-14 px-10 maxmd:px-5 bg-[#c4c4c4] bg-opacity-60">
+          <MobileFilterComponet
+            lang={lang}
+            allBrands={allBrands}
+            allCategories={allCategories}
+            productDic={productDic}
+          />
           <ListProducts
             lang={lang}
             products={products}
