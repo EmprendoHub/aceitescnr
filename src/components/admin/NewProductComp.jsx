@@ -2,7 +2,11 @@
 import React, { useCallback, useState } from "react";
 import Image from "next/image";
 import { cstDateTimeClient } from "@/backend/helpers";
-import { addNewProduct, updateRevalidateProduct } from "@/app/[lang]/_actions";
+import {
+  addNewProduct,
+  imageToText,
+  updateRevalidateProduct,
+} from "@/app/[lang]/_actions";
 import { useRouter } from "next/navigation";
 import {
   productos_presentations,
@@ -30,6 +34,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
   const [createdAt, setCreatedAt] = useState(
     cstDateTimeClient().toLocaleString()
   );
+  const [imageText, setImageText] = useState("");
   const [price, setPrice] = useState(0);
   const [cost, setCost] = useState(0);
   const [stock, setStock] = useState(1);
@@ -263,7 +268,9 @@ const NewProductComp = ({ currentCookies, lang }) => {
 
   // to upload this file to S3 at `https://minio.salvawebpro.com:9000` using the URL:
   async function uploadFile(blobData, url, section) {
-    fetch(url, {
+    const newUrl = url.split("?");
+    const imageUrl = newUrl[0];
+    await fetch(url, {
       method: "PUT",
       body: blobData,
     })
@@ -272,14 +279,33 @@ const NewProductComp = ({ currentCookies, lang }) => {
         // document.querySelector(
         //   '#status'
         // ).innerHTML += `<br>Uploaded ${file.name}.`;
-        const newUrl = url.split("?");
-        if (section === "selectorMain") {
-          setMainImage(newUrl[0]);
-        }
+
+        setMainImage(imageUrl);
       })
       .catch((e) => {
         console.error(e);
       });
+
+    // hit open ai api
+
+    // Call the new API route to generate SEO content
+    const seoResponse = await imageToText(imageUrl);
+
+    if (seoResponse.status !== 200) {
+      //setIsProcessing(false);
+
+      throw new Error("Failed to generate SEO content");
+    }
+
+    const data = JSON.parse(seoResponse.data);
+
+    console.log(data);
+    setDescription(data.description);
+    setTitle(data.title);
+    //setPackingSelection(...packingSelection, data.packing);
+    setPacking(data.packing);
+    //setCategories(...categories, data.category);
+    setCategory(data.category);
   }
 
   const handleAddTagField = (options) => {
@@ -335,32 +361,6 @@ const NewProductComp = ({ currentCookies, lang }) => {
     };
   };
 
-  // Auto-translate function using the API route with debounce
-  const handleAutoTranslate = useCallback(
-    debounce(async (text, targetLang, fieldSetter, fieldName) => {
-      try {
-        const response = await fetch("/api/translate", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ text, targetLang }),
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          fieldSetter((prev) => ({ ...prev, [fieldName]: data.translation }));
-        } else {
-          console.error("Translation API error");
-        }
-      } catch (error) {
-        console.error("Error translating text:", error);
-      }
-    }, 1000),
-    []
-  );
-
-  // Auto-translate function using the API route with debounce
   const handleWeightConversion = async (option, language) => {
     try {
       if (language === "en") {
@@ -427,20 +427,6 @@ const NewProductComp = ({ currentCookies, lang }) => {
         tags: { _errors: ["Se requiere mínimo una presentación "] },
       };
       setValidationError(noPresentationsError);
-      return;
-    }
-    if (!cost) {
-      const noCostError = {
-        cost: { _errors: ["Se requiere un costo de producto "] },
-      };
-      setValidationError(noCostError);
-      return;
-    }
-    if (!price) {
-      const noPriceError = {
-        price: { _errors: ["Se requiere un precio de producto "] },
-      };
-      setValidationError(noPriceError);
       return;
     }
     if (!origins[0].country) {
@@ -513,7 +499,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
                 Nuevo Producto
               </h1>
               <div className="flex flex-row maxmd:flex-col items-start gap-2 justify-between w-full">
-                <div className="flex flex-col items-start justify-center">
+                <div className="flex flex-col items-start justify-center w-full">
                   <div className="flex flex-row maxmd:flex-col items-center justify-between w-full">
                     {/* Availability */}
                     <div className="mb-4 w-full flex flex-row gap-4 items-center pl-3 uppercase">
@@ -530,7 +516,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
                     </div>
                   </div>
                   {/*  Imagen principal */}
-                  <div className="gap-y-1 flex-col flex px-2 w-full">
+                  <div className="w-full gap-y-1 flex-col flex px-2 ">
                     <div className="relative aspect-video hover:opacity-80 bg-white border-4 border-gray-300">
                       <label htmlFor="selectorMain" className="cursor-pointer">
                         <Image
@@ -686,7 +672,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
                           htmlFor="packing"
                           className="block appearance-none border dark:bg-dark border-gray-300 cursor-pointer rounded-md py-2 px-3 focus:outline-none focus:border-gray-400 w-full mt-2"
                         >
-                          {packingSelection.map((option) => (
+                          {packingSelection?.map((option) => (
                             <option
                               data-es={option.es}
                               data-en={option.en}
@@ -794,7 +780,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
                             type="number"
                             className="appearance-none border border-gray-300 bg-gray-100 rounded-md pl-2 py-1 remove-arrow focus:outline-none focus:border-gray-400 w-full"
                             placeholder="0.00"
-                            min="1"
+                            min="0"
                             value={price}
                             onChange={(e) => handlePriceChange(e.target.value)}
                             name="price"
@@ -819,7 +805,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
                             type="number"
                             className="appearance-none border border-gray-300 bg-gray-100 rounded-md pl-2 py-1 remove-arrow focus:outline-none focus:border-gray-400 w-full"
                             placeholder="0.00"
-                            min="1"
+                            min="0"
                             value={cost}
                             onChange={(e) => handleCostChange(e.target.value)}
                             name="cost"

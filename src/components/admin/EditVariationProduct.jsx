@@ -362,20 +362,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
       setValidationError(noPresentationsError);
       return;
     }
-    if (!cost) {
-      const noCostError = {
-        cost: { _errors: ["Se requiere un costo de producto "] },
-      };
-      setValidationError(noCostError);
-      return;
-    }
-    if (!price) {
-      const noPriceError = {
-        price: { _errors: ["Se requiere un precio de producto "] },
-      };
-      setValidationError(noPriceError);
-      return;
-    }
+
     if (!origins[0].country) {
       const noSizesError = {
         sizes: { _errors: ["Se requiere un pais "] },
@@ -449,7 +436,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                 Nuevo Producto
               </h1>
               <div className="flex flex-row maxmd:flex-col items-start gap-2 justify-between w-full">
-                <div className="flex flex-col items-start justify-center">
+                <div className="flex flex-col items-start justify-center w-full">
                   <div className="flex flex-row maxmd:flex-col items-center justify-between w-full">
                     {/* Availability */}
                     <div className="mb-4 w-full flex flex-row gap-4 items-center pl-3 uppercase">
@@ -759,7 +746,6 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                             type="number"
                             className="appearance-none border border-gray-300 bg-gray-100 rounded-md pl-2 py-1 remove-arrow focus:outline-none focus:border-gray-400 w-full"
                             placeholder="0.00"
-                            min="1"
                             value={price}
                             onChange={(e) => handlePriceChange(e.target.value)}
                             name="price"
@@ -784,7 +770,6 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                             type="number"
                             className="appearance-none border border-gray-300 bg-gray-100 rounded-md pl-2 py-1 remove-arrow focus:outline-none focus:border-gray-400 w-full"
                             placeholder="0.00"
-                            min="1"
                             value={cost}
                             onChange={(e) => handleCostChange(e.target.value)}
                             name="cost"

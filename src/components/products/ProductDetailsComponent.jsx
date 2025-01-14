@@ -43,7 +43,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   return (
     <div className="container-class pt-40  ">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[600px] maxmd:w-[400px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[800px] maxmd:w-[400px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 bg-slate-100 dark:bg-primary rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
@@ -62,7 +62,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   {product?.images.map((image, index) => (
                     <div
                       key={image._id}
-                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative rounded-full h-[250px] w-[250px] maxsm:h-[150px] maxsm:w-[150px] overflow-hidden"
+                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative rounded-full h-[350px] w-[350px] maxsm:h-[150px] maxsm:w-[150px] overflow-hidden"
                     >
                       <Image
                         src={image.url}
@@ -80,6 +80,9 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   <p className="text-4xl font-semibold font-primary">
                     {product?.title[`${lang}`]}
                   </p>
+                  <p className="text-base font-semibold font-primary my-3">
+                    {lang === "es" ? "Characteristics" : "Características"}
+                  </p>
                   <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -88,12 +91,12 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   >
                     <div className="flex items-center justify-start gap-2 mt-2">
                       <p>{productDic.single.packing}:</p>
-                      <p className="text-[14px]">
+                      <p className="font-semibold">
                         {product?.packing[`${lang}`]}
                       </p>
                     </div>
                   </motion.div>
-                  <motion.div
+                  {/* <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
@@ -101,7 +104,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   >
                     <div className="flex items-center justify-start  gap-4 mt-2 w-full">
                       <p>{productDic.single.weight}:</p>
-                      <p className="text-[14px]">
+                      <p className="font-semibold">
                         {product?.weight[`es`]}
                         <span>{"ml"}</span>
                         {product?.weightTwo ? (
@@ -113,7 +116,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                         )}
                       </p>
                     </div>
-                  </motion.div>
+                  </motion.div> */}
                   <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -122,12 +125,12 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   >
                     <div className="flex items-center justify-start  gap-4 mt-2 w-full">
                       <p>{productDic.single.category}:</p>
-                      <p className="text-[14px]">
+                      <p className="font-semibold">
                         {product?.category[`${lang}`]}
                       </p>
                     </div>
                   </motion.div>
-                  <motion.div
+                  {/* <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
@@ -146,7 +149,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                         ))}
                       </p>
                     </div>
-                  </motion.div>
+                  </motion.div> */}
                   <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -174,60 +177,6 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     </div>
                   </motion.div>
                 </div>
-              </div>
-              {/* bottom PAnel */}
-              <div className="description-class relative w-[97%] h-full  mt-1 pb-5">
-                <motion.div
-                  initial={{ x: 50, opacity: 0 }}
-                  whileInView={{ x: 0, opacity: 1 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <p className="text-base font-semibold font-primary mb-3">
-                    Crop Season:
-                  </p>
-                  <div className="">
-                    <div className="flex items-center gap-x-1 w-full">
-                      <table className="w-full">
-                        <thead className="w-full">
-                          <tr className="font-secondary font-light text-[9px] flex items-center justify-between min-w-full">
-                            <th className="w-8"></th>
-                            {months.map((mes) => (
-                              <th key={mes.es}>
-                                {mes[`${lang}`].substring(0, 3)}
-                              </th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {origins.map((origin) => (
-                            <tr
-                              key={origin.country[`${lang}`]}
-                              className="font-secondary font-light text-[10px] flex items-center justify-between min-w-full"
-                            >
-                              <td className="min-w-8 max-w-8 maxxsm:text-[8px]">
-                                {origin.country[`${lang}`]}
-                              </td>
-                              {months.map((month) => {
-                                const isAvailable = origin.months.some(
-                                  (originMonth) =>
-                                    originMonth.value === month.value
-                                );
-                                return (
-                                  <td
-                                    key={month.value}
-                                    className={`border m-0.2 my-1 border-primary dark:border-white h-3 w-3 ${
-                                      isAvailable ? "bg-dark" : ""
-                                    }`}
-                                  ></td>
-                                );
-                              })}
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </motion.div>
               </div>
             </div>
           </div>

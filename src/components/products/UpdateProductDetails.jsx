@@ -152,14 +152,6 @@ const UpdateProductDetails = ({ product }) => {
       setError("Por favor agrega el precio del producto para continuar.");
       return;
     }
-    if (stock <= 0) {
-      setError("Por favor agrega el costo por producto para continuar.");
-      return;
-    }
-    if (cost <= 0) {
-      setError("Por favor agrega el costo por producto para continuar.");
-      return;
-    }
 
     if (inputImageFields > 0) {
       inputImageFields.map((field) => {
