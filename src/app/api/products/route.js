@@ -60,6 +60,8 @@ async function groupCountriesByMonths(products) {
 
 export const GET = async (request, res) => {
   const token = await request.headers.get("cookie");
+  console.log("tokeeennnnnn", token);
+
   if (!token) {
     // Not Signed in
     const notAuthorized = "You are not authorized no no no";
