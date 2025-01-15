@@ -105,9 +105,9 @@ export const GET = async (request, res) => {
       .slice()
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
-    const groupedMonths = await updateProductOrigins(sortedProducts);
+    //const groupedMonths = await updateProductOrigins(sortedProducts);
     const products = {
-      products: groupedMonths,
+      products: sortedProducts,
     };
 
     console.log(sortedProducts);
@@ -121,6 +121,7 @@ export const GET = async (request, res) => {
     };
     return new Response(JSON.stringify(dataPacket), { status: 201 });
   } catch (error) {
+    console.log(error);
     return NextResponse.json(
       {
         error: "Products loading error",
