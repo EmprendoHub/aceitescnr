@@ -19,10 +19,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
   useEffect(() => {
     if (keyword || category) {
       if (
-        keyword?.toLowerCase() === "aditivos" ||
-        keyword?.toLowerCase() === "additives" ||
-        category?.toLowerCase() === "aditivos" ||
-        category?.toLowerCase() === "additives"
+        keyword?.toLowerCase().includes("aditivo") ||
+        keyword?.toLowerCase().includes("additive") ||
+        category?.toLowerCase().includes("aditivo") ||
+        category?.toLowerCase().includes("additive")
       ) {
         setCoverImage(coverAdditives);
         if (lang === "es") {
@@ -34,10 +34,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase() === "atf-dexron" ||
-        keyword?.toLowerCase() === "atf-dexron" ||
-        category?.toLowerCase() === "atf-dexron" ||
-        category?.toLowerCase() === "atf-dexron"
+        keyword?.toLowerCase().includes("atf-dexron") ||
+        keyword?.toLowerCase().includes("atf-dexron") ||
+        category?.toLowerCase().includes("atf-dexron") ||
+        category?.toLowerCase().includes("atf-dexron")
       ) {
         setCoverImage(coverDexron);
         if (lang === "es") {
@@ -49,10 +49,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase() === "motocicletas" ||
-        keyword?.toLowerCase() === "motorcycles" ||
-        category?.toLowerCase() === "motocicletas" ||
-        category?.toLowerCase() === "motorcycles"
+        keyword?.toLowerCase().includes("motocicleta") ||
+        keyword?.toLowerCase().includes("motorcycle") ||
+        category?.toLowerCase().includes("motocicleta") ||
+        category?.toLowerCase().includes("motorcycle")
       ) {
         setCoverImage(coverMotorcycles);
         if (lang === "es") {
@@ -64,10 +64,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase() === "carreras" ||
-        keyword?.toLowerCase() === "racing" ||
-        category?.toLowerCase() === "carreras" ||
-        category?.toLowerCase() === "racing"
+        keyword?.toLowerCase().includes("carrera") ||
+        keyword?.toLowerCase().includes("racing") ||
+        category?.toLowerCase().includes("carrera") ||
+        category?.toLowerCase().includes("racing")
       ) {
         setCoverImage(coverRacing);
         if (lang === "es") {
@@ -79,10 +79,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase() === "rrcca" ||
-        keyword?.toLowerCase() === "rrcca" ||
-        category?.toLowerCase() === "rrcca" ||
-        category?.toLowerCase() === "rrcca"
+        keyword?.toLowerCase().includes("rrcca") ||
+        keyword?.toLowerCase().includes("rrcca") ||
+        category?.toLowerCase().includes("rrcca") ||
+        category?.toLowerCase().includes("rrcca")
       ) {
         setCoverImage(coverRRCCA);
         if (lang === "es") {
@@ -94,10 +94,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase() === "hidráulicos" ||
-        keyword?.toLowerCase() === "hydraulics" ||
-        category?.toLowerCase() === "hidráulicos" ||
-        category?.toLowerCase() === "hydraulics"
+        keyword?.toLowerCase().includes("hidráulico") ||
+        keyword?.toLowerCase().includes("hydraulic") ||
+        category?.toLowerCase().includes("hidráulico") ||
+        category?.toLowerCase().includes("hydraulic")
       ) {
         setCoverImage(coverHydraulics);
         if (lang === "es") {

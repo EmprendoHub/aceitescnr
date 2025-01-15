@@ -31,7 +31,7 @@ const MobileFilterComponet = ({ lang, allBrands, allCategories }) => {
   }, [pathname]);
 
   return (
-    <div className="px-16 w-full mb-5">
+    <div className="px-5 w-full mb-5">
       <div
         className={`mt-5 p-3 border border-gray-200 text-center w-full justify-between flex mx-auto `}
       >
