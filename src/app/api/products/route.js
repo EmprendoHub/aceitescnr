@@ -108,6 +108,8 @@ export const GET = async (request, res) => {
       products: groupedMonths,
     };
 
+    console.log(sortedProducts);
+
     const dataPacket = {
       products,
       productsCount,
