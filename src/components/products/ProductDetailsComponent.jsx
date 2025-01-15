@@ -47,7 +47,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
-            <div className="relative image-class w-full flex flex-col items-center justify-center">
+            <div className="relative image-class w-full flex flex-col items-center justify-center p-5">
               <div
                 onClick={() => setShowModal(false)}
                 className=" absolute z-[888] top-0 right-2 my-2 px-1 py-1 text-center text-white bg-red-700 border border-transparent rounded-full hover:bg-red-800 w-auto flex flex-row items-center justify-center gap-1 cursor-pointer"
