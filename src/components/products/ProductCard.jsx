@@ -25,7 +25,7 @@ const ProductCard = ({ item, lang, productDic }) => {
         className="rounded-sm w-[170px] maxxsm:w-[240px] overflow-hidden relative flex flex-col gap-4 cursor-pointer"
         onClick={clickForModal}
       >
-        <div className="w-full rounded-full h-[170px] group overflow-hidden relative maxxsm:h-[240px]">
+        <div className="w-full h-[170px] group overflow-hidden relative maxxsm:h-[240px]">
           <Image
             src={item?.images[0]?.url}
             alt="product image"

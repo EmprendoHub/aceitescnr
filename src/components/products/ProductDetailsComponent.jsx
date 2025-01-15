@@ -62,7 +62,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   {product?.images.map((image, index) => (
                     <div
                       key={image._id}
-                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative rounded-full h-[350px] w-[350px] maxsm:h-[150px] maxsm:w-[150px] overflow-hidden"
+                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[350px] w-[350px] maxsm:h-[150px] maxsm:w-[150px] overflow-hidden"
                     >
                       <Image
                         src={image.url}
