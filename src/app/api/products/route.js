@@ -110,8 +110,6 @@ export const GET = async (request, res) => {
       products: sortedProducts,
     };
 
-    console.log(sortedProducts);
-
     const dataPacket = {
       products,
       productsCount,

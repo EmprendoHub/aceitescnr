@@ -8,6 +8,7 @@ import { useRouter } from "next/navigation";
 const ListProducts = ({ lang, products, productDic }) => {
   const { data: session } = useSession();
   const router = useRouter();
+
   useEffect(() => {
     if (session?.user?.role === "manager") {
       router.push(`/${lang}/admin`);

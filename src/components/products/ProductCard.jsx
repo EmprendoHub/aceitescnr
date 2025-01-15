@@ -27,7 +27,7 @@ const ProductCard = ({ item, lang, productDic }) => {
       >
         <div className="w-full rounded-full h-[170px] group overflow-hidden relative maxxsm:h-[240px]">
           <Image
-            src={item?.product?.images[0]?.url}
+            src={item?.images[0]?.url}
             alt="product image"
             className="  ease-in-out duration-500 w-full h-full object-cover group-hover:scale-110 rounded-t-sm"
             width={350}

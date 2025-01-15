@@ -22,7 +22,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
     { es: "Diciembre", en: "December", value: 12 },
   ];
 
-  const product = data.product;
+  const product = data;
   const origins = data.origins;
   const slideRef = useRef(null);
   const clickImage = (imageId) => {
