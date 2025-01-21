@@ -72,8 +72,8 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     className="text-sm text-lightText flex flex-col"
                   >
                     <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-1 w-full">
-                      <p className="font-semibold maxmd:text-xs">
-                        <span className="font-normal">
+                      <p className=" maxmd:text-xs">
+                        <span className="font-semibold">
                           {productDic.single.packing}:{" "}
                         </span>
                         {product?.packing[`${lang}`]}
@@ -87,9 +87,9 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.9 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-1 w-full">
-                      <p className="font-semibold maxmd:text-xs">
-                        <span className="font-normal">
+                    <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-0 w-full">
+                      <p className="f maxmd:text-xs">
+                        <span className="font-semibold">
                           {productDic.single.category}:{" "}
                         </span>
                         {product?.category?.name[`${lang}`]}
@@ -102,28 +102,26 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 1 }}
                     className="text-sm text-lightText flex flex-col maxsm:hidden"
                   >
-                    <div className=" text-xs maxsm:text-[11px] maxsm:leading-[1] items-start justify-start  gap-1 mt-2 w-full">
-                      <span className="font-semibold">Detalle: </span>
+                    <div className=" text-xs maxsm:text-[11px] maxsm:leading-[1] items-start justify-start  gap-1 mt-1 w-full">
                       {product?.category?.summary[`${lang}`]}
                     </div>
                   </motion.div>
                 </div>
               </div>
               {/* bottom section */}
-              <div className="flex maxsm:flex-col items-start  gap-1 px-2 w-full relative h-auto">
+              <div className="flex maxsm:flex-col items-start gap-1 px-2 maxsm:px-0 w-full relative h-auto">
                 <motion.div
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
                   className="text-sm text-lightText  maxsm:flex  maxsm:flex-col  hidden"
                 >
-                  <div className="font-normal text-xs maxsm:text-[11px] maxsm:leading-[1.3] mt-2">
-                    <span className="font-semibold">Detalle: </span>
+                  <div className="font-normal text-xs maxsm:text-[11px] maxsm:leading-[1.2] mt-1">
                     {product?.category?.summary[`${lang}`]}
                   </div>
                 </motion.div>
                 <div className="relative flex flex-col w-1/2 maxsm:w-full   ">
-                  <p className="text-base maxmd:text-sm font-semibold font-primary mt-1">
+                  <p className="text-base maxmd:text-sm font-semibold font-primary mt-0">
                     {lang === "es" ? "Ficha Técnica" : "Technical data sheet"}{" "}
                     {lang === "es" ? "Características:" : "Characteristics:"}
                   </p>
@@ -133,18 +131,18 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm  text-lightText flex flex-col"
                   >
-                    <div className="flex flex-col items-start justify-start gap-1 mt-2">
+                    <div className="flex flex-col items-start justify-start gap-1 mt-1">
                       <div className="overflow-x-auto w-full">
                         <table className="font-normal text-[11px] maxmd:text-[10px] border-collapse border border-gray-300 w-full">
                           <thead>
                             <tr className="bg-gray-100">
-                              <th className="px-.5 border border-gray-300">
+                              <th className="px-.5 border border-gray-300 maxsm:leading-[1.2]">
                                 {lang === "es" ? "Prueba" : "Test"}
                               </th>
-                              <th className="px-.5 border border-gray-300">
+                              <th className="px-.5 border border-gray-300 maxsm:leading-[1.2]">
                                 {lang === "es" ? "Método" : "Method"}
                               </th>
-                              <th className="px-.5 border border-gray-300">
+                              <th className="px-.5 border border-gray-300 maxsm:leading-[1.2]">
                                 {lang === "es"
                                   ? "Valor Típico"
                                   : "Typical Value"}
@@ -185,7 +183,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="font-normal text-xs maxsm:text-[11px] mt-2  maxsm:leading-[1.3]">
+                    <div className="font-normal text-xs maxsm:text-[11px] mt-1  maxsm:leading-[1.2]">
                       <span className="font-semibold">
                         {lang === "es" ? "Beneficios: " : "Benefits: "}{" "}
                       </span>
@@ -198,7 +196,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="font-normal text-xs maxsm:text-[11px] mt-2  maxsm:leading-[1.3]">
+                    <div className="font-normal text-xs maxsm:text-[11px] mt-1  maxsm:leading-[1.2]">
                       <span className="font-semibold">
                         {lang === "es" ? "Precauciones:" : "Precautions:"}
                       </span>
