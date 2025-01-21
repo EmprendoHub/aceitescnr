@@ -36,8 +36,8 @@ const ProductCard = ({ item, lang, productDic }) => {
         </div>
         <div className=" px-4 py-1 flex flex-col w-full rounded-b-sm">
           <div className="flex items-center justify-center gap-x-1">
-            <p className=" tracking-wide text-center font-primary text-xl">
-              {item?.product?.title[`${lang}`]}
+            <p className=" tracking-wide text-center text-black font-primary text-xs">
+              {item?.title[`${lang}`]}
             </p>
           </div>
         </div>

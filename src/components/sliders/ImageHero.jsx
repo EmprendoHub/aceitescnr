@@ -77,7 +77,7 @@ const ImageHero = ({ homeDic }) => {
         </div>
       </div>
       <div className="absolute -bottom-20 left-1/2 transform -translate-x-1/2 z-20">
-        <div className="flex items-center justify-center gap-5 maxsm:gap-1 w-full bg-white py-4 shadow-sm shadow-slate-400">
+        <div className="flex items-center justify-center gap-5 maxsm:gap-1 w-full bg-background  py-4 shadow-sm shadow-slate-400">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}

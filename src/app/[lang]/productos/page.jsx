@@ -58,13 +58,13 @@ const ProductosPage = async ({ searchParams, params }) => {
   const queryUrlParams = removeUndefinedAndPageKeys(urlParams);
   const keywordQuery = new URLSearchParams(queryUrlParams).toString();
 
-  const per_page = 15;
+  const per_page = 50;
   const data = await getAllProducts(searchQuery, currentCookies, per_page);
 
   //pagination
-  let page = parseInt(searchParams.page, 15);
+  let page = parseInt(searchParams.page, 50);
   page = !page || page < 1 ? 1 : page;
-  const perPage = 15;
+  const perPage = 50;
   const itemCount = data?.productsCount;
   const allCategories = data?.allCategories;
   const allBrands = data?.allBrands;

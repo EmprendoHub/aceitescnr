@@ -45,7 +45,7 @@ export default async function RootLayout({ children, params }) {
     <html lang={`${lang}`}>
       {/* <GoogleAnalytics gaId="G-XHDKY7FLQ5" /> */}
       <body
-        className={`body-class relative overflow-x-hidden h-full dark:bg-dark bg-white dark:text-white`}
+        className={`body-class relative overflow-x-hidden h-full bg-background dark:text-white`}
       >
         <CustomSessionProvider>
           <HeaderComponent lang={lang} />

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const DoubleSideToSide = ({ homeDic }) => {
   return (
-    <div className="w-full min-h-full bg-white dark:bg-primary pt-20">
+    <div className="w-full min-h-full dark:bg-background pt-20">
       <div className="h-full py-8">
         {/* Top Side */}
         <div className="h-full max-w-5xl mx-auto m-8">
