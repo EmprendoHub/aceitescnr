@@ -136,13 +136,13 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                         <table className="font-normal text-[11px] maxmd:text-[10px] border-collapse border border-gray-300 w-full">
                           <thead>
                             <tr className="bg-gray-100">
-                              <th className="px-.5 border border-gray-300 maxsm:leading-[1.2]">
+                              <th className="px-.5 border border-gray-300 leading-[1.2]">
                                 {lang === "es" ? "Prueba" : "Test"}
                               </th>
-                              <th className="px-.5 border border-gray-300 maxsm:leading-[1.2]">
+                              <th className="px-.5 border border-gray-300 leading-[1.2]">
                                 {lang === "es" ? "Método" : "Method"}
                               </th>
-                              <th className="px-.5 border border-gray-300 maxsm:leading-[1.2]">
+                              <th className="px-.5 border border-gray-300 leading-[1.2]">
                                 {lang === "es"
                                   ? "Valor Típico"
                                   : "Typical Value"}
@@ -158,13 +158,13 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                                     index % 2 === 0 ? "bg-gray-50" : ""
                                   }
                                 >
-                                  <td className="px-0.5 border border-gray-300 maxsm:leading-[1.3] ">
+                                  <td className="px-0.5 border border-gray-300 leading-[1.3] ">
                                     {characteristic.test[lang]}
                                   </td>
-                                  <td className="px-0.5 border border-gray-300 maxsm:leading-[1.3] ">
+                                  <td className="px-0.5 border border-gray-300 leading-[1.3] ">
                                     {characteristic.method[lang]}
                                   </td>
-                                  <td className="px-0.5 border border-gray-300 maxsm:leading-[1.3] ">
+                                  <td className="px-0.5 border border-gray-300 leading-[1.3] ">
                                     {characteristic.typicalValue?.[lang] || "-"}
                                   </td>
                                 </tr>
