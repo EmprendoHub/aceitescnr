@@ -8,7 +8,6 @@ import Link from "next/link";
 
 const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   const product = data;
-  console.log(product);
   const slideRef = useRef(null);
   const clickImage = (imageId) => {
     const lists = slideRef.current.children;
@@ -26,9 +25,9 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   };
 
   return (
-    <div className="container-class pt-20  maxsm:pt-2">
+    <div className="container-class pt-20 maxmd:pt-8  maxsm:pt-2">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[800px] maxmd:w-[600px] maxsm:w-[450px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 maxsm:gap-1 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[850px] maxmd:w-[650px] maxsm:w-[450px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 maxsm:gap-1 bg-slate-100 dark:bg-primary rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
@@ -62,12 +61,10 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                 </div>
 
                 <div className="flex flex-col pr-3 w-1/2 maxsm:w-full justify-end">
-                  <p className="text-2xl font-semibold font-primary">
+                  <p className="text-2xl maxmd:text-lg font-semibold font-primary">
                     {product?.title[`${lang}`]}
                   </p>
-                  <p className="text-base font-semibold font-primary mt-2">
-                    {lang === "es" ? "Characteristics" : "Características"}
-                  </p>
+
                   <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -88,9 +85,11 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.9 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="flex items-center justify-start  gap-4 mt-2 w-full">
-                      <p>{productDic.single.category}:</p>
-                      <p className="font-semibold">
+                    <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-1 w-full">
+                      <p className="font-semibold maxmd:text-xs">
+                        <span className="font-normal">
+                          {productDic.single.category}:{" "}
+                        </span>
                         {product?.category?.name[`${lang}`]}
                       </p>
                     </div>
@@ -101,11 +100,9 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 1 }}
                     className="text-sm text-lightText flex flex-col maxsm:hidden"
                   >
-                    <div className="flex flex-col items-start justify-start  gap-1 mt-2 w-full">
-                      <p>Detalle:</p>
-                      <p className="font-normal text-xs">
-                        {product?.category?.summary[`${lang}`]}
-                      </p>
+                    <div className=" text-xs maxsm:text-[11px] items-start justify-start  gap-1 mt-2 w-full">
+                      <span className="font-semibold">Detalle: </span>
+                      {product?.category?.summary[`${lang}`]}
                     </div>
                   </motion.div>
                 </div>
@@ -124,7 +121,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   </div>
                 </motion.div>
                 <div className="relative flex flex-col w-1/2 maxsm:w-full   ">
-                  <p className="text-base font-semibold font-primary mt-1">
+                  <p className="text-base maxmd:text-sm font-semibold font-primary mt-1">
                     {lang === "es" ? "Ficha Técnica" : "Technical data sheet"}{" "}
                     {lang === "es" ? "Características:" : "Characteristics:"}
                   </p>
@@ -136,7 +133,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   >
                     <div className="flex flex-col items-start justify-start gap-1 mt-2">
                       <div className="overflow-x-auto w-full">
-                        <table className="font-normal text-[12px] maxsm:text-[10px] border-collapse border border-gray-300 w-full">
+                        <table className="font-normal text-[11px] maxmd:text-[10px] border-collapse border border-gray-300 w-full">
                           <thead>
                             <tr className="bg-gray-100">
                               <th className="px-.5 border border-gray-300">
@@ -207,7 +204,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     </div>
                   </motion.div>
 
-                  <div className="flex items-center justify-between">
+                  <div className="flex items-end justify-start w-full gap-4">
                     {product?.category?.images.map((image, index) => (
                       <div
                         key={image._id}
@@ -220,7 +217,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                           height={350}
                           data-image-id={image._id}
                           onClick={() => clickImage(image._id)}
-                          className={`w-40 h-auto`}
+                          className={`w-40 maxsm:w-24 h-auto`}
                         />
                       </div>
                     ))}
@@ -228,9 +225,8 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                       initial={{ y: 50, opacity: 0 }}
                       whileInView={{ y: 0, opacity: 1 }}
                       transition={{ duration: 1.2 }}
-                      className="text-sm text-lightText flex flex-col"
+                      className="text-sm text-lightText flex items-end"
                     >
-                      <p>{productDic.single.quote}:</p>
                       <p className="flex items-center text-[14px]">
                         <Link
                           href={
@@ -243,8 +239,9 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                                 }&type=phone_number&app_absent=0`
                           }
                           target="_blank"
+                          className="bg-emerald-700 text-white rounded-full px-4 py-2 flex items-center gap-2 hover:bg-emerald-800 "
                         >
-                          <FaWhatsapp size={60} />
+                          {productDic.single.quote}:<FaWhatsapp size={24} />
                         </Link>
                       </p>
                     </motion.div>
