@@ -27,14 +27,14 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   return (
     <div className="container-class pt-20 maxmd:pt-8  maxsm:pt-2">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[850px] maxmd:w-[650px] maxsm:w-[450px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 maxsm:gap-1 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[850px] maxmd:w-[650px] maxsm:w-[480px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 maxsm:gap-0 bg-slate-100 dark:bg-primary rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
-            <div className="relative image-class w-full flex flex-col items-center justify-center p-5 maxsm:p-2">
+            <div className="relative image-class w-full flex flex-col items-center justify-center p-5 maxsm:p-1">
               <div
                 onClick={() => setShowModal(false)}
-                className=" absolute z-[888] top-2 right-4 my-2 px-1 py-1 text-center text-white bg-red-700 border border-transparent rounded-full hover:bg-red-800 w-auto flex flex-row items-center justify-center gap-1 cursor-pointer"
+                className=" absolute z-[888] top-1 right-3 my-2 px-1 py-1 text-center text-white bg-red-700 border border-transparent rounded-full hover:bg-red-800 w-auto flex flex-row items-center justify-center gap-1 cursor-pointer"
               >
                 <FaCircleXmark className="text-xl" />
               </div>
@@ -45,7 +45,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   {product?.images.map((image, index) => (
                     <div
                       key={image._id}
-                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[300px] w-[300px] maxsm:h-[150px] maxsm:w-[150px] overflow-hidden"
+                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[300px] w-[300px] maxsm:h-[150px] maxsm:w-[150px] maxxsm:w-[100px] maxxsm:h-[100px] overflow-hidden"
                     >
                       <Image
                         src={image.url}
@@ -60,10 +60,10 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   ))}
                 </div>
 
-                <div className="flex flex-col pr-3 w-1/2 maxsm:w-full justify-end">
-                  <p className="text-2xl maxmd:text-lg font-semibold font-primary">
+                <div className="flex flex-col pt-5 pr-3 maxmd:pr-10 w-1/2 maxsm:w-full justify-end">
+                  <div className="text-2xl maxmd:text-lg font-semibold font-primary maxmd:leading-none">
                     {product?.title[`${lang}`]}
-                  </p>
+                  </div>
 
                   <motion.div
                     initial={{ y: 50, opacity: 0 }}
@@ -71,9 +71,11 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="flex items-center justify-start gap-2 mt-2">
-                      <p>{productDic.single.packing}:</p>
-                      <p className="font-semibold">
+                    <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-1 w-full">
+                      <p className="font-semibold maxmd:text-xs">
+                        <span className="font-normal">
+                          {productDic.single.packing}:{" "}
+                        </span>
                         {product?.packing[`${lang}`]}
                       </p>
                     </div>
@@ -100,7 +102,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 1 }}
                     className="text-sm text-lightText flex flex-col maxsm:hidden"
                   >
-                    <div className=" text-xs maxsm:text-[11px] items-start justify-start  gap-1 mt-2 w-full">
+                    <div className=" text-xs maxsm:text-[11px] maxsm:leading-[1] items-start justify-start  gap-1 mt-2 w-full">
                       <span className="font-semibold">Detalle: </span>
                       {product?.category?.summary[`${lang}`]}
                     </div>
@@ -115,7 +117,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   transition={{ duration: 1 }}
                   className="text-sm text-lightText  maxsm:flex  maxsm:flex-col  hidden"
                 >
-                  <div className="font-normal text-xs maxsm:text-[11px] mt-2">
+                  <div className="font-normal text-xs maxsm:text-[11px] maxsm:leading-[1.3] mt-2">
                     <span className="font-semibold">Detalle: </span>
                     {product?.category?.summary[`${lang}`]}
                   </div>
@@ -183,7 +185,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="font-normal text-xs maxsm:text-[11px] mt-2">
+                    <div className="font-normal text-xs maxsm:text-[11px] mt-2  maxsm:leading-[1.3]">
                       <span className="font-semibold">
                         {lang === "es" ? "Beneficios: " : "Benefits: "}{" "}
                       </span>
@@ -196,7 +198,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="font-normal text-xs maxsm:text-[11px] mt-2">
+                    <div className="font-normal text-xs maxsm:text-[11px] mt-2  maxsm:leading-[1.3]">
                       <span className="font-semibold">
                         {lang === "es" ? "Precauciones:" : "Precautions:"}
                       </span>

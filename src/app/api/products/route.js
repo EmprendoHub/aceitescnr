@@ -4,61 +4,6 @@ import Product from "@/backend/models/Product";
 import APIFilters from "@/lib/APIFilters";
 import Category from "@/backend/models/Category";
 
-async function updateProductOrigins(products) {
-  const productsWithGroupedOrigins = await groupCountriesByMonths(products);
-
-  return productsWithGroupedOrigins.map(({ product, groupedOrigins }) => {
-    const newOrigins = product.origins.reduce((acc, origin) => {
-      const country = origin.country.en;
-      const existingCountry = acc.find((o) => o.country.en === country);
-
-      if (!existingCountry) {
-        acc.push({
-          country: origin.country,
-          months: groupedOrigins.find((go) => go.country === country).months,
-        });
-      }
-
-      return acc;
-    }, []);
-    return { product, origins: newOrigins };
-  });
-}
-
-async function groupCountriesByMonths(products) {
-  return products.map((product) => {
-    const result = [];
-
-    product.origins.forEach((origin) => {
-      let countryEntry = result.find(
-        (entry) => entry.country === origin.country.en
-      );
-
-      if (!countryEntry) {
-        countryEntry = {
-          country: origin.country.en,
-          months: [],
-        };
-        result.push(countryEntry);
-      }
-
-      // Add only unique months to avoid duplication
-      const monthExists = countryEntry.months.some(
-        (month) => month.value === origin.month.value
-      );
-
-      if (!monthExists) {
-        countryEntry.months.push(origin.month);
-      }
-    });
-
-    return {
-      product,
-      groupedOrigins: result,
-    };
-  });
-}
-
 export const GET = async (request, res) => {
   const token = await request.headers.get("cookie");
 
@@ -116,9 +61,6 @@ export const GET = async (request, res) => {
       .slice()
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
-    console.log(sortedProducts[0].category.characteristics);
-
-    //const groupedMonths = await updateProductOrigins(sortedProducts);
     const products = {
       products: sortedProducts,
     };
