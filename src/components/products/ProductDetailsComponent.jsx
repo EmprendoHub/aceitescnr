@@ -27,7 +27,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   return (
     <div className="container-class pt-20 maxmd:pt-8  maxsm:pt-2">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[850px] maxmd:w-[650px] maxsm:w-[480px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 maxsm:gap-0 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[850px] maxmd:w-[90%] maxsm:w-[95%] maxxsm:mx-5 mx-auto wrapper-class gap-3 maxsm:gap-0 bg-slate-100 dark:bg-primary rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
@@ -45,7 +45,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   {product?.images.map((image, index) => (
                     <div
                       key={image._id}
-                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[300px] w-[300px] maxsm:h-[150px] maxsm:w-[150px] maxxsm:w-[100px] maxxsm:h-[100px] overflow-hidden"
+                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[300px] w-[300px] maxmd:h-[200px] maxmd:w-[200px] maxsm:h-[150px] maxsm:w-[150px] maxxsm:w-[100px] maxxsm:h-[100px] overflow-hidden"
                     >
                       <Image
                         src={image.url}
@@ -160,13 +160,13 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                                     index % 2 === 0 ? "bg-gray-50" : ""
                                   }
                                 >
-                                  <td className="px-0.5 border border-gray-300">
+                                  <td className="px-0.5 border border-gray-300 maxsm:leading-[1.3] ">
                                     {characteristic.test[lang]}
                                   </td>
-                                  <td className="px-0.5 border border-gray-300">
+                                  <td className="px-0.5 border border-gray-300 maxsm:leading-[1.3] ">
                                     {characteristic.method[lang]}
                                   </td>
-                                  <td className="px-0.5 border border-gray-300">
+                                  <td className="px-0.5 border border-gray-300 maxsm:leading-[1.3] ">
                                     {characteristic.typicalValue?.[lang] || "-"}
                                   </td>
                                 </tr>
