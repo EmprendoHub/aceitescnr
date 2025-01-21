@@ -5,12 +5,6 @@ import { BsSunFill } from "react-icons/bs";
 
 const ThemeToggleVertical = ({ className }) => {
   const [darkMode, setDarkMode] = useState(false);
-  // useEffect(() => {
-  //   if (localStorage) {
-  //     const theme = localStorage?.getItem("theme");
-  //     if (theme && theme === "dark") setDarkMode(true);
-  //   }
-  // }, []);
 
   useEffect(() => {
     if (darkMode) {

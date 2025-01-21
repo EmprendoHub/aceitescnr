@@ -33,15 +33,18 @@ import APIClientFilters from "@/lib/APIClientFilters";
 import APIAffiliateFilters from "@/lib/APIAffiliateFilters";
 import Page from "@/backend/models/Page";
 import Payment from "@/backend/models/Payment";
-import crypto from "crypto";
-import { NextResponse } from "next/server";
 import Customer from "@/backend/models/Customer";
 import Author from "@/backend/models/Author";
 import Analytic from "@/backend/models/Analytic";
 import Visitor from "@/backend/models/Visitor";
 import Onboarding from "@/backend/models/Onboarding";
-import { SiSuckless } from "react-icons/si";
 import OpenAI from "openai";
+import fs from "fs";
+import path, { join } from "path";
+import mainLogo from "../../../public/logos/CNR_LOGO_true.png";
+import { writeFile } from "fs/promises";
+import { mc } from "@/lib/minio";
+import Category from "@/backend/models/Category";
 
 function generateUrlSafeTitle(title) {
   // Convert the title to lowercase and replace spaces with dashes
@@ -1930,9 +1933,9 @@ export async function getOneProduct(slug, id) {
     await dbConnect();
     let product;
     if (id) {
-      product = await Product.findOne({ _id: id });
+      product = await Product.findOne({ _id: id }).populate("category");
     } else {
-      product = await Product.findOne({ slug: slug });
+      product = await Product.findOne({ slug: slug }).populate("category");
     }
 
     // convert to string
@@ -1950,10 +1953,11 @@ export async function getOneProductWithTrending(slug, id) {
     await dbConnect();
     let product;
     if (id) {
-      product = await Product.findOne({ _id: id });
+      product = await Product.findOne({ _id: id }).populate("category");
     } else {
-      product = await Product.findOne({ slug: slug });
+      product = await Product.findOne({ slug: slug }).populate("category");
     }
+
     let trendingProducts = await Product.find({
       category: product.category,
       _id: { $ne: product._id },
@@ -2261,7 +2265,7 @@ export async function getAllProduct(searchQuery) {
         session?.user?.role === "manager" ||
         session?.user?.role === "sucursal"
       ) {
-        productQuery = Product.find();
+        productQuery = Product.find().populate("category");
       }
     } else {
       productQuery = Product.find({ published: true });
@@ -2275,7 +2279,18 @@ export async function getAllProduct(searchQuery) {
     // total number of documents in database
     const productsCount = await Product.countDocuments();
     // Extract all possible categories
-    let allCategories = await Product.distinct("category");
+    const allCategoriesData = await Category.find({}); // Adjust field names as per your schema
+    const productCategories = await Product.distinct("category");
+
+    // Filter allCategoriesData to include only categories with IDs in productCategories
+    let allCategories = allCategoriesData
+      .filter((category) =>
+        productCategories.some((id) => id.equals(category._id))
+      )
+      .map((category) => {
+        return { id: category._id, name: category.name };
+      });
+
     // Extract all possible categories
     let allBrands = await Product.distinct("brand");
     // Apply search Filters
@@ -2851,7 +2866,7 @@ export async function addNewProduct(data) {
     title,
     packing,
     description,
-    category,
+    categoryId,
     weight,
     featured,
     onlineAvailability,
@@ -2870,7 +2885,7 @@ export async function addNewProduct(data) {
   //check for errors
   title = JSON.parse(title);
   packing = JSON.parse(packing);
-  category = JSON.parse(category);
+  categoryId = JSON.parse(categoryId);
   weight = JSON.parse(weight);
   description = JSON.parse(description);
   featured = JSON.parse(featured);
@@ -2895,7 +2910,6 @@ export async function addNewProduct(data) {
     slug,
     packing,
     description,
-    category,
     weight,
     featured,
     onlineAvailability,
@@ -2908,6 +2922,8 @@ export async function addNewProduct(data) {
     images: [{ url: mainImage }],
     createdAt,
     published: true,
+    category: { _id: categoryId },
+
     user,
   });
   console.log(newProduct);
@@ -3875,6 +3891,9 @@ export async function imageToText(imageUrl) {
     apiKey: process.env.OPEN_AI_KEY,
   });
 
+  await dbConnect();
+  const categories = await Category.find({}, "name _id");
+
   console.log(imageUrl, "imageUrl");
   try {
     const response = await openai.chat.completions.create({
@@ -3885,7 +3904,7 @@ export async function imageToText(imageUrl) {
           content: [
             {
               type: "text",
-              text: "extract all the product fields from this product image and create a product object to save to a mongoose db connection with the following product structure:{ title: {    es: { type: String },    en: { type: String },  }, description: {    es: { type: String },    en: { type: String },  }, brand: {    type: String,  }, weight: {    es: { type: Number },    en: { type: Number },  },\npacking: {    es: { type: String },    en: { type: String },  }, category: {    es: { type: String },    en: { type: String },  }, images: [    {      url: {        type: String,      },    },  ]}. Adjust the English and Spanish translations as necessary for the actual product text.",
+              text: `extract all the product fields from this product image and create a product object to save to a mongoose db connection with the following product structure:{ title: {    es: { type: String },    en: { type: String },  }, description: {    es: { type: String },    en: { type: String },  }, brand: {    type: String,  }, weight: {    es: { type: Number },    en: { type: Number },  },\npacking: {    es: { type: String },    en: { type: String },  }, category: {    es: { type: String },    en: { type: String },  }, categoryId: {  type: String }, images: [    {      url: {        type: String,      },    },  ]}. Pick The best suiting category name and its corresponding id from exclusively the following list ${categories}. Adjust the English and Spanish translations as necessary for the actual product text.`,
             },
             {
               type: "image_url",
@@ -3900,7 +3919,7 @@ export async function imageToText(imageUrl) {
           content: [
             {
               type: "text",
-              text: `Please return the response with only the following JSON format:{  title: { es: "Aditivo para Motocicletas 2 Tiempos",  en: "Additive for 2-Stroke Motorcycles" },  description: {  es: "CNR Oil calidad superior para motores de 2 tiempos.",    en: "CNR Oil superior quality for 2-stroke engines."  },  brand: {  type: "CNR Oil"  },  weight: {    es: 220,    en: 220 },  packing: { es: "Botella de 220 ml",  en: "220 ml bottle"  },  category: {  es: "Lubricantes para motocicletas",   en: "Motorcycle Lubricants" }, images: [ { url: ${imageUrl} } ]}`,
+              text: `Please return the response with only the following JSON format:{  title: { es: "Aditivo para Motocicletas 2 Tiempos",  en: "Additive for 2-Stroke Motorcycles" },  description: {  es: "CNR Oil calidad superior para motores de 2 tiempos.",    en: "CNR Oil superior quality for 2-stroke engines."  },  brand: {  type: "CNR Oil"  },  weight: {    es: 220,    en: 220 },  packing: { es: "Botella de 220 ml",  en: "220 ml bottle"  },  category: {  es: "DIESEL MASSIMO PLUS API CK4/SN SAE 15W40",   en: "DIESEL MASSIMO PLUS API CK4/SN SAE 15W40" }, categoryId: {  64asd6f8765465sd4f6a5sdf }, images: [ { url: ${imageUrl} } ]} . Pick The best suiting category name and its corresponding id from exclusively the following list ${categories}. Adjust the English and Spanish translations as necessary for the actual product text.`,
             },
           ],
         },
@@ -3918,19 +3937,245 @@ export async function imageToText(imageUrl) {
     const contentString = response.choices[0].message.content;
 
     let cleanString = contentString.split("```json");
-    cleanString = cleanString[1].replace("```", "");
+    cleanString = cleanString[1].split("```");
 
-    // Parse the string into a JSON object
-    const parsedObject = JSON.parse(cleanString);
-
-    // Log the parsed object
-    console.log("Parsed Object:", parsedObject);
     return {
-      data: cleanString,
+      data: cleanString[0],
       status: 200,
     };
   } catch (error) {
     console.error("Error analyzing image with OpenAI API:", error);
     return { data: "Failed to analyze image", status: 500 };
+  }
+}
+
+export async function createFBPost(prompt, productImageUrl) {
+  const openai = new OpenAI({
+    apiKey: process.env.OPEN_AI_KEY,
+  });
+
+  const aiPromptRequest = await openai.chat.completions.create({
+    messages: [
+      {
+        role: "system",
+        content: `
+          Actúa como un experto en marketing digital y diseño gráfico para redes sociales. Trabajas para una marca llamada **AceitesCNR**, especializada en aceites para motores.
+          
+          **Objetivo:** Generar contenido atractivo y SEO-friendly para una publicación en redes sociales, acompañado de un diseño de imagen alineado con el branding de AceitesCNR.
+  
+          ### Requisitos para la imagen:
+          1. Utiliza la imagen del producto proporcionada como base (no reinventes el producto).
+          2. Aplica los colores de la marca: **azul rey** y **rojo **.
+          3. El diseño debe ser profesional, moderno y visualmente atractivo para destacar en plataformas como Instagram o Facebook.
+          4. Incluye:
+            - Un llamado a la acción (CTA) claro en español con ortografía verificada.
+            - ${prompt}.
+            - Un diseño limpio y en línea con las mejores prácticas de diseño gráfico para redes sociales.
+          
+          ### Requisitos para el copy:
+          1. Genera un texto en **español** que sea:
+            - SEO-friendly, persuasivo y enfocado en atraer clientes potenciales.
+            - Destacando los beneficios del producto y fomentando interacción.
+          2. Incluye hashtags relevantes para el mercado automotriz.
+          
+          El resultado debe ser estrictamente en el siguiente formato JSON:
+          {
+            "content": "Texto optimizado para la publicación.",
+            "imagePrompt": "Descripción detallada del diseño en inglés."
+          }
+        `,
+      },
+      {
+        role: "user",
+        content: `
+          Crea contenido optimizado para SEO y un diseño de imagen siguiendo este concepto: **${prompt}**. El contenido debe estar en español, mientras que la descripción del diseño (imagePrompt) debe estar en español. Siempre devuelve la respuesta estrictamente en el siguiente formato JSON:
+          {
+            "content": "Texto optimizado para la publicación.",
+            "imagePrompt": "Descripción detallada del diseño en español."
+          }
+        `,
+      },
+    ],
+    model: "gpt-4o-mini",
+  });
+
+  if (aiPromptRequest.choices[0].message.content) {
+    await aiPromptRequest.choices[0].message.content.replace("```", "").trim();
+    await aiPromptRequest.choices[0].message.content.replace("json", "").trim();
+
+    const responseContent = JSON.parse(
+      aiPromptRequest.choices[0].message.content
+    );
+
+    console.log("Parsed Response:", responseContent);
+
+    const imagePrompt = responseContent.imagePrompt;
+    const content = responseContent.content;
+
+    if (imagePrompt) {
+      try {
+        // Generate post image with Dall E
+
+        const response = await openai.images.generate({
+          model: "dall-e-3",
+          prompt: imagePrompt,
+          n: 1,
+          size: "1024x1024",
+        });
+
+        const baseImageUrl = response.data[0].url;
+        const result = await uploadImageFromUrl(baseImageUrl, "/social/");
+        console.log(result.imageUrl, "result.imageUrl", baseImageUrl);
+        const logo =
+          "https://www.aceitescnr.com/_next/image?url=%2Flogos%2FCNR_LOGO_true.png&w=256&q=75";
+
+        // Fetch both images
+        // const [mainImage, logoImage] = await Promise.all([
+        //   fetchImageAsFile(result.imageUrl),
+        //   fetchImageAsFile(logo),
+        // ]);
+        // const responseMod = await openai.images.edit({
+        //   model: "dall-e-2",
+        //   prompt: "Add the mask as an overlay logo for the image",
+        //   image: mainImage,
+        //   mask: logoImage,
+        //   n: 1,
+        //   size: "1024x1024",
+        // });
+
+        return {
+          status: 200,
+          url: response.data[0].url,
+          modUrl: result.imageUrl,
+          content: content,
+        };
+      } catch (error) {
+        console.error(
+          "Failed to respond to Facebook post:",
+          error.response?.data || error.message
+        );
+        return { status: 400, error: error.response?.data || error.message };
+      }
+    }
+  }
+}
+
+async function fetchImageAsFile(url) {
+  const response = await fetch(url);
+  const arrayBuffer = await response.arrayBuffer();
+  const buffer = Buffer.from(arrayBuffer);
+
+  // Create a Blob-like object that OpenAI's API will accept
+  return {
+    buffer,
+    name: "image.png",
+    data: buffer,
+    type: "image/png",
+  };
+}
+
+// Helper to fetch image from URL and convert to buffer
+async function fetchImageBuffer(imageUrl) {
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch image: ${response.statusText}`);
+  }
+  const arrayBuffer = await response.arrayBuffer();
+  return Buffer.from(arrayBuffer);
+}
+
+// Put a file in bucket my-bucketname
+const uploadToBucket = async (bucket, filename, filePath) => {
+  return new Promise((resolve, reject) => {
+    mc.fPutObject(bucket, filename, filePath, function (err, result) {
+      if (err) {
+        console.error("Error uploading to MinIO:", err);
+        reject(err);
+      } else {
+        resolve({
+          etag: result.etag,
+          url: `${process.env.MINIO_URL}${filename}`,
+        });
+      }
+    });
+  });
+};
+
+export async function uploadImageFromUrl(imageUrl, folder) {
+  try {
+    // Get session for auth check
+    const session = await getServerSession(options);
+    console.log("session", session.user.role);
+
+    if (!session?.user?.role || session.user.role !== "manager") {
+      throw new Error("Unauthorized access");
+    }
+
+    // Generate a unique filename
+    const timestamp = Date.now();
+    const randomString = Math.random().toString(36).substring(2, 8);
+    const fileName = `${timestamp}${randomString}.jpg`;
+
+    // Fetch and save image temporarily
+    const imageBuffer = await fetchImageBuffer(imageUrl);
+    const tempPath = join("/", "tmp", fileName);
+    await writeFile(tempPath, imageBuffer);
+
+    // Upload to MinIO
+    const result = await uploadToBucket(
+      "aceitescnr",
+      `${folder}${fileName}`,
+      tempPath
+    );
+
+    return {
+      success: true,
+      message: "Image uploaded successfully",
+      imageUrl: result.url,
+    };
+  } catch (error) {
+    console.error("Error in uploadImageFromUrl:", error);
+    return {
+      success: false,
+      message: error.message || "Failed to upload image",
+      error: error.toString(),
+    };
+  }
+}
+
+// Optional: Generate presigned URL for client-side uploads
+export async function generatePresignedUrl(folder, name) {
+  try {
+    const session = await getServerSession(options);
+    if (
+      !session?.user?.role ||
+      !["manager", "instagram"].includes(session.user.role)
+    ) {
+      throw new Error("Unauthorized access");
+    }
+
+    const filename = folder + name;
+    const url = await new Promise((resolve, reject) => {
+      mc.presignedPutObject(
+        "aceitescnr",
+        filename,
+        900, // 15 min expiry
+        function (err, url) {
+          if (err) reject(err);
+          else resolve(url);
+        }
+      );
+    });
+
+    return {
+      success: true,
+      url: url,
+    };
+  } catch (error) {
+    return {
+      success: false,
+      message: error.message || "Failed to generate presigned URL",
+      error: error.toString(),
+    };
   }
 }

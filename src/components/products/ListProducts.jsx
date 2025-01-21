@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 import ProductCard from "./ProductCard";
-import MobileFilterComponet from "./MobileFilterComponet";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 

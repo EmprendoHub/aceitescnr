@@ -1,0 +1,74 @@
+{
+  "successful": [
+    {
+      "fileName": "01. ATTRITO AUTOMATIC OIL  DEXRON III.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:57:02.634Z",
+      "structuredData": {
+        "product_name": "ATTRITO AUTOMATIC OIL A.T.F. DEXRON III & MERCON",
+        "summary": "ATTRITO AUTOMATIC OIL es un fluido para Transmisiones Automáticas DEXRON III & MERCON que ofrece lubricación instantánea, cambio suave, gran durabilidad y excelente estabilidad. Es adecuado para una variedad de aplicaciones industriales y vehiculares, incluyendo convertidores de impulso rotativo, transmisiones hidrostáticas, compresores de aire, y sistemas de dirección hidráulica.",
+        "BENEFICIOS": "Excelente estabilidad a la oxidación, operación más eficiente gracias a transmisiones más limpias, estabilidad a la fricción y excelente fluidez a bajas temperaturas para un desempeño adecuado de las transmisiones.",
+        "PRECAUCIONES": "Como es un material derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo. Evitar el contacto con la piel y la ingestión. No contaminar ni arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Color Visual",
+            "METODO ASTM": "IT-08-09",
+            "VALOR TIPICO": "Rojo Brillante"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "36.60 mm2/s (cSt)"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "7.380 mm2/s (cSt)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "180"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "188"
+          },
+          {
+            "PRUEBAS": "Temperatura Ignición °C",
+            "METODO ASTM": "213",
+            "VALOR TIPICO": "No especificado"
+          },
+          {
+            "PRUEBAS": "Densidad @ 20 ºC g/mL.",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.8680"
+          },
+          {
+            "PRUEBAS": "Viscosidad a Baja Temp.",
+            "METODO ASTM": "D-2983",
+            "VALOR TIPICO": "1500 cP@ -20 °C"
+          },
+          {
+            "PRUEBAS": "Espumación Estabilidad Secuencia I II III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "100/0 , 100/0 , 100/0 ml"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento, ºC",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-39"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Ideal para vehículos y equipos agrícolas, así como en aplicaciones industriales donde se recomienda ATF, incluyendo sistemas hidráulicos, moto variadores, reductores y más."
+      }
+    }
+  ],
+  "failed": [],
+  "totalProcessed": 31,
+  "successfulCount": 31,
+  "failedCount": 0,
+  "extractionDate": "2025-01-20T05:07:06.553Z"
+}

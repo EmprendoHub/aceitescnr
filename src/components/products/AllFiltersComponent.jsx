@@ -17,7 +17,7 @@ const AllFiltersComponent = ({
     if (typeof window !== "undefined") {
       queryParams = new URLSearchParams(window.location.search);
     }
-
+    console.log(checkbox);
     const checkboxes = document.getElementsByName(checkbox.name);
 
     checkboxes.forEach((item) => {
@@ -86,22 +86,22 @@ const AllFiltersComponent = ({
           </h3>
           <ul className="space-y-1">
             {allCategories?.map((category, index) => (
-              <li key={index}>
+              <li key={index} className="text-xs">
                 <div className={`box py-[1px]  ${styles.box}`}>
                   <input
                     name="category"
                     type="checkbox"
-                    value={category[`${lang}`]}
+                    value={category.id}
                     defaultChecked={checkHandler(
                       "category",
-                      `${category[`${lang}`]}`
+                      `${category.name[`${lang}`]}`
                     )}
                     onClick={(e) => handleCategoryClick(e.target)}
                     className={`checkboxBipolarInput ${styles.checkboxBipolarInput}`}
-                    id={category[`${lang}`]}
+                    id={category.name[`${lang}`]}
                   />
                   <label
-                    htmlFor={category[`${lang}`]}
+                    htmlFor={category.name[`${lang}`]}
                     className="flex flex-row items-center cursor-pointer"
                   >
                     <span
@@ -111,7 +111,7 @@ const AllFiltersComponent = ({
                       <span className={`off ${styles.off}`}>O</span>
                     </span>
                     <span className="brandName ml-2 text-gray-500 capitalize">
-                      {category[`${lang}`]}
+                      {category.name[`${lang}`].substring(0, 35)}
                     </span>
                   </label>
                 </div>

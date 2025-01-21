@@ -24,6 +24,7 @@ import MultiselectPresentationComponent from "../forms/MultiselectPresentationCo
 
 const NewProductComp = ({ currentCookies, lang }) => {
   const router = useRouter();
+  const [categoryId, setCategoryId] = useState("");
   const [title, setTitle] = useState({ es: "", en: "" });
   const [isSending, setIsSending] = useState(false);
   const [onlineAvailability, setOnlineAvailability] = useState(true);
@@ -301,6 +302,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
 
     console.log(data);
     setDescription(data.description);
+    setCategoryId(data.categoryId);
     setTitle(data.title);
     //setPackingSelection(...packingSelection, data.packing);
     setPacking(data.packing);
@@ -445,6 +447,8 @@ const NewProductComp = ({ currentCookies, lang }) => {
     }
 
     const formData = new FormData();
+
+    formData.append("categoryId", JSON.stringify(categoryId));
     formData.append("title", JSON.stringify(title));
     formData.append("packing", JSON.stringify(packing));
     formData.append("description", JSON.stringify(description));

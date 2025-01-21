@@ -14,8 +14,6 @@ class APIFilters {
         { "title.en": { $regex: keyword, $options: "i" } },
         { "description.es": { $regex: keyword, $options: "i" } },
         { "description.en": { $regex: keyword, $options: "i" } },
-        { "category.es": { $regex: keyword, $options: "i" } },
-        { "category.en": { $regex: keyword, $options: "i" } },
         { brand: { $regex: keyword, $options: "i" } },
       ],
     };
@@ -55,10 +53,7 @@ class APIFilters {
       }
       // Handle category filter
       else if (key === "category") {
-        output["$or"] = [
-          { "category.es": { $regex: `^${queryCopy[key]}$`, $options: "i" } },
-          { "category.en": { $regex: `^${queryCopy[key]}$`, $options: "i" } },
-        ];
+        output["$or"] = [{ category: { _id: queryCopy[key] } }];
       }
       // Handle other filters
       else {

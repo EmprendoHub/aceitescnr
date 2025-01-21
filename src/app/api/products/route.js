@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import dbConnect from "@/lib/db";
 import Product from "@/backend/models/Product";
 import APIFilters from "@/lib/APIFilters";
+import Category from "@/backend/models/Category";
 
 async function updateProductOrigins(products) {
   const productsWithGroupedOrigins = await groupCountriesByMonths(products);
@@ -72,7 +73,7 @@ export const GET = async (request, res) => {
   try {
     await dbConnect();
     let productQuery;
-    productQuery = Product.find();
+    productQuery = Product.find().populate("category");
 
     const resPerPage = Number(request.headers.get("perpage")) || 15;
     // Extract page and per_page from request URL
@@ -81,7 +82,18 @@ export const GET = async (request, res) => {
     // total number of documents in database
     const productsCount = await Product.countDocuments();
     // Extract all possible categories
-    const allCategories = await Product.distinct("category");
+    const allCategoriesData = await Category.find({}); // Adjust field names as per your schema
+    const productCategories = await Product.distinct("category");
+
+    // Filter allCategoriesData to include only categories with IDs in productCategories
+    let allCategories = allCategoriesData
+      .filter((category) =>
+        productCategories.some((id) => id.equals(category._id))
+      )
+      .map((category) => {
+        return { id: category._id, name: category.name };
+      });
+
     // Extract all possible categories
     const allBrands = await Product.distinct("brand");
 
@@ -103,6 +115,8 @@ export const GET = async (request, res) => {
     const sortedProducts = productsData
       .slice()
       .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+    console.log(sortedProducts[0].category.characteristics);
 
     //const groupedMonths = await updateProductOrigins(sortedProducts);
     const products = {

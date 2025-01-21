@@ -25,7 +25,7 @@ const Search = ({ SetIsActive, lang }) => {
         className="flex-grow text-black appearance-none border border-gray-200 bg-gray-100 rounded-md mr-2 py-2 px-3 hover:border-gray-400 focus:outline-none focus:border-gray-400 w-[95%]"
         type="text"
         placeholder={lang === "es" ? " Palabra clave" : " Keyword"}
-        value={keyword}
+        value={keyword || ""}
         onChange={(e) => setKeyword(e.target.value)}
       />
       <button

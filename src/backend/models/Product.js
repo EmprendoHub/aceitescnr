@@ -42,10 +42,6 @@ const ProductSchema = new mongoose.Schema({
     es: { type: String },
     en: { type: String },
   },
-  category: {
-    es: { type: String, required: true },
-    en: { type: String },
-  },
   tags: [
     {
       value: {
@@ -60,27 +56,6 @@ const ProductSchema = new mongoose.Schema({
     {
       url: {
         type: String,
-      },
-    },
-  ],
-  origins: [
-    {
-      country: {
-        es: { type: String },
-        en: { type: String },
-      },
-      month: {
-        label: {
-          es: {
-            type: String,
-          },
-          en: {
-            type: String,
-          },
-        },
-        value: {
-          type: Number,
-        },
       },
     },
   ],
@@ -118,6 +93,10 @@ const ProductSchema = new mongoose.Schema({
   quantity: {
     type: Number,
     default: 1,
+  },
+  category: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Category",
   },
   reviews: {
     type: mongoose.Schema.Types.ObjectId,

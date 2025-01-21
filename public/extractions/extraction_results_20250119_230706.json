@@ -1,0 +1,1945 @@
+{
+  "successful": [
+    {
+      "fileName": "01. ATTRITO AUTOMATIC OIL  DEXRON III.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:57:02.634Z",
+      "structuredData": {
+        "product_name": "ATTRITO AUTOMATIC OIL A.T.F. DEXRON III & MERCON",
+        "summary": "ATTRITO AUTOMATIC OIL es un fluido para Transmisiones Automáticas DEXRON III & MERCON que ofrece lubricación instantánea, cambio suave, gran durabilidad y excelente estabilidad. Es adecuado para una variedad de aplicaciones industriales y vehiculares, incluyendo convertidores de impulso rotativo, transmisiones hidrostáticas, compresores de aire, y sistemas de dirección hidráulica.",
+        "BENEFICIOS": "Excelente estabilidad a la oxidación, operación más eficiente gracias a transmisiones más limpias, estabilidad a la fricción y excelente fluidez a bajas temperaturas para un desempeño adecuado de las transmisiones.",
+        "PRECAUCIONES": "Como es un material derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo. Evitar el contacto con la piel y la ingestión. No contaminar ni arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Color Visual",
+            "METODO ASTM": "IT-08-09",
+            "VALOR TIPICO": "Rojo Brillante"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "36.60 mm2/s (cSt)"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "7.380 mm2/s (cSt)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "180"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "188"
+          },
+          {
+            "PRUEBAS": "Temperatura Ignición °C",
+            "METODO ASTM": "213",
+            "VALOR TIPICO": "No especificado"
+          },
+          {
+            "PRUEBAS": "Densidad @ 20 ºC g/mL.",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.8680"
+          },
+          {
+            "PRUEBAS": "Viscosidad a Baja Temp.",
+            "METODO ASTM": "D-2983",
+            "VALOR TIPICO": "1500 cP@ -20 °C"
+          },
+          {
+            "PRUEBAS": "Espumación Estabilidad Secuencia I II III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "100/0 , 100/0 , 100/0 ml"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento, ºC",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-39"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Ideal para vehículos y equipos agrícolas, así como en aplicaciones industriales donde se recomienda ATF, incluyendo sistemas hidráulicos, moto variadores, reductores y más."
+      }
+    },
+    {
+      "fileName": "02. CHILOMETRAGGI ELEVATI SAE 25W50 SAE 25W60 CF4.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:57:23.595Z",
+      "structuredData": {
+        "product_name": "CHILOMETRAGGI ELEVATI DIESEL",
+        "summary": "Formulado con básicos altamente refinados y aditivos de gran desempeño, ofrece alto nivel detergente dispersante, excelente estabilidad a la oxidación, y protección contra desgaste, herrumbre y corrosión. Recomendado para vehículos de modelo anteriores con motores diésel de alto kilometraje, apto para uso en diversas condiciones y aplicaciones, incluyendo vehículos urbanos y foráneos, carga, tracto camiones, y equipos de construcción, minería y agricultura.",
+        "BENEFICIOS": "Máxima protección en control de depósitos y resistencia a la oxidación, protección contra el incremento de la viscosidad por hollín y pérdida de la misma por esfuerzos de corte, mejora el arranque en frío y el trabajo en caliente, mantiene el motor más limpio.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "SAE J300",
+            "VALOR TIPICO": "SAE 25W-50, SAE 25W-60"
+          },
+          {
+            "PRUEBAS": "Peso Especifico",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": ".890, .897"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "280, 300"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "23, 25"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "110, 125"
+          },
+          {
+            "PRUEBAS": "Viscosidad aparente CCS A -20 °C/ -15°C",
+            "METODO ASTM": "D-5293",
+            "VALOR TIPICO": "6000, 9300"
+          },
+          {
+            "PRUEBAS": "Cenizas Sulfatadas",
+            "METODO ASTM": "D-874",
+            "VALOR TIPICO": "1.5"
+          },
+          {
+            "PRUEBAS": "Densidad a 20 °C",
+            "METODO ASTM": "D-1250",
+            "VALOR TIPICO": "0.900"
+          },
+          {
+            "PRUEBAS": "Punto de inflamación",
+            "METODO ASTM": "97",
+            "VALOR TIPICO": "230, 244"
+          },
+          {
+            "PRUEBAS": "Punto de escurrimiento",
+            "METODO ASTM": "92",
+            "VALOR TIPICO": "-12, -9"
+          },
+          {
+            "PRUEBAS": "Numero de base TBN",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "11"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Aplicaciones dentro y fuera de carretera como camiones de pasajeros urbanos y foráneos, camiones de carga, tracto camiones, equipos de construcción, minería y agricultura."
+      }
+    },
+    {
+      "fileName": "03. COMANDI FINALI E FRENI.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:57:41.543Z",
+      "structuredData": {
+        "product_name": "COMANDI FINALI E FRENI TRANS TO-4 10W SAE-30 SAE-50",
+        "summary": "Lubricante diseñado para proporcionar un excelente desempeño antifriccionante, compatibilidad con elastómeros y control de desgaste, cumpliendo con las especificaciones de equipos CAT TO-4 y Allison C-4. Ajustado para servotransmisiones, compartimientos de frenos húmedos y sistemas hidrostáticos. Apto para equipos Caterpillar y otros fabricantes que requieren especificaciones TO-4, TO-2 y/o Allison C-4.",
+        "BENEFICIOS": "Excelente estabilidad térmica a la oxidación, operación más eficiente por transmisiones más limpias, estabilidad a la fricción que reduce el desgaste de los engranes y un paquete de aditivos especiales que reducen el rechinido de los frenos, incrementan la vida del clutch y eliminan el patinaje de las transmisiones.",
+        "PRECAUCIONES": "Como es un material derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo, evitar el contacto con la piel y la ingestión, no contaminar y no arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "VISCOSIDAD @ 100°C, cSt",
+            "METODO ASTM": "D-455",
+            "VALOR TIPICO": "6.5, 11.70, 20.50"
+          },
+          {
+            "PRUEBAS": "VISCOSIDAD @ 40°C, cSt",
+            "METODO ASTM": "D-455",
+            "VALOR TIPICO": "36.00, 115.0, 260.0"
+          },
+          {
+            "PRUEBAS": "INDICE DE VISCOSIDAD",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "97, 97, 96"
+          },
+          {
+            "PRUEBAS": "PUNTO DE INFLAMACION °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "210, 215, 260"
+          },
+          {
+            "PRUEBAS": "PUNTO MINIMO DE FLUIDEZ °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-33, -15, -9"
+          },
+          {
+            "PRUEBAS": "GRAVEDAD ESPECIFICA @ 15.6 °C",
+            "METODO ASTM": "D-4052",
+            "VALOR TIPICO": "0.8750, 0.8900, 0.9000"
+          },
+          {
+            "PRUEBAS": "Numero de base TBN mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "7.9"
+          },
+          {
+            "PRUEBAS": "CENISAS SULFATADAS % PESO",
+            "METODO ASTM": "D-4951",
+            "VALOR TIPICO": "1.2"
+          },
+          {
+            "PRUEBAS": "GRADO VISCOSIDAD ISO",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "ISO 46, ISO 100,"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Equipo pesado, equipos Caterpillar, y máquinas de otros fabricantes que requieran aceites con especificaciones Caterpillar TO-4, TO-2 y/o Allison C-4, así como para convertidores de impulso rotativo, transmisiones hidrostáticas y compartimientos de transmisiones, mandos finales y frenos húmedos."
+      }
+    },
+    {
+      "fileName": "04. DIESEL MASSIMO CI-4 PLUS.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:58:00.168Z",
+      "structuredData": {
+        "product_name": "DIESEL MASSIMO CI-4 PLUS SAE 15W40 / SAE 20W50",
+        "summary": "Lubricante multigrado Premium para motor a diesel de servicio pesado diseñado para ofrecer una superior protección contra el incremento y pérdida de viscosidad por hollín y esfuerzos de corte. Apto para motores a diesel de cuatro tiempos con baja emisión de gases y para motores a gasolina que requieren API SL. Ideal para aplicaciones dentro y fuera de carretera, como en transporte urbano y foráneo, carga, construcción, minería y agricultura, así como para automóviles y flotillas mixtas.",
+        "BENEFICIOS": "Máxima protección en control de depósitos y resistencia a la oxidación, excelente manejo de la viscosidad afectada por el hollín y esfuerzos de corte, mejora en el arranque en frío y rendimiento en caliente, mantiene el motor más limpio.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "SAE J300",
+            "VALOR TIPICO": "15W-40, 20W-50"
+          },
+          {
+            "PRUEBAS": "Color",
+            "METODO ASTM": "ASTM D-1500",
+            "VALOR TIPICO": "3.5, 4.5"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "115.8, 115"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "14.40, 18.5"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "138, 115"
+          },
+          {
+            "PRUEBAS": "Viscosidad aparente CCS A -20 °C/ -15°C",
+            "METODO ASTM": "D-5293",
+            "VALOR TIPICO": "6000, 9300"
+          },
+          {
+            "PRUEBAS": "Cenizas Sulfatadas, % peso",
+            "METODO ASTM": "D-874",
+            "VALOR TIPICO": "1.40, 1.5"
+          },
+          {
+            "PRUEBAS": "Densidad a 20 °C Kg/ ml",
+            "METODO ASTM": "D-1250",
+            "VALOR TIPICO": "0.8810, 0.8930"
+          },
+          {
+            "PRUEBAS": "Punto de inflamación",
+            "METODO ASTM": "92",
+            "VALOR TIPICO": "228, 244"
+          },
+          {
+            "PRUEBAS": "Punto de escurrimiento",
+            "METODO ASTM": "97",
+            "VALOR TIPICO": "-27, -27"
+          },
+          {
+            "PRUEBAS": "Numero de base TBN mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "11.30, 11.05"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Especificaciones que cumplen con marcas como Cummins, Mack, Volvo, Detroit Diesel, Renault, Caterpillar, Mercedes Benz, MAN, y MTU. Adecuado para una amplia gama de aplicaciones en camiones de pasajeros, carga, construcción, minería, agricultura y automóviles. Ideal para flotillas mixtas."
+      }
+    },
+    {
+      "fileName": "05. GRASSO CHASSIS.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:58:10.689Z",
+      "structuredData": {
+        "product_name": "Grasso Chassis Calcio NGLI",
+        "summary": "Grasso Chassis están diseñadas para la lubricación de componentes del chasis automotriz y mantenimiento de rodamientos antifricción en condiciones de velocidades y temperaturas de operación bajas a moderadas. Son aptas para aplicaciones automotrices, maquinaria de construcción, agricultura y equipos de transporte, destacándose por su formulación que combina aceites básicos de alta calidad, un espesante mixto y aditivos anti friccionantes.",
+        "BENEFICIOS": "Buena estabilidad, resistencia a la oxidación y corrosión, adhesividad, óptima protección y efectivo sello lubricante contra sustancias contaminantes como polvo y humedad.",
+        "PRECAUCIONES": "Evitar contacto con la piel y la ingestión. No contaminar ni arrojar al alcantarillado. Observar prácticas normales de manejo por ser material derivado del petróleo y mezcla de productos químicos.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "PENETRACION a 25° C",
+            "METODO ASTM": "D- 217",
+            "VALOR TIPICO": "400-430, 355-385, 310-340, 265-295, 220-250"
+          },
+          {
+            "PRUEBAS": "ESTABILIDAD MECANICA @ 10,000 golpes",
+            "METODO ASTM": "D-217 A",
+            "VALOR TIPICO": "10 % Max."
+          },
+          {
+            "PRUEBAS": "PUNTO DE GOTEO",
+            "METODO ASTM": "D-566",
+            "VALOR TIPICO": "90°C"
+          },
+          {
+            "PRUEBAS": "PERDIDA AL LAVADO DEL AGUA",
+            "METODO ASTM": "D-1264",
+            "VALOR TIPICO": "10 %"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "General en equipo de maquinaria para construcción, agricultura, automotriz y equipos de transporte como suspensión, dirección y quinta rueda."
+      }
+    },
+    {
+      "fileName": "06. GRASSO PER CUSCINETTI.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:58:26.909Z",
+      "structuredData": {
+        "product_name": "Grasso Per Cuscinetti Sodio Fibrosa NGLI",
+        "summary": "Una grasa de lubricación formulada con aceites básicos de alta calidad, espesante de sodio y aditivos antifriccionantes para una sobresaliente lubricación de rodamientos en variedad de mecanismos. Ofrece protección en condiciones ligeras a moderadas y es ideal para mantenimiento en presencia de temperaturas altas y velocidades variables. Recomendada para maquinaria en construcción, minería, agricultura y automotriz.",
+        "BENEFICIOS": "Buena estabilidad, resistencia a la oxidación y corrosión, adhesividad, óptima protección y un efectivo sello lubricante contra sustancias contaminantes.",
+        "PRECAUCIONES": "Evitar contacto con la piel e ingestión. No contaminar ni desechar en el alcantarillado. Observar prácticas normales de manejo por ser material derivado del petróleo y mezcla de productos químicos.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Penetración Trabajada. 60 Golpes a 25° C",
+            "METODO ASTM": "D-217",
+            "VALOR TIPICO": "310-340, 265-295, 220-250"
+          },
+          {
+            "PRUEBAS": "Sangrado",
+            "METODO ASTM": "D-1742",
+            "VALOR TIPICO": "8.0, 7.0, 7.0"
+          },
+          {
+            "PRUEBAS": "Estabilidad Mecánica @ 10,000 golpes",
+            "METODO ASTM": "D-217 A",
+            "VALOR TIPICO": "10 % Max."
+          },
+          {
+            "PRUEBAS": "Whell Bearing Test % de Cambio",
+            "METODO ASTM": "D-1263",
+            "VALOR TIPICO": "15"
+          },
+          {
+            "PRUEBAS": "Punto de Goteo",
+            "METODO ASTM": "D-566",
+            "VALOR TIPICO": "90°C"
+          },
+          {
+            "PRUEBAS": "Estabilidad a la Oxidación",
+            "METODO ASTM": "D-942",
+            "VALOR TIPICO": "15"
+          },
+          {
+            "PRUEBAS": "Perdida al Lavado del Agua",
+            "METODO ASTM": "D-1264",
+            "VALOR TIPICO": "8%"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Uso general en equipos de maquinaria para Construcción, Minería, Agricultura, Automotriz."
+      }
+    },
+    {
+      "fileName": "07. GRASSO PRESSIONI ESTREME.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:58:43.304Z",
+      "structuredData": {
+        "product_name": "GRASSO PRESSIONI ESTREME LITIO EP MOLLY NGLI",
+        "summary": "Grasso Pressioni Estreme son grasas para servicio prolongado a base de un complejo de litio, diseñadas para operar en condiciones severas. Están enriquecidas con 0.75% de grafito (bisulfuro de molibdeno) para excelentes prestaciones contra el desgaste, la herrumbre y la corrosión, superando a productos convencionales con su tecnología avanzada.",
+        "BENEFICIOS": "Buena Estabilidad, Resistencia a la Oxidación y Corrosión, Adhesividad, protección óptima contra contaminantes como el polvo y la humedad, y muy buen desempeño anti desgaste y protección ante Presiones Extremas.",
+        "PRECAUCIONES": "Por ser material derivado del petróleo y mezcla de productos químicos, se deberán observar prácticas normales de manejo. Evite el contacto con la piel y la ingestión. No contamine. No arroje al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "GRADO NGLI",
+            "METODO ASTM": "D-12859",
+            "VALOR TIPICO": "1 2 3"
+          },
+          {
+            "PRUEBAS": "PENETRACION Trabajada. 60 Golpes a 25° C",
+            "METODO ASTM": "D-217",
+            "VALOR TIPICO": "310-340 265-295 220-250"
+          },
+          {
+            "PRUEBAS": "SANGRADO",
+            "METODO ASTM": "D-1742",
+            "VALOR TIPICO": "6.0 5.0 5.0"
+          },
+          {
+            "PRUEBAS": "ESTABILIDAD MECANICA @ 10,000 golpes",
+            "METODO ASTM": "D-217 A",
+            "VALOR TIPICO": "10 % Max."
+          },
+          {
+            "PRUEBAS": "WHELL BEARIG TEST % DE CAMBIO",
+            "METODO ASTM": "D-1263",
+            "VALOR TIPICO": "10"
+          },
+          {
+            "PRUEBAS": "PUNTO DE GOTEO",
+            "METODO ASTM": "D-2265",
+            "VALOR TIPICO": "170°C 190°C 200°C"
+          },
+          {
+            "PRUEBAS": "ESTABILIDAD A LA OXIDACION",
+            "METODO ASTM": "D-942",
+            "VALOR TIPICO": "10"
+          },
+          {
+            "PRUEBAS": "PERDIDA AL LAVADO DEL AGUA",
+            "METODO ASTM": "D-1264",
+            "VALOR TIPICO": "5%"
+          },
+          {
+            "PRUEBAS": "CARGA TIMKEN EN LBS",
+            "METODO ASTM": "D-2509",
+            "VALOR TIPICO": "45"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Se recomienda uso general en equipo de Maquinaria para Construcción, Minería, Agricultura, Automotriz. Especialmente en baleros, chumaceras, generadores, motores eléctricos, cojinetes y juntas universales, quinta rueda, Martillos Hidráulicos que están expuestos a cargas extremas."
+      }
+    },
+    {
+      "fileName": "08. HIDRAULIC TRATTORE OIL JC 20.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:59:00.817Z",
+      "structuredData": {
+        "product_name": "TRATTORE OIL",
+        "summary": "Recomendado para tractores, pizcadoras de algodón, cosechadoras, etc., que trabajan bajo condiciones severas de operación. Diseñado para mantener el sistema hidráulico, transmisión, diferenciales, y mandos finales funcionando adecuadamente, además de reducir ruido y vibraciones en el frenado. Es un fluido hidráulico con aceites básicos de alta refinación con aditivos contra herrumbre, corrosión, espuma, y oxidación.",
+        "BENEFICIOS": "Menor formación de depósitos y lodos, resistencia a la degradación por altas temperaturas, manejo de ciclos de trabajo exigentes, protección contra el agua, y prolongación de la vida útil de los filtros.",
+        "PRECAUCIONES": "Evitar contacto con la piel e ingestión, no contaminar ni desechar en alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "PESO ESPECIFICO 20°C",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.883"
+          },
+          {
+            "PRUEBAS": "GRAVEDAD API 15.5°C",
+            "METODO ASTM": "D-287",
+            "VALOR TIPICO": "28.2"
+          },
+          {
+            "PRUEBAS": "INDICE DE VISCOSIDAD",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "95"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE INFLAMACION °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "200"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE ESCURRIMIENTO°C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "-32"
+          },
+          {
+            "PRUEBAS": "VISCOSIDAD SAYBOLT A 100°F,SSU",
+            "METODO ASTM": "D-88-94",
+            "VALOR TIPICO": "355"
+          },
+          {
+            "PRUEBAS": "VISCOSIDAD SAYBOLT A 210°F,SSU",
+            "METODO ASTM": "D-88-94",
+            "VALOR TIPICO": "63"
+          },
+          {
+            "PRUEBAS": "VISCOSIDAD CINEMÁTICA A 40ºC, cSt",
+            "METODO ASTM": "D-445-18",
+            "VALOR TIPICO": "65"
+          },
+          {
+            "PRUEBAS": "VISCOSIDAD CINEMÁTICA A 100ºC, cSt",
+            "METODO ASTM": "D-445-18",
+            "VALOR TIPICO": "10.5"
+          },
+          {
+            "PRUEBAS": "ESPUMACION TENDENCIA/ESTABILIDAD EN MLS",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "SECUENCIA I / SECUENCIA II / SECUENCIA III 0/0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Aplicaciones recomendadas incluyen API GL-4 (Gear Oil), compatibilidad con múltiples marcas incluyendo Agco-Allis, Allison, Case New Holland, Caterpillar, Dennison, Deutz-Allis Chalmers, Fiat, Ford-New Holland, International Harvester, y J.I. Case."
+      }
+    },
+    {
+      "fileName": "09. HYDRAULIC HYKEN OIL PLUS.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:59:20.168Z",
+      "structuredData": {
+        "product_name": "HYDRAULIC HYKEN OIL PLUS ISO 32/ 46/ 68",
+        "summary": "Fluido Hidráulico basado en aceites minerales parafínicos con aditivos especiales diseñado para cumplir con las especificaciones hidráulicas industriales principales. Apto para sistemas hidráulicos que requieren de un fluido anti desgastante, cumple con normativas de Bosch Rexroth, Denison, Cincinnati Lamb, ISO, DIN, ASTM, EATON, SAE, el sistema hidráulico FRAMO, y HOCNF Noruega-NEMS.",
+        "BENEFICIOS": "Menor formación de depósitos y lodos, resistencia a la degradación por altas temperaturas, manejo de ciclos de trabajo exigentes, protección contra el agua y prolongación de la vida útil de los filtros.",
+        "PRECAUCIONES": "Manejar con prácticas normales debido a su origen petroquímico. Evitar contacto con la piel, la ingestión, la contaminación y el vertido en alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en cSt a 40° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "ISO 32: 33.4, ISO 46: 46.2, ISO 68: 68.6"
+          },
+          {
+            "PRUEBAS": "Indice de viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "ISO 32: 115, ISO 46: 110, ISO 68: 104"
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "ISO 32: 231, ISO 46: 238, ISO 68: 252"
+          },
+          {
+            "PRUEBAS": "Punto de Fluidez °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "ISO 32: -36, ISO 46: -33, ISO 68: -30"
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "ISO 32: 0.886, ISO 46: 0.874, ISO 68: 0.877"
+          },
+          {
+            "PRUEBAS": "Espumacion tendencia/Estabilidad",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "Secuencia I: 0/10, Secuencia II: 0/10, Secuencia III: 0/10"
+          },
+          {
+            "PRUEBAS": "Prevención de Herrumbre",
+            "METODO ASTM": "D-665",
+            "VALOR TIPICO": "PASA"
+          },
+          {
+            "PRUEBAS": "Demulsibilidad",
+            "METODO ASTM": "D-1401",
+            "VALOR TIPICO": "40-10-0(30”)"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Utilizado en sectores industriales como grúas, montacargas, y sistemas hidráulicos de alta capacidad. Adicionalmente, en maquinaria pesada para construcción, minería, aplicaciones marinas y equipos especializados."
+      }
+    },
+    {
+      "fileName": "10. MASSIMA PROTEZIONE  SYNTHETIC.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:00:04.058Z",
+      "structuredData": {
+        "product_name": "Massima Protezione Synthetic API SN ILSAC GF-5",
+        "summary": "Massima Protezione es un lubricante premium totalmente sintético con tecnología italiana diseñado para ofrecer el más alto nivel de protección para las partes críticas del motor, ayudando a los vehículos de pasajeros, utilitarios, deportivos, furgonetas y camiones ligeros de alto rendimiento de fabricantes de Norteamérica, Europa y Japón a alcanzar el máximo desempeño. Este aceite cumple con las normativas API SN, ILSAC GF5 y Dexos, contribuyendo a mejorar y conservar la economía de combustible y proteger el sistema de emisiones y los componentes del turbocompresor.",
+        "BENEFICIOS": "Ofrece protección contra depósitos, lodos, herrumbre y corrosión; cuenta con aditivos mejorados que protegen los pistones a alta temperatura y garantiza un excelente desempeño bajo diversas condiciones de manejo.",
+        "PRECAUCIONES": "Por ser un material derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo como evitar el contacto con la piel y la ingestión. No contaminar ni arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en cSt a 40° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "46.74"
+              },
+              {
+                "GRADO SAE 5W-20": "46.36"
+              },
+              {
+                "GRADO SAE 5W-30": "60.67"
+              },
+              {
+                "GRADO SAE 10W-30": "65.10"
+              },
+              {
+                "GRADO SAE 15W-40": "68.70"
+              }
+            ]
+          },
+          {
+            "PRUEBAS": "Viscosidad en cSt a 100 °C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "8.8"
+              },
+              {
+                "GRADO SAE 5W-20": "8.6"
+              },
+              {
+                "GRADO SAE 5W-30": "10.65"
+              },
+              {
+                "GRADO SAE 10W-30": "10.04"
+              },
+              {
+                "GRADO SAE 15W-40": "15.7"
+              }
+            ]
+          },
+          {
+            "PRUEBAS": "Indice de viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "171"
+              },
+              {
+                "GRADO SAE 5W-20": "147"
+              },
+              {
+                "GRADO SAE 5W-30": "156"
+              },
+              {
+                "GRADO SAE 10W-30": "148"
+              },
+              {
+                "GRADO SAE 15W-40": "158"
+              }
+            ]
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "231"
+              },
+              {
+                "GRADO SAE 5W-20": "235"
+              },
+              {
+                "GRADO SAE 5W-30": "216"
+              },
+              {
+                "GRADO SAE 10W-30": "229"
+              },
+              {
+                "GRADO SAE 15W-40": "210"
+              }
+            ]
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "-34"
+              },
+              {
+                "GRADO SAE 5W-20": "-36"
+              },
+              {
+                "GRADO SAE 5W-30": "-33"
+              },
+              {
+                "GRADO SAE 10W-30": "-33"
+              },
+              {
+                "GRADO SAE 15W-40": "-39"
+              }
+            ]
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "0.848"
+              },
+              {
+                "GRADO SAE 5W-20": "0.850"
+              },
+              {
+                "GRADO SAE 5W-30": "0.862"
+              },
+              {
+                "GRADO SAE 10W-30": "0.869"
+              },
+              {
+                "GRADO SAE 15W-40": "0.878"
+              }
+            ]
+          },
+          {
+            "PRUEBAS": "TBN, mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": {
+              "Todos los grados": "7.01 a 8.85"
+            }
+          },
+          {
+            "PRUEBAS": "Viscosidad Aparente CCS, cP (°C)",
+            "METODO ASTM": "D 5293",
+            "VALOR TIPICO": {
+              "Varía por grados": "Consultar especificaciones"
+            }
+          },
+          {
+            "PRUEBAS": "MRV, cP (°C)",
+            "METODO ASTM": "D 4684",
+            "VALOR TIPICO": {
+              "Varía por grados": "Consultar especificaciones"
+            }
+          },
+          {
+            "PRUEBAS": "Viscosidad HTHS, cP @ 150°C",
+            "METODO ASTM": "No especificado",
+            "VALOR TIPICO": [
+              {
+                "GRADO SAE 0W-20": "2.6"
+              },
+              {
+                "GRADO SAE 5W-20": "2.6"
+              },
+              {
+                "GRADO SAE 5W-30": "3.1"
+              },
+              {
+                "GRADO SAE 10W-30": "3.03"
+              },
+              {
+                "GRADO SAE 15W-40": "4.01"
+              }
+            ]
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para motores de gasolina de alto rendimiento en vehículos de pasajeros, utilitarios, deportivos, furgonetas y camiones ligeros de alto rendimiento de fabricantes de Norteamérica, Europa y Japón, cumpliendo con las especificaciones GF-5 y/o API SN para automóviles, camionetas y vehículos ligeros que funcionan con gasolina y mezcla con etanol hasta 85%."
+      }
+    },
+    {
+      "fileName": "11. 4T AK MOTORCYCLE .pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:00:19.162Z",
+      "structuredData": {
+        "product_name": "4T AK MOTORCYCLE SAE 25W50 API SF/CC JASO",
+        "summary": "El 4T AK MOTORCYCLE SAE 25W50 API SF/CC JASO es un aceite de alto rendimiento para motores de cuatro tiempos de motocicletas, diseñado para condiciones extremas. Ofrece una fuerte protección contra la oxidación, detergentes balanceados, y mejoras en propiedades de fricción para una conducción óptima. Incorpora un paquete de aditivos de última generación, apto para motores enfriados por aire o agua y transmisiones integradas.",
+        "BENEFICIOS": "Control de la oxidación más fuerte contra altas cargas térmicas, detergentes balanceados para alta temperatura, desempeño superior para problemas en tren de válvulas y clutch, y propiedades de fricción mejoradas para conducción optima.",
+        "PRECAUCIONES": "Manejar con prácticas normales al ser un material derivado del petróleo y mezcla de químicos. Evitar contacto con la piel e ingestión. No contaminar ni desechar en alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "40°C 187.98, 100°C 18.55"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "120"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "240°C"
+          },
+          {
+            "PRUEBAS": "Temperatura Ignición",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "235°C"
+          },
+          {
+            "PRUEBAS": "Densidad",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.900 gr/lto"
+          },
+          {
+            "PRUEBAS": "Espumación Tendencia Estabilidad",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "Secuencia I 0/0, Secuencia II 0/0, Secuencia III 0/0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Aceite para motores de cuatro tiempos en motocicletas, adecuado para situaciones de funcionamiento extremas como alta temperatura en tráfico urbano intenso. Recomendado para motores que necesitan mejor control de emisiones y alto desempeño."
+      }
+    },
+    {
+      "fileName": "11. RCCA 4 TIEMPOS OIL ALTO KILOMETRAJE.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:00:35.370Z",
+      "structuredData": {
+        "product_name": "RCCA MOTO 4T OIL SAE 25W50 API SF/CC JASO MA",
+        "summary": "Lubricante para motocicletas de 4 tiempos diseñado con aceites de primera calidad y aditivos de nueva tecnología, ideal para tamaños pequeños, altas velocidades de poder, motores enfriados por aire y agua, y altas temperaturas de operación. Cumple con las especificaciones Medium Tier JASO MA y Servicio API SF, siendo recomendado para un mejor control de las emisiones y cumpliendo con desempeños específicos del motor.",
+        "BENEFICIOS": "Control de la oxidación contra altas cargas térmicas, detergentes balanceados para operaciones a alta temperatura, mejora en el desempeño para evitar problemas en el tren de válvulas y slippage del clutch, y propiedades de fricción optimizadas para una conducción fluida.",
+        "PRECAUCIONES": "Como es un producto derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo, evitar contacto con la piel e ingestión, no contaminar, y no desechar en el alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "N/A",
+            "VALOR TIPICO": "25W50"
+          },
+          {
+            "PRUEBAS": "Viscosidad",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "40°C 303, 100°C 25"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "120"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "240°C"
+          },
+          {
+            "PRUEBAS": "Temperatura Ignición",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "235°C"
+          },
+          {
+            "PRUEBAS": "Densidad",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.900 gr/lto"
+          },
+          {
+            "PRUEBAS": "Espumación Tendencia Estabilidad",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "Secuencia I 0/0, Secuencia II 0/0, Secuencia III 0/0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Alto desempeño para motores de cuatro tiempos de motocicletas en condiciones extremas, como alta temperatura en tráfico urbano."
+      }
+    },
+    {
+      "fileName": "12. RCCA MOTO 2TIEMPOS OIL FB.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:00:53.298Z",
+      "structuredData": {
+        "product_name": "RCCA MOTO 2T OIL API TC/JASO FG/FB",
+        "summary": "Es un aceite diseñado para proveer excelente control de formación de depósitos y desgaste en motores enfriados por aire, incluso bajo condiciones severas. Este lubricante es bajo en cenizas, preveniendo la preignición o fallos de la bujía y maximiza la eficacia de los motores al ser miscible con la gasolina y minimizar las pérdidas de potencia.",
+        "BENEFICIOS": "Previene la herrumbre y corrosión, mantiene limpia la cámara de combustión, controla la formación de depósitos y desgaste, minimiza las pérdidas de potencia, y es adecuado para una amplia gama de equipos motorizados de dos tiempos.",
+        "PRECAUCIONES": "Manejar conforme a prácticas normales evitando contacto con la piel e ingestión. No contaminar ni deshacerse en el alcantarillado. Es adecuado para motores fuera de borda y otros equipos que operen bajo sistema de dos tiempos. Seguir la proporción de 50 litros de gasolina por uno de aceite o la recomendación del fabricante.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "30"
+          },
+          {
+            "PRUEBAS": "Color",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "AZUL"
+          },
+          {
+            "PRUEBAS": "Peso específico a 20° C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "0.885"
+          },
+          {
+            "PRUEBAS": "Gravedad API a 15.5° C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "29"
+          },
+          {
+            "PRUEBAS": "Punto de inflamación °C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "210"
+          },
+          {
+            "PRUEBAS": "Punto de escurrimiento °C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "-16"
+          },
+          {
+            "PRUEBAS": "Viscosidad cinemática a 40°C cst",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "105.8"
+          },
+          {
+            "PRUEBAS": "Viscosidad cinemática a 100 °C cst",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "11.83"
+          },
+          {
+            "PRUEBAS": "Índice de viscosidad",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "100"
+          },
+          {
+            "PRUEBAS": "Cenizas sulfatadas %",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "0.085"
+          },
+          {
+            "PRUEBAS": "No. Total de básico mg KOH/g",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "1"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para uso en motocicletas, cortadoras de césped, motonetas y otros equipos motorizados de dos tiempos a gasolina."
+      }
+    },
+    {
+      "fileName": "13. 4T STROKE MOTOR CYCLE OIL .pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:01:13.198Z",
+      "structuredData": {
+        "product_name": "4T STROKE MOTOR CICLE OIL SAE 20W50 API SL/ JASO MA2",
+        "summary": "Lubricante de alta calidad formulado para motocicletas de 4 tiempos, ofrece control de oxidación, detergencia balanceada, y propiedades de fricción mejoradas. Diseñado para satisfacer las necesidades de motos europeas y japonesas, mejora el desempeño, protege el tren de válvulas, y asegura el correcto funcionamiento del clutch. Cumple con especificaciones High Tier JASO MA y Servicio API SL, recomendado para control de emisiones y rendimientos superiores.",
+        "BENEFICIOS": "Control de la oxidación más fuerte contra las altas cargas térmicas. Detergentes balanceados para la operación a altas temperaturas. Desempeño superior para prevenir problemas en el tren de válvulas y prevenir que se patine el clutch. Propiedades de fricción mejoradas para asegurar una buena conducción.",
+        "PRECAUCIONES": "Por ser material derivado del petróleo y mezcla de productos químicos se deberán observar prácticas normales de manejo. Evite el contacto con la piel y la ingestión. No contamine. No arroje al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en CST",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "40°C 147, 100 °C 18"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "125"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "230"
+          },
+          {
+            "PRUEBAS": "TBN mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "6.5"
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.890"
+          },
+          {
+            "PRUEBAS": "Espumación Tendencia Estabilidad en ml",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "Secuencia I 10/0, Secuencia II 50/0, Secuencia III 10/0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Satisface los requerimientos de los principales fabricantes de motos de 4 tiempos europeos y japoneses (ACEITES LUBRICANTES PARA MOTORES DE COMBUSTIÓN INTERNA EN MOTOCICLETAS DE CUATRO TIEMPOS)"
+      }
+    },
+    {
+      "fileName": "13.  4T STROKE MOTOR CYCLE OIL .pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:01:33.711Z",
+      "structuredData": {
+        "product_name": "4T STROKE MOTOR CYCLE OIL SAE 20W50 API SL/ JASO MA2",
+        "summary": "Este aceite para motocicletas de 4 tiempos está formulado con aceites básicos de primera calidad y aditivos de última generación, diseñado para ofrecer un control superior de la oxidación, propiedades detergentes balanceadas, y mejoras en la fricción para una conducción óptima. Satisface los requerimientos de los principales fabricantes europeos y japoneses, garantizando un desempeño adecuado para motores de alta temperatura y transmisiones integradas.",
+        "BENEFICIOS": "Control de la oxidación más fuerte contra las altas cargas térmicas. Detergentes balanceados para la operación a altas temperaturas. Desempeño superior para prevenir problemas en el tren de válvulas y prevenir que se patine el clutch. Propiedades de fricción mejoradas para asegurar una buena conducción.",
+        "PRECAUCIONES": "Por ser material derivado del petróleo y mezcla de productos químicos se deberán observar prácticas normales de manejo. Evite el contacto con la piel y la ingestión. No contamine. No arroje al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "20W50"
+          },
+          {
+            "PRUEBAS": "Viscosidad en CST a 40°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "147"
+          },
+          {
+            "PRUEBAS": "Viscosidad en CST a 100 °C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "18"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "125"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "230"
+          },
+          {
+            "PRUEBAS": "TBN mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "6.5"
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.890"
+          },
+          {
+            "PRUEBAS": "Espumación Tendencia Estabilidad en ml Secuencia I",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "10/0"
+          },
+          {
+            "PRUEBAS": "Espumación Tendencia Estabilidad en ml Secuencia II",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "50/0"
+          },
+          {
+            "PRUEBAS": "Espumación Tendencia Estabilidad en ml Secuencia III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "10/0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Satisface los requerimientos de los principales fabricantes de motos de 4 tiempos europeos y japoneses."
+      }
+    },
+    {
+      "fileName": "13. RCCA MOTO 4TIEMPOS SAE 20W50 OIL MA2.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:01:57.417Z",
+      "structuredData": {
+        "product_name": "RCCA MOTO 4T OIL SAE 20W50 API SG/ JASO MA2/MA",
+        "summary": "Lubricante para motocicletas de 4 tiempos formulado con aceites básicos de primera calidad y un paquete de aditivos de nueva tecnología diseñado para satisfacer las necesidades de motores con altas velocidades de poder, enfriados por aire y agua, con temperaturas de operación elevadas y transmisiones integradas. Recomendado para mejorar el control de emisiones y ofrecer un desempeño adecuado en motores, cumple con las especificaciones High Tier JASO MA y Servicio API SG, y satisface los requerimientos de fabricantes europeos y japoneses.",
+        "BENEFICIOS": "Control de la oxidación contra altas cargas térmicas, detergentes balanceados para operar a altas temperaturas, desempeño superior para evitar problemas en el tren de válvulas y el clutch, y propiedades de fricción mejoradas para una conducción óptima.",
+        "PRECAUCIONES": "Por ser un material derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo. Evitar el contacto con la piel y la ingestión, no contaminar y no arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en CST a 40°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "147"
+          },
+          {
+            "PRUEBAS": "Viscosidad en CST a 100°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "18"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "125"
+          },
+          {
+            "PRUEBAS": "Temperatura de Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "230"
+          },
+          {
+            "PRUEBAS": "Temperatura de Ignición °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "235"
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.890"
+          },
+          {
+            "PRUEBAS": "Tendencia y Estabilidad de la Espumación",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "Secuencia I 0/0, Secuencia II 0/0, Secuencia III 0/0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Satisface los requerimientos de los principales fabricantes de motos de 4 tiempos europeos y japoneses."
+      }
+    },
+    {
+      "fileName": "14. REDUTTORI UNDUSTRALI EP GEAR OIL.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:02:18.200Z",
+      "structuredData": {
+        "product_name": "RIDUTTORI INDUSTRIALI EP GEAR OIL",
+        "summary": "Lubricante industrial de alto desempeño desarrollado para la lubricación de engranajes industriales de servicio pesado en condiciones severas. Combina aceites base de alta calidad y aditivos de azufre y fósforo, ofreciendo protección contra desgaste y cargas de impacto. Supera los requerimientos de DIN 51517 Parte 3, ISO 12925-1 CKC, AGMA 9005 E-02, entre otros.",
+        "BENEFICIOS": "Ofrece excelente capacidad de carga, protección contra el desgaste, reduce costos de mantenimiento y protege contra la corrosión de los componentes del sistema.",
+        "PRECAUCIONES": "Evitar contacto con la piel e ingestión. No contaminar ni desechar en alcantarillado. Observar prácticas normales de manejo de productos químicos.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en cSt a 40° C y 100° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "150, 220, 320, 460 para 40° C / 14.5, 19.3, 24.5, 31.2 para 100° C"
+          },
+          {
+            "PRUEBAS": "Índice de viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "95, 99, 98, 98"
+          },
+          {
+            "PRUEBAS": "Grado AGMA",
+            "METODO ASTM": "No especificado",
+            "VALOR TIPICO": "4 EP, 5 EP, 6 EP, 7 EP"
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "248, 278, 278, 279 °C"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-26, -23, -22, -21 °C"
+          },
+          {
+            "PRUEBAS": "Densidad",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.8861, 0.8872, 0.8863, 0.8838 gr/lto"
+          },
+          {
+            "PRUEBAS": "Prueba de Espuma SEC II",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "50 Max / 0 tendencia y estabilidad"
+          },
+          {
+            "PRUEBAS": "Viscosidad, Saybolt SUS",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "744/77 a 100 °F, 1102/96 a 210°F, y así sucesivamente"
+          },
+          {
+            "PRUEBAS": "Prueba de Herrumbre D665 A y B",
+            "METODO ASTM": "D665",
+            "VALOR TIPICO": "APROBADA"
+          },
+          {
+            "PRUEBAS": "Demulsibilidad",
+            "METODO ASTM": "D-1401",
+            "VALOR TIPICO": "40-40-0 (20 minutos), y variaciones según el producto"
+          },
+          {
+            "PRUEBAS": "Carga Timken OK, lb",
+            "METODO ASTM": "D2783",
+            "VALOR TIPICO": "75, 80"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Aplicación en sistemas hidráulicos industriales, equipo móvil en construcción y minería, sistemas marinos, cojinetes, y rodamientos, y en equipos que requieran protección anti desgaste."
+      }
+    },
+    {
+      "fileName": "15. SFORZO TRANS OIL GL-5.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:02:38.412Z",
+      "structuredData": {
+        "product_name": "Sforzo Trans Oil",
+        "summary": "Sforzo Trans Oil es un lubricante de calidad superior con aditivos de extrema presión, diseñado para cajas de transmisiones manuales y diferenciales de servicio liviano y pesado. Cumple con la designación API GL-5 y está recomendado para una amplia gama de vehículos y maquinaria industrial, agrícola, minera y de construcción. Disponible en grados SAE 80W-90 y SAE 85W-140.",
+        "BENEFICIOS": "Excelente estabilidad a la oxidación, operación más eficiente por transmisiones más limpias, estabilidad a la fricción, y excelente fluidez a bajas temperaturas para asegurar un desempeño apropiado de las transmisiones actuales.",
+        "PRECAUCIONES": "Debido a que es un material derivado del petróleo y mezcla de productos químicos, se deben observar prácticas normales de manejo, evitar el contacto con la piel y la ingestión, no contaminar y no arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "190 (SAE 80W-90), 360 (SAE 85W-140)"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "16.5 (SAE 80W-90), 25 (SAE 85W-140)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "90 (SAE 80W-90), 85 (SAE 85W-140)"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "230 (SAE 80W-90), 260 (SAE 85W-140)"
+          },
+          {
+            "PRUEBAS": "Temperatura Ignición °C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "235 (SAE 80W-90), 265 (SAE 85W-140)"
+          },
+          {
+            "PRUEBAS": "Densidad @ 20 ºC g/mL",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.89 (SAE 80W-90), 0.90 (SAE 85W-140)"
+          },
+          {
+            "PRUEBAS": "Timken Okload (Lbs)",
+            "METODO ASTM": "D-2266",
+            "VALOR TIPICO": "45"
+          },
+          {
+            "PRUEBAS": "Espumación Estabilidad en ml Secuencia I II III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "0/20, 0/50, 0/20"
+          },
+          {
+            "PRUEBAS": "Oxidacion en Agua Destilada",
+            "METODO ASTM": "D-665",
+            "VALOR TIPICO": "PASA"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para camiones de servicio pesado, camiones, camionetas y automóviles; cajas de engranes, diferenciales y mandos finales de maquinaria industrial, agrícola, minera, y de construcción que especifiquen el uso de un aceite API GL-5 y aprobación ZF TE-ML 07A, ZF TE-ML 08."
+      }
+    },
+    {
+      "fileName": "16. SPORTFIT MULTIGRADE API SN.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:02:57.210Z",
+      "structuredData": {
+        "product_name": "SPORTFIT MULTIGRADE RACING OIL API SN ILSAC GF-5",
+        "summary": "Aceite multigrado para carreras con protección contra depósitos, lodos, herrumbre, y corrosión, diseñado para automóviles y camiones ligeros a gasolina. Ofrece un excelente desempeño bajo diversas condiciones de manejo, protección a los pistones a altas temperaturas, y una vida útil del motor prolongada.",
+        "BENEFICIOS": "Protección contra depósitos, lodos, herrumbre y corrosión. Aditivos mejorados que ofrecen protección a los pistones a alta temperatura. Excelente desempeño bajo diversas condiciones de manejo.",
+        "PRECAUCIONES": "Observar prácticas normales de manejo al ser un material derivado del petróleo y mezcla de productos químicos. Evitar el contacto con la piel y la ingestión. No contaminar ni arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en cSt 40° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "65.10, 105, 167"
+          },
+          {
+            "PRUEBAS": "Viscosidad en cSt 100° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "10.04, 13.07, 19.5"
+          },
+          {
+            "PRUEBAS": "Indice de viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "148, 148, 158"
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "229, 229, 210"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-39, -30, -27"
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.858, 0.872, 0.874"
+          },
+          {
+            "PRUEBAS": "TBN, mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "8.85"
+          },
+          {
+            "PRUEBAS": "Viscosidad Aparente CCS, cP (°C)",
+            "METODO ASTM": "D 5293",
+            "VALOR TIPICO": "5570-25°C, 6456-20°C"
+          },
+          {
+            "PRUEBAS": "MRV, cP (°C)",
+            "METODO ASTM": "D 4684",
+            "VALOR TIPICO": "22300-30°C, 31358-20°C"
+          },
+          {
+            "PRUEBAS": "Viscosidad HTHS, cP @ 150°C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "3.03, 4.01"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para automóviles y camiones ligeros a gasolina que requieren las clasificaciones API SP, SN o SM, especialmente aconsejado para vehículos del año 2020 y anteriores."
+      }
+    },
+    {
+      "fileName": "17. SYNTHETIC OIL PLUS CK-4  SN.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:03:15.699Z",
+      "structuredData": {
+        "product_name": "SYNTHETIC OIL PLUS CK-4/SN SAE 10W30/SAE 15W40",
+        "summary": "SYNTHETIC OIL PLUS es un aceite elaborado a partir de bases del Grupo III y aditivos de última tecnología, diseñado para lubricar y prolongar la vida útil de motores de última generación con sistemas EGR, SCR, y DPF que operan bajo condiciones severas. Cumple con las especificaciones API CK-4 y API SN, satisfaciendo los requisitos de fabricantes americanos y europeos.",
+        "BENEFICIOS": "Proporciona propiedades de limpieza excepcionales, mantiene en suspensión los productos de la combustión para mayor durabilidad del motor, disminuye el consumo de aceite por su baja volatilidad, tiene capacidad antioxidante que previene el incremento excesivo de la viscosidad del aceite, y garantiza un excelente comportamiento a temperaturas extremas. Cumple con las especificaciones de Caterpillar ECF-2 y ECF-3, Mercedes Benz 228.31, MAN 3575, MTU Categoría 2.1.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad a 40°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "80.95 (10W30), 124.60 (15W40)"
+          },
+          {
+            "PRUEBAS": "Viscosidad a 100°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "11.68 (10W30), 15.96 (15W40)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "140 (10W30), 135 (15W40)"
+          },
+          {
+            "PRUEBAS": "Viscosidad CCS",
+            "METODO ASTM": "D 5293",
+            "VALOR TIPICO": "5860 cP a -25 °C (10W30), 5500 cP a -25 °C (15W40)"
+          },
+          {
+            "PRUEBAS": "TBN",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "9.5 (10W30), 10.41 (15W40)"
+          },
+          {
+            "PRUEBAS": "Cenizas Sulfatadas",
+            "METODO ASTM": "D-874",
+            "VALOR TIPICO": ".87% (10W30), 1.0% (15W40)"
+          },
+          {
+            "PRUEBAS": "Temperatura de Inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "227°C (10W30), 232°C (15W40)"
+          },
+          {
+            "PRUEBAS": "Punto Mínimo de Fluidez",
+            "METODO ASTM": "D-97/6249",
+            "VALOR TIPICO": "-30°C (10W30), -33°C (15W40)"
+          },
+          {
+            "PRUEBAS": "Gravedad Específica a 15.6 °C",
+            "METODO ASTM": "D-4052",
+            "VALOR TIPICO": "0.8658 (10W30), 0.8764 (15W40)"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para motores Diésel Turbo Cargados de reciente diseño de bajas emisiones, incluyendo sistemas EGR, SCR, y DPF. Aplicable en transporte pesado, pasajeros, construcción, minería, marina y flotillas mixtas de gasolina y diésel."
+      }
+    },
+    {
+      "fileName": "18. ULTRA SPESSO DIESEL SAE40 SAE50 CF CF2.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:03:37.458Z",
+      "structuredData": {
+        "product_name": "Ultra Spesso Diésel",
+        "summary": "Lubricante Monogrado Premium recomendado para vehículos con motores a diésel de modelo anterior, incluyendo aquellos turbo cargados o de aspiración natural, de 2 y 4 tiempos, operando bajo severas condiciones. Apto para el uso en aplicaciones dentro y fuera de carretera, y es compatible con algunas transmisiones manuales. Ofrece beneficios como protección en control de depósitos, resistencia a la oxidación, protección contra la pérdida de viscosidad y mejora en el arranque en frío y operación en caliente.",
+        "BENEFICIOS": "Máxima protección en control de depósitos y resistencia a la oxidación, protección contra el incremento de viscosidad debido al hollín y la pérdida de la misma por esfuerzos de corte, excelente relación viscosidad-temperatura que mejora el arranque en frío y el trabajo en caliente, motor más limpio.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "SAE J300",
+            "VALOR TIPICO": "40 / 50"
+          },
+          {
+            "PRUEBAS": "Peso Especifico",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": ".890 / .897"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "170 / 240 mm2/s (cSt)"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "15.50 / 20.50 mm2/s (cSt)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "90 / 100"
+          },
+          {
+            "PRUEBAS": "Viscosidad Aparente CCS A -20 °C/ -15°C",
+            "METODO ASTM": "D-5293",
+            "VALOR TIPICO": "6000 / 9300 mPa (Cp)"
+          },
+          {
+            "PRUEBAS": "Cenizas Sulfatadas",
+            "METODO ASTM": "D-874",
+            "VALOR TIPICO": "1.5 % peso"
+          },
+          {
+            "PRUEBAS": "Densidad a 20 °C",
+            "METODO ASTM": "D-1250",
+            "VALOR TIPICO": "0.8810 / 0.8930 Kg/ ml"
+          },
+          {
+            "PRUEBAS": "Punto de Inflamación",
+            "METODO ASTM": "230 / 244"
+          },
+          {
+            "PRUEBAS": "Punto de Escurrimiento",
+            "METODO ASTM": "-12 / -9"
+          },
+          {
+            "PRUEBAS": "Numero de Base TBN",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "13 mg KOH/g"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Especificaciones que cumplen con estándares de la industria para camiones de carga y pasajeros, autobuses, equipos de construcción, maquinaria agrícola y de minería. Recomendado para flotillas mixtas por su versatilidad."
+      }
+    },
+    {
+      "fileName": "19. USURA TRANS OIL GL1.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:04:01.659Z",
+      "structuredData": {
+        "product_name": "USURA TRANS OIL",
+        "summary": "USURA TRANS OIL es un lubricante formulado con aceites básicos parafínicos y aditivos, diseñado para sistemas de engranajes automotrices con necesidades de servicio API GL-1. Ofrece protección contra la humedad, una larga vida útil gracias a sus aditivos antioxidantes, y protege los engranajes formando una película lubricante eficiente. Está recomendado para transmisiones manuales y diferenciales de automóviles, camionetas, y camiones de servicio ligero a moderado.",
+        "BENEFICIOS": "Excelente estabilidad a la oxidación, operaciones más eficientes debido a transmisiones más limpias, estabilidad a la fricción y excelente fluidez a bajas temperaturas para un desempeño adecuado de las transmisiones.",
+        "PRECAUCIONES": "Evitar el contacto con la piel y la ingestión, no contaminar, no arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "172.7 (SAE 90), 405.6 (SAE 140), 653.9 (SAE 250)"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "15.50 (SAE 90), 27.50 (SAE 140), 46 (SAE 250)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "90 (SAE 90), 93 (SAE 140), 119 (SAE 250)"
+          },
+          {
+            "PRUEBAS": "Temperatura de Inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "250 °C (SAE 90), 252 °C (SAE 140), 258 °C (SAE 250)"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-12 °C (SAE 90 y 140), -9 °C (SAE 250)"
+          },
+          {
+            "PRUEBAS": "Densidad @ 20 ºC",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": ".9084 (SAE 90), 0.9165 (SAE 140), 0.9157 (SAE 250)"
+          },
+          {
+            "PRUEBAS": "Timken Okload",
+            "METODO ASTM": "D-2266",
+            "VALOR TIPICO": "40 Lbs para todas las SAE"
+          },
+          {
+            "PRUEBAS": "Estabilidad de la Espumación Secuencia I II III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "0/0, 0/0, 0/0 para todas las SAE"
+          },
+          {
+            "PRUEBAS": "Oxidación en Agua Destilada",
+            "METODO ASTM": "D-665",
+            "VALOR TIPICO": "PASA para todas las SAE"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Apto para automóviles, camionetas y camiones de servicio ligero a moderado, especialmente donde se especifique el uso de un aceite con calidad API GL-1."
+      }
+    },
+    {
+      "fileName": "20. EXTENDED LIFE COOLANT-ANTIFREEZE.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:04:20.068Z",
+      "structuredData": {
+        "product_name": "ANTICONGELANTE ORGANICO EXTENDED LIFE COOLANT-ANTIFREEZE",
+        "summary": "Anticongelante y refrigerante tipo orgánico diseñado con aditivos inhibidores amigables al medio ambiente, formulado para brindar máxima protección a metales de aleaciones ligeras como aluminio, cobre y bronce, utilizado en radiadores y motores. Cumple con los estándares de calidad de importantes fabricantes de vehículos y está indicado para una amplia gama de aplicaciones vehiculares, desde coches hasta unidades de carga y transporte, proporcionando una considerable extensión en el tiempo de vida útil del producto.",
+        "BENEFICIOS": "Protege contra la corrosión, el desgaste y la herrumbre en todas las piezas de precisión de sistemas de enfriamiento, asegurando un rendimiento óptimo del motor en condiciones variadas.",
+        "PRECAUCIONES": "Evitar contacto prolongado con la piel; en caso de contacto, lavar con agua y jabón. Mantener el envase del anticongelante limpio, bajo sombra y bien tapado para evitar su contaminación.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "DILUCION",
+            "METODO ASTM": "D 1177",
+            "VALOR TIPICO": "-75 °C - 175 °C"
+          },
+          {
+            "PRUEBAS": "RESERVA ALCALINA",
+            "METODO ASTM": "D 1121",
+            "VALOR TIPICO": "≥ 6"
+          },
+          {
+            "PRUEBAS": "RESISTENCIA AL AGUA DURA",
+            "METODO ASTM": "9.55523-3.1",
+            "VALOR TIPICO": "CUMPLE"
+          },
+          {
+            "PRUEBAS": "PH AL 50%",
+            "METODO ASTM": "D 1287",
+            "VALOR TIPICO": "8.5"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE EBULLICION",
+            "METODO ASTM": "D 1120",
+            "VALOR TIPICO": "265 °C"
+          },
+          {
+            "PRUEBAS": "PROTECCION VS LA CORROSION",
+            "METODO ASTM": "Varios",
+            "VALOR TIPICO": "Cobre 5 mg, Soldadura 15 mg, Latón 4 mg, Acero 1 mg, Hierro Fundido 1 mg, Aluminio -5 mg"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para sistemas de enfriamiento en motores de combustión interna a Diésel, equipo pesado e industriales. Cumple con especificaciones de Ford, Caterpillar, Volkswagen, General Motors, Cummins, Detroit Diésel, Volvo-Mack, MAN, MTU, John Deere y Navistar."
+      }
+    },
+    {
+      "fileName": "21. BLUE DEF 32.5 - UREA AUTOMOTRIZ.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:04:33.222Z",
+      "structuredData": {
+        "product_name": "BLUE DEF 32.5",
+        "summary": "BLUE DEF 32.5 es una solución acuosa de alta pureza para motores Diésel con sistema de Reducción Catalítica Selectiva (SCR), que reduce las emisiones de óxidos de nitrógeno (NOx), cumpliendo con la norma ISO 22241-1. Es ecológico y se recomienda su uso en vehículos con SCR, sin mezclarlo con el combustible.",
+        "BENEFICIOS": "Convierte los NOx en componentes no dañinos, es compatible con otros fluidos DEF, no daña los catalizadores, reduce el consumo de combustible, es no inflamable, no explosivo y no tóxico.",
+        "PRECAUCIONES": "No agregar al tanque de combustible ni mezclarlo con este. Debe almacenarse entre -11° a 30°C, protegido de la luz solar y del polvo. No diluir el producto.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "DENSIDAD A 20 °C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "1.0870 a 1.0930 g/CM3"
+          },
+          {
+            "PRUEBAS": "INDICE DE REFACCION a 20 °C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "1.3814 a 1.3843"
+          },
+          {
+            "PRUEBAS": "ALCALINIDAD como NH3, %",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "0.2 Max"
+          },
+          {
+            "PRUEBAS": "BIURET %",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "0.3 MAX"
+          },
+          {
+            "PRUEBAS": "PH",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "9.0 a 9.5"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE EBULLICION °C",
+            "METODO ASTM": "D1120",
+            "VALOR TIPICO": ">100"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "UREA GRADO AUTOMOTRIZ para industria, clientes y aplicaciones donde se requiere reducción de emisiones contaminantes en motores Diésel equipados con SCR."
+      }
+    },
+    {
+      "fileName": "22. Cotton Picker  Grease 00.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:04:52.012Z",
+      "structuredData": {
+        "product_name": "Cotton Picker Spindle Grease",
+        "summary": "Cotton Picker Spindle Grease es una grasa de excelente calidad de grado NLGI 00, diseñada exclusivamente para máquinas cosechadoras o recolectoras de algodón. Elaborada con aceites de refinación superior, contiene aditivos de extrema presión y otros componentes que protegen contra la herrumbre, oxidación y los efectos de agentes humectantes y defoliantes. Ofrece una consistencia suave para un flujo de lubricación óptimo y reduce el manchado del algodón. Compatible con los principales fabricantes de cosechadoras de algodón, cumple con las especificaciones JDN 305, 306, e International Harvester IHB-27.",
+        "BENEFICIOS": "Excelente comportamiento antidesgaste para protección de husillos, excepcional protección contra oxidación, corrosión y herrumbre, alta resistencia al lavado por agua, buena estabilidad térmica y mecánica, adhesividad y cohesión, alta temperatura de goteo, y disminuye los tiempos de mantenimiento durante la cosecha.",
+        "PRECAUCIONES": "No arrojar grasa al subsuelo o fuentes de agua, consultar legislación local para disposición de grasa usada, evitar contacto con la piel, mantener fuera del alcance de los niños.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Penetración a 60 Golpes",
+            "METODO ASTM": "D 217",
+            "VALOR TIPICO": "420"
+          },
+          {
+            "PRUEBAS": "Temperatura de Goteo °C",
+            "METODO ASTM": "D 2265",
+            "VALOR TIPICO": "166 / 170"
+          },
+          {
+            "PRUEBAS": "Temperatura de Inflamación °C",
+            "METODO ASTM": " ",
+            "VALOR TIPICO": "150"
+          },
+          {
+            "PRUEBAS": "Prevención de Herrumbre",
+            "METODO ASTM": " ",
+            "VALOR TIPICO": "PASA"
+          },
+          {
+            "PRUEBAS": "Estabilidad a la Oxidación, Lbs",
+            "METODO ASTM": "D 942",
+            "VALOR TIPICO": "≤ 10"
+          },
+          {
+            "PRUEBAS": "Extrema Presión 4 Bolas",
+            "METODO ASTM": "IP 239",
+            "VALOR TIPICO": ".060"
+          },
+          {
+            "PRUEBAS": "Temperatura de Operación °C",
+            "METODO ASTM": " ",
+            "VALOR TIPICO": "- 5 A 120"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Ideal para los principales fabricantes de cosechadoras de algodón como John Deere (modelos 9900, 9910, 9930, 9940, 9960, 9965) y Case IH (modelos 782, 1822, 1844, 2022, 2044, 2055, 2155), cumpliendo especificaciones JDN 305, 306 e International Harvester IHB-27."
+      }
+    },
+    {
+      "fileName": "23. COOL CNR ORGANICO - 38.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:05:05.990Z",
+      "structuredData": {
+        "product_name": "COOL CNR ORGÁNICO-38 & COOLELF ORGÁNICO-37",
+        "summary": "Anticongelante de 'Larga Duración' (Long Life) basado en mono-etilén glicol de alta pureza con aditivos orgánicos inhibidores de corrosión. Amigable al medio ambiente y libre de fosfatos, aminas, nitritos y boro, diseñado para todo tipo de motores y especialmente recomendado para motores de trabajo pesado en cualquier estación del año.",
+        "BENEFICIOS": "Aprobado por MB con las aprobaciones 325.3 (antigel) y 326.3 (50% dilución), ofrece amplios intervalos de cambio recomendados de hasta 650,000 kilómetros, 8000 horas o 5 años en camiones y 250,000 kilómetros o 5 años en automóviles. Es inerte a sellos de hule y pinturas y viene previamente diluido con agua desmineralizada.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Densidad a 15 °C",
+            "METODO ASTM": "ASTM D 4052",
+            "VALOR TIPICO": "1.068"
+          },
+          {
+            "PRUEBAS": "Color",
+            "METODO ASTM": "Visual",
+            "VALOR TIPICO": "Naranja Fosforescente"
+          },
+          {
+            "PRUEBAS": "Reserva Alcalina a Punto de Equivalente (pH 5.5)",
+            "METODO ASTM": "ASTM D 1287",
+            "VALOR TIPICO": "8.3"
+          },
+          {
+            "PRUEBAS": "Punto de Congelación °C",
+            "METODO ASTM": "ASTM D 1177",
+            "VALOR TIPICO": "-38"
+          },
+          {
+            "PRUEBAS": "Punto de Ebullición °C",
+            "METODO ASTM": "ASTM D 1120",
+            "VALOR TIPICO": "108"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Cumple con especificaciones internacionales para líquidos refrigerantes de fabricantes OEM como AUDI, DAIMLER, DEUTZ, VW G12+, FORD, MAN, SKODA, SEAT, VW TL 774D, JAGUAR, LEYLAND TRUCKS, OPEL-GM, RENAULT VI, SAAB, y SCANIA."
+      }
+    },
+    {
+      "fileName": "24. COOLANT-ANTIFREEZE.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:05:30.900Z",
+      "structuredData": {
+        "product_name": "ANTICONGELANTE / REFRIGERANTE COOLANT-ANTIFREEZE",
+        "summary": "Un fluido concentrado basado en etilenglicol, inhibidores de corrosión, antiespumantes y antiherrumbrantes de Tecnología de Ácidos Orgánicos (OAT), diseñado para proteger eficazmente el sistema de enfriamiento en vehículos de servicio ligero y pesado contra la corrosión y el congelamiento. Cumple con los estándares de calidad de principales fabricantes como Ford, Caterpillar, Volkswagen, y más.",
+        "BENEFICIOS": "Protección durante todo el año en cualquier clima, mínimas pérdidas por evaporación, excelente compatibilidad con sellos y mangueras, amigable con el medio ambiente al no contener fosfatos, nitritos, molibdatos ni silicatos, alto poder lubricante sobre la bomba de agua.",
+        "PRECAUCIONES": "No se espera que tenga un efecto adverso en la salud si se usa como recomendado. Evitar el contacto prolongado con la piel y lavar con agua y jabón en caso de contacto. Conservar el recipiente en un lugar limpio, bajo sombra y bien tapado para evitar contaminación.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "DILUCION 100 %",
+            "METODO ASTM": "D 1177",
+            "VALOR TIPICO": "- 67 °C - 138 °C"
+          },
+          {
+            "PRUEBAS": "DILUCION 70 %",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "- 37 °C - 132 °C"
+          },
+          {
+            "PRUEBAS": "DILUCION 50 %",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "- 21 °C - 128 °C"
+          },
+          {
+            "PRUEBAS": "DILUCION 33 %",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "- 18 °C - 118 °C"
+          },
+          {
+            "PRUEBAS": "RESERVA ALCALINA",
+            "METODO ASTM": "D 1121",
+            "VALOR TIPICO": "2.21"
+          },
+          {
+            "PRUEBAS": "GRABEDAD ESPECIFICA",
+            "METODO ASTM": "D 4052",
+            "VALOR TIPICO": "1.0890"
+          },
+          {
+            "PRUEBAS": "PH AL 30 % EN AGUA",
+            "METODO ASTM": "D 1287",
+            "VALOR TIPICO": "8.5"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE EBULLICION 50 %",
+            "METODO ASTM": "D 1120",
+            "VALOR TIPICO": "128 °C"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE EBULLICION 100 %",
+            "METODO ASTM": "D 1120",
+            "VALOR TIPICO": "138 °C"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE CONGELAMIENTO 50 %",
+            "METODO ASTM": "D 1177",
+            "VALOR TIPICO": "- 21 °C"
+          },
+          {
+            "PRUEBAS": "TEMPERATURA DE CONGELAMIENTO 100 %",
+            "METODO ASTM": "D 1177",
+            "VALOR TIPICO": "- 67 °C"
+          },
+          {
+            "PRUEBAS": "TENDENCIA A LA ESPUMA 33 %",
+            "METODO ASTM": "D 1881",
+            "VALOR TIPICO": "20"
+          },
+          {
+            "PRUEBAS": "TIEMPO DE ROMPIMIENTO",
+            "METODO ASTM": "D 1881",
+            "VALOR TIPICO": "1 SEG"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Perfectamente acorde con los estándares de calidad de los principales productores de vehículos: Ford, Caterpillar, Volkswagen, General Motors, Cummins, Detroit Diésel, Volvo-Mack, MAN, MTU y John Deere."
+      }
+    },
+    {
+      "fileName": "25. SPORTFIT MULTIGRADE API SL.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:05:48.217Z",
+      "structuredData": {
+        "product_name": "SPORTFIT MULTIGRADE RACING OIL API SL ILSAC GF-3",
+        "summary": "Aceite multigrado para carreras con propiedades protectoras contra depósitos, lodos, herrumbre y corrosión, diseñado para vehículos a gasolina. Presenta excelentes capacidades a altas temperaturas y bajo diversas condiciones de manejo, prolongando la vida útil del motor y manteniendo la potencia del vehículo.",
+        "BENEFICIOS": "Protección contra depósitos, lodos, herrumbre y corrosión. Aditivos mejorados para protección a alta temperatura de los pistones. Excelente desempeño bajo diversas condiciones de manejo.",
+        "PRECAUCIONES": "Manejar con prácticas normales por ser derivado del petróleo y mezcla de productos químicos. Evitar contacto con la piel y la ingestión. No contaminar o arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad en cSt a 40° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "65.10, 105, 167"
+          },
+          {
+            "PRUEBAS": "Viscosidad en cSt a 100 °C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "10.04, 13.07, 19.5"
+          },
+          {
+            "PRUEBAS": "Índice de viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "148, 148, 158"
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "229, 229, 210"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-39, -30, -27"
+          },
+          {
+            "PRUEBAS": "Densidad gr/lto",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.858, 0.872, 0.874"
+          },
+          {
+            "PRUEBAS": "TBN, mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "8.85"
+          },
+          {
+            "PRUEBAS": "Viscosidad Aparente CCS, cP (°C)",
+            "METODO ASTM": "D 5293",
+            "VALOR TIPICO": "5570-25°C, 6456-20°C"
+          },
+          {
+            "PRUEBAS": "MRV, cP (°C)",
+            "METODO ASTM": "D 4684",
+            "VALOR TIPICO": "22300-30°C, 31358-20°C"
+          },
+          {
+            "PRUEBAS": "Viscosidad HTHS, cP @ 150°C",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "3.03, 4.01"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para automóviles y camiones ligeros a gasolina que requieren un API SL. Ideal para vehículos 2004 y años anteriores donde se recomiende aceites con Categoría de Servicio API SL."
+      }
+    },
+    {
+      "fileName": "26. INGRANAGGI SINTETICI  GL-5.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:06:09.971Z",
+      "structuredData": {
+        "product_name": "INGRANAGGI SINTETICI SAE 75W-90 SAE 75W-140 API GL-5",
+        "summary": "INGRANAGGI SINTETICI es un aceite para engranajes, transmisiones y diferenciales totalmente sintético y térmicamente estable, diseñado para mejorar la economía de combustible en vehículos comerciales y equipos fuera de carretera operando en condiciones severas. Mezclado con bases sintéticas y aditivos avanzados, ofrece protección superior, durabilidad, alta capacidad de carga y excelente viscosidad para una lubricación efectiva.",
+        "BENEFICIOS": "Excelente estabilidad termo-oxidativa, operación más eficiente por limpieza en transmisiones, estabilidad a la fricción para cambios más suaves, y fluidez a bajas temperaturas para un desempeño óptimo.",
+        "PRECAUCIONES": "Por ser derivado del petróleo y contener químicos, se recomiendan prácticas normales de manejo, evitar contacto con la piel e ingestión, no contaminar y no arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "122 (75W-90) / 284 (75W-140)"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "16.5 (75W-90) / 30.60 (75W-140)"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "147 (75W-90) / 145 (75W-140)"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "200 (75W-90) / 204 (75W-140)"
+          },
+          {
+            "PRUEBAS": "Punto Mínimo de Fluidez °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-45 (75W-90) / -36 (75W-140)"
+          },
+          {
+            "PRUEBAS": "Gravedad Especifica @ 15.6 °C",
+            "METODO ASTM": "D-4052",
+            "VALOR TIPICO": "0.8900 (75W-90) / 0.9000 (75W-140)"
+          },
+          {
+            "PRUEBAS": "FZG, número de etapas",
+            "METODO ASTM": "D-5182",
+            "VALOR TIPICO": "12"
+          },
+          {
+            "PRUEBAS": "Espumación, Estabilidad en ml Secuencia I II III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "0/20, 0/50, 0/20"
+          },
+          {
+            "PRUEBAS": "Prueba Térmica @149 °C",
+            "METODO ASTM": "Rockwell 076E",
+            "VALOR TIPICO": "PASA"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para vehículos fuera y dentro de carretera, camiones de servicio pesado, camionetas, automóviles y maquinaria pesada. Adecuado para cajas de engranes, diferenciales y mandos finales que requieran aceite API GL-5, MT-1, SAE J2360, y tienen aprobación ZF TE-ML 07A, ZF TE-ML 08, MIL-PRF-2105E, Mack GO-J, MIL-L-2105 D."
+      }
+    },
+    {
+      "fileName": "27. MASSIMA PROTEZIONE  SYNTHETIC SN.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:06:42.307Z",
+      "structuredData": {
+        "product_name": "MASSIMA PROTEZIONE SYNTHETIC API SN ILSAC GF-5",
+        "summary": "Massima Protezione es un lubricante Premium totalmente sintético con tecnología Italiana diseñado para proporcionar la máxima protección en partes críticas del motor, asegurando un alto rendimiento. Cumple con las especificaciones API SN, ILSAC GF5, y Dexos, enfocado en mejorar y conservar la economía de combustible así como proteger el sistema de emisiones y componentes del turbocompresor.",
+        "BENEFICIOS": "Protección contra depósitos, lodos, herrumbre y corrosión. Aditivos mejorados para proteger pistones a alta temperatura. Excelente desempeño bajo diversas condiciones de manejo.",
+        "PRECAUCIONES": "Manejar con prácticas normales por ser derivado petróleo y mezcla química. Evitar contacto con piel e ingestión. No contaminar o arrojar al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad a 40° C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "46.74 para 0W-20, 46.36 para 5W-20, 60.67 para 5W-30, 65.10 para 10W-30, 68.70 para 15W-40"
+          },
+          {
+            "PRUEBAS": "Viscosidad a 100 °C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "8.8 para 0W-20, 8.6 para 5W-20, 10.65 para 5W-30, 10.04 para 10W-30, 15.7 para 15W-40"
+          },
+          {
+            "PRUEBAS": "Indice de viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "171 para 0W-20, 147 para 5W-20, 156 para 5W-30, 148 para 10W-30, 158 para 15W-40"
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "231 para 0W-20, 235 para 5W-20, 216 para 5W-30, 229 para 10W-30, 210 para 15W-40"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-34 para 0W-20, -36 para 5W-20, -33 para 5W-30, -33 para 10W-30, -39 para 15W-40"
+          },
+          {
+            "PRUEBAS": "Densidad gr/litro",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.848 para 0W-20, 0.850 para 5W-20, 0.862 para 5W-30, 0.869 para 10W-30, 0.878 para 15W-40"
+          },
+          {
+            "PRUEBAS": "TBN, mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "7.01 para 0W-20 y 5W-20, 8.85 para 5W-30, 10W-30 y 15W-40"
+          },
+          {
+            "PRUEBAS": "Viscosidad Aparente CCS, cP",
+            "METODO ASTM": "D 5293",
+            "VALOR TIPICO": "6060 a -35ºC para 0W-20, 6410 a -30°C para 5W-20, 4200 a -30°C para 5W-30, 5570 a -25°C para 10W-30, 6456 a -20°C para 15W-40"
+          },
+          {
+            "PRUEBAS": "MRV, cP",
+            "METODO ASTM": "D 4684",
+            "VALOR TIPICO": "1900 a -40ºC para 0W-20, 11300 a -35°C para 5W-20, 11700 a -35°C para 5W-30, 22300 a -30°C para 10W-30, 31358 a -20°C para 15W-40"
+          },
+          {
+            "PRUEBAS": "Viscosidad HTHS, cP @ 150°C",
+            "METODO ASTM": "Dado sin especificación",
+            "VALOR TIPICO": "2.6 para 0W-20 y 5W-20, 3.1 para 5W-30, 3.03 para 10W-30, 4.01 para 15W-40"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Recomendado para motores de gasolina de alto rendimiento en vehículos de pasajeros, utilitarios, deportivos, furgonetas y camiones ligeros de alto rendimiento de Norteamérica, Europa y Japón. Adecuado para automóviles, camionetas y vehículos ligeros que usan gasolina y mezcla con etanol hasta 85%."
+      }
+    },
+    {
+      "fileName": "28. DIESEL MASSIMO PLUS CK-4 SN.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T05:07:06.553Z",
+      "structuredData": {
+        "product_name": "DIESEL MASSIMO PLUS API CK4/SN SAE 15W40",
+        "summary": "DIESEL MASSIMO PLUS es un aceite lubricante de alto rendimiento diseñado específicamente para motores Diésel de cuatro tiempos, incluyendo aquellos turbo cargados de reciente diseño con bajas emisiones. Ofrece excelentes propiedades de limpieza, reduce el consumo de aceite y protege contra la oxidación y el aumento excesivo de la viscosidad. Recomendado para una amplia gama de aplicaciones, cumple con las especificaciones de los principales fabricantes y normas de emisiones.",
+        "BENEFICIOS": "Cuenta con aditivos dispersantes y detergentes de última tecnología, ofreciendo propiedades de limpieza excepcionales, mantenimiento del motor limpio, reducción en el consumo de aceite por su baja volatilidad, alta capacidad antioxidante que previene el incremento excesivo de la viscosidad, y un excelente comportamiento a temperaturas extremas.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Viscosidad Cinematica @ 40°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "110.40 cSt"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinematica @ 100°C",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "14.90 cSt"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "140"
+          },
+          {
+            "PRUEBAS": "Viscosidad CCS, cP @ -20 °C",
+            "METODO ASTM": "D 5293",
+            "VALOR TIPICO": "5255 mPa-s"
+          },
+          {
+            "PRUEBAS": "Numero Base Total TBN, mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "9.3"
+          },
+          {
+            "PRUEBAS": "Cenizas Sulfatadas, % en peso",
+            "METODO ASTM": "D-874",
+            "VALOR TIPICO": ".99"
+          },
+          {
+            "PRUEBAS": "Temperatura de inflamación °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "229"
+          },
+          {
+            "PRUEBAS": "Punto Mínimo de Fluidez, °C",
+            "METODO ASTM": "D-97/6249",
+            "VALOR TIPICO": "-36"
+          },
+          {
+            "PRUEBAS": "Densidad @ 20°C g/ml",
+            "METODO ASTM": "D-1250",
+            "VALOR TIPICO": "0.8547"
+          },
+          {
+            "PRUEBAS": "Espuma Secuencia I / II / III mL",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "10-0 / 20-0 / 10.0"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Ampliamente recomendado para motores Diésel de 4 tiempos Turbo Cargados de reciente diseño con bajas emisiones, incluyendo aquellos con EGR, SCR, y DPF. Apto para Equipo de Transporte Pesado de Carga, Pasajeros, Construcción, Minería, Marina, y Flotillas Mixtas de Gasolina y Diésel."
+      }
+    }
+  ],
+  "failed": [],
+  "totalProcessed": 31,
+  "successfulCount": 31,
+  "failedCount": 0,
+  "extractionDate": "2025-01-20T05:07:06.553Z"
+}

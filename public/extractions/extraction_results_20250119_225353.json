@@ -1,0 +1,204 @@
+{
+  "successful": [
+    {
+      "fileName": "01. ATTRITO AUTOMATIC OIL  DEXRON III.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:53:08.359Z",
+      "structuredData": {
+        "product_name": "ATTRITO AUTOMATIC OIL A.T.F. DEXRON III & MERCON",
+        "summary": "ATTRITO AUTOMATIC OIL es un fluido para transmisiones automáticas compatible con DEXRON III & MERCON, diseñado para ofrecer una lubricación superior, asegurando un cambio suave y silencioso, junto con una excelente durabilidad. Destaca por su viscosidad adecuada en diversas condiciones de temperatura, estabilidad al corte, baja volatilidad y aplicabilidad en una variedad de sistemas industriales además de las transmisiones automáticas.",
+        "BENEFICIOS": "Excelente estabilidad a la oxidación, Operación más eficiente por transmisiones más limpias, Estabilidad a la fricción, Excelente fluidez a bajas temperaturas para asegurar un desempeño apropiado de las transmisiones actuales",
+        "PRECAUCIONES": "Por ser material derivado del petróleo y mezcla de productos químicos se deberán observar prácticas normales de manejo. Evite el contacto con la piel y la ingestión. No contamine. No arroje al alcantarillado.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Color Visual",
+            "METODO ASTM": "IT-08-09",
+            "VALOR TIPICO": "Rojo Brillante"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "36.60 cSt"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática @ 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "7.380 cSt"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "180"
+          },
+          {
+            "PRUEBAS": "Temperatura Inflamación",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "188 °C"
+          },
+          {
+            "PRUEBAS": "Temperatura Ignición",
+            "METODO ASTM": "No especificado",
+            "VALOR TIPICO": "213 °C"
+          },
+          {
+            "PRUEBAS": "Densidad @ 20 ºC",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": "0.8680 g/mL"
+          },
+          {
+            "PRUEBAS": "Viscosidad a Baja Temperatura Brookfield @ -20 °C",
+            "METODO ASTM": "D-2983",
+            "VALOR TIPICO": "1500 cP"
+          },
+          {
+            "PRUEBAS": "Espumación Estabilidad en ml Secuencia I II III",
+            "METODO ASTM": "D-892",
+            "VALOR TIPICO": "100/0, 100/0, 100/0"
+          },
+          {
+            "PRUEBAS": "Temperatura de Escurrimiento",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-39 ºC"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Compatible para uso en vehículos con Transmisión Automática, convertidores de impulso rotativo, transmisiones hidrostáticas, compresores de aire, bombas hidráulicas, sistemas de dirección hidráulica de vehículos y equipos agrícolas, moto variadores, reductores y sistemas hidráulicos industriales."
+      }
+    },
+    {
+      "fileName": "02. CHILOMETRAGGI ELEVATI SAE 25W50 SAE 25W60 CF4.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:53:27.463Z",
+      "structuredData": {
+        "product_name": "CHILOMETRAGGI ELEVATI DIESEL",
+        "summary": "Formulado con básicos altamente refinados y un paquete de aditivos de alto desempeño, ofrece tecnología superior con alto nivel detergente dispersante y excelente estabilidad a la oxidación. Protege contra el desgaste, herrumbre y corrosión en operaciones de servicio pesado. Recomendado para vehículos diésel de modelo anterior de alto kilometraje en cualquier condición, incluyendo aplicaciones dentro y fuera de carretera como camiones urbanos y de carga, tracto camiones, y equipos de construcción, minería y agricultura. Adecuado para motores diésel de 4 tiempos de aspiración natural y turbo cargados que requieran un lubricante API CF-4.",
+        "BENEFICIOS": "Máxima protección en control de depósitos y resistencia a la oxidación, protección contra el incremento de la viscosidad por hollín y pérdida de la misma por esfuerzos de corte, mejora el arranque en frío y el trabajo en caliente, mantiene el motor más limpio.",
+        "PRECAUCIONES": "",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "Grado SAE",
+            "METODO ASTM": "SAE J300",
+            "VALOR TIPICO": "SAE 25W-50, SAE 25W-60"
+          },
+          {
+            "PRUEBAS": "Peso Especifico",
+            "METODO ASTM": "D-1298",
+            "VALOR TIPICO": ".890, .897"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 40 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "280, 300"
+          },
+          {
+            "PRUEBAS": "Viscosidad Cinemática a 100 ºC",
+            "METODO ASTM": "D-445",
+            "VALOR TIPICO": "23, 25"
+          },
+          {
+            "PRUEBAS": "Índice de Viscosidad",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "110, 125"
+          },
+          {
+            "PRUEBAS": "Viscosidad aparente CCS A -20 °C/ -15 °C",
+            "METODO ASTM": "D-5293",
+            "VALOR TIPICO": "6000, 9300"
+          },
+          {
+            "PRUEBAS": "Cenizas Sulfatadas",
+            "METODO ASTM": "D-874",
+            "VALOR TIPICO": "1.5"
+          },
+          {
+            "PRUEBAS": "Densidad a 20 °C",
+            "METODO ASTM": "D-1250",
+            "VALOR TIPICO": "0.900"
+          },
+          {
+            "PRUEBAS": "Punto de inflamación",
+            "METODO ASTM": "97",
+            "VALOR TIPICO": "230, 244"
+          },
+          {
+            "PRUEBAS": "Punto de escurrimiento",
+            "METODO ASTM": "92",
+            "VALOR TIPICO": "-12, -9"
+          },
+          {
+            "PRUEBAS": "Numero de base TBN",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "11"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Aplicable en vehículos de transporte urbano y foráneo, camiones de carga, tracto camiones, equipos de construcción, minería y agricultura."
+      }
+    },
+    {
+      "fileName": "03. COMANDI FINALI E FRENI.pdf",
+      "status": "success",
+      "totalPages": 1,
+      "timestamp": "2025-01-20T04:53:53.011Z",
+      "structuredData": {
+        "product_name": "COMANDI FINALI E FRENI TRANS TO-4 10W SAE-30 SAE-50",
+        "summary": "Lubricante diseñado para ofrecer un excelente desempeño antifriccionante, compatibilidad con elastómeros y control de desgaste, cumpliendo con las especificaciones de equipos CAT TO-4 y Allison C-4. Ideal para servotransmisiones, compartimientos de frenos húmedos, sistemas hidrostáticos, transmisiones, diferenciales, mandos finales de equipos Caterpillar, y máquinas que requieran especificaciones TO-4, TO-4M, entre otros.",
+        "BENEFICIOS": "Excelente estabilidad térmica a la oxidación, operación más eficiente por transmisiones más limpias, estabilidad a la fricción que reduce el desgaste de los engranes y un paquete de aditivos especiales que reducen el rechinido de los frenos, incrementan la vida del clutch y eliminan el patinaje de las transmisiones.",
+        "PRECAUCIONES": "Evitar el contacto con la piel y la ingestión, no contaminar, no arrojar al alcantarillado. Observar prácticas normales de manejo por ser un material derivado del petróleo y mezcla de productos químicos.",
+        "CARACTERISTICAS": [
+          {
+            "PRUEBAS": "VISCOSIDAD @ 100°C, cSt",
+            "METODO ASTM": "D-455",
+            "VALOR TIPICO": "6.5, 11.70, 20.50"
+          },
+          {
+            "PRUEBAS": "VISCOSIDAD @ 40°C, cSt",
+            "METODO ASTM": "D-455",
+            "VALOR TIPICO": "36.00, 115.0, 260.0"
+          },
+          {
+            "PRUEBAS": "INDICE DE VISCOSIDAD",
+            "METODO ASTM": "D-2270",
+            "VALOR TIPICO": "97, 97, 96"
+          },
+          {
+            "PRUEBAS": "PUNTO DE INFLAMACION °C",
+            "METODO ASTM": "D-92",
+            "VALOR TIPICO": "210, 215, 260"
+          },
+          {
+            "PRUEBAS": "PUNTO MINIMO DE FLUIDEZ °C",
+            "METODO ASTM": "D-97",
+            "VALOR TIPICO": "-33, -15, -9"
+          },
+          {
+            "PRUEBAS": "GRAVEDAD ESPECIFICA @ 15.6 °C",
+            "METODO ASTM": "D-4052",
+            "VALOR TIPICO": "0.8750, 0.8900, 0.9000"
+          },
+          {
+            "PRUEBAS": "Numero de base TBN mg KOH/g",
+            "METODO ASTM": "D-2896",
+            "VALOR TIPICO": "7.9"
+          },
+          {
+            "PRUEBAS": "CENISAS SULFATADAS % PESO",
+            "METODO ASTM": "D-4951",
+            "VALOR TIPICO": "1.2"
+          },
+          {
+            "PRUEBAS": "GRADO VISCOSIDAD ISO",
+            "METODO ASTM": "",
+            "VALOR TIPICO": "ISO 46, 100"
+          }
+        ],
+        "INDUSTRIA Y CLIENTES": "Equipos Caterpillar y equipo pesado donde se recomiende un aceite que cumpla con las especificaciones Caterpillar TO-4, TO-2, Allison C-4, en convertidores de impulso rotativo, transmisiones hidrostáticas, máquinas de otros fabricantes con especificaciones TO-4 o TO-4M para transmisiones, mandos finales y frenos húmedos."
+      }
+    }
+  ],
+  "failed": [],
+  "totalProcessed": 3,
+  "successfulCount": 3,
+  "failedCount": 0,
+  "extractionDate": "2025-01-20T04:53:53.011Z"
+}

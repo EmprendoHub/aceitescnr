@@ -11,6 +11,6 @@ export default chain([
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|images|fonts|manifest.json|icons|logos).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico|images|fonts|manifest.json|icons|logos|uploads|extractions).*)",
   ],
 };
