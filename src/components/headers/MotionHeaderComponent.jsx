@@ -65,7 +65,9 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
             !transparency ? "" : "bg-black bg-opacity-50"
           }`}
         >
-          <WhiteLogoComponent lang={lang} />
+          <Link href={`/${lang}`}>
+            <WhiteLogoComponent lang={lang} />
+          </Link>
           <div className="relative flex items-center justify-center ">
             <MobileMenuComponent
               className={"block"}

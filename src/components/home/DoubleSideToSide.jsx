@@ -39,14 +39,14 @@ const DoubleSideToSide = ({ homeDic }) => {
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
-                className="text-5xl maxmd:text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 w-[90%] h-full"
+                className="text-5xl maxmd:text-3xl  font-primary leading-none mb-3 w-[90%] h-full"
               >
                 <span>{homeDic.doublesides.boxTwo.title} </span>
                 <span className="text-primary">
                   {homeDic.doublesides.boxTwo.titleTwo}
                 </span>
               </motion.h2>
-              <div className="text-gray-800 dark:text-gray-300 font-secondary text-sm mb-8 maxmd:text-sm flex flex-col gap-3 min-h-full">
+              <div className=" font-secondary text-sm mb-8 maxmd:text-sm flex flex-col gap-3 min-h-full">
                 <motion.p
                   initial={{ x: -100, opacity: 0 }}
                   whileInView={{ x: 0, opacity: 1 }}
@@ -65,20 +65,20 @@ const DoubleSideToSide = ({ homeDic }) => {
             {/* Text */}
             <div className="w-6/12 maxmd:w-full px-12">
               <motion.h2
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ y: -100, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
-                className="text-5xl maxmd:text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 w-[90%] h-full"
+                className="text-5xl maxmd:text-3xl font-primary leading-none mb-3 w-[90%] h-full"
               >
                 <span>{homeDic.doublesides.boxOne.title} </span>
                 <span className="text-primary">
                   {homeDic.doublesides.boxOne.titleTwo}
                 </span>
               </motion.h2>
-              <div className="text-gray-800 dark:text-gray-300 font-secondary text-sm mb-8 maxmd:text-sm flex flex-col gap-3 min-h-full">
+              <div className="font-secondary text-sm mb-8 maxmd:text-sm flex flex-col gap-3 min-h-full">
                 <motion.p
-                  initial={{ opacity: 0, scale: 0 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
+                  initial={{ y: 100, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
                   transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                   className="flex items-center gap-2"
                 >
@@ -89,8 +89,8 @@ const DoubleSideToSide = ({ homeDic }) => {
             {/* Image */}
             <div className="relative w-6/12 maxmd:w-[90%]">
               <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                 className="relative w-[20rem] h-[20rem] maxsm:w-[15rem] maxsm:h-[15rem] rotate-45 overflow-hidden ml-10"
               >

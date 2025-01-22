@@ -6,7 +6,7 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import MainSliderItems from "./MainSliderItems";
 import MainSliderItemsText from "./MainSliderItemsText";
 
-const HeroSlider = ({ homeDic }) => {
+const HeroSlider = ({ homeDic, lang }) => {
   const [index, setIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(true);
 
@@ -30,7 +30,7 @@ const HeroSlider = ({ homeDic }) => {
 
   return (
     <div
-      className="relative min-h-[70vh] justify-center flex items-center maxmd:flex-col w-full px-40 maxxlg:px-20 maxmd:px-5 maxsm:pl-2 py-20 maxsm:pt-10 overflow-hidden"
+      className="relative min-h-[80dvh] justify-center flex items-center maxmd:flex-col w-full px-40 maxxlg:px-20 maxmd:px-5 maxsm:pl-2 py-20 maxsm:pt-10 overflow-hidden"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -42,7 +42,7 @@ const HeroSlider = ({ homeDic }) => {
               styles.fromLeft
             }`}
           >
-            <MainSliderItemsText item={item} index={idx} />
+            <MainSliderItemsText item={item} index={idx} lang={lang} />
           </div>
         ))}
       </div>

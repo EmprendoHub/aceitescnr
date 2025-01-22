@@ -14,20 +14,20 @@ import ContactUsComponent from "../contact/ContactUsComponent";
 
 const ContactComponent = ({ contactDic, homeDic }) => {
   return (
-    <div className="bg-white dark:bg-primary py-12 px-40 maxxlg:px-20 maxlg:px-5 h-full overflow-x-hidden ">
+    <div className="bg-background dark:bg-primary py-12 px-40 maxxlg:px-20 maxlg:px-5 h-full overflow-x-hidden ">
       {/* Title */}
       <div className="w-full flex flex-col h-full gap-x-5 maxmd:flex-col justify-center items-center mb-2">
         <div className="w-1/2 maxmd:w-full pr-10 maxmd:px-1 maxmd:mt-10  ">
           <p className="uppercase font-secondary tracking-widest text-sm text-gray-500 text-center">
             {contactDic.contactInfo.pretitle}
           </p>
-          <h2 className="text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 text-center">
+          <h2 className="text-3xl  font-primary leading-none mb-3 text-center">
             <span>{homeDic.sideText.title} </span>
             <span className="text-primary">{homeDic.sideText.titleTwo}</span>
           </h2>
           <p className="text-center text-xl maxsm:text-3xl font-primary mb-1">
             <span>{contactDic.contactInfo.title} </span>
-            <span className="text-dark">{contactDic.contactInfo.titleTwo}</span>
+            <span className="">{contactDic.contactInfo.titleTwo}</span>
           </p>
           <p className="text-center font-secondary italic maxlg:text-sm">
             {contactDic.contactInfo.subtitle}

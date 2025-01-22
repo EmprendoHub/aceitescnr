@@ -9,7 +9,7 @@ import { ButtonMotion } from "../button/ButtonMotion";
 
 const SingleSideToSide = ({ homeDic, flipBoxes }) => {
   return (
-    <div className="w-full pt-10 maxmd:pt-0 bg-white dark:bg-primary px-32 maxxlg:px-10 maxlg:px-5 maxmd:px-3 ">
+    <div className="w-full pt-10 maxmd:pt-0 bg-background dark:bg-primary px-32 maxxlg:px-10 maxlg:px-5 maxmd:px-3 ">
       {/* underhero */}
 
       <section className=" py-8">
@@ -23,14 +23,12 @@ const SingleSideToSide = ({ homeDic, flipBoxes }) => {
                 transition={{ duration: 0.7 }}
                 className="text-3xl font-primary leading-none mb-3"
               >
-                <span className=" text-dark">
-                  {homeDic.singlesides.boxOne.title}{" "}
-                </span>
-                <span className="text-primary dark:text-white">
+                <span className=" ">{homeDic.singlesides.boxOne.title} </span>
+                <span className="text-primary ">
                   {homeDic.singlesides.boxOne.titleTwo}
                 </span>
               </motion.h2>
-              <div className="text-primary dark:text-white font-secondary text-sm mb-3  maxmd:text-sm flex flex-col gap-3">
+              <div className="font-secondary text-sm mb-3  maxmd:text-sm flex flex-col gap-3">
                 <motion.p
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
