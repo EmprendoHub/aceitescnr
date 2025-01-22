@@ -95,20 +95,20 @@ const ProductosPage = async ({ searchParams, params }) => {
       />
 
       <div className="w-full h-full py-5 px-5 bg-white dark:bg-slate-700 ">
-        <div className="pb-14 pt-2 px-10 maxmd:px-5 bg-[#c4c4c4] bg-opacity-60">
-          <MobileFilterComponet
+        <div className="py-5 px-10 maxmd:px-5 bg-secondary bg-opacity-60">
+          {/* <MobileFilterComponet
             lang={lang}
             allBrands={allBrands}
             allCategories={allCategories}
             productDic={productDic}
-          />
+          /> */}
           <ListProducts
             lang={lang}
             products={products}
             productDic={productDic}
             filteredProductsCount={filteredProductsCount}
           />
-          <ServerPagination
+          {/* <ServerPagination
             lang={lang}
             isPageOutOfRange={isPageOutOfRange}
             page={page}
@@ -117,7 +117,7 @@ const ProductosPage = async ({ searchParams, params }) => {
             nextPage={nextPage}
             totalPages={totalPages}
             searchParams={keywordQuery}
-          />
+          /> */}
         </div>
       </div>
     </div>

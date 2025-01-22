@@ -25,9 +25,9 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   };
 
   return (
-    <div className="container-class pt-20 maxmd:pt-10  maxsm:pt-5">
+    <div className="container-class pt-10 maxlg:pt-5  maxsm:pt-5">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[850px] maxmd:w-[90%] maxsm:w-[95%] pb-3 mx-auto wrapper-class gap-3 maxsm:gap-0 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[950px] maxmd:w-[90%] maxsm:w-[95%] pb-3 mx-auto wrapper-class gap-3 maxsm:gap-0 bg-slate-100 dark:bg-primary rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
@@ -45,7 +45,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   {product?.images.map((image, index) => (
                     <div
                       key={image._id}
-                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[300px] w-[300px] maxmd:h-[200px] maxmd:w-[200px] maxsm:h-[150px] maxsm:w-[150px] maxxsm:w-[100px] maxxsm:h-[100px] overflow-hidden"
+                      className="ml-5 maxsm:ml-0 mt-5 maxsm:mt-2 relative h-[300px] w-[300px]  maxmd:h-[150px] maxmd:w-[150px] maxxsm:w-[100px] maxxsm:h-[100px] overflow-hidden"
                     >
                       <Image
                         src={image.url}
@@ -60,7 +60,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   ))}
                 </div>
 
-                <div className="flex flex-col pt-5 pr-3 maxmd:pr-10 w-1/2 maxsm:w-full justify-end">
+                <div className="flex flex-col pt-5 pr-3 maxmd:pr-10 w-1/2 maxmd:w-full justify-end">
                   <div className="text-2xl maxmd:text-lg font-semibold font-primary maxmd:leading-none">
                     {product?.title[`${lang}`]}
                   </div>
@@ -71,7 +71,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-1 w-full">
+                    <div className="flex maxmd:flex-col items-start justify-start  gap-0 mt-1 w-full">
                       <p className=" maxmd:text-xs">
                         <span className="font-semibold">
                           {productDic.single.packing}:{" "}
@@ -87,7 +87,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.9 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="flex maxsm:flex-col items-start justify-start  gap-0 mt-0 w-full">
+                    <div className="flex maxmd:flex-col items-start justify-start  gap-0 mt-0 w-full">
                       <p className="f maxmd:text-xs">
                         <span className="font-semibold">
                           {productDic.single.category}:{" "}
@@ -100,27 +100,27 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className="text-sm text-lightText flex flex-col maxsm:hidden"
+                    className="text-sm text-lightText flex flex-col maxmd:hidden"
                   >
-                    <div className=" text-xs maxsm:text-[11px] maxsm:leading-[1] items-start justify-start  gap-1 mt-1 w-full">
+                    <div className=" text-xs maxmd:text-[11px] maxmd:leading-[1] items-start justify-start  gap-1 mt-1 w-full">
                       {product?.category?.summary[`${lang}`]}
                     </div>
                   </motion.div>
                 </div>
               </div>
               {/* bottom section */}
-              <div className="flex maxsm:flex-col items-start gap-1 px-2 maxsm:px-0 w-full relative h-auto">
+              <div className="flex maxmd:flex-col items-start gap-1 px-2 maxmd:px-0 w-full relative h-auto">
                 <motion.div
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
-                  className="text-sm text-lightText  maxsm:flex  maxsm:flex-col  hidden"
+                  className="text-sm text-lightText  maxmd:flex  maxmd:flex-col  hidden"
                 >
-                  <div className="font-normal text-xs maxsm:text-[11px] maxsm:leading-[1.2] mt-1">
+                  <div className="font-normal text-xs maxmd:text-[11px] maxmd:leading-[1.2] mt-1">
                     {product?.category?.summary[`${lang}`]}
                   </div>
                 </motion.div>
-                <div className="relative flex flex-col w-1/2 maxsm:w-full   ">
+                <div className="relative flex flex-col w-1/2 maxmd:w-full   ">
                   <p className="text-base maxmd:text-sm font-semibold font-primary mt-0">
                     {lang === "es" ? "Ficha Técnica" : "Technical data sheet"}{" "}
                     {lang === "es" ? "Características:" : "Characteristics:"}
@@ -176,14 +176,14 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     </div>
                   </motion.div>
                 </div>
-                <div className="flex flex-col pr-3 h-auto justify-end w-1/2 maxsm:w-full">
+                <div className="flex flex-col pr-3 h-auto justify-end w-1/2 maxmd:w-full">
                   <motion.div
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="font-normal text-xs maxsm:text-[11px] mt-1  maxsm:leading-[1.2]">
+                    <div className="font-normal text-xs maxmd:text-[11px] mt-1  maxmd:leading-[1.2]">
                       <span className="font-semibold">
                         {lang === "es" ? "Beneficios: " : "Benefits: "}{" "}
                       </span>
@@ -196,7 +196,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     transition={{ duration: 0.7 }}
                     className="text-sm text-lightText flex flex-col"
                   >
-                    <div className="font-normal text-xs maxsm:text-[11px] mt-1  maxsm:leading-[1.2]">
+                    <div className="font-normal text-xs maxmd:text-[11px] mt-1  maxmd:leading-[1.2]">
                       <span className="font-semibold">
                         {lang === "es" ? "Precauciones:" : "Precautions:"}
                       </span>

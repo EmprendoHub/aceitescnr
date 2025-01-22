@@ -25,18 +25,18 @@ const ProductCard = ({ item, lang, productDic }) => {
         className="rounded-sm w-[170px] maxxsm:w-[240px] overflow-hidden relative flex flex-col gap-4 cursor-pointer"
         onClick={clickForModal}
       >
-        <div className="w-full h-[170px] group overflow-hidden relative maxxsm:h-[240px]">
+        <div className="w-full h-[170px] group overflow-hidden relative maxxsm:h-[100px]">
           <Image
             src={item?.images[0]?.url}
             alt="product image"
-            className="  ease-in-out duration-500 w-full h-full object-cover group-hover:scale-110 rounded-t-sm"
+            className="  ease-in-out duration-500 w-full h-full object-cover group-hover:scale-110"
             width={350}
             height={350}
           />
         </div>
         <div className=" px-4 py-1 flex flex-col w-full rounded-b-sm">
           <div className="flex items-center justify-center gap-x-1">
-            <p className=" tracking-wide text-center text-black font-primary text-xs">
+            <p className=" tracking-wide text-center font-primary text-xs">
               {item?.title[`${lang}`]}
             </p>
           </div>

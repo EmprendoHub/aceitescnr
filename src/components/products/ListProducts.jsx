@@ -15,7 +15,7 @@ const ListProducts = ({ lang, products, productDic }) => {
   }, [session?.user?.role]);
 
   return (
-    <main className="justify-center grid grid-cols-8 maxxlg:grid-cols-6 maxlg:grid-cols-5 maxmd:grid-cols-3 maxsm:grid-cols-2  maxxsm:grid-cols-1 gap-8 maxmd:gap-3 ">
+    <main className="justify-center grid grid-cols-8 maxxlg:grid-cols-6 maxlg:grid-cols-5 maxmd:grid-cols-3 maxsm:grid-cols-2  maxxsm:grid-cols-2 gap-8 maxmd:gap-3 ">
       {products?.map((product, index) => (
         <ProductCard
           item={product}
