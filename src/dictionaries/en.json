@@ -4,6 +4,8 @@
       { "title": "Home", "url": "/" },
       { "title": "About", "url": "/#acerca" },
       { "title": "Products", "url": "/productos" },
+      { "title": "Distributors", "url": "/distribuidores" },
+      { "title": "Maquila", "url": "/maquila" },
       { "title": "Contact", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -26,15 +28,15 @@
       "phone": "+52 353-246-4146"
     },
     "addressTwo": {
-      "ubicacion": "Carr. Sahuayo - Cojumatlan No. 1850",
+      "ubicacion": "Venustiano Carranza",
       "addressOne": "",
-      "addressTwo": "No. 1850",
-      "city": "Sahuayo ",
+      "addressTwo": "No. 1006",
+      "city": "La Barca ",
       "hood": "",
       "state": "Michoacan",
-      "zip": "59000",
+      "zip": "59160",
       "country": "Mexico",
-      "phone": "393 102 1001"
+      "phone": "+52 353 690 1629"
     },
     "widgettwo": {
       "title": "Products",
@@ -1682,5 +1684,145 @@
     "sendButton": "Send Answers",
     "footer": "out of",
     "footer2": "Questions"
+  },
+  "distributorLandingPage": {
+    "content": {
+      "hero": {
+        "title": "Become an Aceites CNR Distributor and Earn Commissions on Every Sale",
+        "description": "At Aceites CNR, we know that the success of our distributors is our success. Join our program and generate additional income by selling our high-performance, proven-quality oils.",
+        "cta": "Sign Up Today!"
+      },
+      "benefits": {
+        "title": "Benefits of Being an Aceites CNR Distributor",
+        "items": [
+          {
+            "text": "High Sales Commissions: Enjoy competitive commissions for every product sold.",
+            "icon": "/images/benefit_3.png"
+          },
+          {
+            "text": "Premium Product Catalog: Offer your customers oils designed to maximize performance and protect their engines.",
+            "icon": "/images/benefit_2.webp"
+          },
+          {
+            "text": "Personalized Support: Receive training and marketing materials to boost your sales.",
+            "icon": "/images/benefit_1.webp"
+          },
+          {
+            "text": "Market Expansion: Leverage Aceites CNR's reputation to grow your customer network.",
+            "icon": "/images/benefit_4.png"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "How Does It Work?",
+        "steps": [
+          {
+            "title": "Sign Up",
+            "description": "Complete our online form to join the program."
+          },
+          {
+            "title": "Promote Our Products",
+            "description": "Use our tools and materials to connect with your customers."
+          },
+          {
+            "title": "Earn Commissions",
+            "description": "Receive commissions for every sale made through your network."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Testimonials from Our Distributors",
+        "items": [
+          {
+            "quote": "Since joining Aceites CNR, my income has grown significantly. The products are of excellent quality, and the support is unmatched.",
+            "author": "Juan P."
+          },
+          {
+            "quote": "The ease of the program and the high commissions make Aceites CNR a unique opportunity for entrepreneurs like me.",
+            "author": "Maria G."
+          }
+        ]
+      },
+      "cta": {
+        "title": "It's Easy to Get Started!",
+        "description": "Our program is designed to be simple, profitable, and effective. Whether you're an experienced entrepreneur or just starting, Aceites CNR provides the tools to succeed.",
+        "button": "Sign Up Today"
+      },
+      "images": {
+        "mainImage": "/images/hero_image_2.webp",
+        "benefitIcons": [
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg"
+        ],
+        "testimonialPhotos": [
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg"
+        ]
+      },
+      "modal": {
+        "title": "Register as a distributor",
+        "input1": {
+          "label": "Name",
+          "placeholder": "Name of distributor"
+        },
+        "input2": {
+          "label": "Phone",
+          "placeholder": "Distributor Phone"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "register": "Register"
+        }
+      }
+    }
+  },
+  "privateLabelLandingPage": {
+    "content": {
+      "hero": {
+        "title": "Develop Your Own Oil Brand with Aceites CNR",
+        "description": "Turn your vision into reality! At Aceites CNR, we offer custom manufacturing services for entrepreneurs who want to create their own oil brand.",
+        "cta": "Contact Us Today!"
+      },
+      "services": {
+        "title": "Why Choose Private Label with Aceites CNR?",
+        "items": [
+          "High-Quality Formulas: We ensure oils that meet the highest standards of performance and protection.",
+          "Total Customization: We design labels, packaging, and presentations to reflect your brand identity.",
+          "Cutting-Edge Technology: We manufacture products using state-of-the-art processes that ensure efficiency and quality.",
+          "Comprehensive Guidance: Our team will guide you from the initial idea to the product launch."
+        ]
+      },
+      "process": {
+        "title": "How Does It Work?",
+        "steps": [
+          {
+            "title": "Contact Us",
+            "description": "Tell us about your idea and goals."
+          },
+          {
+            "title": "We Design Your Product",
+            "description": "We work with you to develop the formulation, packaging design, and branding."
+          },
+          {
+            "title": "Production and Delivery",
+            "description": "We manufacture your oils and deliver them ready for the market."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Create a Brand That Inspires Confidence",
+        "description": "With Aceites CNR, you not only get superior quality products but also a reliable partnership that drives your success.",
+        "button": "Start Today"
+      },
+      "images": {
+        "mainImage": "/images/hero_image_2.webp",
+        "processInfographic": "/images/product-placeholder-minimalist.jpg",
+        "brandingExamples": [
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg"
+        ]
+      }
+    }
   }
 }

@@ -4,6 +4,8 @@
       { "title": "Inicio", "url": "/" },
       { "title": "Acerca", "url": "/#acerca" },
       { "title": "Productos", "url": "/productos" },
+      { "title": "Distribuidores", "url": "/distribuidores" },
+      { "title": "Maquila", "url": "/maquila" },
       { "title": "Contacto", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -26,15 +28,15 @@
       "phone": "353-246-4146"
     },
     "addressTwo": {
-      "ubicacion": "Carr. Sahuayo - Cojumatlan No. 1850",
+      "ubicacion": "Venustiano Carranza",
       "addressOne": "",
-      "addressTwo": "No. 1850",
-      "city": "Sahuayo, ",
+      "addressTwo": "No. 1006",
+      "city": "La Barca, ",
       "hood": "",
       "state": "Michoacan",
-      "zip": "59000",
+      "zip": "59160",
       "country": "Mexico",
-      "phone": "+52 393 102 1001"
+      "phone": "+52 353 690 1629"
     },
     "widgettwo": {
       "title": "Productos",
@@ -1679,5 +1681,145 @@
     "sendButton": "Enviar Respuestas",
     "footer": "de",
     "footer2": "Preguntas"
+  },
+  "distributorLandingPage": {
+    "content": {
+      "hero": {
+        "title": "Conviértete en Distribuidor de Aceites CNR y Gana Comisiones por Cada Venta",
+        "description": "En Aceites CNR, sabemos que el éxito de nuestros distribuidores es nuestro éxito. Únete a nuestro programa y genera ingresos adicionales vendiendo nuestros aceites de alto rendimiento y calidad comprobada.",
+        "cta": "¡Regístrate Hoy!"
+      },
+      "benefits": {
+        "title": "Beneficios de Ser Distribuidor de Aceites CNR",
+        "items": [
+          {
+            "text": "Altas Comisiones por Venta: Disfruta de comisiones competitivas por cada producto vendido.",
+            "icon": "/images/benefit_3.png"
+          },
+          {
+            "text": "Catálogo de Productos Premium: Ofrece a tus clientes aceites diseñados para maximizar el rendimiento y proteger sus motores.",
+            "icon": "/images/benefit_2.webp"
+          },
+          {
+            "text": "Soporte Personalizado: Recibirás capacitación y materiales de marketing para impulsar tus ventas.",
+            "icon": "/images/benefit_1.webp"
+          },
+          {
+            "text": "Expansión de Mercado: Aprovecha la reputación de Aceites CNR y expande tu red de clientes.",
+            "icon": "/images/benefit_4.png"
+          }
+        ]
+      },
+      "howItWorks": {
+        "title": "¿Cómo Funciona?",
+        "steps": [
+          {
+            "title": "Regístrate",
+            "description": "Completa nuestro formulario en línea para unirte al programa."
+          },
+          {
+            "title": "Promociona Nuestros Productos",
+            "description": "Usa nuestras herramientas y materiales para conectar con tus clientes."
+          },
+          {
+            "title": "Gana Comisiones",
+            "description": "Recibe tus comisiones por cada venta realizada a través de tu red."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Testimonios de Nuestros Distribuidores",
+        "items": [
+          {
+            "quote": "Desde que me uní a Aceites CNR, mis ingresos han crecido significativamente. Los productos son de excelente calidad y el soporte es inigualable.",
+            "author": "Juan P."
+          },
+          {
+            "quote": "La facilidad del programa y las altas comisiones hacen de Aceites CNR una oportunidad única para emprendedores como yo.",
+            "author": "María G."
+          }
+        ]
+      },
+      "cta": {
+        "title": "¡Es Fácil Comenzar!",
+        "description": "Nuestro programa está diseñado para ser sencillo, rentable y efectivo. No importa si eres un empresario experimentado o estás comenzando, Aceites CNR te ofrece las herramientas para triunfar.",
+        "button": "Inscríbete Hoy"
+      },
+      "images": {
+        "mainImage": "/images/hero_image_2.webp",
+        "benefitIcons": [
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg"
+        ],
+        "testimonialPhotos": [
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg"
+        ]
+      },
+      "modal": {
+        "title": "Registrate como distribuidor",
+        "input1": {
+          "label": "Nombre",
+          "placeholder": "Nombre del distribuidor"
+        },
+        "input2": {
+          "label": "Telefono",
+          "placeholder": "Telfono del distribuidor"
+        },
+        "buttons": {
+          "cancel": "Cancelar",
+          "register": "Registrarte"
+        }
+      }
+    }
+  },
+  "privateLabelLandingPage": {
+    "content": {
+      "hero": {
+        "title": "Desarrolla Tu Propia Marca de Aceites con Aceites CNR",
+        "description": "¡Convierte tu visión en realidad! En Aceites CNR, ofrecemos servicios de maquila personalizados para emprendedores que desean crear su propia marca de aceites.",
+        "cta": "¡Contáctanos Hoy!"
+      },
+      "services": {
+        "title": "¿Por Qué Elegir la Maquila con Aceites CNR?",
+        "items": [
+          "Fórmulas de Alta Calidad: Garantizamos aceites que cumplen con los más altos estándares de rendimiento y protección.",
+          "Personalización Total: Diseñamos etiquetas, envases y presentaciones para reflejar la identidad de tu marca.",
+          "Tecnología de Vanguardia: Fabricamos productos con procesos de última generación que aseguran eficiencia y calidad.",
+          "Asesoría Integral: Nuestro equipo te guiará desde la idea inicial hasta el lanzamiento de tu producto."
+        ]
+      },
+      "process": {
+        "title": "¿Cómo Funciona?",
+        "steps": [
+          {
+            "title": "Contáctanos",
+            "description": "Cuéntanos tu idea y objetivos."
+          },
+          {
+            "title": "Diseñamos Tu Producto",
+            "description": "Trabajamos contigo para desarrollar la formulación, el diseño de empaque y el branding."
+          },
+          {
+            "title": "Producción y Entrega",
+            "description": "Fabricamos tus aceites y los entregamos listos para el mercado."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Crea una Marca que Inspira Confianza",
+        "description": "Con Aceites CNR, no solo obtienes productos de calidad superior, sino también una asociación confiable que impulsa tu éxito.",
+        "button": "Empieza Hoy"
+      },
+      "images": {
+        "mainImage": "/images/product-placeholder-minimalist.jpg",
+        "processInfographic": "/images/product-placeholder-minimalist.jpg",
+        "brandingExamples": [
+          "/images/product-placeholder-minimalist.jpg",
+          "/images/product-placeholder-minimalist.jpg"
+        ]
+      }
+    }
   }
 }

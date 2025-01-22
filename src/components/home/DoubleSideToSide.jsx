@@ -13,14 +13,9 @@ const DoubleSideToSide = ({ homeDic }) => {
             {/* text and image */}
             <div className="w-6/12 maxmd:w-full  h-full">
               <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{
-                  duration: 0.7,
-                  type: "tween",
-                  stiffness: 260,
-                  damping: 20,
-                }}
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                 className="relative w-[20rem] h-[20rem] maxsm:w-[15rem] maxsm:h-[15rem] rotate-45 overflow-hidden ml-10"
               >
                 {/* Diamond image container */}
@@ -41,14 +36,9 @@ const DoubleSideToSide = ({ homeDic }) => {
             {/* text */}
             <div className="relative maxmd:ml-5 w-6/12 pr-20 maxmd:w-full">
               <motion.h2
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{
-                  duration: 0.7,
-                  type: "tween",
-                  stiffness: 260,
-                  damping: 20,
-                }}
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                 className="text-5xl maxmd:text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 w-[90%] h-full"
               >
                 <span>{homeDic.doublesides.boxTwo.title} </span>
@@ -58,14 +48,9 @@ const DoubleSideToSide = ({ homeDic }) => {
               </motion.h2>
               <div className="text-gray-800 dark:text-gray-300 font-secondary text-sm mb-8 maxmd:text-sm flex flex-col gap-3 min-h-full">
                 <motion.p
-                  initial={{ opacity: 0, scale: 0 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{
-                    duration: 1.2,
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                  }}
+                  initial={{ x: -100, opacity: 0 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                  transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                   className="flex items-center gap-2"
                 >
                   {homeDic.doublesides.boxTwo.text}
@@ -82,12 +67,7 @@ const DoubleSideToSide = ({ homeDic }) => {
               <motion.h2
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{
-                  duration: 0.7,
-                  type: "tween",
-                  stiffness: 260,
-                  damping: 20,
-                }}
+                transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                 className="text-5xl maxmd:text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 w-[90%] h-full"
               >
                 <span>{homeDic.doublesides.boxOne.title} </span>
@@ -99,12 +79,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                 <motion.p
                   initial={{ opacity: 0, scale: 0 }}
                   whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{
-                    duration: 1.2,
-                    type: "spring",
-                    stiffness: 260,
-                    damping: 20,
-                  }}
+                  transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                   className="flex items-center gap-2"
                 >
                   {homeDic.doublesides.boxOne.text}
@@ -116,12 +91,7 @@ const DoubleSideToSide = ({ homeDic }) => {
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{
-                  duration: 0.7,
-                  type: "tween",
-                  stiffness: 260,
-                  damping: 20,
-                }}
+                transition={{ type: "spring", stiffness: 100, duration: 0.5 }}
                 className="relative w-[20rem] h-[20rem] maxsm:w-[15rem] maxsm:h-[15rem] rotate-45 overflow-hidden ml-10"
               >
                 {/* Diamond image container */}
