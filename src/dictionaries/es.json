@@ -29,8 +29,8 @@
     },
     "addressTwo": {
       "ubicacion": "Venustiano Carranza",
-      "addressOne": "",
-      "addressTwo": "No. 1006",
+      "addressOne": "No. 1006",
+      "addressTwo": "",
       "city": "La Barca, ",
       "hood": "",
       "state": "Michoacan",
