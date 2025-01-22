@@ -10,6 +10,7 @@ import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import Swal from "sweetalert2";
 import { isValidPhone } from "@/backend/helpers";
 import { addNewDistributor } from "../_actions/_index";
+import { ButtonMotion } from "@/components/button/ButtonMotion";
 
 const Distribuidores = ({ content }) => {
   const [showModal, setShowModal] = useState(false);
@@ -120,11 +121,15 @@ const Distribuidores = ({ content }) => {
             {content.hero.title}
           </h1>
           <p className="mt-4 maxsm:text-sm">{content.hero.description}</p>
-          <button
-            onClick={toggleModal}
-            className="mt-6 px-8 py-4 bg-primary text-[#FFFFFF] rounded-xl shadow-lg hover:bg-accent transition maxsm:text-sm"
-          >
-            {content.hero.cta}
+          <button onClick={toggleModal}>
+            <ButtonMotion
+              aria-label="Contactar"
+              textClass={"text-white"}
+              textClassTwo={"text-white"}
+              className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest mt-5"
+            >
+              {content.hero.cta}
+            </ButtonMotion>
           </button>
         </motion.div>
         <motion.div
@@ -169,11 +174,15 @@ const Distribuidores = ({ content }) => {
             />
           ))}
         </div>
-        <button
-          onClick={toggleModal}
-          className="mt-6 px-8 py-4 bg-primary text-[#FFFFFF] rounded-xl shadow-lg hover:bg-accent transition maxsm:text-sm"
-        >
-          {content.hero.cta}
+        <button onClick={toggleModal}>
+          <ButtonMotion
+            aria-label="Contactar"
+            textClass={"text-white"}
+            textClassTwo={"text-white"}
+            className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest mt-5"
+          >
+            {content.hero.cta}
+          </ButtonMotion>
         </button>
       </section>
 
@@ -211,11 +220,15 @@ const Distribuidores = ({ content }) => {
           />
           <h2 className="text-3xl font-semibold mb-4">{content.cta.title}</h2>
           <p className="mb-6">{content.cta.description}</p>
-          <button
-            onClick={toggleModal}
-            className="mt-6 px-8 py-4 bg-primary text-[#FFFFFF] rounded-xl shadow-lg hover:bg-accent transition maxsm:text-sm"
-          >
-            {content.cta.button}
+          <button onClick={toggleModal}>
+            <ButtonMotion
+              aria-label="Contactar"
+              textClass={"text-white"}
+              textClassTwo={"text-white"}
+              className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest mt-5"
+            >
+              {content.hero.cta}
+            </ButtonMotion>
           </button>
         </motion.div>
       </section>
@@ -280,13 +293,13 @@ const Distribuidores = ({ content }) => {
                 <button
                   type="button"
                   onClick={toggleModal}
-                  className="px-4 py-2 mr-2 bg-gray-300 rounded-lg text-black hover:bg-gray-400 transition"
+                  className="px-4 py-2 mr-2 bg-gray-300 r text-black hover:bg-gray-400 transition"
                 >
                   {content.modal.buttons.cancel}
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-primary text-white rounded-lg hover:bg-accent transition"
+                  className="px-4 py-2 bg-primary text-white hover:bg-accent transition"
                 >
                   {content.modal.buttons.register}
                 </button>

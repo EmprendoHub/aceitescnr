@@ -1,5 +1,6 @@
 "use client";
 
+import { ButtonMotion } from "@/components/button/ButtonMotion";
 import WhiteLogoComponent from "@/components/logos/WhiteLogoComponent";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -27,11 +28,15 @@ const PrivateLabel = ({ content, lang }) => {
             {content.hero.title}
           </h1>
           <p className="mt-4 maxsm:text-sm">{content.hero.description}</p>
-          <button
-            onClick={toggleModal}
-            className="mt-6 px-8 py-4 bg-primary text-[#FFFFFF] rounded-xl shadow-lg hover:bg-accent transition maxsm:text-sm"
-          >
-            {content.hero.cta}
+          <button onClick={toggleModal} className="mt-6 ">
+            <ButtonMotion
+              aria-label="Contactar"
+              textClass={"text-white"}
+              textClassTwo={"text-white"}
+              className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest mt-5"
+            >
+              {content.hero.cta}
+            </ButtonMotion>
           </button>
         </motion.div>
         <motion.div
@@ -96,11 +101,16 @@ const PrivateLabel = ({ content, lang }) => {
           />
           <h2 className="text-3xl font-semibold mb-4">{content.cta.title}</h2>
           <p className="mb-6">{content.cta.description}</p>
-          <button
-            onClick={toggleModal}
-            className="mt-6 px-8 py-4 bg-primary text-[#FFFFFF] rounded-xl shadow-lg hover:bg-accent transition maxsm:text-sm"
-          >
-            {content.cta.button}
+
+          <button onClick={toggleModal} className="mt-6 ">
+            <ButtonMotion
+              aria-label="Contactar"
+              textClass={"text-white"}
+              textClassTwo={"text-white"}
+              className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest mt-5"
+            >
+              {content.cta.button}
+            </ButtonMotion>
           </button>
         </motion.div>
       </section>
