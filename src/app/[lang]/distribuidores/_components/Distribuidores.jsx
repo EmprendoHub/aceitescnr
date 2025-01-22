@@ -110,7 +110,7 @@ const Distribuidores = ({ content }) => {
   return (
     <div className="bg-background font-poppins">
       {/* Hero Section */}
-      <section className="flex maxmd:flex-col gap-7 items-center  maxmd:items-start justify-between p-8 pt-20 bg-[#0A1931] text-white py-24 px-40 maxxlg:px-20 maxlg:px-5">
+      <section className="flex maxmd:flex-col gap-7 items-center  maxmd:items-start justify-between p-8 pt-20 bg-main-gradient text-white py-24 px-40 maxxlg:px-20 maxlg:px-5">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

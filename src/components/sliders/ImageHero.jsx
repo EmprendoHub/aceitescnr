@@ -7,8 +7,10 @@ import { GiCycle, GiOilDrum } from "react-icons/gi";
 import { BsDropletHalf } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { ButtonMotion } from "../button/ButtonMotion";
+import Link from "next/link";
+import { MdOutlinePrecisionManufacturing } from "react-icons/md";
 
-const ImageHero = ({ homeDic }) => {
+const ImageHero = ({ homeDic, lang }) => {
   return (
     <div className=" relative">
       <div className="w-full h-[800px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
@@ -57,22 +59,26 @@ const ImageHero = ({ homeDic }) => {
             <p className=" flex items-center gap-2">{homeDic.imageHero.text}</p>
           </motion.div>
           <div className="flex maxsm:flex-col maxsm:items-start items-center justify-start gap-5">
-            <ButtonMotion
-              aria-label="Contactar"
-              textClass={"text-white"}
-              textClassTwo={"text-white"}
-              className="bg-secondary-gradient dark:bg-dark-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest"
-            >
-              {homeDic.imageHero.btnText}
-            </ButtonMotion>
-            <ButtonMotion
-              aria-label="Contactar"
-              textClass={"text-white"}
-              textClassTwo={"text-white"}
-              className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest"
-            >
-              {homeDic.imageHero.btnTextTwo}
-            </ButtonMotion>
+            <Link href={`${homeDic.imageHero.btnPath}`}>
+              <ButtonMotion
+                aria-label="Contactar"
+                textClass={"text-white"}
+                textClassTwo={"text-white"}
+                className="bg-secondary-gradient dark:bg-dark-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest"
+              >
+                {homeDic.imageHero.btnText}
+              </ButtonMotion>
+            </Link>
+            <Link href={`${homeDic.imageHero.btnPathTwo}`}>
+              <ButtonMotion
+                aria-label="Contactar"
+                textClass={"text-white"}
+                textClassTwo={"text-white"}
+                className="bg-accent dark:bg-secondary-gradient px-10 py-3 text-white flex items-center justify-center  text-xs tracking-widest"
+              >
+                {homeDic.imageHero.btnTextTwo}
+              </ButtonMotion>
+            </Link>
           </div>
         </div>
       </div>
@@ -99,6 +105,7 @@ const ImageHero = ({ homeDic }) => {
               Descubre nuestros productos.
             </span>
           </motion.div>
+
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -108,33 +115,14 @@ const ImageHero = ({ homeDic }) => {
               stiffness: 260,
               damping: 20,
             }}
-            className=" w-52 maxsm:w-28 flex flex-col items-center justify-start px-6 maxsm:px-1 py-4 border-r-2 border-primary"
+            className=" w-52  maxsm:w-28 flex flex-col items-center px-6 maxsm:px-1 py-4 border-r-2 border-primary"
           >
             <div className=" flex flex-col maxlg:items-center  items-center justify-start w-full">
               <BsDropletHalf size={50} className="text-primary" />{" "}
               <span className="text-xl  maxlg:text-sm text-center font-semibold">
-                Buscar Aceites
-              </span>
-            </div>
-            <span className="text-xs maxlg:hidden font-semibold text-center">
-              Encuentra el aceite perfecto.
-            </span>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{
-              duration: 0.7,
-              type: "tween",
-              stiffness: 260,
-              damping: 20,
-            }}
-            className=" w-52  maxsm:w-28 flex flex-col items-center px-6 maxsm:px-1 py-4 border-r-2 maxmd:border-r-0 border-primary"
-          >
-            <div className=" flex flex-col maxlg:items-center  items-center justify-start w-full">
-              <FaLocationPin size={50} className="text-primary" />{" "}
-              <span className="text-xl  maxlg:text-sm text-center font-semibold">
-                Donde Comprar
+                {lang === "en"
+                  ? "Become a Distributor"
+                  : "Conviértete en distribuidora"}
               </span>
             </div>
             <span className="text-xs text-center maxlg:hidden font-semibold">
@@ -150,16 +138,25 @@ const ImageHero = ({ homeDic }) => {
               stiffness: 260,
               damping: 20,
             }}
-            className=" flex  w-52  maxsm:w-28 maxmd:hidden flex-col items-center justify-start px-6 maxsm:px-1 py-4 "
+            className=" flex  w-52  maxsm:w-28  flex-col items-center justify-start px-6 maxsm:px-1 py-4 "
           >
             <div className=" flex flex-col maxlg:items-center items-center justify-start w-full">
-              <GiCycle size={50} className="text-primary" />{" "}
+              <MdOutlinePrecisionManufacturing
+                size={50}
+                className="text-primary"
+              />{" "}
               <span className="text-xl maxlg:text-sm text-center font-semibold">
-                Explora Productos
+                {
+                  (lang = "en"
+                    ? "We manufacture your brand"
+                    : "Maquilamos tu marca")
+                }
               </span>
             </div>
             <span className="text-xs text-center maxlg:hidden font-semibold">
-              Descubre nuestros productos.
+              {lang === "en"
+                ? "Start your own brand of premium oil."
+                : "Comienza tu propia marca de aceite premium."}
             </span>
           </motion.div>
         </div>

@@ -100,10 +100,10 @@
       "title": "Mantén el motor de tu auto",
       "titleTwo": "funcionando como nuevo.",
       "text": "Nuestros aceites ofrecen rendimiento, protección y tranquilidad cada vez que estás en la carretera.",
-      "btnText": "Encuentra el aceite adecuado",
-      "btnPath": "/about-us",
-      "btnTextTwo": "Ver productos CNR",
-      "btnPathTwo": "/about-us"
+      "btnText": "Maquilamos",
+      "btnPath": "/es/maquila",
+      "btnTextTwo": "Ver catalogo",
+      "btnPathTwo": "/es/productos"
     },
     "sliders": [
       {
@@ -1812,12 +1812,15 @@
         "description": "Con Aceites CNR, no solo obtienes productos de calidad superior, sino también una asociación confiable que impulsa tu éxito.",
         "button": "Empieza Hoy"
       },
+      "brandingTitle": "Ejemplos de Branding",
+
       "images": {
-        "mainImage": "/images/product-placeholder-minimalist.jpg",
+        "mainImage": "/images/maquila_aceite_1.webp",
         "processInfographic": "/images/product-placeholder-minimalist.jpg",
         "brandingExamples": [
-          "/images/product-placeholder-minimalist.jpg",
-          "/images/product-placeholder-minimalist.jpg"
+          "/images/maquila_ejemplo_1.png",
+          "/images/maquila_ejemplo_2.webp",
+          "/images/maquila_ejemplo_3.png"
         ]
       }
     }

@@ -100,10 +100,10 @@
       "title": "Keeps your engine",
       "titleTwo": "running like new.",
       "text": "Aceites CNR oils provide exceptional performance, protection, and reliability every time you hit the road.",
-      "btnText": "Find the right oil",
-      "btnPath": "/about-us",
-      "btnTextTwo": "View CNR products",
-      "btnPathTwo": "/about-us"
+      "btnText": "We manufacture",
+      "btnPath": "/en/maquila",
+      "btnTextTwo": "View catalog",
+      "btnPathTwo": "/en/productos"
     },
     "sliders": [
       {
@@ -1815,12 +1815,15 @@
         "description": "With Aceites CNR, you not only get superior quality products but also a reliable partnership that drives your success.",
         "button": "Start Today"
       },
+      "brandingTitle": "Branding Examples",
+
       "images": {
-        "mainImage": "/images/hero_image_2.webp",
+        "mainImage": "/images/maquila_aceite_1.webp",
         "processInfographic": "/images/product-placeholder-minimalist.jpg",
         "brandingExamples": [
-          "/images/product-placeholder-minimalist.jpg",
-          "/images/product-placeholder-minimalist.jpg"
+          "/images/maquila_ejemplo_1.png",
+          "/images/maquila_ejemplo_2.webp",
+          "/images/maquila_ejemplo_3.png"
         ]
       }
     }

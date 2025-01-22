@@ -16,7 +16,7 @@ export default async function Home({ params }) {
     await getDictionary(lang);
   return (
     <div className=" overflow-x-hidden">
-      <ImageHero homeDic={homeDic} />
+      <ImageHero homeDic={homeDic} lang={lang} />
       <DoubleSideToSide aboutDic={aboutDic} homeDic={homeDic} />
       <CategoriesComp categoryDic={categoryDic} lang={lang} />
       <HeroSlider homeDic={homeDic} />
