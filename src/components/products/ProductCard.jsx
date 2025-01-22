@@ -22,10 +22,10 @@ const ProductCard = ({ item, lang, productDic }) => {
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
-        className="rounded-sm w-[170px] maxxsm:w-[240px] overflow-hidden relative flex flex-col gap-4 cursor-pointer"
+        className="rounded-sm relative flex flex-col gap-4 cursor-pointer"
         onClick={clickForModal}
       >
-        <div className="w-full h-[170px] group overflow-hidden relative maxxsm:h-[100px]">
+        <div className="w-full h-auto group  relative ">
           <Image
             src={item?.images[0]?.url}
             alt="product image"

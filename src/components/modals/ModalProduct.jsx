@@ -12,19 +12,20 @@ const ModalProduct = ({ showModal, setShowModal, data, lang, productDic }) => {
   return (
     <AnimatePresence mode="wait">
       {showModal && (
-        <motion.div
-          className="backdrop fixed top-0 left-0 w-full h-full bg-black bg-opacity-40 z-[99999]"
-          variants={backdropVariants}
-          initial="initial"
-          animate="animate"
-        >
-          <ProductDetailsComponent
-            setShowModal={setShowModal}
-            lang={lang}
-            productDic={productDic}
-            data={data}
-          />
-        </motion.div>
+        <div className="backdrop fixed top-0 left-0 w-full h-full bg-black bg-opacity-40 z-[99999]">
+          <motion.div
+            variants={backdropVariants}
+            initial="initial"
+            animate="animate"
+          >
+            <ProductDetailsComponent
+              setShowModal={setShowModal}
+              lang={lang}
+              productDic={productDic}
+              data={data}
+            />
+          </motion.div>
+        </div>
       )}
     </AnimatePresence>
   );

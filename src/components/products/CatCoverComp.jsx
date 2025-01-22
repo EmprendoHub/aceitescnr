@@ -118,7 +118,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
 
   return (
     <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
-      <div className="absolute bg-black bg-opacity-50 w-full h-full z-0" />
+      <div className="absolute bg-black bg-opacity-50 w-full h-full z-0 " />
       <Image
         src={coverImage}
         width={1920}

@@ -94,8 +94,8 @@ const ProductosPage = async ({ searchParams, params }) => {
         productDic={productDic}
       />
 
-      <div className="w-full h-full py-5 px-5 bg-white dark:bg-slate-700 ">
-        <div className="py-5 px-10 maxmd:px-5 bg-secondary bg-opacity-60">
+      <div className="w-full h-full p-5 maxsm:p-2 bg-white dark:bg-slate-700 ">
+        <div className="py-5 px-10 maxmd:px-5 maxsm:p-2 bg-secondary bg-opacity-60">
           {/* <MobileFilterComponet
             lang={lang}
             allBrands={allBrands}
