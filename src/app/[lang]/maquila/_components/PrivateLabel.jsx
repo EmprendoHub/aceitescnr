@@ -158,9 +158,9 @@ const PrivateLabel = ({ content, lang }) => {
               <Link
                 href={
                   lang === "es"
-                    ? `https://api.whatsapp.com/send/?phone=523931021001&text=Hola+%2AAceites+CNR%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+su+servicio+de+maquila
+                    ? `https://api.whatsapp.com/send/?phone=528115914469&text=Hola+%2AAceites+CNR%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+su+servicio+de+maquila
                       &type=phone_number&app_absent=0`
-                    : `https://api.whatsapp.com/send/?phone=523931021001&text=Hello+%2AAceites+CNR%2A.+Im+Interested+in+getting+a+quote+and+more+information+in+your+maquila+service
+                    : `https://api.whatsapp.com/send/?phone=528115914469&text=Hello+%2AAceites+CNR%2A.+Im+Interested+in+getting+a+quote+and+more+information+in+your+maquila+service
                       &type=phone_number&app_absent=0`
                 }
                 target="_blank"

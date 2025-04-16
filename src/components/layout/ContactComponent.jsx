@@ -106,7 +106,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                 <Link
                   aria-label="WhatsApp"
                   target="_blank"
-                  href={"https://wa.me/523931021001"}
+                  href={"https://wa.me/528115914469"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>

@@ -14,7 +14,7 @@ const WhatsAppButton = ({ lang }) => {
       ) : lang === "es" ? (
         <Link
           className="fixed bottom-6 z-[20] cursor-pointer left-5 print:hidden"
-          href="https://api.whatsapp.com/send?phone=523931021001&text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios."
+          href="https://api.whatsapp.com/send?phone=528115914469&text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios."
           target="_blank"
           aria-label="WhatsApp"
         >
@@ -23,7 +23,7 @@ const WhatsAppButton = ({ lang }) => {
       ) : (
         <Link
           className="fixed bottom-6 z-[20] cursor-pointer left-5 print:hidden"
-          href="https://api.whatsapp.com/send?phone=523931021001&text=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20services."
+          href="https://api.whatsapp.com/send?phone=528115914469&text=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20services."
           target="_blank"
           aria-label="WhatsApp"
         >
