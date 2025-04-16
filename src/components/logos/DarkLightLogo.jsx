@@ -7,7 +7,7 @@ const DarkLightLogo = ({ className, lang }) => {
       <Link aria-label="dark-light-logo" href={`/${lang}`}>
         <Image
           alt="image"
-          src={"/logos/hudson_Intl_full_logo_light.webp"}
+          src={"/logos/nuevo_logo_horizontal.webp"}
           width={180}
           height={55}
           priority
@@ -15,7 +15,7 @@ const DarkLightLogo = ({ className, lang }) => {
         />
         <Image
           alt="image"
-          src={"/logos/hudson_Intl_full_logo_white.webp"}
+          src={"/logos/nuevo_logo_horizontal.webp"}
           width={180}
           height={55}
           priority

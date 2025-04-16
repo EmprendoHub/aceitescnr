@@ -7,7 +7,7 @@ const LightLogoComponent = ({ className }) => {
       <Link aria-label="dark-logo" href={"/"}>
         <Image
           alt="image"
-          src={"/logos/hudson_Intl_full_logo_dark.webp"}
+          src={"/logos/nuevo_logo_horizontal.webp"}
           width={180}
           height={55}
           priority
