@@ -25,7 +25,7 @@ const ProductCard = ({ item, lang, productDic }) => {
         className="rounded-sm relative flex flex-col gap-4 cursor-pointer"
         onClick={clickForModal}
       >
-        <div className="w-full h-auto group  relative ">
+        <div className="w-full h-auto group relative ">
           <Image
             src={item?.images[0]?.url}
             alt="product image"
