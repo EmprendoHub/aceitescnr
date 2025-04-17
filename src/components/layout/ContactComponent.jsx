@@ -1,16 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedin,
-  FaTiktok,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 import styles from "./layout.module.scss";
-import Image from "next/image";
-import ContactUsComponent from "../contact/ContactUsComponent";
 
 const ContactComponent = ({ contactDic, homeDic }) => {
   return (
@@ -71,7 +62,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaFacebookF className="absolute text-2xl group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* Instagram */}
                 <Link
@@ -100,7 +91,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaInstagram className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaInstagram className="absolute text-2xl group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* WhatsApp */}
                 <Link
@@ -129,7 +120,7 @@ const ContactComponent = ({ contactDic, homeDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaWhatsapp className="absolute text-xs group-hover:text-dark ease-in-out duration-700 z-0" />
+                  <FaWhatsapp className="absolute text-2xl group-hover:text-dark ease-in-out duration-700 z-0" />
                 </Link>
               </div>
             </div>

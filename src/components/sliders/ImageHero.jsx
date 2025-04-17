@@ -2,8 +2,7 @@
 import React from "react";
 import coverImage from "../../../public/images/aceitescnr_hero_image.webp";
 import Image from "next/image";
-import { FaLocationPin, FaOilCan } from "react-icons/fa6";
-import { GiCycle, GiOilDrum } from "react-icons/gi";
+import { GiOilDrum } from "react-icons/gi";
 import { BsDropletHalf } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { ButtonMotion } from "../button/ButtonMotion";

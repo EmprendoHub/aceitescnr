@@ -6,6 +6,7 @@ import IconGridComp from "@/components/home/IconGridComp";
 import ContactInner from "@/components/contact/ContactInner";
 import DoubleSideToSide from "@/components/home/DoubleSideToSide";
 import DistributorCTA from "@/components/home/DistributorCTA";
+import ImageSlider from "@/components/sliders/ImageSlider";
 
 export default async function Home({ params }) {
   const lang = params.lang;
@@ -19,7 +20,7 @@ export default async function Home({ params }) {
   } = await getDictionary(lang);
   return (
     <div className=" overflow-x-hidden">
-      <ImageHero homeDic={homeDic} lang={lang} />
+      <ImageSlider homeDic={homeDic} lang={lang} />
       <DoubleSideToSide aboutDic={aboutDic} homeDic={homeDic} />
       <DistributorCTA content={distributorLandingPage.content} lang={lang} />
       <HeroSlider homeDic={homeDic} lang={lang} />

@@ -23,6 +23,7 @@ const HeroSlider = ({ homeDic, lang }) => {
     }
 
     return () => clearInterval(interval);
+    // eslint-disable-next-line
   }, [isPaused]);
 
   const handleMouseEnter = () => setIsPaused(true);

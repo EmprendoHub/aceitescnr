@@ -97,14 +97,66 @@
   "homeDic": {
     "imageHero": {
       "pretitle": "The quality and performance your engine deserves!",
-      "title": "Keeps your engine",
+      "title": "Keeps your engine ",
       "titleTwo": "running like new.",
       "text": "Aceites CNR oils provide exceptional performance, protection, and reliability every time you hit the road.",
       "btnText": "We manufacture",
       "btnPath": "/en/maquila",
-      "btnTextTwo": "View catalog",
+      "btnTextTwo": "View products",
       "btnPathTwo": "/en/productos"
     },
+    "coverSliders": [
+      {
+        "title": "Discover the protection that",
+        "titleTwo": " keeps your engine at its best!",
+        "subtitle": "Aceites CNR oils are engineered with advanced formulations to provide superior performance, reliability, and peace of mind for every journey.",
+        "buttons": [
+          { "text": "We manufacture", "href": "/en/maquila", "primary": true },
+          { "text": "View products", "href": "/en/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_01.jpg"
+      },
+      {
+        "title": "Trust and performance",
+        "titleTwo": " for every drive.",
+        "subtitle": "Aceites CNR offers a wide range of premium oils to meet the demands of modern engines, ensuring durability and efficiency.",
+        "buttons": [
+          { "text": "We manufacture", "href": "/en/maquila", "primary": true },
+          { "text": "View products", "href": "/en/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_02.jpeg"
+      },
+      {
+        "title": "Power and protection",
+        "titleTwo": " with Aceites CNR",
+        "subtitle": "Our oils are crafted to maximize engine life, reduce wear, and provide the ultimate driving experience.",
+        "buttons": [
+          { "text": "We manufacture", "href": "/en/maquila", "primary": true },
+          { "text": "View products", "href": "/en/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_03.jpeg"
+      },
+      {
+        "title": "Power and protection",
+        "titleTwo": " with Aceites CNR",
+        "subtitle": "Our oils are crafted to maximize engine life, reduce wear, and provide the ultimate driving experience.",
+        "buttons": [
+          { "text": "We manufacture", "href": "/en/maquila", "primary": true },
+          { "text": "View products", "href": "/en/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_04.jpg"
+      },
+      {
+        "title": "Power and protection",
+        "titleTwo": " with Aceites CNR",
+        "subtitle": "Our oils are crafted to maximize engine life, reduce wear, and provide the ultimate driving experience.",
+        "buttons": [
+          { "text": "We manufacture", "href": "/en/maquila", "primary": true },
+          { "text": "View products", "href": "/en/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_05.jpg"
+      }
+    ],
     "sliders": [
       {
         "preTitle": "Engine Care Experts",

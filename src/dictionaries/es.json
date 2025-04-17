@@ -102,9 +102,61 @@
       "text": "Nuestros aceites ofrecen rendimiento, protección y tranquilidad cada vez que estás en la carretera.",
       "btnText": "Maquilamos",
       "btnPath": "/es/maquila",
-      "btnTextTwo": "Ver catalogo",
+      "btnTextTwo": "Ver productos",
       "btnPathTwo": "/es/productos"
     },
+    "coverSliders": [
+      {
+        "title": "Descubre el poder",
+        "titleTwo": " que impulsa tus proyectos!",
+        "subtitle": "En Aceites CNR, nuestros productos están diseñados con los mejores componentes para garantizar la mejor experiencia.",
+        "buttons": [
+          { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_01.jpg"
+      },
+      {
+        "title": "Calidad y confianza que",
+        "titleTwo": " te acompañan en cada kilómetro.",
+        "subtitle": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "buttons": [
+          { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_02.jpeg"
+      },
+      {
+        "title": "Transforma tus ideas",
+        "titleTwo": " con Aceites CNR",
+        "subtitle": "Somos expertos en la fabricación de aceites personalizados que se adaptan a tus necesidades. Desde el diseño hasta la calidad, creamos soluciones únicas que destacan por su rendimiento y estilo.",
+        "buttons": [
+          { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_03.jpeg"
+      },
+      {
+        "title": "Transforma tus ideas",
+        "titleTwo": " con Aceites CNR",
+        "subtitle": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "buttons": [
+          { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_04.jpg"
+      },
+      {
+        "title": "Transforma tus ideas",
+        "titleTwo": "  con Aceites CNR",
+        "subtitle": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "buttons": [
+          { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_05.jpg"
+      }
+    ],
     "sliders": [
       {
         "preTitle": "Expertos en fabricación",
