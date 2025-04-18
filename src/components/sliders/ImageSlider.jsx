@@ -206,7 +206,7 @@ export default function ImageSlider({ homeDic, lang }) {
       {/* Auto-play toggle */}
       <button
         onClick={toggleAutoPlay}
-        className="absolute bottom-24 right-4 rounded-full bg-black bg-opacity-50 p-2 text-white hover:bg-opacity-75 focus:outline-none md:bottom-8 md:right-8"
+        className="absolute bottom-24 right-4 rounded-full bg-black bg-opacity-50 p-2 text-white hover:bg-opacity-75 focus:outline-none maxmd:bottom-8 md:right-8"
         aria-label={isAutoPlaying ? "Pause slideshow" : "Play slideshow"}
       >
         {isAutoPlaying ? (
