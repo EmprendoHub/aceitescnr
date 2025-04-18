@@ -102,7 +102,7 @@ export default function ImageSlider({ homeDic, lang }) {
 
             {/* Text Overlay with gradient background for better readability */}
             <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent">
-              <div className="absolute bottom-64 left-0 w-full p-4 text-white maxmd:bottom-32 maxmd:p-8 maxlg:p-12">
+              <div className="absolute bottom-52 left-0 w-full p-12 text-white maxmd:bottom-32 maxmd:p-8 maxlg:p-10">
                 <div className="max-w-3xl">
                   <motion.h2
                     initial={{ opacity: 0, scale: 1, y: -10 }}
