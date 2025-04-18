@@ -114,7 +114,7 @@
           { "text": "We manufacture", "href": "/es/maquila", "primary": true },
           { "text": "View products", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_01.webp"
+        "image": "/covers/cover_slide_05.webp"
       },
       {
         "title": "Reliability and strength",
@@ -124,7 +124,7 @@
           { "text": "We manufacture", "href": "/es/maquila", "primary": true },
           { "text": "View products", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_02.webp"
+        "image": "/covers/cover_slide_01.webp"
       },
       {
         "title": "Superior performance",
@@ -134,7 +134,7 @@
           { "text": "We manufacture", "href": "/es/maquila", "primary": true },
           { "text": "View products", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_03.webp"
+        "image": "/covers/cover_slide_06.webp"
       },
       {
         "title": "Strength and durability",
@@ -154,7 +154,7 @@
           { "text": "We manufacture", "href": "/es/maquila", "primary": true },
           { "text": "View products", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_05.webp"
+        "image": "/covers/cover_slide_02.webp"
       },
       {
         "title": "Purity and safety",
@@ -164,7 +164,7 @@
           { "text": "We manufacture", "href": "/es/maquila", "primary": true },
           { "text": "View products", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_06.webp"
+        "image": "/covers/cover_slide_03.webp"
       }
     ],
     "sliders": [

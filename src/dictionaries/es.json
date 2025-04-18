@@ -114,7 +114,7 @@
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_01.webp"
+        "image": "/covers/cover_slide_05.webp"
       },
       {
         "title": "Confiabilidad y fuerza",
@@ -124,7 +124,7 @@
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_02.webp"
+        "image": "/covers/cover_slide_01.webp"
       },
       {
         "title": "Desempeño superior",
@@ -134,7 +134,7 @@
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_03.webp"
+        "image": "/covers/cover_slide_06.webp"
       },
       {
         "title": "Fuerza y resistencia",
@@ -154,7 +154,7 @@
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_05.webp"
+        "image": "/covers/cover_slide_02.webp"
       },
       {
         "title": "Pureza y seguridad",
@@ -164,7 +164,7 @@
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_06.webp"
+        "image": "/covers/cover_slide_03.webp"
       }
     ],
     "sliders": [
