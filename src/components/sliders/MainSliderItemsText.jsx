@@ -15,7 +15,7 @@ const MainSliderItemsText = ({ item, index, lang }) => {
       }}
     >
       <div className="text-column">
-        <div className="font-primary text-7xl  maxmd:text-5xl flex flex-wrap items-center gap-x-3">
+        <div className="font-primary text-7xl  maxmd:text-5xl flex flex-wrap items-center gap-x-3 ">
           <motion.h1 className="text-primary dark:text-white text-wrap">
             {item.title}
           </motion.h1>

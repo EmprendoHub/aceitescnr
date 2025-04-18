@@ -107,54 +107,64 @@
     },
     "coverSliders": [
       {
-        "title": "Descubre el poder",
-        "titleTwo": " que impulsa tus proyectos!",
-        "subtitle": "En Aceites CNR, nuestros productos están diseñados con los mejores componentes para garantizar la mejor experiencia.",
+        "title": "Potencia que impulsa",
+        "titleTwo": " cada jornada en el campo.",
+        "subtitle": "Aceites diseñados para maquinaria agrícola que maximizan el rendimiento de tus tractores bajo cualquier condición.",
         "buttons": [
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_01.jpg"
+        "image": "/covers/cover_slide_01.webp"
       },
       {
-        "title": "Calidad y confianza que",
-        "titleTwo": " te acompañan en cada kilómetro.",
-        "subtitle": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "title": "Confiabilidad y fuerza",
+        "titleTwo": " en cada kilómetro recorrido.",
+        "subtitle": "Lubricantes CNR que mantienen tu flota de camiones funcionando al máximo, sin importar la distancia.",
         "buttons": [
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_02.jpeg"
+        "image": "/covers/cover_slide_02.webp"
       },
       {
-        "title": "Transforma tus ideas",
-        "titleTwo": " con Aceites CNR",
-        "subtitle": "Somos expertos en la fabricación de aceites personalizados que se adaptan a tus necesidades. Desde el diseño hasta la calidad, creamos soluciones únicas que destacan por su rendimiento y estilo.",
+        "title": "Desempeño superior",
+        "titleTwo": " para cada tipo de motor.",
+        "subtitle": "Nuestros aceites automotrices están formulados para proteger y alargar la vida útil de tu vehículo.",
         "buttons": [
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_03.jpeg"
+        "image": "/covers/cover_slide_03.webp"
       },
       {
-        "title": "Transforma tus ideas",
-        "titleTwo": " con Aceites CNR",
-        "subtitle": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "title": "Fuerza y resistencia",
+        "titleTwo": " para tus equipos pesados.",
+        "subtitle": "Aceites industriales que soportan las condiciones más exigentes en maquinaria de construcción y trabajo pesado.",
         "buttons": [
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_04.jpg"
+        "image": "/covers/cover_slide_04.webp"
       },
       {
-        "title": "Transforma tus ideas",
-        "titleTwo": "  con Aceites CNR",
-        "subtitle": "En Aceites CNR diseñamos aceites personalizados para que cada trayecto sea seguro y eficiente.",
+        "title": "Soluciones lubricantes",
+        "titleTwo": " para procesos industriales exigentes.",
+        "subtitle": "Maximiza la eficiencia de tu producción con aceites diseñados para maquinaria y procesos industriales continuos.",
         "buttons": [
           { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
           { "text": "Ver productos", "href": "/es/productos", "primary": false }
         ],
-        "image": "/covers/cover_slide_05.jpg"
+        "image": "/covers/cover_slide_05.webp"
+      },
+      {
+        "title": "Pureza y seguridad",
+        "titleTwo": " en cada proceso alimentario.",
+        "subtitle": "Lubricantes de grado alimenticio que cumplen con los más altos estándares para tu industria.",
+        "buttons": [
+          { "text": "Maquilamos", "href": "/es/maquila", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/cover_slide_06.webp"
       }
     ],
     "sliders": [
