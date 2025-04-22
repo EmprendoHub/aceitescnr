@@ -19,7 +19,7 @@ const MainSliderItemsText = ({ item, index, lang }) => {
           <motion.h1 className="text-primary dark:text-white text-wrap">
             {item.title}
           </motion.h1>
-          <motion.h1 className="text-white dark:text-primary">
+          <motion.h1 className="text-white  dark:text-primary">
             {item.titleTwo}
           </motion.h1>
         </div>
