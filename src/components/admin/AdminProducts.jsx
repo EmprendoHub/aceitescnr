@@ -122,16 +122,9 @@ const AdminProducts = ({ products, filteredProductsCount, search, lang }) => {
               </th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="bg-card">
             {products?.map((product, index) => (
-              <tr
-                className={`flex flex-row items-center ${
-                  product?.active === true
-                    ? "bg-slate-100 dark:bg-slate-700"
-                    : "bg-slate-200 dark:bg-slate-500 text-slate-400"
-                }`}
-                key={product?._id}
-              >
+              <tr className={`flex flex-row items-center`} key={product?._id}>
                 <td
                   className={`w-full px-6 maxsm:px-0 py-0 font-bold maxsm:hidden`}
                 >
