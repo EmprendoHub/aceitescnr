@@ -127,8 +127,8 @@ const AdminProducts = ({ products, filteredProductsCount, search, lang }) => {
               <tr
                 className={`flex flex-row items-center ${
                   product?.active === true
-                    ? "bg-slate-100"
-                    : "bg-slate-200 text-slate-400"
+                    ? "bg-slate-100 dark:bg-slate-700"
+                    : "bg-slate-200 dark:bg-slate-500 text-slate-400"
                 }`}
                 key={product?._id}
               >
