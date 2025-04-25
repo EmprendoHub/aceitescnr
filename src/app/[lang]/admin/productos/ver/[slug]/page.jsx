@@ -1,22 +1,18 @@
 import EditVariationProduct from "@/components/admin/EditVariationProduct";
 import { getOneProduct } from "@/app/[lang]/_actions";
-import { getCookiesName } from "@/backend/helpers";
-import { cookies } from "next/headers";
+import { getAllCategoryFull } from "../../../categorias/_actions";
 
 const ProductDetailsPage = async ({ params }) => {
-  const nextCookies = cookies();
-  const cookieName = getCookiesName();
-  const nextAuthSessionToken = nextCookies.get(cookieName);
-  const currentCookies = `${cookieName}=${nextAuthSessionToken?.value}`;
-
+  const catData = await getAllCategoryFull();
   const data = await getOneProduct(params.slug, false);
   const lang = params.lang;
   const product = JSON.parse(data.product);
+  const categories = JSON.parse(catData.categories);
 
   return (
     <EditVariationProduct
       product={product}
-      currentCookies={currentCookies}
+      categories={categories}
       lang={lang}
     />
   );

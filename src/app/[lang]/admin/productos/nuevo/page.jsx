@@ -1,9 +1,13 @@
 import NewProductComp from "@/components/admin/NewProductComp";
 
-const NewVariationOptimized = ({ currentCookies, params }) => {
+const NewVariationOptimized = async ({ currentCookies, params }) => {
   const lang = params.lang;
 
-  return <NewProductComp currentCookies={currentCookies} lang={lang} />;
+  const data = await getAllCategory(searchQuery);
+
+  return (
+    <NewProductComp currentCookies={currentCookies} lang={lang} data={data} />
+  );
 };
 
 export default NewVariationOptimized;

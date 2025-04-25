@@ -22,7 +22,8 @@ import Swal from "sweetalert2";
 import LocaleToggle from "@/components/layout/LocaleToggle";
 import MultiselectPresentationComponent from "../forms/MultiselectPresentationComponent";
 
-const NewProductComp = ({ currentCookies, lang }) => {
+const NewProductComp = ({ currentCookies, lang, data }) => {
+  const categoriesParsed = JSON.parse(data.categories);
   const router = useRouter();
   const [categoryId, setCategoryId] = useState("");
   const [title, setTitle] = useState({ es: "", en: "" });
@@ -57,7 +58,7 @@ const NewProductComp = ({ currentCookies, lang }) => {
     { es: "Embudos de Venta", en: "Sales Funnels" },
     { es: "Herramientas IA", en: "AI Tools" },
   ];
-  const [categories, setCategories] = useState(product_categories);
+  const [categories, setCategories] = useState(categoriesParsed);
   const [category, setCategory] = useState({
     es: "",
     en: "",
@@ -300,7 +301,6 @@ const NewProductComp = ({ currentCookies, lang }) => {
 
     const data = JSON.parse(seoResponse.data);
 
-    console.log(data);
     setDescription(data.description);
     setCategoryId(data.categoryId);
     setTitle(data.title);
@@ -468,7 +468,6 @@ const NewProductComp = ({ currentCookies, lang }) => {
 
     setIsSending(true);
     const response = await addNewProduct(formData);
-    console.log(response, "response after creation");
     if (!response?.success) {
       if (response.error) {
         setValidationError("Este Titulo de producto ya esta en uso");

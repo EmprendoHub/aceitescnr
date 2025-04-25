@@ -1,142 +1,93 @@
 "use client";
-import React, { useCallback, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { cstDateTimeClient } from "@/backend/helpers";
-import { addNewProduct, updateProduct } from "@/app/[lang]/_actions";
+import { updateProduct } from "@/app/[lang]/_actions";
 import { useRouter } from "next/navigation";
 import {
   productos_presentations,
   productos_packing,
-  product_categories,
   blog_categories,
-  set_months,
-  set_countries,
 } from "@/backend/data/productData";
 import MultiselectTagComponent from "@/components/forms/MultiselectTagComponent";
 import ToggleSwitch from "@/components/forms/ToggleSwitch";
-import Swal from "sweetalert2";
 import LocaleToggle from "@/components/layout/LocaleToggle";
 import MultiselectPresentationComponent from "../forms/MultiselectPresentationComponent";
 
-const EditVariationProduct = ({ product, currentCookies, lang }) => {
+const EditVariationProduct = ({ product, categories, lang }) => {
   const router = useRouter();
-  const [title, setTitle] = useState(product.title);
+
+  // Initialize all states with proper fallbacks based on the product object
+  const [title, setTitle] = useState(product?.title || { es: "", en: "" });
   const [isSending, setIsSending] = useState(false);
-  const [onlineAvailability, setOnlineAvailability] = useState(true);
-  const [description, setDescription] = useState(product.description);
-  const [tags, setTags] = useState(product.tags);
-  const [presentations, setPresentations] = useState(product.presentations);
-  const [featured, setFeatured] = useState(product.featured);
+  const [onlineAvailability, setOnlineAvailability] = useState(
+    product?.availability ?? true
+  );
+  const [description, setDescription] = useState(
+    product?.description || { es: "", en: "" }
+  );
+  const [tags, setTags] = useState(product?.tags || []);
+  const [presentations, setPresentations] = useState(
+    product?.presentations || []
+  );
+  const [featured, setFeatured] = useState(product?.featured ?? false);
   const [updatedAt, setUpdatedAt] = useState(
     cstDateTimeClient().toLocaleString()
   );
-  const [price, setPrice] = useState(product.price);
-  const [cost, setCost] = useState(product.cost);
-  const [stock, setStock] = useState(product.stock);
-  const [weight, setWeight] = useState(product.weight);
-  const [weightTwo, setWeightTwo] = useState(product?.weightTwo || 0);
-  const [countrySelection, setCountrySelection] = useState(set_countries);
+  const [price, setPrice] = useState(product?.price ?? 0);
+  const [cost, setCost] = useState(product?.cost ?? 0);
+  const [stock, setStock] = useState(product?.stock ?? 0);
+  const [weight, setWeight] = useState(product?.weight || { es: 0, en: 0 });
+  const [weightTwo, setWeightTwo] = useState(
+    product?.weightTwo || { es: 0, en: 0 }
+  );
   const [tagSelection, setTagSelection] = useState(blog_categories);
   const [presentationSelection, setPresentationSelection] = useState(
     productos_presentations
   );
   const [packingSelection, setPackingSelection] = useState(productos_packing);
-
   const [validationError, setValidationError] = useState(null);
-
-  const [categories, setCategories] = useState(product_categories);
-  const [category, setCategory] = useState(product.category);
-  const [packing, setPacking] = useState(product.packing);
-  const [packingTwo, setPackingTwo] = useState(
-    product.packingTwo || { es: "", en: "" }
+  const [categoriesData, setCategories] = useState(categories);
+  const [category, setCategory] = useState({
+    name: product?.category?.name || { es: "", en: "" },
+    _id: product?.category?._id || "",
+  });
+  const [packing, setPacking] = useState(
+    product?.packing || { es: "", en: "" }
   );
-  const [mainImage, setMainImage] = useState(product.images[0].url);
+  const [packingTwo, setPackingTwo] = useState(
+    product?.packingTwo || { es: "", en: "" }
+  );
+  const [mainImage, setMainImage] = useState(
+    product?.images?.[0]?.url || "/images/product-placeholder-minimalist.jpg"
+  );
+  const [origins, setOrigins] = useState(
+    product?.origins || [{ country: "", month: "" }]
+  );
 
-  const [origins, setOrigins] = useState(product.origins);
-  const addOrigin = () => {
-    setOrigins((prevOrigins) => [
-      ...prevOrigins,
-      {
-        country: {
-          es: "",
-          en: "",
-        },
-        month: {
-          label: {
-            es: "",
-            en: "",
-          },
-          value: 0,
-        },
-      },
-    ]);
-  };
-
-  const removeOrigin = (indexToRemove) => {
-    setOrigins((prevOrigins) =>
-      prevOrigins.filter((_, index) => index !== indexToRemove)
-    );
-  };
-  const isCombinationUnique = (country, monthValue, index) => {
-    return !origins.some(
-      (origin, i) =>
-        i !== index &&
-        origin.country.es === country &&
-        origin.month.value === monthValue
-    );
-  };
-  const handleCountryChange = (index, newCountryEs, newCountryEn) => {
-    const month = origins[index].month.value;
-    if (newCountryEs && isCombinationUnique(newCountryEs, month, index)) {
-      const newOrigins = [...origins];
-      newOrigins[index].country[`es`] = newCountryEs;
-      newOrigins[index].country[`en`] = newCountryEn;
-      setOrigins(newOrigins);
-    } else {
-      const newOrigins = [...origins];
-      newOrigins[index].country[`es`] = "";
-      newOrigins[index].country[`en`] = "";
-      setOrigins(newOrigins);
-      Swal.fire({
-        icon: "warning",
-        iconColor: "#0D121B",
-        background: "#fff5fb",
-        color: "#0D121B",
-        toast: true,
-        text: `Esta combinación de origen y mes ya existe. Por favor, elija otro origen o mes.`,
-        showConfirmButton: false,
-        timer: 2000,
-      });
+  // Format tags for multiselect if they're not already in the correct format
+  useEffect(() => {
+    if (product?.tags) {
+      const formattedTags = Array.isArray(product.tags)
+        ? product.tags.map((tag) =>
+            typeof tag === "string" ? { value: tag, label: tag } : tag
+          )
+        : [];
+      setTags(formattedTags);
     }
-  };
+  }, [product?.tags]);
 
-  const handleMonthChange = (index, monthValue, monthEs, monthEn) => {
-    const country = origins[index].country.es;
-    if (monthValue && isCombinationUnique(country, monthValue, index)) {
-      const newOrigins = [...origins];
-      newOrigins[index].month.value = monthValue;
-      newOrigins[index].month.label.es = monthEs;
-      newOrigins[index].month.label.en = monthEn;
-      setOrigins(newOrigins);
-    } else {
-      // Reset the country if the combination is not unique
-      const newOrigins = [...origins];
-      newOrigins[index].month.value = 0; // Reset to empty
-      newOrigins[index].month.es = ""; // Reset to empty
-      newOrigins[index].month.en = ""; // Reset to empty
-      setOrigins(newOrigins);
-      Swal.fire({
-        icon: "warning",
-        iconColor: "#0D121B",
-        background: "#fff5fb",
-        color: "#0D121B",
-        toast: true,
-        text: `Esta combinación de origen y mes ya existe. Por favor, elija otro origen o mes.`,
-        showConfirmButton: false,
-        timer: 2000,
-      });
+  // Format presentations for multiselect
+  useEffect(() => {
+    if (product?.presentations) {
+      const formattedPresentations = Array.isArray(product.presentations)
+        ? product.presentations.map((pres) =>
+            typeof pres === "string" ? { value: pres, label: pres } : pres
+          )
+        : [];
+      setPresentations(formattedPresentations);
     }
-  };
+  }, [product?.presentations]);
 
   const handlePriceChange = (newPrice) => {
     setPrice(newPrice);
@@ -150,8 +101,11 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
     setStock(newStock);
   };
 
-  const handleCategoryChange = async (categoryEs, categoryEn) => {
-    setCategory({ es: categoryEs, en: categoryEn });
+  const handleCategoryChange = async (categoryEs, categoryEn, categoryId) => {
+    setCategory({
+      name: { es: categoryEs, en: categoryEn },
+      _id: categoryId,
+    });
   };
 
   const handlePackingChange = async (packingEs, packingEn) => {
@@ -159,9 +113,6 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
   };
   const handlePackingTwoChange = async (packingEs, packingEn) => {
     setPackingTwo({ es: packingEs, en: packingEn });
-  };
-  const handleAddKeywordField = (newSelectedKeywords) => {
-    setKeywords(newSelectedKeywords);
   };
 
   // generate a pre-signed URL for use in uploading that file:
@@ -265,7 +216,6 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
   };
 
   const handleAddPresentationField = (options) => {
-    console.log(options, "options");
     setPresentations(options);
   };
 
@@ -341,42 +291,6 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
       setValidationError(noDescriptionError);
       return;
     }
-    if (!origins) {
-      const noBrandError = {
-        origins: { _errors: ["Se requiere un origen "] },
-      };
-      setValidationError(noBrandError);
-      return;
-    }
-    if (!tags) {
-      const noTagsError = {
-        tags: { _errors: ["Se requiere mínimo una etiqueta "] },
-      };
-      setValidationError(noTagsError);
-      return;
-    }
-    if (!presentations) {
-      const noPresentationsError = {
-        tags: { _errors: ["Se requiere mínimo una presentación "] },
-      };
-      setValidationError(noPresentationsError);
-      return;
-    }
-
-    if (!origins[0].country) {
-      const noSizesError = {
-        sizes: { _errors: ["Se requiere un pais "] },
-      };
-      setValidationError(noSizesError);
-      return;
-    }
-    if (!origins[0].month) {
-      const noColorsError = {
-        colors: { _errors: ["Se requiere un mes "] },
-      };
-      setValidationError(noColorsError);
-      return;
-    }
 
     const formData = new FormData();
     formData.append("id", product._id);
@@ -400,7 +314,6 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
 
     setIsSending(true);
     const response = await updateProduct(formData);
-    console.log(response, "response after creation");
     if (!response?.success) {
       if (response.error) {
         setValidationError("Este Titulo de producto ya esta en uso");
@@ -417,7 +330,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
   }
 
   return (
-    <main className="w-full p-4 maxsm:p-2 bg-slate-200 text-black dark:bg-slate-800 text-sm">
+    <main className="w-full p-4 maxsm:p-2 bg-card text-sm">
       {!isSending ? (
         <form action={hanldeFormSubmit} className="relative w-full h-full">
           <div className="flex items-center justify-between">
@@ -432,8 +345,8 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
 
           <div className="flex flex-col items-start gap-5 justify-start w-full">
             <section className={`w-full ${!isSending ? "" : "grayscale"}`}>
-              <h1 className="w-full text-xl font-semibold text-black mb-8 font-EB_Garamond">
-                Nuevo Producto
+              <h1 className="w-full text-xl font-semibold  mb-8 font-EB_Garamond">
+                Editar Producto
               </h1>
               <div className="flex flex-row maxmd:flex-col items-start gap-2 justify-between w-full">
                 <div className="flex flex-col items-start justify-center w-full">
@@ -454,7 +367,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                   </div>
                   {/*  Imagen principal */}
                   <div className="gap-y-1 flex-col flex px-2 w-full">
-                    <div className="relative aspect-video hover:opacity-80 bg-white border-4 border-gray-300">
+                    <div className="relative h-full hover:opacity-80 bg-white border-4 border-gray-300">
                       <label htmlFor="selectorMain" className="cursor-pointer">
                         <Image
                           id="blogImage"
@@ -462,7 +375,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                           src={mainImage}
                           width={1280}
                           height={1280}
-                          className="w-full h-full object-cover z-20"
+                          className="w-full h-full object-fit z-20"
                         />
                         <input
                           id="selectorMain"
@@ -690,11 +603,9 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                         Categoría{" "}
                       </label>
                       <div className="relative ">
-                        {/* Category select */}
                         <select
-                          value={category[`${lang}`]}
-                          className={`block appearance-none border dark:bg-dark border-gray-300 cursor-pointer rounded-md py-2 px-3 focus:outline-none focus:border-gray-400 w-full mt-2`}
-                          name={`category[${lang}]`}
+                          value={category._id} // Use _id for value comparison
+                          className={`block appearance-none border  border-gray-300 cursor-pointer text-black rounded-md py-2 px-3 focus:outline-none focus:border-gray-400 w-full mt-2`}
                           onChange={(e) => {
                             const selectedOption =
                               e.target.options[e.target.selectedIndex];
@@ -702,18 +613,24 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
                               selectedOption.getAttribute("data-es");
                             const categoryEn =
                               selectedOption.getAttribute("data-en");
-                            handleCategoryChange(categoryEs, categoryEn);
+                            const categoryId = selectedOption.value; // Get the _id from option value
+                            handleCategoryChange(
+                              categoryEs,
+                              categoryEn,
+                              categoryId
+                            );
                           }}
                         >
-                          {categories.map((cat) => (
+                          {categoriesData.map((cat) => (
                             <option
-                              data-es={cat.es}
-                              data-en={cat.en}
-                              className="bg-transparent"
-                              key={cat[`${lang}`]}
-                              value={cat[`${lang}`]}
+                              data-es={cat.name.es}
+                              data-en={cat.name.en}
+                              value={cat._id} // Use _id as the option value
+                              className="bg-input"
+                              key={cat._id}
+                              selected={cat._id === category._id} // Set selected based on _id match
                             >
-                              {cat[`${lang}`]}
+                              {cat.name[`${lang}`]}
                             </option>
                           ))}
                         </select>

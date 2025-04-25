@@ -544,7 +544,8 @@
       "products": "Products",
       "newService": "New Product",
       "clients": "Clients",
-      "affiliates": "Affiliates"
+      "affiliates": "Affiliates",
+      "categories": "Categories"
     },
     "orders": {
       "tableHead": {

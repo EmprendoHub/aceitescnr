@@ -62,6 +62,12 @@ const AdminAside = ({ lang, admin }) => {
         active={pathname === `/${lang}/admin/asociados` ? "true" : "false"}
         url={`/${lang}/admin/asociados`}
       />
+      <SideBarItem
+        icon={<TbAffiliate size={20} />}
+        text={admin?.sidebar?.categories}
+        active={pathname === `/${lang}/admin/categorias` ? "true" : "false"}
+        url={`/${lang}/admin/categorias`}
+      />
     </AdminSidebar>
   );
 };

@@ -684,8 +684,6 @@ export async function getDashboard(lang) {
       },
     ]);
 
-    console.log(weeklyVisitorData);
-
     let deviceUsageData = await Visitor.aggregate([
       {
         $match: {
@@ -2926,7 +2924,6 @@ export async function addNewProduct(data) {
 
     user,
   });
-  console.log(newProduct);
   //if (error) throw Error(error);
   revalidatePath("/admin/productos");
   return {
@@ -2978,7 +2975,6 @@ export async function updateProduct(data) {
   presentations = JSON.parse(presentations);
 
   await dbConnect();
-
   const slug = generateUrlSafeTitle(title.es);
   const slugExists = await Product.findOne({ slug: slug, _id: { $ne: id } });
   if (slugExists) {
@@ -2997,7 +2993,7 @@ export async function updateProduct(data) {
       packing,
       packingTwo,
       description,
-      category,
+      category: category._id,
       weight,
       weightTwo,
       featured,
@@ -3024,7 +3020,6 @@ export async function updateProduct(data) {
     };
   }
 
-  console.log(updatedProduct);
   revalidatePath("/admin/productos");
 
   return {
@@ -3894,7 +3889,6 @@ export async function imageToText(imageUrl) {
   await dbConnect();
   const categories = await Category.find({}, "name _id");
 
-  console.log(imageUrl, "imageUrl");
   try {
     const response = await openai.chat.completions.create({
       model: "gpt-4o",
@@ -4007,8 +4001,6 @@ export async function createFBPost(prompt, productImageUrl) {
       aiPromptRequest.choices[0].message.content
     );
 
-    console.log("Parsed Response:", responseContent);
-
     const imagePrompt = responseContent.imagePrompt;
     const content = responseContent.content;
 
@@ -4025,7 +4017,6 @@ export async function createFBPost(prompt, productImageUrl) {
 
         const baseImageUrl = response.data[0].url;
         const result = await uploadImageFromUrl(baseImageUrl, "/social/");
-        console.log(result.imageUrl, "result.imageUrl", baseImageUrl);
         const logo =
           "https://www.aceitescnr.com/_next/image?url=%2Flogos%2FCNR_LOGO_true.png&w=256&q=75";
 
@@ -4105,7 +4096,6 @@ export async function uploadImageFromUrl(imageUrl, folder) {
   try {
     // Get session for auth check
     const session = await getServerSession(options);
-    console.log("session", session.user.role);
 
     if (!session?.user?.role || session.user.role !== "manager") {
       throw new Error("Unauthorized access");

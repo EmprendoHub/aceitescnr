@@ -2,13 +2,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import {
-  set_methods,
-  set_tests,
-  set_typical_values,
-} from "@/backend/data/productData";
 import Swal from "sweetalert2";
-import { addNewCategory, editOneCategory } from "../_actions";
+import { editOneCategory } from "../_actions";
 
 const EditCategory = ({ category, lang, id }) => {
   const cat_tests = category.characteristics.map((item) => item.test);
@@ -351,7 +346,7 @@ const EditCategory = ({ category, lang, id }) => {
           <div className="flex flex-col items-start gap-5 justify-start w-full">
             <section className={`w-full ${!isSending ? "" : "grayscale"}`}>
               <h1 className="w-full text-xl font-semibold text-black mb-8 font-EB_Garamond">
-                Nuevo Category
+                Edit Category
               </h1>
               <div className="flex flex-row maxmd:flex-col items-start gap-2 justify-between w-full">
                 <div className="flex flex-col items-start justify-center w-full">

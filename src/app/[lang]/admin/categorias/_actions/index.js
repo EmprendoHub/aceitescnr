@@ -147,6 +147,28 @@ export async function getAllCategory(searchQuery) {
   }
 }
 
+export async function getAllCategoryFull() {
+  try {
+    await dbConnect();
+
+    let categoryQuery = Category.find({ published: true });
+    categoryQuery = await categoryQuery.sort({ createdAt: -1 });
+    // total number of documents in database
+    const categoriesCount = await Category.countDocuments();
+    // Extract all possible categories
+
+    let sortedCategories = JSON.stringify(categoryQuery);
+    revalidatePath("/admin/categorias/");
+    return {
+      categories: sortedCategories,
+      categoriesCount,
+    };
+  } catch (error) {
+    console.log(error);
+    throw Error(error);
+  }
+}
+
 export async function changeCategoryAvailability(categoryId) {
   try {
     await dbConnect();
