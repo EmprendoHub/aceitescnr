@@ -5,6 +5,7 @@ import coverImage0 from "../../../public/images/fabrica3.webp";
 import coverAdditives from "../../../public/images/ADDITIVES.webp";
 import coverDexron from "../../../public/images/ATF-DEXRON.webp";
 import coverMotorcycles from "../../../public/images/MOTORCYCLES.webp";
+import FoodGrade from "../../../public/covers/cover_slide_03.webp";
 import coverRacing from "../../../public/images/RACING.webp";
 import coverRRCCA from "../../../public/images/RRCCA.webp";
 import coverHydraulics from "../../../public/images/HYDRAULICS.webp";
@@ -69,7 +70,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         category?.includes("Servicio Pesado") ||
         category?.includes("Heavy Duty")
       ) {
-        setCoverImage(coverRacing);
+        setCoverImage(coverRRCCA);
         if (lang === "es") {
           setCoverTitle("Servicio Pesado");
           setCoverTitleTwo("");
@@ -84,7 +85,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         category?.includes("Hidráulicos") ||
         category?.includes("Hydraulics")
       ) {
-        setCoverImage(coverRRCCA);
+        setCoverImage(coverHydraulics);
         if (lang === "es") {
           setCoverTitle("Hidráulicos");
           setCoverTitleTwo("");
@@ -99,7 +100,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         category?.includes("Maquinaria") ||
         category?.includes("Machinery")
       ) {
-        setCoverImage(coverHydraulics);
+        setCoverImage(coverDexron);
         if (lang === "es") {
           setCoverTitle("Maquinaria");
           setCoverTitleTwo("");
@@ -130,7 +131,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
       category?.includes("Grado Alimenticio") ||
       category?.includes("Food Grade")
     ) {
-      setCoverImage(coverDexron);
+      setCoverImage(FoodGrade);
       if (lang === "es") {
         setCoverTitle("Grado Alimenticio");
         setCoverTitleTwo("");
