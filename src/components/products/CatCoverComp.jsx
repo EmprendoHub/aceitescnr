@@ -19,10 +19,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
   useEffect(() => {
     if (keyword || category) {
       if (
-        keyword?.toLowerCase().includes("aditivo") ||
-        keyword?.toLowerCase().includes("additive") ||
-        category?.toLowerCase().includes("aditivo") ||
-        category?.toLowerCase().includes("additive")
+        keyword?.includes("Aditivos") ||
+        keyword?.includes("Additives") ||
+        category?.includes("Aditivos") ||
+        category?.includes("Additives")
       ) {
         setCoverImage(coverAdditives);
         if (lang === "es") {
@@ -34,80 +34,110 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase().includes("atf-dexron") ||
-        keyword?.toLowerCase().includes("atf-dexron") ||
-        category?.toLowerCase().includes("atf-dexron") ||
-        category?.toLowerCase().includes("atf-dexron")
+        keyword?.includes("Automotive") ||
+        keyword?.includes("Automotriz") ||
+        category?.includes("Automotriz") ||
+        category?.includes("Automotive")
       ) {
         setCoverImage(coverDexron);
         if (lang === "es") {
-          setCoverTitle("ATF-DEXRON");
+          setCoverTitle("Automotriz");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("ATF-DEXRON");
+          setCoverTitle("Automotive");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase().includes("motocicleta") ||
-        keyword?.toLowerCase().includes("motorcycle") ||
-        category?.toLowerCase().includes("motocicleta") ||
-        category?.toLowerCase().includes("motorcycle")
+        keyword?.includes("Motocicletas") ||
+        keyword?.includes("Motorcycles") ||
+        category?.includes("Motocicletas") ||
+        category?.includes("Motorcycles")
       ) {
         setCoverImage(coverMotorcycles);
         if (lang === "es") {
-          setCoverTitle("MOTOCICLETAS");
+          setCoverTitle("Motocicletas");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("MOTORCYCLES");
+          setCoverTitle("Motorcycles");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase().includes("carrera") ||
-        keyword?.toLowerCase().includes("racing") ||
-        category?.toLowerCase().includes("carrera") ||
-        category?.toLowerCase().includes("racing")
+        keyword?.includes("Servicio Pesado") ||
+        keyword?.includes("Heavy Duty") ||
+        category?.includes("Servicio Pesado") ||
+        category?.includes("Heavy Duty")
       ) {
         setCoverImage(coverRacing);
         if (lang === "es") {
-          setCoverTitle("CARRERAS");
+          setCoverTitle("Servicio Pesado");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("RACING");
+          setCoverTitle("Heavy Duty");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase().includes("rrcca") ||
-        keyword?.toLowerCase().includes("rrcca") ||
-        category?.toLowerCase().includes("rrcca") ||
-        category?.toLowerCase().includes("rrcca")
+        keyword?.includes("Hidráulicos") ||
+        keyword?.includes("Hydraulics") ||
+        category?.includes("Hidráulicos") ||
+        category?.includes("Hydraulics")
       ) {
         setCoverImage(coverRRCCA);
         if (lang === "es") {
-          setCoverTitle("RRCCA");
+          setCoverTitle("Hidráulicos");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("RRCCA");
+          setCoverTitle("Hydraulics");
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.toLowerCase().includes("hidráulico") ||
-        keyword?.toLowerCase().includes("hydraulic") ||
-        category?.toLowerCase().includes("hidráulico") ||
-        category?.toLowerCase().includes("hydraulic")
+        keyword?.includes("Maquinaria") ||
+        keyword?.includes("Machinery") ||
+        category?.includes("Maquinaria") ||
+        category?.includes("Machinery")
       ) {
         setCoverImage(coverHydraulics);
         if (lang === "es") {
-          setCoverTitle("HIDRÁULICOS");
+          setCoverTitle("Maquinaria");
           setCoverTitleTwo("");
         }
         if (lang === "en") {
-          setCoverTitle("HYDRAULICS");
+          setCoverTitle("Machinery");
           setCoverTitleTwo("");
         }
+      }
+    } else if (
+      keyword?.includes("Industrial") ||
+      keyword?.includes("Industrial") ||
+      category?.includes("Industrial") ||
+      category?.includes("Industrial")
+    ) {
+      setCoverImage(coverDexron);
+      if (lang === "es") {
+        setCoverTitle("Industrial");
+        setCoverTitleTwo("");
+      }
+      if (lang === "en") {
+        setCoverTitle("Industrial");
+        setCoverTitleTwo("");
+      }
+    } else if (
+      keyword?.includes("Grado Alimenticio") ||
+      keyword?.includes("Food Grade") ||
+      category?.includes("Grado Alimenticio") ||
+      category?.includes("Food Grade")
+    ) {
+      setCoverImage(coverDexron);
+      if (lang === "es") {
+        setCoverTitle("Grado Alimenticio");
+        setCoverTitleTwo("");
+      }
+      if (lang === "en") {
+        setCoverTitle("Food Grade");
+        setCoverTitleTwo("");
       }
     } else {
       setCoverImage(coverImage0);

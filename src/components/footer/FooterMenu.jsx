@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import DarkLightLogo from "../logos/DarkLightLogo";
 import LocaleToggle from "../layout/LocaleToggle";
 import WhiteLogoComponent from "../logos/WhiteLogoComponent";
 

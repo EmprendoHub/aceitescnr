@@ -10,11 +10,8 @@ class APIFilters {
     // Define the conditions to search for the keyword in title, description, and category
     const searchConditions = {
       $or: [
-        { "title.es": { $regex: keyword, $options: "i" } },
-        { "title.en": { $regex: keyword, $options: "i" } },
-        { "description.es": { $regex: keyword, $options: "i" } },
-        { "description.en": { $regex: keyword, $options: "i" } },
-        { brand: { $regex: keyword, $options: "i" } },
+        { "packingTwo.es": { $regex: keyword, $options: "i" } },
+        { "packingTwo.en": { $regex: keyword, $options: "i" } },
       ],
     };
 
@@ -51,10 +48,7 @@ class APIFilters {
         }
         output[prop][`$${operator}`] = queryCopy[key];
       }
-      // Handle category filter
-      else if (key === "category") {
-        output["$or"] = [{ category: { _id: queryCopy[key] } }];
-      }
+
       // Handle other filters
       else {
         output[key] = queryCopy[key];

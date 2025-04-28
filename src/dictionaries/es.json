@@ -39,22 +39,33 @@
       "phone": "353 127 5109 / 393 102 1001"
     },
     "widgettwo": {
-      "title": "Productos",
+      "title": "Mercados",
       "links": [
-        { "title": "Aditivos", "url": "/productos?category=Additives" },
-        { "title": "ATF-Dexron", "url": "/productos?category=ATF-DEXRON" },
+        { "title": "Aditivos", "url": "/productos?keyword=Additives" },
+        {
+          "title": "Automotriz",
+          "url": "/productos?keyword=Automotriz"
+        },
+        { "title": "Motocicletas", "url": "/productos?keyword=Motocicletas" },
+        {
+          "title": "Servicio Pesado",
+          "url": "/productos?keyword=Servicio Pesado"
+        },
         {
           "title": "Hidráulicos",
-          "url": "/productos?category=Hidráulicos"
-        },
-        { "title": "Motocicletas", "url": "/productos?category=Motocicletas" },
-        {
-          "title": "Carreras",
-          "url": "/productos?category=Carreras"
+          "url": "/productos?keyword=Hidráulicos"
         },
         {
-          "title": "RRCCA",
-          "url": "/productos?category=RRCCA"
+          "title": "Maquinaria",
+          "url": "/productos?keyword=Maquinaria"
+        },
+        {
+          "title": "Industrial",
+          "url": "/productos?keyword=Industrial"
+        },
+        {
+          "title": "Grado Alimenticio",
+          "url": "/productos?keyword=Grado Alimenticio"
         }
       ]
     },
@@ -343,32 +354,32 @@
     "categories": [
       {
         "title": "Aditivos",
-        "catPath": "/en/productos?category=Aditivos",
+        "catPath": "/en/productos?keyword=Aditivos",
         "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
         "title": "ATF-Dexron",
-        "catPath": "/en/productos?category=ATF-Dexron",
+        "catPath": "/en/productos?keyword=ATF-Dexron",
         "imgPath": "/images/cnr_image_02.jpg"
       },
       {
         "title": "Hidráulicos",
-        "catPath": "/en/productos?category=Hidráulicos",
+        "catPath": "/en/productos?keyword=Hidráulicos",
         "imgPath": "/images/cnr_image_03.jpeg"
       },
       {
         "title": "Motocicletas",
-        "catPath": "/en/productos?category=Motocicletas",
+        "catPath": "/en/productos?keyword=Motocicletas",
         "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
         "title": "Carreras",
-        "catPath": "/en/productos?category=Carreras",
+        "catPath": "/en/productos?keyword=Carreras",
         "imgPath": "/images/cnr_image_02.jpg"
       },
       {
         "title": "RRCCA",
-        "catPath": "/en/productos?category=RRCCA",
+        "catPath": "/en/productos?keyword=RRCCA",
         "imgPath": "/images/cnr_image_03.jpeg"
       }
     ]

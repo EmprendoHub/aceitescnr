@@ -39,22 +39,31 @@
       "phone": "353 127 5109 / 393 102 1001"
     },
     "widgettwo": {
-      "title": "Products",
+      "title": "Markets",
       "links": [
-        { "title": "Additives", "url": "/productos?category=Additives" },
-        { "title": "ATF-Dexron", "url": "/productos?category=ATF-DEXRON" },
+        { "title": "Additives", "url": "/productos?keyword=Additives" },
+        {
+          "title": "Automotive",
+          "url": "/productos?keyword=Automotive"
+        },
+        { "title": "Motorcycles", "url": "/productos?keyword=Motorcycles" },
+        { "title": "Heavy Duty", "url": "/productos?keyword=Heavy Duty" },
         {
           "title": "Hydraulics",
-          "url": "/productos?category=Hydraulics"
+          "url": "/productos?keyword=Hydraulics"
         },
-        { "title": "Motorcycles", "url": "/productos?category=Motorcycles" },
+
         {
-          "title": "Racing",
-          "url": "/productos?category=Racing"
+          "title": "Machinery",
+          "url": "/productos?keyword=Machinery"
         },
         {
-          "title": "RRCCA",
-          "url": "/productos?category=RRCCA"
+          "title": "Industrial",
+          "url": "/productos?keyword=Industrial"
+        },
+        {
+          "title": "Food Grade",
+          "url": "/productos?keyword=Food Grade"
         }
       ]
     },
@@ -343,32 +352,32 @@
     "categories": [
       {
         "title": "Additives",
-        "catPath": "/en/productos?category=Additives",
+        "catPath": "/en/productos?keyword=Additives",
         "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
         "title": "ATF-Dexron",
-        "catPath": "/en/productos?category=ATF-Dexron",
+        "catPath": "/en/productos?keyword=ATF-Dexron",
         "imgPath": "/images/cnr_image_02.jpg"
       },
       {
         "title": "Hydraulics",
-        "catPath": "/en/productos?category=Hydraulics",
+        "catPath": "/en/productos?keyword=Hydraulics",
         "imgPath": "/images/cnr_image_03.jpeg"
       },
       {
         "title": "Motorcycles",
-        "catPath": "/en/productos?category=Motorcycles",
+        "catPath": "/en/productos?keyword=Motorcycles",
         "imgPath": "/images/cnr_image_01.jpeg"
       },
       {
         "title": "Racing",
-        "catPath": "/en/productos?category=Racing",
+        "catPath": "/en/productos?keyword=Racing",
         "imgPath": "/images/cnr_image_02.jpg"
       },
       {
         "title": "RRCCA",
-        "catPath": "/en/productos?category=RRCCA",
+        "catPath": "/en/productos?keyword=RRCCA",
         "imgPath": "/images/cnr_image_03.jpeg"
       }
     ]

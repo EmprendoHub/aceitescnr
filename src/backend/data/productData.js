@@ -232,10 +232,14 @@ export const productos_presentations = [
 
 export const productos_packing = [
   { es: "", en: "" },
-  { es: "Cajas", en: "Boxes" },
-  { es: "Bolsas", en: "Bags" },
-  { es: "Pacas", en: "Bales" },
-  { es: "Varios", en: "Various" },
+  { es: "Aditivos", en: "Boxes" },
+  { es: "Automotriz", en: "Automotive" },
+  { es: "Motocicletas", en: "Motorcycles" },
+  { es: "Servicio Pesado", en: "Heavy Duty" },
+  { es: "Hidráulicos", en: "Hydraulics" },
+  { es: "Maquinaria", en: "Machinery" },
+  { es: "Industrial", en: "Industrial" },
+  { es: "Grado Alimenticio", en: "Food Grade" },
 ];
 
 export const set_months = [

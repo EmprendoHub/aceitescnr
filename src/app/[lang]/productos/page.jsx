@@ -1,10 +1,8 @@
 import ListProducts from "@/components/products/ListProducts";
 import { getCookiesName, removeUndefinedAndPageKeys } from "@/backend/helpers";
 import { cookies } from "next/headers";
-import ServerPagination from "@/components/pagination/ServerPagination";
 import CatCoverComp from "@/components/products/CatCoverComp";
 import { getDictionary } from "@/lib/dictionary";
-import MobileFilterComponet from "@/components/products/MobileFilterComponet";
 
 export const metadata = {
   title: "Aceites CNR",

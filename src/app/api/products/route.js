@@ -50,6 +50,11 @@ export const GET = async (request, res) => {
       .searchAllFields()
       .filter();
 
+    console.log(
+      "apiProductFilters.query._conditions",
+      apiProductFilters.query._conditions
+    );
+
     let productsData = await apiProductFilters.query;
 
     const filteredProductsCount = productsData.length;
