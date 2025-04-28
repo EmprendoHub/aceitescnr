@@ -7,6 +7,7 @@ import coverDexron from "../../../public/images/ATF-DEXRON.webp";
 import coverMotorcycles from "../../../public/images/MOTORCYCLES.webp";
 import FoodGrade from "../../../public/covers/cover_slide_03.webp";
 import coverRacing from "../../../public/images/RACING.webp";
+import coverGears from "../../../public/covers/cover_slide_02.webp";
 import coverRRCCA from "../../../public/images/RRCCA.webp";
 import coverHydraulics from "../../../public/images/HYDRAULICS.webp";
 
@@ -40,7 +41,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         category?.includes("Automotriz") ||
         category?.includes("Automotive")
       ) {
-        setCoverImage(coverDexron);
+        setCoverImage(coverRacing);
         if (lang === "es") {
           setCoverTitle("Automotriz");
           setCoverTitleTwo("");
@@ -65,10 +66,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.includes("Servicio+Pesado") ||
-        keyword?.includes("Heavy+Duty") ||
-        category?.includes("Servicio+Pesado") ||
-        category?.includes("Heavy+Duty")
+        keyword?.includes("Servicio Pesado") ||
+        keyword?.includes("Heavy Duty") ||
+        category?.includes("Servicio Pesado") ||
+        category?.includes("Heavy Duty")
       ) {
         setCoverImage(coverRRCCA);
         if (lang === "es") {
@@ -100,7 +101,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         category?.includes("Maquinaria") ||
         category?.includes("Machinery")
       ) {
-        setCoverImage(coverDexron);
+        setCoverImage(coverGears);
         if (lang === "es") {
           setCoverTitle("Maquinaria");
           setCoverTitleTwo("");
@@ -109,36 +110,36 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitle("Machinery");
           setCoverTitleTwo("");
         }
-      }
-    } else if (
-      keyword?.includes("Industrial") ||
-      keyword?.includes("Industrial") ||
-      category?.includes("Industrial") ||
-      category?.includes("Industrial")
-    ) {
-      setCoverImage(coverDexron);
-      if (lang === "es") {
-        setCoverTitle("Industrial");
-        setCoverTitleTwo("");
-      }
-      if (lang === "en") {
-        setCoverTitle("Industrial");
-        setCoverTitleTwo("");
-      }
-    } else if (
-      keyword?.includes("Grado+Alimenticio") ||
-      keyword?.includes("Food+Grade") ||
-      category?.includes("Grado+Alimenticio") ||
-      category?.includes("Food+Grade")
-    ) {
-      setCoverImage(FoodGrade);
-      if (lang === "es") {
-        setCoverTitle("Grado Alimenticio");
-        setCoverTitleTwo("");
-      }
-      if (lang === "en") {
-        setCoverTitle("Food Grade");
-        setCoverTitleTwo("");
+      } else if (
+        keyword?.includes("Industrial") ||
+        keyword?.includes("Industrial") ||
+        category?.includes("Industrial") ||
+        category?.includes("Industrial")
+      ) {
+        setCoverImage(coverDexron);
+        if (lang === "es") {
+          setCoverTitle("Industrial");
+          setCoverTitleTwo("");
+        }
+        if (lang === "en") {
+          setCoverTitle("Industrial");
+          setCoverTitleTwo("");
+        }
+      } else if (
+        keyword?.includes("Grado Alimenticio") ||
+        keyword?.includes("Food Grade") ||
+        category?.includes("Grado Alimenticio") ||
+        category?.includes("Food Grade")
+      ) {
+        setCoverImage(FoodGrade);
+        if (lang === "es") {
+          setCoverTitle("Grado Alimenticio");
+          setCoverTitleTwo("");
+        }
+        if (lang === "en") {
+          setCoverTitle("Food Grade");
+          setCoverTitleTwo("");
+        }
       }
     } else {
       setCoverImage(coverImage0);
