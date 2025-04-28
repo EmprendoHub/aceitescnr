@@ -232,7 +232,7 @@ export const productos_presentations = [
 
 export const productos_packing = [
   { es: "", en: "" },
-  { es: "Aditivos", en: "Boxes" },
+  { es: "Aditivos", en: "Additives" },
   { es: "Automotriz", en: "Automotive" },
   { es: "Motocicletas", en: "Motorcycles" },
   { es: "Servicio Pesado", en: "Heavy Duty" },
