@@ -2,7 +2,7 @@
   "header": {
     "menu": [
       { "title": "Inicio", "url": "/" },
-      { "title": "Acerca", "url": "/#acerca" },
+      { "title": "Acerca", "url": "/acerca" },
       { "title": "Productos", "url": "/productos" },
       { "title": "Distribuidores", "url": "/distribuidores" },
       { "title": "Maquila", "url": "/maquila" },
