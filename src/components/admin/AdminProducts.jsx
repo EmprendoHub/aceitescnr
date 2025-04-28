@@ -104,19 +104,16 @@ const AdminProducts = ({ products, filteredProductsCount, search, lang }) => {
                 scope="col"
                 className="w-full px-6 maxsm:px-0 py-3 maxsm:hidden"
               >
-                Categoria
+                Spec
               </th>
               <th scope="col" className="w-full px-6 maxsm:px-0 py-3 ">
                 Img
               </th>
 
               <th scope="col" className="w-full px-6 maxsm:px-0 py-3 ">
-                Precio
+                Categoria
               </th>
 
-              <th scope="col" className="w-full px-1 py-3 ">
-                Exst.
-              </th>
               <th scope="col" className="w-full px-1 py-3 text-center">
                 ...
               </th>
@@ -158,12 +155,9 @@ const AdminProducts = ({ products, filteredProductsCount, search, lang }) => {
                   </span>
                 </td>
                 <td className="w-full px-6 maxsm:px-0 py-0 ">
-                  <b>
-                    <FormattedPrice amount={product?.price} />
-                  </b>
+                  <b>{product?.packingTwo && product?.packingTwo[`${lang}`]}</b>
                 </td>
 
-                <td className="w-full px-1 py-0 ">{product?.stock}</td>
                 <td className="w-full px-1 py-0 flex flex-row items-center gap-x-1">
                   <Link
                     href={`/${lang}/admin/productos/ver/${product?.slug}`}
