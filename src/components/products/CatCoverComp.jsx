@@ -65,10 +65,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           setCoverTitleTwo("");
         }
       } else if (
-        keyword?.includes("Servicio Pesado") ||
-        keyword?.includes("Heavy Duty") ||
-        category?.includes("Servicio Pesado") ||
-        category?.includes("Heavy Duty")
+        keyword?.includes("Servicio+Pesado") ||
+        keyword?.includes("Heavy+Duty") ||
+        category?.includes("Servicio+Pesado") ||
+        category?.includes("Heavy+Duty")
       ) {
         setCoverImage(coverRRCCA);
         if (lang === "es") {
@@ -126,10 +126,10 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
         setCoverTitleTwo("");
       }
     } else if (
-      keyword?.includes("Grado Alimenticio") ||
-      keyword?.includes("Food Grade") ||
-      category?.includes("Grado Alimenticio") ||
-      category?.includes("Food Grade")
+      keyword?.includes("Grado+Alimenticio") ||
+      keyword?.includes("Food+Grade") ||
+      category?.includes("Grado+Alimenticio") ||
+      category?.includes("Food+Grade")
     ) {
       setCoverImage(FoodGrade);
       if (lang === "es") {
