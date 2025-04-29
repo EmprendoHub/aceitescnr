@@ -73,9 +73,11 @@
       "title": "Sitio",
       "links": [
         { "title": "Inicio", "url": "/" },
-        { "title": "Productos", "url": "/productos" },
+        { "title": "Nosotros", "url": "/acerca" },
         { "title": "Contacto", "url": "/#contacto" },
-        { "title": "Nosotros", "url": "/acerca" }
+        { "title": "Carreras", "url": "/#contacto" },
+        { "title": "Eventos", "url": "/#contacto" },
+        { "title": "Productos", "url": "/productos" }
       ]
     },
     "widgetfour": {

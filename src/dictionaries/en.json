@@ -71,9 +71,11 @@
       "title": "Site",
       "links": [
         { "title": "Home", "url": "/" },
-        { "title": "Products", "url": "/productos" },
+        { "title": "About Us", "url": "/acerca" },
         { "title": "Contact", "url": "/#contacto" },
-        { "title": "About Us", "url": "/acerca" }
+        { "title": "Carriers", "url": "/#contacto" },
+        { "title": "Events", "url": "/#contacto" },
+        { "title": "Products", "url": "/productos" }
       ]
     },
     "widgetfour": {
