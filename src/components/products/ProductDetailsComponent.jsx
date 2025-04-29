@@ -100,7 +100,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                     initial={{ y: 50, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className="text-sm text-lightText flex flex-col maxmd:hidden"
+                    className="text-sm text-lightText flex flex-col maxsm:hidden"
                   >
                     <div className=" text-xs maxmd:text-[11px] maxmd:leading-[1] items-start justify-start  gap-1 mt-1 w-full">
                       {product?.category?.summary[`${lang}`]}
@@ -114,7 +114,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
-                  className="text-sm text-lightText  maxmd:flex  maxmd:flex-col  hidden"
+                  className="text-sm text-lightText  maxsm:flex  maxsm:flex-col  hidden"
                 >
                   <div className="font-normal text-xs maxmd:text-[11px] maxmd:leading-[1.2] mt-1">
                     {product?.category?.summary[`${lang}`]}
