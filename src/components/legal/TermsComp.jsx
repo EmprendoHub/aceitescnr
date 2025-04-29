@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa6";
 
 const TermsComp = ({ termsDic }) => {
   return (
-    <div className="w-full h-full py-16 px-5 bg-dark dark:bg-slate-700">
+    <div className="w-full h-full py-16 px-5 dark:bg-background">
       <div className="flex flex-col items-start justify-start h-full py-14 px-10 maxmd:px-5 bg-white  dark:bg-primary">
         <div className="section-div">
           <h2 className=" font-primary text-3xl mb-2">{termsDic.title}</h2>

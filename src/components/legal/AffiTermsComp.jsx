@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa6";
 
 const AffiTermsComp = ({ affiTermsDic }) => {
   return (
-    <div className="flex flex-col items-start justify-start h-full mt-5 px-10 maxmd:px-5">
+    <div className="flex flex-col items-start justify-start h-full mt-5 px-10 maxmd:px-5 dark:bg-background">
       <div className="section-div">
         <h2 className=" font-primary text-3xl mb-2">{affiTermsDic.title}</h2>
         <p className="text-sm font-secondary"> {affiTermsDic.summary}</p>
