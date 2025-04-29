@@ -241,6 +241,52 @@
         "imgUrl": "/images/blue_car.jpg"
       }
     },
+    "contactBoxes": {
+      "boxOne": {
+        "preTitle": "CNR Oil Quality Products:",
+        "title": "Mexican Excellence in",
+        "titleTwo": " Lubricants and Additives",
+        "subtitle": "Formulado para máxima protección y rendimiento.",
+        "text": "At CNR Oil Quality Products, we are proud to be a Mexican company based in Venustiano Carranza, Michoacán, dedicated to the manufacturing, production, and marketing of lubricants, greases, additives, antifreeze, and automotive fluids. Our plant is recognized as one of the most modern in the country, incorporating advanced Italian technology to guarantee products of the highest quality.",
+        "textTwo": "Utilizando tecnología italiana Nuestro compromiso es brindar un servicio de mejora continua a nuestros clientes poniendo a su disposición nuestras experiencias en la elaboración de aceites lubricantes, usando materias primas dec calidad, desarrollando continuamente nuestros sistemas de producto terminado bien administrado para servir eficazmente a nuestros clientes.",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/barriles.jpg"
+      },
+      "boxTwo": {
+        "preTitle": "CNR Oil Quality Products:",
+        "title": "Compromiso con la Calidad",
+        "titleTwo": " y la Innovación",
+        "subtitle": "Formulado para máxima protección y rendimiento.",
+        "text": "Nuestro compromiso es ofrecer un servicio de mejora continua a nuestros clientes, poniendo a su disposición nuestra amplia experiencia en la elaboración de aceites lubricantes. Utilizamos materias primas de calidad y desarrollamos continuamente nuestros sistemas de producto terminado, bien administrados para servir eficazmente a nuestros clientes.",
+        "textTwo": "La calidad y la innovación son pilares fundamentales en nuestra operación. Nuestros productos no solo cumplen, sino que exceden los más altos estándares de calidad y seguridad. Utilizamos tecnología de vanguardia para desarrollar aceites y aditivos que garantizan un rendimiento óptimo y una protección superior. Esto se traduce en una mayor eficiencia operativa, reducción de costos de mantenimiento y prolongación de la vida útil del equipo. ​",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/blue_car.jpg"
+      },
+      "boxThree": {
+        "preTitle": "CNR Oil Quality Products:",
+        "title": "Infraestructura y",
+        "titleTwo": " Producción Eficiente",
+        "subtitle": "Formulado para máxima protección y rendimiento.",
+        "text": "Nuestra capacidad de producción supera las expectativas, gracias a procesos y sistemas de mezclado eficientes que nos permiten producir una amplia gama de productos en un corto tiempo. Contamos con una división de plásticos que provee autosuficiencia en la elaboración de envases requeridos para nuestras líneas de producción. ",
+        "textTwo": "Además, nuestras máquinas etiquetadoras nos permiten fabricar de manera rápida y controlada toda la imagen de nuestra marca, garantizando una etiqueta de calidad en un corto tiempo de producción.",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/barriles.jpg"
+      },
+      "boxFour": {
+        "preTitle": "CNR Oil Quality Products:",
+        "title": "Mission and",
+        "titleTwo": " Vision",
+        "subtitle": "Formulado para máxima protección y rendimiento.",
+        "text": "Nuestra misión es satisfacer de manera integral las necesidades del mercado automotriz, la industria en general, y los mercados minorista y mayorista, ofreciendo productos de alta calidad y seguridad. Tenemos la visión de liderar el mercado nacional en nuestra zona de influencia y expandirnos hacia el mercado de exportación en América Latina.",
+        "textTwo": "Nuestro objetivo es obtener el reconocimiento de nuestros clientes y consumidores finales a través de una gama completa de productos de calidad superior.",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/barriles.jpg"
+      }
+    },
     "teamTalk": {
       "title": "Habla con nuestro equipo",
       "btnText": "Contáctanos",

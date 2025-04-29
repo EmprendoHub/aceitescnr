@@ -239,6 +239,51 @@
         "imgUrl": "/images/blue_car.jpg"
       }
     },
+    "contactBoxes": {
+      "boxOne": {
+        "preTitle": "YOUR TRUSTED OIL PARTNER",
+        "title": "Mexican Excellence in",
+        "titleTwo": " Lubricants and Additives",
+        "subtitle": "Formulated for maximum protection and performance.",
+        "text": "At Aceites CNR, we manufacture, process, and market lubricants, greases, additives, antifreeze, and automotive fluids. Our plant is one of the most modern in the country, utilizing Italian technology.",
+        "textTwo": "Our commitment is to provide our customers with a continuously improving service by making available our experience in the production of lubricating oils, using quality raw materials, and continually developing our well-managed finished product systems to effectively serve our customers.",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/barriles.jpg"
+      },
+      "boxTwo": {
+        "preTitle": "YOUR TRUSTED OIL PARTNER",
+        "title": "Commitment to Quality",
+        "titleTwo": " and Innovation",
+        "subtitle": "Formulated for maximum protection and performance.",
+        "text": "Our commitment is to offer our customers a service of continuous improvement, utilizing our extensive experience in the production of lubricating oils. We use quality raw materials and continually develop our well-managed finished product systems to effectively serve our customers.",
+        "textTwo": "Quality and innovation are fundamental pillars of our operations. Our products not only meet but exceed the highest quality and safety standards. We use cutting-edge technology to develop oils and additives that guarantee optimal performance and superior protection. This translates into greater operational efficiency, reduced maintenance costs, and extended equipment life.",
+        "btnText": "Contact Us",
+        "imgUrl": "/images/blue_car.jpg"
+      },
+      "boxThree": {
+        "preTitle": "YOUR TRUSTED OIL PARTNER",
+        "title": "Infrastructure and Efficient Production",
+        "titleTwo": " Efficient Production",
+        "subtitle": "Formulated for maximum protection and performance.",
+        "text": "Our production capacity exceeds expectations, thanks to efficient mixing processes and systems that allow us to produce a wide range of products in a short time. We have a plastics division that provides self-sufficiency in the production of packaging required for our production lines.",
+        "textTwo": "In addition, our labeling machines allow us to quickly and controllably produce our entire brand image, guaranteeing a quality label in a short production time.",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/barriles.jpg"
+      },
+      "boxFour": {
+        "preTitle": "YOUR TRUSTED OIL PARTNER",
+        "title": "Misión y",
+        "titleTwo": " Visión",
+        "subtitle": "Formulated for maximum protection and performance.",
+        "text": "Our mission is to comprehensively meet the needs of the automotive, general industrial, and retail and wholesale markets by offering high-quality, safe products. We envision leading the domestic market in our area of influence and expanding into the Latin American export market. ",
+        "textTwo": "Our goal is to earn recognition from our customers and final consumers through a full range of superior-quality products.",
+
+        "btnText": "Contact Us",
+        "imgUrl": "/images/barriles.jpg"
+      }
+    },
     "teamTalk": {
       "title": "Talk to Our Experts",
       "btnText": "Contact Us",

@@ -1,23 +1,11 @@
 "use client";
-import { motion, useInView, useScroll } from "framer-motion";
+import { useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 import coverImage0 from "../../../public/images/fabrica3.webp";
-
-import DoubleSideToSide from "../home/DoubleSideToSide";
+import AboutSideToSide from "../home/AboutSideToSide";
 
 const AboutUsTwo = ({ aboutDic, homeDic }) => {
-  const containerRef = useRef();
-
-  const { scrollYProgress } = useScroll({ container: containerRef });
-
-  const skillRef = useRef();
-  // const isSkillRefInView = useInView(skillRef, {once:true});
-  const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
-
-  const experienceRef = useRef();
-  const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
-
   return (
     <div id="acerca">
       <div className="w-full h-[400px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
@@ -38,7 +26,7 @@ const AboutUsTwo = ({ aboutDic, homeDic }) => {
           <h3>{aboutDic.hero.subtitle}</h3>
         </div>
       </div>
-      <DoubleSideToSide homeDic={homeDic} />
+      <AboutSideToSide homeDic={homeDic} />
     </div>
   );
 };
