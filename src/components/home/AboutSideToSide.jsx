@@ -23,7 +23,7 @@ const AboutSideToSide = ({ homeDic }) => {
                   <div className="absolute -rotate-45 w-[141%] h-[141%] top-[-20.5%] left-[-20.5%]">
                     <Image
                       className="object-cover w-full h-full"
-                      src="/images/blue_car.jpg"
+                      src={homeDic.contactBoxes.boxOne.imgUrl}
                       alt="Aceites CNR"
                       width={550}
                       height={550}
@@ -115,7 +115,7 @@ const AboutSideToSide = ({ homeDic }) => {
                   <div className="absolute -rotate-45 w-[141%] h-[141%] top-[-20.5%] left-[-20.5%]">
                     <Image
                       className="object-cover w-full h-full"
-                      src="/images/barriles.jpg"
+                      src={homeDic.contactBoxes.boxTwo.imgUrl}
                       alt="Aceites CNR"
                       width={550}
                       height={550}
@@ -145,7 +145,7 @@ const AboutSideToSide = ({ homeDic }) => {
                   <div className="absolute -rotate-45 w-[141%] h-[141%] top-[-20.5%] left-[-20.5%]">
                     <Image
                       className="object-cover w-full h-full"
-                      src="/images/blue_car.jpg"
+                      src={homeDic.contactBoxes.boxThree.imgUrl}
                       alt="Aceites CNR"
                       width={550}
                       height={550}
@@ -237,7 +237,7 @@ const AboutSideToSide = ({ homeDic }) => {
                   <div className="absolute -rotate-45 w-[141%] h-[141%] top-[-20.5%] left-[-20.5%]">
                     <Image
                       className="object-cover w-full h-full"
-                      src="/images/barriles.jpg"
+                      src={homeDic.contactBoxes.boxFour.imgUrl}
                       alt="Aceites CNR"
                       width={550}
                       height={550}
