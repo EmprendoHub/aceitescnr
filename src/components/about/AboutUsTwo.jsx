@@ -1,8 +1,6 @@
 "use client";
-import { useInView, useScroll } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
-import coverImage0 from "../../../public/images/fabrica3.webp";
+import coverImage0 from "../../../public/images/fabrica1.webp";
 import AboutSideToSide from "../home/AboutSideToSide";
 
 const AboutUsTwo = ({ aboutDic, homeDic }) => {
