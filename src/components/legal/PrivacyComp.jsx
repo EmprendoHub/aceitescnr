@@ -4,7 +4,7 @@ import { FaCircle } from "react-icons/fa6";
 
 const PrivacyComp = ({ privacyDic }) => {
   return (
-    <div className="w-full h-full pt-24 pb-16 px-5 bg-popover-foreground dark:bg-background">
+    <div className="w-full h-full pt-24 pb-16 px-5 bg-popover-foreground dark:bg-popover">
       <div className="flex flex-col items-start justify-start h-full py-14 px-10 maxmd:px-5 bg-background">
         <div className="section-div">
           <h2 className=" font-primary text-3xl mb-2">{privacyDic.title}</h2>
