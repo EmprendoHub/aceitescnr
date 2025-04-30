@@ -27,7 +27,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   return (
     <div className="container-class pt-10 maxlg:pt-5  maxsm:pt-5">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[950px] maxmd:w-[90%] maxsm:w-[95%] pb-3 mx-auto wrapper-class gap-3 maxsm:gap-0 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[950px] maxmd:w-[90%] maxsm:w-[95%] pb-3 mx-auto wrapper-class gap-3 maxsm:gap-0 bg-background rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
