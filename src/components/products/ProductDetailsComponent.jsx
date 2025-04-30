@@ -135,7 +135,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                       <div className="overflow-x-auto w-full">
                         <table className="font-normal text-[11px] maxmd:text-[10px] border-collapse border border-gray-300 w-full">
                           <thead>
-                            <tr className="bg-gray-100">
+                            <tr className="bg-background">
                               <th className="px-.5 border border-gray-300 leading-[1.2]">
                                 {lang === "es" ? "Prueba" : "Test"}
                               </th>
@@ -155,7 +155,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                                 <tr
                                   key={characteristic._id}
                                   className={
-                                    index % 2 === 0 ? "bg-gray-50" : ""
+                                    index % 2 === 0 ? "bg-background" : ""
                                   }
                                 >
                                   <td className="px-0.5 border border-gray-300 leading-[1.3] ">
