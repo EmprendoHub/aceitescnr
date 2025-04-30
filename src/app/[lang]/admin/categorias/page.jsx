@@ -23,7 +23,6 @@ const AdminCategoriesPage = async ({ searchParams, params }) => {
 
   const categories = JSON.parse(data.categories);
 
-  console.log(categories);
   // pagination
   let page = parseInt(searchParams.page, 10);
   page = !page || page < 1 ? 1 : page;

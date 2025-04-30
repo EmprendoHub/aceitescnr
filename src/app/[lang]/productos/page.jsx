@@ -3,6 +3,7 @@ import { getCookiesName, removeUndefinedAndPageKeys } from "@/backend/helpers";
 import { cookies } from "next/headers";
 import CatCoverComp from "@/components/products/CatCoverComp";
 import { getDictionary } from "@/lib/dictionary";
+import { getAllCategoryFull } from "../admin/categorias/_actions";
 
 export const metadata = {
   title: "Aceites CNR",

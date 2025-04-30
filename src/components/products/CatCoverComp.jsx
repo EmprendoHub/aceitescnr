@@ -2,151 +2,37 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import coverImage0 from "../../../public/images/fabrica3.webp";
-import coverAdditives from "../../../public/images/ADDITIVES.webp";
-import coverDexron from "../../../public/images/ATF-DEXRON.webp";
-import coverMotorcycles from "../../../public/images/MOTORCYCLES.webp";
-import FoodGrade from "../../../public/covers/cover_slide_03.webp";
-import coverRacing from "../../../public/images/RACING.webp";
-import coverGears from "../../../public/covers/cover_slide_02.webp";
-import coverRRCCA from "../../../public/images/RRCCA.webp";
-import coverHydraulics from "../../../public/images/HYDRAULICS.webp";
 
 const CatCoverComp = ({ searchParams, lang, productDic }) => {
   const keyword = searchParams?.keyword;
-  const category = searchParams?.category;
+
   const [coverImage, setCoverImage] = useState(coverImage0);
   const [coverTitle, setCoverTitle] = useState(productDic.title);
   const [coverTitleTwo, setCoverTitleTwo] = useState(productDic.titleTwo);
   const [coverPreTitle, setCoverPreTitle] = useState(productDic.preTitle);
+  const [coverParOne, setCoveParOne] = useState("");
+  const [coverParTwo, setCoverParTwo] = useState("");
+
   useEffect(() => {
-    if (keyword || category) {
-      if (
-        keyword?.includes("Aditivos") ||
-        keyword?.includes("Additives") ||
-        category?.includes("Aditivos") ||
-        category?.includes("Additives")
-      ) {
-        setCoverImage(coverAdditives);
-        if (lang === "es") {
-          setCoverTitle("Aditivos");
-          setCoverTitleTwo("");
+    if (keyword) {
+      const additives = productDic.categories.reduce((acc, item) => {
+        if (item.title.includes(keyword)) {
+          return item;
         }
-        if (lang === "en") {
-          setCoverTitle("Additives");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Automotive") ||
-        keyword?.includes("Automotriz") ||
-        category?.includes("Automotriz") ||
-        category?.includes("Automotive")
-      ) {
-        setCoverImage(coverRacing);
-        if (lang === "es") {
-          setCoverTitle("Automotriz");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Automotive");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Motocicletas") ||
-        keyword?.includes("Motorcycles") ||
-        category?.includes("Motocicletas") ||
-        category?.includes("Motorcycles")
-      ) {
-        setCoverImage(coverMotorcycles);
-        if (lang === "es") {
-          setCoverTitle("Motocicletas");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Motorcycles");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Servicio Pesado") ||
-        keyword?.includes("Heavy Duty") ||
-        category?.includes("Servicio Pesado") ||
-        category?.includes("Heavy Duty")
-      ) {
-        setCoverImage(coverRRCCA);
-        if (lang === "es") {
-          setCoverTitle("Servicio Pesado");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Heavy Duty");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Hidráulicos") ||
-        keyword?.includes("Hydraulics") ||
-        category?.includes("Hidráulicos") ||
-        category?.includes("Hydraulics")
-      ) {
-        setCoverImage(coverHydraulics);
-        if (lang === "es") {
-          setCoverTitle("Hidráulicos");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Hydraulics");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Maquinaria") ||
-        keyword?.includes("Machinery") ||
-        category?.includes("Maquinaria") ||
-        category?.includes("Machinery")
-      ) {
-        setCoverImage(coverGears);
-        if (lang === "es") {
-          setCoverTitle("Maquinaria");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Machinery");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Industrial") ||
-        keyword?.includes("Industrial") ||
-        category?.includes("Industrial") ||
-        category?.includes("Industrial")
-      ) {
-        setCoverImage(coverDexron);
-        if (lang === "es") {
-          setCoverTitle("Industrial");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Industrial");
-          setCoverTitleTwo("");
-        }
-      } else if (
-        keyword?.includes("Grado Alimenticio") ||
-        keyword?.includes("Food Grade") ||
-        category?.includes("Grado Alimenticio") ||
-        category?.includes("Food Grade")
-      ) {
-        setCoverImage(FoodGrade);
-        if (lang === "es") {
-          setCoverTitle("Grado Alimenticio");
-          setCoverTitleTwo("");
-        }
-        if (lang === "en") {
-          setCoverTitle("Food Grade");
-          setCoverTitleTwo("");
-        }
-      }
+        return acc;
+      }, {});
+      setCoverImage(additives.imgUrl || coverImage0);
+      setCoverTitle(additives.title);
+      setCoveParOne(additives.parOne);
+      setCoverParTwo(additives.parTwo);
+      setCoverTitleTwo("");
     } else {
       setCoverImage(coverImage0);
       setCoverTitle(productDic.title);
       setCoverTitleTwo(productDic.titleTwo);
     }
-  }, [keyword, category]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [keyword]);
 
   return (
     <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
@@ -168,6 +54,11 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
           <span className="text-white">{coverTitle} </span>
           <span className=" text-primary">{coverTitleTwo}</span>
         </h2>
+        <p className="text-sm maxsm:text-xs font-mono">
+          {coverParOne}
+          <br />
+          {coverParTwo}
+        </p>
       </div>
     </div>
   );

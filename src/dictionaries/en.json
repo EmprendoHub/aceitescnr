@@ -369,6 +369,8 @@
     "preTitle": "CNR Oil",
     "title": "Strength, durability ",
     "titleTwo": "and performance in every kilometer.",
+    "parOne": "",
+    "parTwo": "",
     "single": {
       "packing": "Packing",
       "weight": "ml",
@@ -377,19 +379,67 @@
       "quote": "Quote",
       "season": "Crop Season"
     },
-    "months": [
-      { "label": "January", " value": 1 },
-      { "label": "February", " value": 2 },
-      { "label": "March", " value": 3 },
-      { "label": "April", " value": 4 },
-      { "label": "May", " value": 5 },
-      { "label": "June", " value": 6 },
-      { "label": "July", " value": 7 },
-      { "label": "August", " value": 8 },
-      { "label": "September", " value": 9 },
-      { "label": "October", "value": 10 },
-      { "label": "November", "value": 11 },
-      { "label": "December", "value": 12 }
+    "categories": [
+      {
+        "title": "Additives Gasoline",
+        "parOne": "Our gasoline additives are designed to achieve maximum engine efficiency. With the most advanced technology, they offer excellent detergent action that cleans and lubricates the fuel system—making it more effective by eliminating instability and loss of acceleration.",
+        "parTwo": "",
+        "imgUrl": "/images/ADDITIVES.webp"
+      },
+      {
+        "title": "Additives Chemical",
+        "parOne": "Manufactured with the highest quality elements and raw materials, our extensive line of chemicals provides maximum cleaning and protection—from carburetors or injectors to starters, rust removers, tire inflators, and chain lubricants. These chemicals meet both external and internal needs of your vehicle.",
+        "parTwo": "",
+        "imgUrl": "/images/ADDITIVES.webp"
+      },
+      {
+        "title": "Additives Diesel",
+        "parOne": "These are organic products and powerful system cleaners. They dissolve gum, varnish, and deposits that affect injectors, spray patterns, and delicate components of the injection pump. Cleaning these parts allows the engine to operate at the full efficiency intended by the manufacturer.",
+        "parTwo": "",
+        "imgUrl": "/images/ADDITIVES.webp"
+      },
+      {
+        "title": "Automotive",
+        "parOne": "CNR Oil lubricants are made with mineral and synthetic base oils and the most advanced additive technology, ensuring maximum protection and efficiency for your engine. Automotive lubricants are designed to meet all consumer needs, from end users to professional users.",
+        "parTwo": "",
+        "imgUrl": "/images/RACING.webp"
+      },
+      {
+        "title": "Motorcycles",
+        "parOne": "4-Stroke Oil - This oil for 4-stroke motorcycles is designed for highly effective performance against rust, spark plug failure, and auto-ignition. It reduces the coefficient of friction, providing outstanding performance in moderate to severe conditions.",
+        "parTwo": "2-Stroke motorcycle lubricant formulated to be mixed with fuel in a 20:1 ratio. Lubrication occurs through fuel evaporation, which deposits oil on the cylinder walls, providing the protection and lubrication needed for engine operation.",
+        "imgUrl": "/images/MOTORCYCLES.webp"
+      },
+      {
+        "title": "Heavy Duty",
+        "parOne": "Protect your diesel engine under the most demanding work over long distances with our cutting-edge lubricants. Our products allow greater operational efficiency as well as extended engine and lubricant life. Our Diesel oils offer outstanding thermal stability and reduce the formation of sludge and deposits.",
+        "parTwo": "Recommended for new or older diesel engines in 4- and 2-stroke vehicles, including transport units, machinery, mining, agriculture, and marine equipment operating under any climate and terrain conditions.",
+        "imgUrl": "/images/RRCCA.webp"
+      },
+      {
+        "title": "Hydraulics",
+        "parOne": "CNR OIL RRA Hydraulic oils are manufactured in all ISO viscosity grades for use in a variety of equipment or hydraulic systems requiring high-performance oil for low-pressure systems, such as automated machine tools, ramp lifts at service stations, hydraulic presses, jacks, garbage trucks, etc.",
+        "parTwo": "",
+        "imgUrl": "/images/HYDRAULICS.webp"
+      },
+      {
+        "title": "Machinery",
+        "parOne": "TRANSMISSION AND FINAL DRIVES are high-performance lubricants designed for use in transmissions, final drives, and hydraulic systems in Allison, Caterpillar TO4, Dana Powershift, Komatsu, Komatsu Dresser, Tremec/TTC, Vickers, and ZF equipment.",
+        "parTwo": "",
+        "imgUrl": "/covers/cover_slide_02.webp"
+      },
+      {
+        "title": "Industrial",
+        "parOne": "TRACTOR FLUID - Especially recommended for tractors, cotton pickers, harvesters, etc., that operate under severe working conditions both during the cultivation season and harvest time.",
+        "parTwo": "Under such conditions, a fluid is needed that can maintain proper operation of the hydraulic system, transmission, differentials, final drives, and prevent noise (squeaking) or vibrations in the braking system.",
+        "imgUrl": "/images/ATF-DEXRON.webp"
+      },
+      {
+        "title": "Food Grade",
+        "parOne": "Food processing plants, gear systems, bearings, helical gears, chains. Reduces gearbox temperatures, prevents the formation of sludge and resinous deposits, and does not damage equipment packaging and sealing materials.",
+        "parTwo": "",
+        "imgUrl": "/images/covers/cover_slide_03.webp"
+      }
     ]
   },
   "categoryDic": {

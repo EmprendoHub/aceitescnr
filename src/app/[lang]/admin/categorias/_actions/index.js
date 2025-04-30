@@ -159,6 +159,7 @@ export async function getAllCategoryFull() {
 
     let sortedCategories = JSON.stringify(categoryQuery);
     revalidatePath("/admin/categorias/");
+    revalidatePath("/productos/");
     return {
       categories: sortedCategories,
       categoriesCount,

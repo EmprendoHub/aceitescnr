@@ -41,7 +41,7 @@
     "widgettwo": {
       "title": "Mercados",
       "links": [
-        { "title": "Aditivos", "url": "/productos?keyword=Additives" },
+        { "title": "Aditivos", "url": "/productos?keyword=Aditivos" },
         {
           "title": "Automotriz",
           "url": "/productos?keyword=Automotriz"
@@ -380,19 +380,67 @@
       "quote": "Cotizar",
       "season": "Temporada de Cosecha"
     },
-    "months": [
-      { "label": "January", " value": 1 },
-      { "label": "February", " value": 2 },
-      { "label": "March", " value": 3 },
-      { "label": "April", " value": 4 },
-      { "label": "May", " value": 5 },
-      { "label": "June", " value": 6 },
-      { "label": "July", " value": 7 },
-      { "label": "August", " value": 8 },
-      { "label": "September", " value": 9 },
-      { "label": "October", "value": 10 },
-      { "label": "November", "value": 11 },
-      { "label": "December", "value": 12 }
+    "categories": [
+      {
+        "title": "Aditivos Gas",
+        "parOne": "Nuestros aditivos para gasolina han sido diseñados para obtener la mayor eficiencia de tu motor, con la tecnología más avanzada, ofrecen una excelente acción detergente que limpia y lubrica el sistema de combustible. Para que sea mas Eficaz el y elimine la Inestabilidad y la Perdida de Aceleración",
+        "parTwo": "",
+        "imgUrl": "/images/ADDITIVES.webp"
+      },
+      {
+        "title": "Aditivos Químico",
+        "parOne": "Fabricados con elementos y materias primas de la más alta calidad, nuestra extensa línea de químicos ofrece la mayor limpieza y protección, desde el carburador ó inyectores , Arrancadores , Afloja todo, infla llantas lubricante para cadenas  todos los químicos  cubren las necesidades de tu vehículo tanto externas como internas",
+        "parTwo": "",
+        "imgUrl": "/images/ADDITIVES.webp"
+      },
+      {
+        "title": "Aditivos Diesel",
+        "parOne": "Son un productos orgánicos y es un potente limpiador del sistema. Disuelve las gomas, barniz y depósitos que afectan al inyector, patrones de atomización y los delicados componentes de la bomba de inyección. Limpiar estas piezas permite el funcionamiento del motor con toda la eficiencia que el fabricante ha diseñado",
+        "parTwo": "",
+        "imgUrl": "/images/ADDITIVES.webp"
+      },
+      {
+        "title": "Automotriz",
+        "parOne": "Los lubricantes CNR Oil están fabricados con aceites de base mineral y sintética, así como con la más avanzada tecnología en aditivos, asegurando así la máxima protección y eficiencia para tu motor. Lubricantes Automotrices están diseñados para cubrir todas las necesidades de los consumidores, tanto a nivel de usuario final como para los usuarios profesionales.",
+        "parTwo": "",
+        "imgUrl": "/images/RACING.webp"
+      },
+      {
+        "title": "Motocicletas",
+        "parOne": "4 Stroke Oil Este aceite para motos 4 tiempos ha sido diseñado para el desempeño altamente efectivo contra la herrumbre, fallo de bujías y auto ignición. Disminuye el coeficiente de fricción, proporcionando un sobresaliente desempeño en trabajo moderado a severo.",
+        "parTwo": "Lubricante para motocicleta 2 tiempos, formulado para ser mezclado con el combustible en una relación de 20:1 en donde la lubricación se lleva a cabo por la evaporación del combustible que deposita el aceite en las paredes del cilindro, dando así la protección y lubricación necesarias para el funcionamiento del motor.",
+        "imgUrl": "/images/MOTORCYCLES.webp"
+      },
+      {
+        "title": "Servicio Pesado",
+        "parOne": "Protege tu motor diesel del trabajo más exigente durante esas largas distancias aplicando protección con nuestros lubricantes de última tecnología. Nuestros productos permiten una mayor eficiencia de operación así como una mayor vida útil del motor y del lubricante. Nuestros aceites para Diesel brindan una sobresaliente estabilidad térmica y reducen la formación de aceites y lodos",
+        "parTwo": "Recomendado para vehículos recientes modelo o anteriores con motores a diésel de 4 y 2 tiempos, para unidades de Transporte, Maquinaria, Minería, Agrícola y Marino que operen en cualquier  condición de clima y suelo. ",
+        "imgUrl": "/images/RRCCA.webp"
+      },
+      {
+        "title": "Hidráulicos",
+        "parOne": "CNR OIL RRA Hidráulico se fabrican en todos los grados de viscosidad ISO para ser utilizados en una variedad de equipos o sistemas hidráulicos donde  se requieren un aceite de alto rendimiento en sistemas de baja presión, como las maquinas de herramientas automatizadas, sistemas de alza rampas de estaciones de servicios, prensas hidráulicas, gatos hidráulicos, camiones de basura,etc.",
+        "parTwo": "",
+        "imgUrl": "/images/HYDRAULICS.webp"
+      },
+      {
+        "title": "Maquinaria",
+        "parOne": "TRANSMISION Y MANDOS FINALES son lubricantes de alto desempeño diseñados para uso en transmisiones, Mandos finales y sistemas hidráulicos en equipos Allison, Caterpillar TO4 , Dana Powershift, Komatsu, Komatsu Dresser, Tremec/TTC, Vickers y ZF.",
+        "parTwo": "",
+        "imgUrl": "/covers/cover_slide_02.webp"
+      },
+      {
+        "title": "Industrial",
+        "parOne": "FLUIDO PARA TRACTORES AGRICOLAS Recomendado especialmente para tractores, pizcadoras de algodón, cosechadoras, etc., que trabajen bajo condiciones severas de operación tanto en época de cultivo como de la cosecha del producto de la estación.",
+        "parTwo": "Bajo esas condiciones se necesita un fluido capaz de mantener el funcionamiento adecuado del sistema hidráulico, transmisión, diferenciales, mandos finales, así como evitar el ruido (rechinido) o vibraciones en el sistema de frenado.",
+        "imgUrl": "/images/ATF-DEXRON.webp"
+      },
+      {
+        "title": "Grado Alimenticio",
+        "parOne": "Plantas de procesamiento de alimentos, sistemas de engranajes, rodamientos, engranajes helicoidales, cadenas. Reduce la temperatura en las cajas de engranajes, previene la formación de lodos y depósitos resinosos, y no daña los materiales de empaque y sellado de los equipos.",
+        "parTwo": "",
+        "imgUrl": "/covers/cover_slide_03.webp"
+      }
     ]
   },
   "categoryDic": {
