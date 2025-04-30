@@ -504,7 +504,7 @@ const NewProductComp = ({ lang, data }) => {
               <h1 className="w-full text-xl font-semibold text-black mb-8 font-EB_Garamond">
                 Nuevo Producto
               </h1>
-              <div className="flex flex-row maxmd:flex-col items-start gap-2 justify-between w-full">
+              <div className="flex  flex-row maxmd:flex-col items-start gap-2 justify-between w-full">
                 <div className="flex flex-col items-start justify-center w-full">
                   <div className="flex flex-row maxmd:flex-col items-center justify-between w-full">
                     {/* Availability */}
