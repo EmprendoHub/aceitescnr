@@ -1,17 +1,12 @@
 "use client";
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { cstDateTimeClient } from "@/backend/helpers";
-import {
-  addNewProduct,
-  imageToText,
-  updateRevalidateProduct,
-} from "@/app/[lang]/_actions";
+import { addNewProduct, imageToText } from "@/app/[lang]/_actions";
 import { useRouter } from "next/navigation";
 import {
   productos_presentations,
   productos_packing,
-  product_categories,
   blog_categories,
   set_months,
   set_countries,
@@ -22,10 +17,14 @@ import Swal from "sweetalert2";
 import LocaleToggle from "@/components/layout/LocaleToggle";
 import MultiselectPresentationComponent from "../forms/MultiselectPresentationComponent";
 
-const NewProductComp = ({ currentCookies, lang, data }) => {
+const NewProductComp = ({ lang, data }) => {
   const categoriesParsed = JSON.parse(data.categories);
   const router = useRouter();
   const [categoryId, setCategoryId] = useState("");
+  const [category, setCategory] = useState({
+    name: { es: "", en: "" },
+    _id: "",
+  });
   const [title, setTitle] = useState({ es: "", en: "" });
   const [isSending, setIsSending] = useState(false);
   const [onlineAvailability, setOnlineAvailability] = useState(true);
@@ -58,15 +57,12 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
     { es: "Embudos de Venta", en: "Sales Funnels" },
     { es: "Herramientas IA", en: "AI Tools" },
   ];
-  const [categories, setCategories] = useState(categoriesParsed);
-  const [category, setCategory] = useState({
-    es: "",
-    en: "",
-  });
+
   const [packing, setPacking] = useState({
     es: "",
     en: "",
   });
+  const [packingTwo, setPackingTwo] = useState({ es: "", en: "" });
   const [mainImage, setMainImage] = useState(
     "/images/product-placeholder-minimalist.jpg"
   );
@@ -296,18 +292,20 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
     if (seoResponse.status !== 200) {
       //setIsProcessing(false);
 
-      throw new Error("Failed to generate SEO content");
+      console.log("Failed to generate SEO content");
     }
 
-    const data = JSON.parse(seoResponse.data);
+    if (seoResponse.status === 200) {
+      const data = JSON.parse(seoResponse.data);
 
-    setDescription(data.description);
-    setCategoryId(data.categoryId);
-    setTitle(data.title);
-    //setPackingSelection(...packingSelection, data.packing);
-    setPacking(data.packing);
-    //setCategories(...categories, data.category);
-    setCategory(data.category);
+      setDescription(data.description);
+      setCategoryId(data.categoryId);
+      setTitle(data.title);
+      //setPackingSelection(...packingSelection, data.packing);
+      setPacking(data.packing);
+      //setCategories(...categories, data.category);
+      setCategory(data.category);
+    }
   }
 
   const handleAddTagField = (options) => {
@@ -387,6 +385,10 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
     }
   };
 
+  const handlePackingTwoChange = async (packingEs, packingEn) => {
+    setPackingTwo({ es: packingEs, en: packingEn });
+  };
+
   async function hanldeFormSubmit() {
     if (
       !mainImage ||
@@ -451,6 +453,7 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
     formData.append("categoryId", JSON.stringify(categoryId));
     formData.append("title", JSON.stringify(title));
     formData.append("packing", JSON.stringify(packing));
+    formData.append("packingTwo", JSON.stringify(packingTwo));
     formData.append("description", JSON.stringify(description));
     formData.append("category", JSON.stringify(category));
     formData.append("weight", JSON.stringify(weight));
@@ -703,6 +706,54 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
                         </i>
                       </div>
                     </div>
+                    <div className="mb-4 w-full">
+                      <label className="block mb-1 font-EB_Garamond text-xs">
+                        Packing#2
+                      </label>
+                      <div className="relative">
+                        <select
+                          value={packingTwo[`${lang}`]}
+                          onChange={(e) => {
+                            const selectedOption =
+                              e.target.options[e.target.selectedIndex];
+                            const packingEs =
+                              selectedOption.getAttribute("data-es");
+                            const packingEn =
+                              selectedOption.getAttribute("data-en");
+                            handlePackingTwoChange(packingEs, packingEn);
+                          }}
+                          name="packingTwo"
+                          htmlFor="packingTwo"
+                          className="block appearance-none border dark:bg-dark border-gray-300 cursor-pointer rounded-md py-2 px-3 focus:outline-none focus:border-gray-400 w-full mt-2"
+                        >
+                          {packingSelection.map((option) => (
+                            <option
+                              data-es={option.es}
+                              data-en={option.en}
+                              key={option[`${lang}`]}
+                              value={option[`${lang}`]}
+                            >
+                              {option[`${lang}`]}
+                            </option>
+                          ))}
+                        </select>
+                        {validationError?.packingTwo && (
+                          <p className="text-sm text-red-400">
+                            {validationError.packingTwo._errors.join(", ")}
+                          </p>
+                        )}
+                        <i className="absolute z-0 inset-y-0 right-0 p-2 text-gray-400">
+                          <svg
+                            width="22"
+                            height="22"
+                            className="fill-current"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M7 10l5 5 5-5H7z"></path>
+                          </svg>
+                        </i>
+                      </div>
+                    </div>
                   </div>
                   {/* Etiquetas y Categoria */}
                   <div className=" flex flex-row gap-1 items-center">
@@ -730,8 +781,8 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
                       <div className="relative ">
                         {/* Category select */}
                         <select
-                          className={`block appearance-none border dark:bg-dark border-gray-300 cursor-pointer rounded-md py-2 px-3 focus:outline-none focus:border-gray-400 w-full mt-2`}
-                          name={`category[${lang}]`}
+                          value={category._id} // Use _id for value comparison
+                          className={`block appearance-none border  border-gray-300 cursor-pointer text-black rounded-md py-2 px-3 focus:outline-none focus:border-gray-400 w-full mt-2`}
                           onChange={(e) => {
                             const selectedOption =
                               e.target.options[e.target.selectedIndex];
@@ -739,18 +790,24 @@ const NewProductComp = ({ currentCookies, lang, data }) => {
                               selectedOption.getAttribute("data-es");
                             const categoryEn =
                               selectedOption.getAttribute("data-en");
-                            handleCategoryChange(categoryEs, categoryEn);
+                            const categoryId = selectedOption.value; // Get the _id from option value
+                            handleCategoryChange(
+                              categoryEs,
+                              categoryEn,
+                              categoryId
+                            );
                           }}
                         >
-                          {categories.map((cat) => (
+                          {categoriesParsed.map((cat) => (
                             <option
-                              data-es={cat.es}
-                              data-en={cat.en}
-                              className="bg-transparent"
-                              key={cat[`${lang}`]}
-                              value={cat[`${lang}`]}
+                              data-es={cat.name.es}
+                              data-en={cat.name.en}
+                              value={cat._id} // Use _id as the option value
+                              className="bg-input"
+                              key={cat._id}
+                              selected={cat._id === category._id} // Set selected based on _id match
                             >
-                              {cat[`${lang}`]}
+                              {cat.name[`${lang}`]}
                             </option>
                           ))}
                         </select>

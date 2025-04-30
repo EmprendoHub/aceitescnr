@@ -130,7 +130,7 @@ const AdminProducts = ({ products, filteredProductsCount, search, lang }) => {
                 <td
                   className={`w-full px-6 maxsm:px-0 py-0 font-bold maxsm:hidden`}
                 >
-                  {product?.category.name[`${lang}`]}
+                  {product?.category?.name[`${lang}`]}
                 </td>
                 <td className="w-full px-6 maxsm:px-0 py-0 relative ">
                   <span className="relative flex items-center justify-center text-black w-20 h-20 maxsm:w-8 maxsm:h-8 shadow mt-2">

@@ -2863,7 +2863,9 @@ export async function addNewProduct(data) {
   let {
     title,
     packing,
+    packingTwo,
     description,
+    category,
     categoryId,
     weight,
     featured,
@@ -2883,7 +2885,9 @@ export async function addNewProduct(data) {
   //check for errors
   title = JSON.parse(title);
   packing = JSON.parse(packing);
+  packingTwo = JSON.parse(packingTwo);
   categoryId = JSON.parse(categoryId);
+  category = JSON.parse(category);
   weight = JSON.parse(weight);
   description = JSON.parse(description);
   featured = JSON.parse(featured);
@@ -2907,6 +2911,7 @@ export async function addNewProduct(data) {
     title,
     slug,
     packing,
+    packingTwo,
     description,
     weight,
     featured,
@@ -2920,8 +2925,7 @@ export async function addNewProduct(data) {
     images: [{ url: mainImage }],
     createdAt,
     published: true,
-    category: { _id: categoryId },
-
+    category: category._id,
     user,
   });
   //if (error) throw Error(error);
@@ -2984,6 +2988,7 @@ export async function updateProduct(data) {
       },
     };
   }
+  console.log("category._id", category._id);
 
   const updatedProduct = await Product.findByIdAndUpdate(
     id,
@@ -2993,7 +2998,7 @@ export async function updateProduct(data) {
       packing,
       packingTwo,
       description,
-      category: category._id,
+      category: { _id: category._id },
       weight,
       weightTwo,
       featured,
