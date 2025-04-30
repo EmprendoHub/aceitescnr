@@ -10,9 +10,9 @@ const searchTranslationMap = {
   automotive: { en: "Automotive", es: "Automotriz" },
   motorcycle: { en: "Motorcycles", es: "Motocicletas" },
   heavy: { en: "Heavy Duty", es: "Servicio Pesado" },
-  hydraulics: { en: "Hydraulics", es: "Hydraulics" },
-  machinery: { en: "Maquinaria", es: "Machinery" },
-  food: { en: "Grado Alimenticio", es: "Food Grade" },
+  hydraulics: { en: "Hydraulics", es: "Hidráulicos" },
+  machinery: { en: "Machinery", es: "Maquinaria" },
+  food: { en: "Food Grade", es: "Grado Alimenticio" },
   // add more terms as needed
 };
 
