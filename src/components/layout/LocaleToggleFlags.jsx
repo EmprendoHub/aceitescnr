@@ -12,6 +12,7 @@ const searchTranslationMap = {
   heavy: { en: "Heavy Duty", es: "Servicio Pesado" },
   hydraulics: { en: "Hydraulics", es: "Hydraulics" },
   machinery: { en: "Maquinaria", es: "Machinery" },
+  food: { en: "Grado Alimenticio", es: "Food Grade" },
   // add more terms as needed
 };
 
