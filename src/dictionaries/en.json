@@ -381,20 +381,8 @@
     },
     "categories": [
       {
-        "title": "Additives Gasoline",
-        "parOne": "Our gasoline additives are designed to achieve maximum engine efficiency. With the most advanced technology, they offer excellent detergent action that cleans and lubricates the fuel system—making it more effective by eliminating instability and loss of acceleration.",
-        "parTwo": "",
-        "imgUrl": "/images/ADDITIVES.webp"
-      },
-      {
-        "title": "Additives Chemical",
-        "parOne": "Manufactured with the highest quality elements and raw materials, our extensive line of chemicals provides maximum cleaning and protection—from carburetors or injectors to starters, rust removers, tire inflators, and chain lubricants. These chemicals meet both external and internal needs of your vehicle.",
-        "parTwo": "",
-        "imgUrl": "/images/ADDITIVES.webp"
-      },
-      {
-        "title": "Additives Diesel",
-        "parOne": "These are organic products and powerful system cleaners. They dissolve gum, varnish, and deposits that affect injectors, spray patterns, and delicate components of the injection pump. Cleaning these parts allows the engine to operate at the full efficiency intended by the manufacturer.",
+        "title": "Liquid and Aerosol Additives.",
+        "parOne": "We develop additives to provide power and performance, used in gasoline and diesel engine vehicles.",
         "parTwo": "",
         "imgUrl": "/images/ADDITIVES.webp"
       },

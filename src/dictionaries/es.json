@@ -382,20 +382,8 @@
     },
     "categories": [
       {
-        "title": "Aditivos Gas",
-        "parOne": "Nuestros aditivos para gasolina han sido diseñados para obtener la mayor eficiencia de tu motor, con la tecnología más avanzada, ofrecen una excelente acción detergente que limpia y lubrica el sistema de combustible. Para que sea mas Eficaz el y elimine la Inestabilidad y la Perdida de Aceleración",
-        "parTwo": "",
-        "imgUrl": "/images/ADDITIVES.webp"
-      },
-      {
-        "title": "Aditivos Químico",
-        "parOne": "Fabricados con elementos y materias primas de la más alta calidad, nuestra extensa línea de químicos ofrece la mayor limpieza y protección, desde el carburador ó inyectores , Arrancadores , Afloja todo, infla llantas lubricante para cadenas  todos los químicos  cubren las necesidades de tu vehículo tanto externas como internas",
-        "parTwo": "",
-        "imgUrl": "/images/ADDITIVES.webp"
-      },
-      {
-        "title": "Aditivos Diesel",
-        "parOne": "Son un productos orgánicos y es un potente limpiador del sistema. Disuelve las gomas, barniz y depósitos que afectan al inyector, patrones de atomización y los delicados componentes de la bomba de inyección. Limpiar estas piezas permite el funcionamiento del motor con toda la eficiencia que el fabricante ha diseñado",
+        "title": "Aditivos Líquidos y en Aerosol.",
+        "parOne": "Elaboramos aditivos para ofrecer potencia y rendimiento, utilizados en  vehículos con motor a Gasolina y Diesel.",
         "parTwo": "",
         "imgUrl": "/images/ADDITIVES.webp"
       },
