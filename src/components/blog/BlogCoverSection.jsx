@@ -8,7 +8,7 @@ const BlogCoverSection = ({ blogs, lang }) => {
   const sortedBlogs = sortBlogs(blogs);
   const blog = sortedBlogs[0];
   return (
-    <div className="w-full flex  px-10 maxlg:px-5 maxmd:px-2 mt-5">
+    <div className="w-full flex  px-10 maxlg:px-5 maxmd:px-2 mt-20">
       <div className="w-full h-[60vh] overflow-hidden top-0 relative flex justify-end items-center flex-col">
         <div className="absolute bg-dark bg-opacity-40 w-full h-full z-0" />
         <Image

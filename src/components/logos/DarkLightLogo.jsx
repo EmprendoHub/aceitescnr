@@ -6,15 +6,15 @@ const DarkLightLogo = ({ className, lang }) => {
     <div className={`relative ${className}`}>
       <Link aria-label="dark-light-logo" href={`/${lang}`}>
         <Image
-          alt="image"
-          src={"/logos/nuevo_logo_horizontal.webp"}
+          alt="Company logo in light mode"
+          src={"/logos/nuevo_logo_horizontal_dark.webp"}
           width={180}
           height={55}
           priority
           className={`overflow-hidden transition-all ease-in-out w-36 py-2 h-auto dark:hidden`}
         />
         <Image
-          alt="image"
+          alt="Company logo in dark mode"
           src={"/logos/nuevo_logo_horizontal.webp"}
           width={180}
           height={55}

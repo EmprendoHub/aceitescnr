@@ -10,6 +10,7 @@ import { getServerSession } from "next-auth";
 import AdminThemeToggle from "@/components/layout/AdminThemeToggle";
 import BackToTopButton from "@/components/buttons/BackToTopButton";
 import ThemeToggleVertical from "@/components/layout/ThemeToggleVertical";
+import { ThemeProvider } from "./ThemeProvider";
 
 export const metadata = {
   manifest: "/manifest.json",
@@ -47,20 +48,22 @@ export default async function RootLayout({ children, params }) {
       <body
         className={`body-class relative overflow-x-hidden h-full bg-background dark:text-white`}
       >
-        <CustomSessionProvider>
-          <HeaderComponent lang={lang} />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <CustomSessionProvider>
+            <HeaderComponent lang={lang} />
 
-          {children}
-          <FooterComponent session={session} lang={lang} />
-          <BackToTopButton />
-          {!isLoggedIn && <WhatsAppButton lang={lang} />}
-          {isLoggedIn && session?.user.role === "manager" && (
-            <div className="fixed z-50 right-0 top-1/2">
-              <AdminThemeToggle />
-            </div>
-          )}
-          <ThemeToggleVertical />
-        </CustomSessionProvider>
+            {children}
+            <FooterComponent session={session} lang={lang} />
+            <BackToTopButton />
+            {!isLoggedIn && <WhatsAppButton lang={lang} />}
+            {isLoggedIn && session?.user.role === "manager" && (
+              <div className="fixed z-50 right-0 top-1/2">
+                <AdminThemeToggle />
+              </div>
+            )}
+            <ThemeToggleVertical />
+          </CustomSessionProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -10,6 +10,7 @@ import { useDispatch } from "react-redux";
 import { useSearchParams } from "next/navigation";
 import TopBar from "./TopBar";
 import LocaleToggleFlags from "../layout/LocaleToggleFlags";
+import DarkLightLogo from "../logos/DarkLightLogo";
 
 const MotionHeaderComponent = ({ localeHeader, lang }) => {
   const [hidden, setHidden] = useState(true);
@@ -66,7 +67,7 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
           }`}
         >
           <Link href={`/${lang}`}>
-            <WhiteLogoComponent lang={lang} />
+            <DarkLightLogo lang={lang} />
           </Link>
           <div className="relative flex items-center justify-center ">
             <MobileMenuComponent

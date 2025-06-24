@@ -13,11 +13,12 @@ import {
 } from "react-icons/fa6";
 import Link from "next/link";
 import styles from "./socialMedia.module.scss";
+import ProductCard from "../products/ProductCard";
 
 const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
   return (
-    <div className="flex flex-row maxmd:flex-col-reverse items-start justify-center w-full gap-x-5 p-5 mt-10">
-      <aside className="sticky top-20 z-[50] min-h-full w-[24%] maxsm:w-full flex flex-col items-center justify-center">
+    <div className="flex flex-row maxmd:flex-col-reverse items-start justify-center w-full gap-x-5 p-5 pt-20 ">
+      {/* <aside className="sticky top-20 z-[50] min-h-full w-[24%] maxsm:w-full flex flex-col items-center justify-center">
         <div className="w-full mx-auto ">
           <p className="w-fit font-primary inline-block font-bold capitalize text-lg">
             {blogDic.single.sideBar.featuredServices.text}{" "}
@@ -27,18 +28,18 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
           </p>
 
           <div className="w-full relative ">
-            {/* {trendingProducts?.map((product, index) => (
+            {trendingProducts?.map((product, index) => (
               <ProductCard key={product._id} item={product} />
-            ))} */}
+            ))}
           </div>
         </div>
-      </aside>
+      </aside> */}
       <div className="flex flex-col items-center w-full">
         <div className="w-full">
           {/* Blog Header */}
           <span className="mx-auto max-w-[1200px] w-full flex flex-row items-center justify-between mb-10">
             <div className="max-md:hidden line-clamp-1 flex w-full  font-primary leading-loose">
-              <div className="font-medium font-primary text-3xl maxsm:text-2xl flex flex-row items-center gap-1 w-full">
+              <div className="font-medium font-primary text-5xl maxsm:text-2xl flex flex-row items-center gap-1 w-full">
                 {post?.mainTitle[`${lang}`]}
               </div>
             </div>
@@ -70,15 +71,15 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                     {/* Section 2 - Title, 2 Paragraphs */}
                     <div className="my-5 w-full">
                       <div className="mb-4 w-full">
-                        <div className="font-medium font-primary text-2xl maxsm:text-xl flex flex-row items-center gap-1 w-full">
+                        <div className="font-medium font-primary text-4xl maxsm:text-2xl flex flex-row items-center gap-1 w-full">
                           {post?.sectionTwoTitle[`${lang}`]}
                         </div>
                       </div>
 
-                      <div className=" font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full mb-5">
+                      <div className=" font-secondary text-base flex flex-row items-center gap-1 w-full mb-5">
                         {post?.sectionTwoParagraphOne[`${lang}`]}
                       </div>
-                      <div className=" font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full mb-5">
+                      <div className=" font-secondary text-base flex flex-row items-center gap-1 w-full mb-5">
                         {post?.sectionTwoParagraphTwo[`${lang}`]}
                       </div>
                     </div>
@@ -86,7 +87,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                     {post?.sectionThreeTitle[`${lang}`] && (
                       <div className="w-full">
                         <div className="my-5 w-full flex flex-row maxsm:flex-col items-center gap-5">
-                          <div className=" w-full h-80 relative  my-2 ">
+                          <div className=" w-full h-[600px] relative  my-2 ">
                             <Image
                               className="rounded-md object-cover"
                               src={post?.sectionThreeImage}
@@ -95,18 +96,16 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                               alt="section Two Image"
                             />
                           </div>
-                          <div className="w-full">
-                            <div className="font-medium font-primary text-2xl maxsm:text-xl flex flex-row items-center gap-1 w-full mb-3">
+                          <div className="w-full flex flex-col gap-3">
+                            <div className="font-medium font-primary text-4xl maxsm:text-2xl flex flex-row items-center gap-1 w-full mb-3">
                               {post?.sectionThreeTitle[`${lang}`]}
                             </div>
-                            <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full">
+                            <div className="font-secondary text-base flex flex-row items-center gap-1 w-full">
                               {post?.sectionThreeParagraphOne[`${lang}`]}
                             </div>
-                          </div>
-                        </div>
-                        <div className="mb-5 w-full">
-                          <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full mb-5">
-                            {post?.sectionThreeParagraphFooter[`${lang}`]}
+                            <div className="font-secondary text-base flex flex-row items-center gap-1 w-full mb-5">
+                              {post?.sectionThreeParagraphFooter[`${lang}`]}
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -117,15 +116,19 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                       <div className="w-full">
                         <div className="w-full flex flex-row maxsm:flex-col items-center gap-5">
                           <div className="w-full">
-                            <div className="font-medium font-primary text-2xl maxsm:text-xl flex flex-row items-center gap-1 w-full mb-3">
+                            <div className="font-medium font-primary text-4xl maxsm:text-2xl flex flex-row items-center gap-1 w-full mb-3">
                               {post?.sectionFourTitle[`${lang}`]}
                             </div>
 
-                            <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full">
+                            <div className="font-secondary text-base flex flex-row items-center gap-1 w-full">
                               {post?.sectionFourParagraphOne[`${lang}`]}
                             </div>
+
+                            <div className="font-secondary text-base flex flex-row items-center gap-1 w-full my-5">
+                              {post?.sectionFourParagraphFooter[`${lang}`]}
+                            </div>
                           </div>
-                          <div className=" w-full h-80 relative  my-2 ">
+                          <div className=" w-full h-[600px] relative  my-2 ">
                             <Image
                               className="rounded-md object-cover"
                               src={post?.sectionFourImage}
@@ -135,22 +138,17 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                             />
                           </div>
                         </div>
-                        <div className="mb-5 w-full">
-                          <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full mb-5">
-                            {post?.sectionFourParagraphFooter[`${lang}`]}
-                          </div>
-                        </div>
                       </div>
                     )}
                     {/* Section 5 - Title, Image, 2 Paragraph */}
                     {post?.sectionFiveTitle[`${lang}`] && (
                       <div className="w-full my-10">
                         <div className="mb-4 w-full">
-                          <div className="font-medium font-primary text-2xl maxsm:text-xl flex flex-row items-center gap-1 w-full">
+                          <div className="font-medium font-primary text-4xl maxsm:text-2xl flex flex-row items-center gap-1 w-full">
                             {post?.sectionFiveTitle[`${lang}`]}
                           </div>
-                          <div className="items-center justify-center">
-                            <div className=" w-full h-80 relative  my-2 ">
+                          <div className="flex flex-col gap-4 items-center justify-center">
+                            <div className=" w-full h-[980px] relative  my-2 ">
                               <Image
                                 className="rounded-md object-cover"
                                 src={post?.sectionFiveImage}
@@ -159,14 +157,15 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                                 alt="imagen de blog"
                               />
                             </div>
+                            <div className="w-full flex flex-col gap-3">
+                              <div className="font-secondary text-base flex flex-row items-center gap-1 w-full">
+                                {post?.sectionFiveParagraphOne[`${lang}`]}
+                              </div>
+                              <div className="font-secondary text-base flex flex-row items-center gap-1 w-full my-5">
+                                {post?.sectionFiveParagraphTwo[`${lang}`]}
+                              </div>
+                            </div>
                           </div>
-                        </div>
-
-                        <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full">
-                          {post?.sectionFiveParagraphOne[`${lang}`]}
-                        </div>
-                        <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full my-5">
-                          {post?.sectionFiveParagraphTwo[`${lang}`]}
                         </div>
                       </div>
                     )}
@@ -181,14 +180,14 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                             </div>
 
                             <Image
-                              className="rounded-md object-cover h-40"
+                              className="rounded-md object-cover h-80"
                               src={post?.sectionSixColOneImage}
                               width={500}
                               height={500}
                               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               alt="imagen de producto"
                             />
-                            <div className="font-secondary text-sm  maxsm:text-sm w-full">
+                            <div className="font-secondary text-base w-full">
                               {post?.sectionSixColOneParagraph[`${lang}`]}
                             </div>
                           </div>
@@ -199,20 +198,20 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                             </div>
 
                             <Image
-                              className="rounded-md object-cover h-40"
+                              className="rounded-md object-cover h-80"
                               src={post?.sectionSixColTwoImage}
                               width={500}
                               height={500}
                               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                               alt="imagen de blog"
                             />
-                            <div className="font-secondary text-sm  maxsm:text-sm w-full">
+                            <div className="font-secondary text-base w-full">
                               {post?.sectionSixColTwoParagraph[`${lang}`]}
                             </div>
                           </div>
                         </div>
                         <div className="mb-5 w-full">
-                          <div className="font-secondary text-sm  maxsm:text-sm flex flex-row items-center gap-1 w-full mb-5">
+                          <div className="font-secondary text-base flex flex-row items-center gap-1 w-full mb-5">
                             {post?.sectionSixColOneParagraphFooter[`${lang}`]}
                           </div>
                         </div>
@@ -221,7 +220,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                     {/* Section 7 - Overlay image title, 1 Paragraph */}
                     {post?.sectionSevenTitle[`${lang}`] && (
                       <div className="w-full">
-                        <div className=" w-full h-80 relative flex items-center justify-center my-5 ">
+                        <div className=" w-full h-[500px] relative flex items-center justify-center my-5 ">
                           <div className="font-medium font-primary text-6xl  gap-1 w-full mb-3  z-20 top-[40%] left-1/3 text-white text-center bg-transparent">
                             {post?.sectionSevenTitle[`${lang}`]}
                           </div>
@@ -236,7 +235,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                           {/* overlay */}
                           <div className="min-h-[100%] absolute z-[1] min-w-[100%] top-0 left-0 bg-black bg-opacity-30" />
                         </div>
-                        <div className="font-medium font-primary text-xl maxsm:text-base flex flex-row items-center gap-1 w-full mb-5">
+                        <div className="font-secondary text-base flex flex-row items-center gap-1 w-full mb-5">
                           {post?.sectionSevenParagraph[`${lang}`]}
                         </div>
                       </div>
@@ -260,7 +259,10 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                     <div className=" w-[200px] h-[200px] ">
                       <Image
                         className="rounded-full"
-                        src={author.avatar}
+                        src={
+                          author?.avatar ||
+                          "/icons/Sal_Profile_Team_Pic_Round.png"
+                        }
                         width={200}
                         height={200}
                         alt="imagen de autor"
@@ -271,17 +273,17 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                         {blogDic.single.writtenBy}
                       </p>
                       <h2 className="font-primary text-2xl mb-3">
-                        {author.name}
+                        {author?.name}
                       </h2>
                       <p className="font-secondary text-[13px]">
-                        {author.aboutAuthor[`${lang}`]}
+                        {author?.aboutAuthor[`${lang}`]}
                       </p>
                       {/* Social media */}
                       <div className="relative flex  items-start justify-start mt-2">
                         {/* Instagram */}
                         <Link
                           aria-label="Instagram"
-                          href={author.socials.instagram || "/"}
+                          href={author?.socials?.instagram || "/"}
                           className="relative flex items-center justify-center group"
                         >
                           <svg className={`${styles.circle}`}>
@@ -309,7 +311,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                         {/* Facebook */}
                         <Link
                           aria-label="Facebook"
-                          href={author.socials.facebook || "/"}
+                          href={author?.socials?.facebook || "/"}
                           className="relative flex items-center justify-center group"
                         >
                           <svg className={`${styles.circle}`}>
@@ -337,7 +339,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                         {/* YouTube */}
                         <Link
                           aria-label="YouTube"
-                          href={author.socials.youtube || "/"}
+                          href={author?.socials?.youtube || "/"}
                           className="relative flex items-center justify-center group"
                         >
                           <svg className={`${styles.circle}`}>
@@ -365,7 +367,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                         {/* TikTok */}
                         <Link
                           aria-label="TikTok"
-                          href={author.socials.tiktok || "/"}
+                          href={author?.socials?.tiktok || "/"}
                           className="relative flex items-center justify-center group"
                         >
                           <svg className={`${styles.circle}`}>
@@ -393,7 +395,7 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                         {/* LinkedIn */}
                         <Link
                           aria-label="Linkedin"
-                          href={author.socials.linkedin || "/"}
+                          href={author?.socials?.linkedin || "/"}
                           className="relative flex items-center justify-center group"
                         >
                           <svg className={`${styles.circle}`}>
