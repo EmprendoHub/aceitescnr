@@ -19,12 +19,12 @@ const BlogPublishedComponent = ({ post, lang }) => {
   };
 
   const keywordSelection = [
-    { es: "Tendencias de Marketing", en: "Marketing Tendencies" },
-    { es: "Tips de Marketing", en: "Marketing Tips" },
-    { es: "Campañas Exitosas", en: "Campaign Success" },
-    { es: "Estrategias Efectivas", en: "Effective Strategies" },
-    { es: "Embudos de Venta", en: "Sales Funnels" },
-    { es: "Herramientas IA", en: "AI Tools" },
+    { es: "Mantenimiento Automotriz", en: "Automotive Maintenance" },
+    { es: "Investigación y Desarrollo", en: "Research and Development" },
+    { es: "Consejos de Expertos", en: "Expert Advice" },
+    { es: "Noticias y Actualizaciones", en: "News and Updates" },
+    { es: "Distribución y Negocio", en: "Distribution and Business" },
+    { es: "Tips y Hacks", en: "Tips and Hacks" },
   ];
   const [category, setCategory] = useState({
     es: post?.category.es,
