@@ -8,25 +8,32 @@ export async function generateMetadata({ params }) {
   const post = JSON.parse(data.post);
 
   return {
-    title: post.mainTitle,
-    description: post.excerpt || post.metaDescription || post.title,
+    title: post?.mainTitle[`${params.lang}`],
+    description:
+      post.excerpt || post.metaDescription || post?.mainTitle[`${params.lang}`],
     openGraph: {
-      title: post.mainTitle,
-      description: post.excerpt || post.metaDescription || post.title,
+      title: post?.mainTitle[`${params.lang}`],
+      description:
+        post.excerpt ||
+        post.metaDescription ||
+        post?.mainTitle[`${params.lang}`],
       images: [
         {
           url: post.mainImage || "/opengraph-image.jpg",
           width: 1200,
           height: 630,
-          alt: post.mainTitle,
+          alt: post?.mainTitle[`${params.lang}`],
         },
       ],
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
-      title: post.mainTitle,
-      description: post.excerpt || post.metaDescription || post.mainTitle,
+      title: post?.mainTitle[`${params.lang}`],
+      description:
+        post.excerpt ||
+        post.metaDescription ||
+        post?.mainTitle[`${params.lang}`],
       images: [post.mainImage || "/opengraph-image.jpg"],
     },
   };
