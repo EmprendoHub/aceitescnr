@@ -22,7 +22,7 @@ export const metadata = {
     title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
     description:
       "En Aceites CNR, fabricamos aceites de motor que garantizan un alto rendimiento y protección en cualquier condición. Perfectos para autos, camiones y maquinaria pesada.",
-    image: "/images/opengraph-oil.png",
+    image: "/opengraph-image.jpg",
   },
   twitter: {
     card: "summary_large_image",
@@ -30,7 +30,7 @@ export const metadata = {
     title: "Aceites CNR | Rendimiento y Protección para Tu Motor",
     description:
       "Protege tu motor con aceites diseñados para ofrecer durabilidad y eficiencia. Aceites CNR, la elección confiable para tus necesidades automotrices.",
-    image: "/images/twitter-oil.png",
+    image: "/opengraph-image.jpg",
   },
 };
 
