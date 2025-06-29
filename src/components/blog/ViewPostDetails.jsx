@@ -148,12 +148,12 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                             {post?.sectionFiveTitle[`${lang}`]}
                           </div>
                           <div className="flex flex-col gap-4 items-center justify-center">
-                            <div className=" w-full h-[980px] relative  my-2 ">
+                            <div className=" w-full h-full relative  my-2 ">
                               <Image
-                                className="rounded-md object-cover"
+                                className="rounded-md object-cover h-full"
                                 src={post?.sectionFiveImage}
-                                fill={true}
-                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                height={"100%"}
+                                width={"100%"}
                                 alt="imagen de blog"
                               />
                             </div>
@@ -256,13 +256,10 @@ const ViewPostDetails = ({ post, trendingProducts, lang, blogDic, author }) => {
                   {/* Author Profile */}
 
                   <div className="w-full flex justify-center items-center my-5 gap-x-5">
-                    <div className=" w-[200px] h-[200px] ">
+                    <div className=" w-[80px] h-[80px] ">
                       <Image
                         className="rounded-full"
-                        src={
-                          author?.avatar ||
-                          "/icons/Sal_Profile_Team_Pic_Round.png"
-                        }
+                        src={author?.avatar || "/logos/newlogocnr.webp"}
                         width={200}
                         height={200}
                         alt="imagen de autor"
