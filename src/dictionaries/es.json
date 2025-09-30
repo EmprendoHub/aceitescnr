@@ -130,6 +130,16 @@
         "image": "/covers/cover_slide_05.webp"
       },
       {
+        "title": "Expandiendo nuestras",
+        "titleTwo": " fronteras comerciales.",
+        "subtitle": "Ventas a Suramérica, Centroamérica y el Caribe, llevando la calidad de Aceites CNR a más mercados internacionales.",
+        "buttons": [
+          { "text": "Contáctanos", "href": "/es/contacto", "primary": true },
+          { "text": "Ver productos", "href": "/es/productos", "primary": false }
+        ],
+        "image": "/covers/SouthAmerica.jpg"
+      },
+      {
         "title": "Confiabilidad y fuerza",
         "titleTwo": " en cada kilómetro recorrido.",
         "subtitle": "Lubricantes CNR que mantienen tu flota de camiones funcionando al máximo, sin importar la distancia.",

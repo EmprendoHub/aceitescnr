@@ -128,6 +128,16 @@
         "image": "/covers/cover_slide_05.webp"
       },
       {
+        "title": "Expanding our",
+        "titleTwo": " commercial frontiers.",
+        "subtitle": "Sales to South America, Central America, and the Caribbean, bringing the quality of CNR Oils to more international markets.",
+        "buttons": [
+          { "text": "Contact us", "href": "/en/contact", "primary": true },
+          { "text": "View products", "href": "/en/products", "primary": false }
+        ],
+        "image": "/covers/SouthAmerica.jpg"
+      },
+      {
         "title": "Reliability and strength",
         "titleTwo": " on every kilometer traveled.",
         "subtitle": "CNR lubricants keep your truck fleet running at peak performance, no matter the distance.",
