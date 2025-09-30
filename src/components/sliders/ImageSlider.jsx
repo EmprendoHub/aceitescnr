@@ -102,45 +102,55 @@ export default function ImageSlider({ homeDic, lang }) {
 
             {/* Text Overlay with gradient background for better readability */}
             <div className="absolute inset-0 bg-gradient-to-tr from-black/60 to-transparent">
-              <div className="absolute bottom-52 left-0 w-full p-12 text-white maxmd:bottom-32 maxmd:p-8 maxlg:p-10">
-                <div className="max-w-3xl">
-                  <motion.h2
-                    initial={{ opacity: 0, scale: 1, y: -10 }}
-                    whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                    transition={{
-                      duration: 0.9,
-                      type: "tween",
-                      stiffness: 260,
-                      damping: 20,
-                    }}
-                    className="mb-2 text-7xl font-bold maxmd:text-4xl "
-                  >
-                    <span className="text-accent dark:text-white font-black">
-                      {slide.title}{" "}
-                    </span>
-                    <span className="text-white dark:text-accent font-black">
-                      {slide.titleTwo}
-                    </span>
-                  </motion.h2>
-                  <p className="mb-6 text-lg md:text-xl">{slide.subtitle}</p>
-                  <div className="flex flex-wrap gap-4">
-                    {slide.buttons.map((button, btnIndex) => (
-                      <Link key={btnIndex} href={`${button.href}`}>
-                        <ButtonMotion
-                          aria-label="Contactar"
-                          textClass={"text-white"}
-                          textClassTwo={"text-white"}
-                          className={`text-white px-10 py-3 font-medium flex items-center justify-center  text-xs ${
-                            button.primary
-                              ? "bg-secondary-gradient dark:bg-dark-gradient    tracking-widest"
-                              : "bg-accent dark:bg-secondary-gradient"
-                          }`}
-                        >
-                          {button.text}
-                        </ButtonMotion>
-                      </Link>
-                    ))}
+              <div className="absolute bottom-12 left-0 w-full p-12 text-white maxmd:bottom-32 maxmd:p-8 maxlg:p-10">
+                <div className="flex maxmd:flex-col-reverse items-center justify-between gap-5">
+                  <div className="max-w-3xl">
+                    <motion.h2
+                      initial={{ opacity: 0, scale: 1, y: -10 }}
+                      whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                      transition={{
+                        duration: 0.9,
+                        type: "tween",
+                        stiffness: 260,
+                        damping: 20,
+                      }}
+                      className="mb-2 text-7xl font-bold maxmd:text-4xl "
+                    >
+                      <span className="text-accent dark:text-white font-black">
+                        {slide.title}{" "}
+                      </span>
+                      <span className="text-white dark:text-accent font-black">
+                        {slide.titleTwo}
+                      </span>
+                    </motion.h2>
+                    <p className="mb-6 text-lg md:text-xl">{slide.subtitle}</p>
+                    <div className="flex flex-wrap gap-4">
+                      {slide.buttons.map((button, btnIndex) => (
+                        <Link key={btnIndex} href={`${button.href}`}>
+                          <ButtonMotion
+                            aria-label="Contactar"
+                            textClass={"text-white"}
+                            textClassTwo={"text-white"}
+                            className={`text-white px-10 py-3 font-medium flex items-center justify-center  text-xs ${
+                              button.primary
+                                ? "bg-secondary-gradient dark:bg-dark-gradient    tracking-widest"
+                                : "bg-accent dark:bg-secondary-gradient"
+                            }`}
+                          >
+                            {button.text}
+                          </ButtonMotion>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
+                  <Image
+                    alt="Company logo in dark mode"
+                    src={"/logos/nuevo_logo_horizontal.webp"}
+                    width={600}
+                    height={150}
+                    priority
+                    className={`max-w-[450px] transition-all ease-in-out w-full py-2 h-auto block`}
+                  />
                 </div>
               </div>
             </div>

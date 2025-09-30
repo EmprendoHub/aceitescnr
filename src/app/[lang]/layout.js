@@ -3,13 +3,13 @@ import "./css/globals.css";
 import FooterComponent from "@/components/footer/FooterComponent";
 //import BackToTopButton from "@/components/buttons/BackToTopButton";
 import WhatsAppButton from "@/components/buttons/WhatsAppButton";
-import { GoogleAnalytics } from "@next/third-parties/google";
+// import { GoogleAnalytics } from "@next/third-parties/google";
 import HeaderComponent from "@/components/headers/HeaderComponent";
 import { options } from "../api/auth/[...nextauth]/options";
 import { getServerSession } from "next-auth";
 import AdminThemeToggle from "@/components/layout/AdminThemeToggle";
 import BackToTopButton from "@/components/buttons/BackToTopButton";
-import ThemeToggleVertical from "@/components/layout/ThemeToggleVertical";
+// import ThemeToggleVertical from "@/components/layout/ThemeToggleVertical";
 import { ThemeProvider } from "./ThemeProvider";
 
 export const metadata = {
@@ -61,7 +61,7 @@ export default async function RootLayout({ children, params }) {
                 <AdminThemeToggle />
               </div>
             )}
-            <ThemeToggleVertical />
+            {/* <ThemeToggleVertical /> */}
           </CustomSessionProvider>
         </ThemeProvider>
       </body>

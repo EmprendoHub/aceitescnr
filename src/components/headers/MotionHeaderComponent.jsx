@@ -66,16 +66,13 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
             !transparency ? "" : "bg-black bg-opacity-50"
           }`}
         >
-          <Link href={`/${lang}`}>
-            <DarkLightLogo lang={lang} />
-          </Link>
-          <div className="relative flex items-center justify-center ">
-            <MobileMenuComponent
-              className={"block"}
-              lang={lang}
-              localeHeader={localeHeader}
-            />
+          <MobileMenuComponent
+            className={"block"}
+            lang={lang}
+            localeHeader={localeHeader}
+          />
 
+          <div className="relative flex items-center justify-center ">
             <span className="pr-4 text-sm relative z-10">
               <LocaleToggleFlags />
             </span>
