@@ -23,6 +23,7 @@ const SearchProducts = ({ search }) => {
     } else {
       router.push(`/admin/productos?keyword=${query}`);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
   return (

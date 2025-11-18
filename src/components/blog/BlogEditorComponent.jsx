@@ -352,6 +352,7 @@ const BlogEditorComponent = ({ lang, translate }) => {
   };
 
   // Auto-translate function using the API route with debounce
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleAutoTranslate = useCallback(
     debounce(async (text, targetLang, fieldSetter, fieldName) => {
       try {

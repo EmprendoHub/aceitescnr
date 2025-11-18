@@ -47,6 +47,7 @@ const ProductComponent = ({ product, trendingProducts }) => {
     if (existingProduct?.quantity >= product.stock) {
       setAlreadyCart(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [productsData]);
 
   const appendClone = () => {

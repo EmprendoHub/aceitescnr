@@ -28,6 +28,7 @@ const MobileFilterComponet = ({ lang, allBrands, allCategories }) => {
 
   useEffect(() => {
     if (isActive) SetIsActive(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 
   return (

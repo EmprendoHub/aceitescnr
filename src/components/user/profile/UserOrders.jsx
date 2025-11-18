@@ -13,7 +13,6 @@ const UserOrders = ({ orders, filteredOrdersCount }) => {
   const dispatch = useDispatch();
   const router = useRouter();
   const params = useSearchParams();
-
   const orderSuccess = params.get("pedido_exitoso");
 
   useEffect(() => {
@@ -21,6 +20,7 @@ const UserOrders = ({ orders, filteredOrdersCount }) => {
       dispatch(resetCart());
       router.replace("/perfil/pedidos");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [orderSuccess]);
 
   return (

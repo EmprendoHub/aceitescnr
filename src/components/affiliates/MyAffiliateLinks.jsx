@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AiTwotoneHome } from "react-icons/ai";
 import AuthContext from "@/context/AuthContext";
 import Swal from "sweetalert2";
-import { FaPencilAlt, FaTrash } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 const MyAffiliateLinks = ({ currentCookies }) => {
   const { getAllAffiliateLinks } = useContext(AuthContext);
@@ -16,6 +16,7 @@ const MyAffiliateLinks = ({ currentCookies }) => {
       setLinks(data);
     }
     getLinks();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [getAllAffiliateLinks]);
 
   const deleteHandler = (link_id) => {

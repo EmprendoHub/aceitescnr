@@ -23,6 +23,7 @@ const SearchCategories = ({ search }) => {
     } else {
       router.push(`/admin/categorias?keyword=${query}`);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
   return (

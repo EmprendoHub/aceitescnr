@@ -49,6 +49,7 @@ const POSProductDetails = ({ product }) => {
     if (existingProduct?.quantity >= product.stock) {
       setAlreadyCart(true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [productsPOS]);
 
   const clickImage = (imageId) => {

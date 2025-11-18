@@ -27,6 +27,7 @@ const LoginComponent = ({ cookie, lang }) => {
         router.replace(`/${lang}`);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session, router]);
 
   const handleSubmit = async (e) => {

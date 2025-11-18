@@ -12,6 +12,7 @@ const ListProducts = ({ lang, products, productDic }) => {
     if (session?.user?.role === "manager") {
       router.push(`/${lang}/admin`);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session?.user?.role]);
 
   return (

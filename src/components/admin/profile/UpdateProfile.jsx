@@ -145,6 +145,7 @@ const UpdateProfile = ({ author }) => {
   };
 
   // Auto-translate function using the API route with debounce
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleAutoTranslate = useCallback(
     debounce(async (text, targetLang, fieldSetter, fieldName) => {
       try {
@@ -166,6 +167,8 @@ const UpdateProfile = ({ author }) => {
         console.error("Error translating text:", error);
       }
     }, 3000),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+
     []
   );
 

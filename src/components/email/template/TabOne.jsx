@@ -32,6 +32,7 @@ export default function TabOne() {
     if (emailListData.length <= 0) {
       return router.push("/admin/clientes");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [emailListData]);
 
   const [checked, setChecked] = useState(false);
