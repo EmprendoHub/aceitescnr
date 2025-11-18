@@ -165,10 +165,10 @@ export default function FichasPage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-800 to-blue-900 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-200 to-purple-300 bg-clip-text text-transparent mb-4">
             Fichas Técnicas
           </h1>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray-300 text-lg">
             Biblioteca de documentos técnicos
           </p>
         </div>
